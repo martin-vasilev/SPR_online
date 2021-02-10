@@ -6,7 +6,7 @@ Created on Mon Sep 21 21:56:47 2020
 """
 
 class Settings():
-   def __init__(self, expName= "SPR speech", DISPSIZE= (0, 0), BGC= (1, 1, 1),
+   def __init__(self, expName= "SPR speech", DISPSIZE= (1920, 1080), BGC= (1, 1, 1),
                 FGC= (0,0,0), Font= "Courier New", Font_height= 24, useFullscreen= True):
         """
         Input:
@@ -18,12 +18,6 @@ class Settings():
             Font_height= 
             useFullscreen= use full screen?
         """
-        
-        from psychopy import monitors
-        Mon= monitors.getAllMonitors()
-        
-        
-        self.DISPSIZE= win.monitor.getSizePix()
         
         self.expName= expName
         self.DISPSIZE= DISPSIZE

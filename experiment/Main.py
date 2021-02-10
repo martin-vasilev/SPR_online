@@ -9,7 +9,7 @@ from core.Settings import Settings
 from core.Functions import Functions
 
 
-from psychopy.visual import Window, monitors, TextStim, BufferImageStim
+from psychopy.visual import Window, TextStim, BufferImageStim
 from psychopy import gui
 from psychopy.core import wait, Clock
 from psychopy.event import waitKeys, Mouse, getKeys
@@ -25,7 +25,7 @@ const= Settings()
 fun= Functions()
 
 # OPEN WINDOW:
-win=  Window(units= 'norm', fullscr= False, color= const.BGC)
+win=  Window(size= const.DISPSIZE, units= 'norm', fullscr= False , color= const.BGC)
 
 
 myMouse = Mouse(win) # create a mouse object
@@ -34,9 +34,15 @@ myMouse.setVisible(0) # make the mouse invisible
 globalClock= Clock()
 
 
-wait(2)
-fun.Headphones(win, const)
-wait(2)
+
+
+
+
+#fun.CreditCardCalibration(win)
+
+#wait(2)
+fun.Headphones(win, const, myMouse)
+#wait(2)
 
 win.close()
-core.quit() 	
+core.quit() 	            

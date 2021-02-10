@@ -1,0 +1,29 @@
+Item	Cond	Sound	Soundfile
+27	5	Silence	
+28	5	Silence	
+2	8	English	E2
+1	8	English	E4
+3	8	English	E1
+4	5	Silence	
+5	5	Silence	
+6	5	Silence	
+9	6	Noise	Noise
+7	6	Noise	Noise
+8	6	Noise	Noise
+11	7	Mandarin	M5
+12	7	Mandarin	M2
+10	7	Mandarin	M3
+25	1	Silence	
+26	1	Silence	
+13	4	English	E5
+15	4	English	E6
+14	4	English	E3
+16	1	Silence	
+18	1	Silence	
+17	1	Silence	
+21	2	Noise	Noise
+19	2	Noise	Noise
+20	2	Noise	Noise
+23	3	Mandarin	M4
+22	3	Mandarin	M1
+24	3	Mandarin	M6

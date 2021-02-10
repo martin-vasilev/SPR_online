@@ -1,0 +1,9 @@
+In this task, the paragraphs will be displayed with a technique called rapid
+
+serial visual presentation (RSVP). This means that the paragraphs will be shown
+
+one word at a time, at the centre of the screen. In order to read them, all you
+
+need to do is look at the centre of the screen untill all words in the paragraph
+ 
+have been presented. We will start with a short demonstration of the technique.
