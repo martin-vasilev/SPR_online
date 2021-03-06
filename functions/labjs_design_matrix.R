@@ -56,8 +56,7 @@ for(i in 1:nrow(Text_stimuli)){
     
   } # end of j loop
   
-  
-  write.csv(t, paste('output/item', toString(i), '.csv', sep= '')) # save design
+  write.csv(t, paste('output/item', toString(i), '.csv', sep= ''), row.names=FALSE) # save design
   
   
 }# end of i loop
