@@ -34,6 +34,3 @@ for(i in 1:length(words)){
   writeLines(new_m, paste('output/word', toString(i), '.txt', sep= ''), sep = ' ')
   
 }
-
-
-
