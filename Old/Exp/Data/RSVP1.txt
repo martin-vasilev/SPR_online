@@ -1,2 +1,0 @@
-sub	item	cond	sound	block	trialtype	ans1	corr_ans1	acc1	ans2	corr_ans2	acc2	Q1time	Q2time
-1	25	1	Silence	easy	Prac	1	2	0	1	1	1	4.37715689788	1.13746676332
