@@ -38,14 +38,14 @@ dat$accuracy<- ifelse(dat$correct==TRUE, 1, 0) # convert accuracy to binomial da
 
 q<- subset(dat, is.element(sender, c("Question 1","Question 2"))) # extract just questions
 q<- q[, c("subject","item", "Provo_ID", "accuracy", "duration",   # save just columns we need
-          "ended_on", "response", "correctResponse")]
+          "sound", "ended_on", "response", "correctResponse")]
 write.csv(q, "data/question_accuracy.csv", row.names = F) # save accuracy data
 
 
 ### REACTION TIME DATA:
 rt<- subset(dat, sender== "screen") # subset reaction time data
 rt<- rt[, c("subject", "item", "Provo_ID", "word", "word_ID",  # save just columns we need
-            "ended_on", "duration" )]
+            "ended_on", "duration", "sound")]
 rt<- subset(rt, item<20) # remove practice items
 write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
 
