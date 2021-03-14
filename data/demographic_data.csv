@@ -1,2 +1,2 @@
-"subject","gender","age"
-1,"female",21
+"subject","gender","age","experiment_time","trap_accuracy"
+1,"female",21,20.0333,1
