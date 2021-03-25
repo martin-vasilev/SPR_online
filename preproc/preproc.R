@@ -30,7 +30,7 @@ for(i in 1:length(files)){ # for each participant file..
   
   trap$accuracy<- ifelse(trap$correct==TRUE, 1, 0)
   t$trap_accuracy<- sum(trap$accuracy)/4
-  
+  t$which_list= t$list[which(!is.na(t$list))[1]]
   
   dat<- plyr::rbind.fill(dat, t) # combine with available dataset
   
@@ -40,6 +40,7 @@ for(i in 1:length(files)){ # for each participant file..
 ### DEMOGRAPHIC DATA:
 d<- subset(dat, sender== "Demography form") # extract demographic data
 dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age, 
+                 "list"= d$which_list, 
                  "experiment_time"= d$exp_time, "trap_accuracy"= d$trap_accuracy) # only info we need
 write.csv(dem, "data/demographic_data.csv", row.names = F) # save device info
 
@@ -53,7 +54,7 @@ write.csv(device, "data/device_info.csv", row.names = F) # save device info
 dat$accuracy<- ifelse(dat$correct==TRUE, 1, 0) # convert accuracy to binomial data:
 
 q<- subset(dat, is.element(sender, c("Question 1","Question 2"))) # extract just questions
-q<- q[, c("subject","item", "Provo_ID", "accuracy", "duration",   # save just columns we need
+q<- q[, c("subject","item", "Provo_ID", "list", "accuracy", "duration",   # save just columns we need
           "sound", "ended_on", "response", "correctResponse")]
 q<- subset(q, item<20) # remove practice
 
@@ -62,7 +63,7 @@ write.csv(q, "data/question_accuracy.csv", row.names = F) # save accuracy data
 
 ### REACTION TIME DATA:
 rt<- subset(dat, sender== "screen") # subset reaction time data
-rt<- rt[, c("subject", "item", "Provo_ID", "word", "word_ID",  # save just columns we need
+rt<- rt[, c("subject", "item", "Provo_ID", "list", "word", "word_ID",  # save just columns we need
             "ended_on", "duration", "sound")]
 rt<- subset(rt, item<20) # remove practice items
 write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
@@ -76,6 +77,10 @@ ratings<- ratings[, c("subject", "song_rating", "snippet_file", "familiarity",
                       "distraction", "artist_name", "song_name" )]
 write.csv(ratings, "data/music_ratings.csv", row.names = F) # save accuracy data
 
+
+table(dem$list)
+table(q$item, q$sound)
+table(rt$item, rt$sound)
 
 aggregate(rt$duration, by= list(rt$sound), FUN= mean, na.rm=T)
 

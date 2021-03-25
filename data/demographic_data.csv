@@ -1,2 +1,4 @@
-"subject","gender","age","experiment_time","trap_accuracy"
-1,"female",21,20.0333,1
+"subject","gender","age","list","experiment_time","trap_accuracy"
+1,"no_answer",99,"A",18.8833,1
+2,"female",99,"B",14.9333,1
+3,"male",66,"C",5.7,1
