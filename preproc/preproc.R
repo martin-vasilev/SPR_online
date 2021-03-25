@@ -39,9 +39,12 @@ for(i in 1:length(files)){ # for each participant file..
 
 ### DEMOGRAPHIC DATA:
 d<- subset(dat, sender== "Demography form") # extract demographic data
+honesty<- subset(dat, sender== "wore_headphones")
 dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age, 
                  "list"= d$which_list, 
-                 "experiment_time"= d$exp_time, "trap_accuracy"= d$trap_accuracy) # only info we need
+                 "experiment_time"= d$exp_time,
+                 "trap_accuracy"= d$trap_accuracy,
+                 "honesty"= honesty$response) # only info we need
 write.csv(dem, "data/demographic_data.csv", row.names = F) # save device info
 
 
@@ -82,7 +85,9 @@ table(dem$list)
 table(q$item, q$sound)
 table(rt$item, rt$sound)
 
-aggregate(rt$duration, by= list(rt$sound), FUN= mean, na.rm=T)
+aggregate(rt$duration, by= list(rt$sound),  FUN= function(x) c(mean = mean(x, na.rm= T), 
+                                                               sd = sd(x, na.rm=T) ))
 
-aggregate(q$accuracy, by= list(q$sound), FUN= mean, na.rm=T)
+aggregate(q$accuracy, by= list(q$sound),  FUN= function(x) c(mean = mean(x, na.rm= T), 
+                                                             sd = sd(x, na.rm=T) ))
 
