@@ -87,19 +87,15 @@ summary(LM1<- lmer(log(duration) ~ sound+ (1|subject)+ (1|item), data = dat, REM
 
 
 ########################################
-
-SimData<- NULL
 data_loss<- 0.10 #simulate data loss by excluding x% of data points from simulation
-
-NSim= 500 # number of simulations
-nsub= 6  # number of subjects (multiple of 6)
-nitem= 12  # number of passages
-nwords =48 # number of words (accounting for some expected data loss of ~ 10%)
+ES_reduction<- 0.75 # simulate x% of observed effect size
+NSim= 10 # number of simulations
+nsub= 102  # number of subjects (multiple of 6)
 
 
 # parameters:
 b <- coef(summary(LM1))[,1] # fixed intercept and slopes
-b[2:3]<- b[2:3]*0.5 # reduce expected effect size to 75% of observed one
+b[2:3]<- b[2:3]*ES_reduction # reduce expected effect size to 75% of observed one
 
 RE <- VarCorr(LM1) # random effects
 s <- 0.181844 # residual sd
@@ -124,11 +120,20 @@ contrasts(df$sound)
 model1 <- makeLmer(log_duration ~ sound + (1|subject) + (1|item), fixef=b, VarCorr= RE, sigma=s, data=df)
 summary(model1)
 
-pc1<- powerCurve(model1, nsim=5, test = fixed(xname = 'sound.instr_vs_slc', method = "z"), 
-                 along = 'subject', breaks = c(6, 12, 18))
+pc1<- powerCurve(model1, nsim=NSim, test = fixed(xname = 'sound.instr_vs_slc', method = "z"), 
+                 along = 'subject', breaks= seq(6, 102, 6))
 
-sim1 <- powerSim(model1, nsim=100, test = fixed(xname = 'sound.instr_vs_slc', method = "z"))
-sim1 <- powerSim(model1, nsim=100, test = fixed(xname = 'sound.lyr_vs_instr', method = "z"))
+plot(pc1, xlab= "Number of subjecs", power = 0.95)
+
+
+pc2<- powerCurve(model1, nsim=NSim, test = fixed(xname = 'sound.lyr_vs_instr', method = "z"), 
+                 along = 'subject', breaks= seq(6, 102, 6))
+
+plot(pc2, xlab= "Number of subjecs", power = 0.95)
+
+
+#sim1 <- powerSim(model1, nsim=100, test = fixed(xname = 'sound.instr_vs_slc', method = "z"))
+#sim1 <- powerSim(model1, nsim=100, test = fixed(xname = 'sound.lyr_vs_instr', method = "z"))
 
 
 
