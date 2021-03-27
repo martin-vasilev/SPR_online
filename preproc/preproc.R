@@ -69,6 +69,9 @@ rt<- subset(dat, sender== "screen") # subset reaction time data
 rt<- rt[, c("subject", "item", "Provo_ID", "list", "word", "word_ID",  # save just columns we need
             "ended_on", "duration", "sound")]
 rt<- subset(rt, item<20) # remove practice items
+
+rt<- subset(rt, ended_on== "response")
+
 write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
 
 
@@ -81,13 +84,25 @@ ratings<- ratings[, c("subject", "song_rating", "snippet_file", "familiarity",
 write.csv(ratings, "data/music_ratings.csv", row.names = F) # save accuracy data
 
 
+### TRIAL DURATIONS
+
+trial_time<- subset(dat, is.element(sender, c(paste("Item ", 1:12, sep= ''))))
+
+trial_time<- trial_time[, c("subject", "sender", "duration"),]
+
+
 table(dem$list)
 table(q$item, q$sound)
 table(rt$item, rt$sound)
 
+rt<- rt[which(rt$duration>100), ]
+
 aggregate(rt$duration, by= list(rt$sound),  FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                                sd = sd(x, na.rm=T) ))
 
+sub<- aggregate(rt$duration, by= list(rt$sound, rt$subject),  FUN= function(x) c(mean = mean(x, na.rm= T), 
+                                                                     sd = sd(x, na.rm=T) ))
+
 aggregate(q$accuracy, by= list(q$sound),  FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                              sd = sd(x, na.rm=T) ))
-
+hist(rt$duration, breaks= 50)

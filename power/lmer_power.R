@@ -1,8 +1,6 @@
 
 rm(list= ls())
 
-# colorblind palletes: # https://venngage.com/blog/color-blind-friendly-palette/
-pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & trustworthy"
 
 # load/ install required packages:
 packages= c("simr", "MASS", "readr") # list of used packages:
