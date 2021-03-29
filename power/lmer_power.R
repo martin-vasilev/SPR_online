@@ -84,7 +84,7 @@ summary(model1)
 
 ## Instrumental vs SIlence
 pc1<- powerCurve(model1, nsim=NSim, test = fixed(xname = 'sound.instr_vs_slc', method = "z"), 
-                 along = 'subject', breaks= seq(6, 72, 6))
+                 along = 'subject', breaks= seq(6, 102, 6))
 
 plot(pc1, xlab= "Number of subjecs", power = 0.95)
 
