@@ -53,15 +53,21 @@
 9,4,"static/A1_instrumental.mp3",1,4,3,1,6,NA,NA
 9,5,"static/A2_instrumental.mp3",10,8,5,4,5,NA,NA
 9,6,"static/A3_instrumental.mp3",10,7,6,4,8,NA,NA
-10,1,"static/B1_lyrical.mp3",10,8,9,1,10,"Jessie J","Price Tag"
-10,2,"static/B2_lyrical.mp3",10,7,8,1,10,"Charle xcx and Iggy Azalea","Im so fancy"
-10,3,"static/B3_lyrical.mp3",10,8,8,1,10,"Outkast","Miss Jackson"
-10,4,"static/A1_instrumental.mp3",1,4,3,1,4,"n/a","n/a"
-10,5,"static/A2_instrumental.mp3",4,6,6,1,3,"n/a","n/a"
-10,6,"static/A3_instrumental.mp3",10,10,10,1,5,"Nicki Minaj","Fly"
-11,1,"static/B1_lyrical.mp3",10,8,8,1,8,NA,NA
-11,2,"static/B2_lyrical.mp3",9,5,5,4,8,NA,NA
-11,3,"static/B3_lyrical.mp3",2,6,5,3,8,NA,NA
-11,4,"static/A1_instrumental.mp3",1,9,9,1,3,NA,NA
-11,5,"static/A2_instrumental.mp3",2,2,2,2,7,NA,NA
-11,6,"static/A3_instrumental.mp3",5,4,6,1,4,NA,NA
+10,1,"static/B1_lyrical.mp3",10,8,8,1,3,"Jessie J","Price Tag"
+10,2,"static/B2_lyrical.mp3",10,7,6,3,4,NA,"Fancy"
+10,3,"static/B3_lyrical.mp3",5,3,4,1,8,NA,NA
+10,4,"static/A1_instrumental.mp3",3,3,2,1,7,NA,NA
+10,5,"static/A2_instrumental.mp3",1,1,2,1,8,NA,NA
+10,6,"static/A3_instrumental.mp3",7,5,5,1,4,NA,"Fly"
+11,1,"static/B1_lyrical.mp3",10,8,9,1,10,"Jessie J","Price Tag"
+11,2,"static/B2_lyrical.mp3",10,7,8,1,10,"Charle xcx and Iggy Azalea","Im so fancy"
+11,3,"static/B3_lyrical.mp3",10,8,8,1,10,"Outkast","Miss Jackson"
+11,4,"static/A1_instrumental.mp3",1,4,3,1,4,"n/a","n/a"
+11,5,"static/A2_instrumental.mp3",4,6,6,1,3,"n/a","n/a"
+11,6,"static/A3_instrumental.mp3",10,10,10,1,5,"Nicki Minaj","Fly"
+12,1,"static/B1_lyrical.mp3",10,10,10,1,8,"Jessie J","Price Tag"
+12,2,"static/B2_lyrical.mp3",10,10,10,1,8,"Iggy Azelea + Charli XCX","Fancy"
+12,3,"static/B3_lyrical.mp3",10,7,7,1,5,"Outcast",NA
+12,4,"static/A1_instrumental.mp3",6,3,NA,1,3,NA,NA
+12,5,"static/A2_instrumental.mp3",10,4,5,1,3,"Post Malone","Wow"
+12,6,"static/A3_instrumental.mp3",10,5,5,1,3,NA,NA
