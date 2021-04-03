@@ -13,7 +13,7 @@ files<-paste("data/raw/", files, sep= '') # paste full root link
 dat<- NULL
 
 for(i in 1:length(files)){ # for each participant file..
-  t<- suppressWarnings(suppressMessages(read_csv(files[i]))) # load it up
+  t<- suppressWarnings(suppressMessages(read.csv(files[i]))) # load it up
   t$subject<- i # assign subject number
 
   # get experiment duration:
@@ -28,9 +28,12 @@ for(i in 1:length(files)){ # for each participant file..
   ## trap accuracy:
   trap<- subset(t, sender== "trap_trial")
   
-  trap$accuracy<- ifelse(trap$correct==TRUE, 1, 0)
+  trap$accuracy<- ifelse(trap$correct== "true", 1, 0)
   t$trap_accuracy<- sum(trap$accuracy)/4
-  t$which_list= t$list[which(!is.na(t$list))[1]]
+  
+  
+  q1<- subset(t, sender== "Question 1")
+  t$which_list= q1$list[1]
   
   dat<- plyr::rbind.fill(dat, t) # combine with available dataset
   
@@ -41,11 +44,12 @@ for(i in 1:length(files)){ # for each participant file..
 d<- subset(dat, sender== "Demography form") # extract demographic data
 honesty<- subset(dat, sender== "wore_headphones")
 dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age, 
+                 "education"= d$education,
                  "list"= d$which_list, 
                  "experiment_time"= d$exp_time,
                  "trap_accuracy"= d$trap_accuracy,
                  "honesty"= honesty$response) # only info we need
-write.csv(dem, "data/demographic_data.csv", row.names = F) # save device info
+write.csv(dem, "data/participant_data.csv", row.names = F) # save device info
 
 
 ### DEVICE DATA:
@@ -54,12 +58,14 @@ write.csv(device, "data/device_info.csv", row.names = F) # save device info
 
 
 ### QUESTION ACCURACY DATA:
-dat$accuracy<- ifelse(dat$correct==TRUE, 1, 0) # convert accuracy to binomial data:
+dat$accuracy<- ifelse(dat$correct== "true", 1, 0) # convert accuracy to binomial data:
 
 q<- subset(dat, is.element(sender, c("Question 1","Question 2"))) # extract just questions
 q<- q[, c("subject","item", "Provo_ID", "list", "accuracy", "duration",   # save just columns we need
           "sound", "ended_on", "response", "correctResponse")]
-q<- subset(q, item<20) # remove practice
+#q<- subset(q, item<20) # remove practice
+
+q$item_quest<- rep(c(1,2), nrow(q)/2)
 
 write.csv(q, "data/question_accuracy.csv", row.names = F) # save accuracy data
 
@@ -78,11 +84,27 @@ write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
 ### MUSIC RATING DATA:
 ratings<- subset(dat, sender == "song_ratings")
 
-ratings<- ratings[, c("subject", "song_rating", "snippet_file", "familiarity",
+ratings<- ratings[, c("subject", "which_list", "song_rating", "snippet_file", "familiarity",
                       "preference", "pleasantness", "offensiveness", 
                       "distraction", "artist_name", "song_name" )]
 write.csv(ratings, "data/music_ratings.csv", row.names = F) # save accuracy data
 
+
+### Music preferences:
+
+genres<- subset(dat, sender== "Music styles")
+genres<- genres[, c("subject", "Blues",  "Classical", "Country", "Dance", "Electronic", 
+                    "Folk", "Gospel", "Hip.Hop", "Jazz", "Latin",
+                    "Musical.Film", "New.age", "Pop", "R.B",
+                    "Rap", "Reggae", "Religious", "Rock",  "Soul",
+                    "Swing", "Traditional")] # subset colums we need
+
+
+freq<- subset(dat, sender== "Music_frequency")
+freq<- freq[, c("subject", "music_frequency")]
+
+preference <- merge(freq, genres) # merge two dataframes
+write.csv(preference, "data/music_preferences.csv") # save data
 
 ### TRIAL DURATIONS
 
@@ -103,6 +125,6 @@ aggregate(rt$duration, by= list(rt$sound),  FUN= function(x) c(mean = mean(x, na
 sub<- aggregate(rt$duration, by= list(rt$sound, rt$subject),  FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                                      sd = sd(x, na.rm=T) ))
 
-aggregate(q$accuracy, by= list(q$sound),  FUN= function(x) c(mean = mean(x, na.rm= T), 
+q_item<- aggregate(q$accuracy, by= list(q$item, q$item_quest),  FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                              sd = sd(x, na.rm=T) ))
-hist(rt$duration, breaks= 50)
+hist(log(rt$duration), breaks= 50)

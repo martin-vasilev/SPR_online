@@ -40,16 +40,19 @@ contrasts(dat$sound)
 aggregate(dat$duration, by= list(dat$sound), FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                                 sd = sd(x, na.rm=T) ))
 
+
+#write.csv(sim_data, "power/sim_data.csv")
+
 ## model with pilot data:
-summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = dat, REML = T))
+summary(LM1<- lmer(log_duration ~ sound+ (sound|subject)+ (1|item), data = dat, REML = T))
 
 
 
 ########################################
 data_loss<- 0.10 #simulate data loss by excluding x% of data points from simulation
 ES_reduction<- 0.75 # simulate x% of observed effect size
-NSim= 10 # number of simulations
-nsub= 102  # number of subjects (multiple of 6)
+NSim= 100 # number of simulations
+nsub= 156  # number of subjects (multiple of 6)
 
 
 # parameters:
@@ -76,22 +79,24 @@ contrasts(df$sound)
 
 
 # make fake data:
-model1 <- makeLmer(log_duration ~ sound + (1|subject) + (1|item), fixef=b, VarCorr= RE, sigma=s, data=df)
+model1 <- makeLmer(log_duration ~ sound + (sound|subject) + (1|item), fixef=b, VarCorr= RE, sigma=s, data=df)
 summary(model1)
+
+sim_data<- getData(model1)
 
 
 # Power simulation curves:
 
-## Instrumental vs SIlence
-pc1<- powerCurve(model1, nsim=NSim, test = fixed(xname = 'sound.instr_vs_slc', method = "z"), 
-                 along = 'subject', breaks= seq(6, 102, 6))
+# Instrumental vs SIlence
+pc1<- powerCurve(model1, nsim=NSim, test = fixed(xname = 'sound.instr_vs_slc', method = "z"),
+                 along = 'subject', breaks= seq(60, 180, 12))
 
 plot(pc1, xlab= "Number of subjecs", power = 0.95)
 
 
 ## Lyrical vs. Instrumental
 pc2<- powerCurve(model1, nsim=NSim, test = fixed(xname = 'sound.lyr_vs_instr', method = "z"), 
-                 along = 'subject', breaks= seq(6, 102, 6))
+                 along = 'subject', breaks= seq(60, 180, 12))
 
 plot(pc2, xlab= "Number of subjecs", power = 0.95)
 

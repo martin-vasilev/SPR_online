@@ -22,7 +22,7 @@ mask<- function(string){paste(rep('-', nchar(string)), collapse = '')}
 
 # load items:
 Text_stimuli <- read_excel("stimuli/Text_stimuli.xlsx")
-Text_stimuli<- Text_stimuli[1:15, ] # get rid of empty row at the end
+Text_stimuli<- Text_stimuli[1:17, ] # get rid of empty row at the end
 
 
 for(i in 1:nrow(Text_stimuli)){

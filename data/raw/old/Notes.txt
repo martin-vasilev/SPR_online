@@ -1,4 +1,0 @@
-Reason for exclusion
-
-- Failed a "trap" trial:  Music_F_PARTICIPANT_SESSION_2021-03-28_11h59.43.281
-- Answered "No" to wearing headphones for whole experiment: Music_E_PARTICIPANT_SESSION_2021-03-29_12h58.10.346

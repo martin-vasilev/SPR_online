@@ -1,13 +1,2 @@
-"labjs_version","browser","screen_width","screen_height","device_pixel_ratio","platform","browser.1","browser_version","OS","subject"
-"'20'2'2","Safari","1440","900","2","""MacIntel","Safari","14.0.3","Mac OS X",1
-"'20'2'2","Safari","1440","900","1","""MacIntel","Safari","14.0.3","Mac OS X",2
-"'20'2'2","Chrome","1366","768","1","""Win32","Chrome","89.0.4389","Windows",3
-"'20'2'2","Chrome","1536","864","1.25","""Win32","Chrome","89.0.4389","Windows",4
-"'20'2'2","Chrome","1327","746","1.4479166269302368","""Win32","Chrome","89.0.4389","Windows",5
-"'20'2'2","Chrome","1536","864","1.25","""Win32","Chrome","89.0.4389","Windows",6
-"'20'2'2","Chrome","1680","1050","2","""MacIntel","Chrome","89.0.4389","Mac OS X",7
-"'20'2'2","Chrome","1920","1080","2","""Win32","Chrome","89.0.4389","Windows",8
-"'20'2'2","Chrome","1366","768","1","""Win32","Chrome","89.0.4389","Windows",9
-"'20'2'2","Chrome","1536","864","1.25","""Win32","Chrome","89.0.4389","Windows",10
-"'20'2'2","Safari","1440","900","2","""MacIntel","Safari","14.0.3","Mac OS X",11
-"'20'2'2","Chrome","1366","768","1","""Win32","Chrome","89.0.4389","Windows",12
+"subject","labjs_version","browser","browser_version","screen_width","screen_height","device_pixel_ratio","platform","OS"
+1,"'20'2'2","Edge","89.0.774","2560","1440","1","""Win32","Windows"
