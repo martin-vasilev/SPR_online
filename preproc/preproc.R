@@ -117,14 +117,14 @@ table(dem$list)
 table(q$item, q$sound)
 table(rt$item, rt$sound)
 
-#rt<- rt[which(rt$duration>100 & rt$duration<5000), ]
+rt<- rt[which(rt$duration>100 & rt$duration<5000), ]
 
-aggregate(rt$duration, by= list(rt$sound),  FUN= function(x) c(mean = mean(x, na.rm= T), 
-                                                               sd = sd(x, na.rm=T) ))
-
-sub<- aggregate(rt$duration, by= list(rt$sound, rt$subject),  FUN= function(x) c(mean = mean(x, na.rm= T), 
-                                                                     sd = sd(x, na.rm=T) ))
-
-q_item<- aggregate(q$accuracy, by= list(q$item, q$item_quest),  FUN= function(x) c(mean = mean(x, na.rm= T), 
-                                                             sd = sd(x, na.rm=T) ))
+# aggregate(rt$duration, by= list(rt$sound),  FUN= function(x) c(mean = mean(x, na.rm= T), 
+#                                                                sd = sd(x, na.rm=T) ))
+# 
+# sub<- aggregate(rt$duration, by= list(rt$sound, rt$subject),  FUN= function(x) c(mean = mean(x, na.rm= T), 
+#                                                                      sd = sd(x, na.rm=T) ))
+# 
+# q_item<- aggregate(q$accuracy, by= list(q$item, q$item_quest),  FUN= function(x) c(mean = mean(x, na.rm= T), 
+#                                                              sd = sd(x, na.rm=T) ))
 hist(log(rt$duration), breaks= 50)
