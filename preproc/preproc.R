@@ -76,7 +76,7 @@ rt<- rt[, c("subject", "item", "Provo_ID", "list", "word", "word_ID",  # save ju
             "ended_on", "duration", "sound")]
 rt<- subset(rt, item<20) # remove practice items
 
-rt<- subset(rt, ended_on== "response")
+#rt<- subset(rt, ended_on== "response")
 
 write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
 
