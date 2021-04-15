@@ -128,3 +128,7 @@ rt<- rt[which(rt$duration>100 & rt$duration<5000), ]
 # q_item<- aggregate(q$accuracy, by= list(q$item, q$item_quest),  FUN= function(x) c(mean = mean(x, na.rm= T), 
 #                                                              sd = sd(x, na.rm=T) ))
 hist(log(rt$duration), breaks= 50)
+
+# hist(ratings$familiarity, breaks= 10)
+# hist(ratings$preference, breaks= 10)
+
