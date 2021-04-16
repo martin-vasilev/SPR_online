@@ -132,3 +132,4 @@ hist(log(rt$duration), breaks= 50)
 # hist(ratings$familiarity, breaks= 10)
 # hist(ratings$preference, breaks= 10)
 
+table(dem$list)
