@@ -22,6 +22,11 @@ options(scipen = 999)
 # load pilot data:
 dat <- read_csv("data/reaction_time.csv")
 
+dat<- dat[which(dat$duration> 100 & dat$duration<5000),]
+dat<- subset(dat, word>0)
+dat<- subset(dat, !is.element(subject, c(20, 43, 56, 52, 62, 86)))
+
+
 dat$log_duration<- log(dat$duration)
 
 # set up contrast coding:
@@ -44,7 +49,7 @@ aggregate(dat$duration, by= list(dat$sound), FUN= function(x) c(mean = mean(x, n
 #write.csv(sim_data, "power/sim_data.csv")
 
 ## model with pilot data:
-summary(LM1<- lmer(log_duration ~ sound+ (sound|subject)+ (1|item), data = dat, REML = T))
+summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = dat, REML = T))
 
 
 
