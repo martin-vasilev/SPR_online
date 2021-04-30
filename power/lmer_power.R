@@ -22,11 +22,6 @@ options(scipen = 999)
 # load pilot data:
 dat <- read_csv("data/reaction_time.csv")
 
-dat<- dat[which(dat$duration> 100 & dat$duration<5000),]
-dat<- subset(dat, word>0)
-dat<- subset(dat, !is.element(subject, c(20, 43, 56, 52, 62, 86)))
-
-
 dat$log_duration<- log(dat$duration)
 
 # set up contrast coding:

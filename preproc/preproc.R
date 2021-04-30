@@ -74,7 +74,7 @@ dat$accuracy<- ifelse(dat$correct== "true", 1, 0) # convert accuracy to binomial
 
 q<- subset(dat, is.element(sender, c("Question 1","Question 2"))) # extract just questions
 q<- q[, c("subject","item", "Provo_ID", "list", "accuracy", "duration",   # save just columns we need
-          "sound", "ended_on", "response", "correctResponse")]
+          "sound", "ended_on", "response", "correctResponse", "Pool")]
 #q<- subset(q, item<20) # remove practice
 
 q$item_quest<- rep(c(1,2), nrow(q)/2)
@@ -87,7 +87,7 @@ write.csv(q, "data/question_accuracy.csv", row.names = F) # save accuracy data
 ### REACTION TIME DATA:
 rt<- subset(dat, sender== "screen") # subset reaction time data
 rt<- rt[, c("subject", "item", "Provo_ID", "list", "word", "word_ID",  # save just columns we need
-            "ended_on", "duration", "sound")]
+            "ended_on", "duration", "sound", "Pool")]
 rt<- subset(rt, item<20) # remove practice items
 
 
@@ -157,7 +157,7 @@ for(i in 1:length(nsubs)){
 
 sort(a)
 
-#rt<- subset(rt, ended_on== "response")
+rt$log_duration<- log(rt$duration) # add log-transform
 
 write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
 
@@ -167,9 +167,33 @@ ratings<- subset(dat, sender == "song_ratings")
 
 ratings<- ratings[, c("subject", "which_list", "song_rating", "snippet_file", "familiarity",
                       "preference", "pleasantness", "offensiveness", 
-                      "distraction", "artist_name", "song_name" )]
+                      "distraction", "artist_name", "song_name", "Pool")]
 
 ratings$which_list[which(ratings$which_list=="FALSE")]= "F"
+
+### prep data:
+ratings$music_set<- substr(x = ratings$snippet_file, start = 8, stop = 8)
+ratings$music<- ifelse(substr(x = ratings$snippet_file, start = 11, stop = 17)== "lyrical",
+                       "lyrical", "instrumental")
+
+ratings$song_number<- substr(x = ratings$snippet_file, start = 9, stop = 9)
+ratings$list<- ratings$which_list
+ratings$which_list<- NULL
+
+
+### Code actual song names:
+
+ratings$actual_artist<- NA
+ratings$actual_song_name<- NA
+
+for(i in 1:nrow(ratings)){
+
+  if(ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
+    
+  }
+    
+}
+
 
 write.csv(ratings, "data/music_ratings.csv", row.names = F) # save accuracy data
 
@@ -181,7 +205,7 @@ genres<- genres[, c("subject", "Blues",  "Classical", "Country", "Dance", "Elect
                     "Folk", "Gospel", "Hip.Hop", "Jazz", "Latin",
                     "Musical.Film", "New.age", "Pop", "R.B",
                     "Rap", "Reggae", "Religious", "Rock",  "Soul",
-                    "Swing", "Traditional")] # subset colums we need
+                    "Swing", "Traditional", "Pool")] # subset colums we need
 
 
 freq<- subset(dat, sender== "Music_frequency")
@@ -194,7 +218,7 @@ write.csv(preference, "data/music_preferences.csv") # save data
 
 trial_time<- subset(dat, is.element(sender, c(paste("Item ", 1:12, sep= ''))))
 
-trial_time<- trial_time[, c("subject", "sender", "duration"),]
+trial_time<- trial_time[, c("subject", "sender", "duration", "Pool"),]
 
 
 table(dem$list)
