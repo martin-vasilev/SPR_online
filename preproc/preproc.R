@@ -188,14 +188,90 @@ ratings$actual_song_name<- NA
 
 for(i in 1:nrow(ratings)){
 
-  if(ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
-    
+  #############
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Eminem"
+    ratings$actual_song_name[i]<- "The way I am"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Post Malone"
+    ratings$actual_song_name[i]<- "WoW"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
+    ratings$actual_song_name[i]<- "Fly"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Eminem"
+    ratings$actual_song_name[i]<- "The way I am"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Post Malone"
+    ratings$actual_song_name[i]<- "WoW"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
+    ratings$actual_song_name[i]<- "Fly"
+  }
+  
+  
+  
+  #############
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
+    ratings$actual_song_name[i]<- "Price tag"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
+    ratings$actual_song_name[i]<- "Fancy"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Outkast"
+    ratings$actual_song_name[i]<- "Ms. Jackson"
+  }
+  
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
+    ratings$actual_song_name[i]<- "Price tag"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
+    ratings$actual_song_name[i]<- "Fancy"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Outkast"
+    ratings$actual_song_name[i]<- "Ms. Jackson"
   }
     
 }
 
+colnames(ratings)
 
-write.csv(ratings, "data/music_ratings.csv", row.names = F) # save accuracy data
+r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet_file",  "Pool",
+                "familiarity", "preference", "pleasantness", "offensiveness", 
+                "distraction", "actual_artist", "actual_song_name",
+                "artist_name", "song_name" )]
+
+
+write.csv(r, "data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
+
+
+ratings <- read.csv("D:/R/SPR_online/data/prep/ratings_manual_coding.csv", sep=";")
+
+
+
 
 
 ### Music preferences:

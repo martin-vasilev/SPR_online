@@ -3,7 +3,7 @@ rm(list= ls())
 
 
 # load/ install required packages:
-packages= c("simr", "MASS", "readr") # list of used packages:
+packages= c("simr", "MASS", "readr", "reshape") # list of used packages:
 
 for(i in 1:length(packages)){
   
@@ -80,6 +80,35 @@ if(!file.exists("models/LM2.Rda")){
   summary(LM2)
 }
 
+
+
+
+######## Music ratings:
+
+ratings <- read.csv("D:/R/SPR_online/data/prep/ratings_manual_coding.csv", sep=";")
+
+
+
+DesSongs<- melt(ratings, id=c('subject', 'music', 'song_number', 'music_set'), 
+                measure=c("familiarity", 'preference', 'pleasantness',
+                          'offensiveness', 'distraction', 
+                          'accuracy_artist', 'accuracy_song'), na.rm=TRUE)
+mSongs<- cast(DesSongs, music ~ variable
+              ,function(x) c(M=signif(mean(x),3)
+                             , SD= sd(x) ))
+
+r_mat<- ratings[, c(8:12, 15, 18)]
+colnames(r_mat)<- c("familiarity", "preference", "pleasantness", "offensiveness",
+                    "distraction", "artist accuracy", "song accuracy" )
+
+r_corr<- cor(r_mat, use = 'complete.obs', method = 'pearson')
+p.mat <- cor_pmat(r_mat)
+
+
+C1<- ggcorrplot(r_corr,  type = "lower",outline.color = 'white', sig.level = 0.05, digits = 2,
+           show.diag = T, lab = T, lab_size = 8, p.mat = p.mat, tl.cex = 20, insig = 'pch', 
+           pch = 4, pch.cex = 18, show.legend = T)
+ggsave(plot = C1, filename = "plots/Corr_plot.pdf")
 
 
 
