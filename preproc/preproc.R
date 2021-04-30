@@ -35,6 +35,12 @@ for(i in 1:length(files)){ # for each participant file..
   q1<- subset(t, sender== "Question 1")
   t$which_list= q1$list[1]
   
+  string_file<-substr(x= files[i], start = 10, stop = 17) 
+  
+  t$Pool<- ifelse(string_file== "PROLIFIC", "Prolific", "University pool")
+  
+  t$filename<- files[i]
+  
   dat<- plyr::rbind.fill(dat, t) # combine with available dataset
   
 }
@@ -48,7 +54,9 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
                  "list"= d$which_list, 
                  "experiment_time"= d$exp_time,
                  "trap_accuracy"= d$trap_accuracy,
-                 "honesty"= honesty$response) # only info we need
+                 "honesty"= honesty$response,
+                 "subject_pool"= d$Pool,
+                 "filename"= d$filename) # only info we need
 write.csv(dem, "data/participant_data.csv", row.names = F) # save device info
 
 
@@ -122,5 +130,5 @@ rt<- rt[which(rt$duration>100 & rt$duration<5000), ]
 
 # hist(ratings$familiarity, breaks= 10)
 # hist(ratings$preference, breaks= 10)
-dem<- subset(dem, honesty==1 & trap_accuracy==1)
+#dem<- subset(dem, honesty==1 & trap_accuracy==1)
 table(dem$list)

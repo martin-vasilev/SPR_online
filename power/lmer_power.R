@@ -49,7 +49,7 @@ aggregate(dat$duration, by= list(dat$sound), FUN= function(x) c(mean = mean(x, n
 #write.csv(sim_data, "power/sim_data.csv")
 
 ## model with pilot data:
-summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = dat, REML = T))
+summary(LM1<- lmer(log_duration ~ sound+ (sound|subject)+ (1|item), data = dat, REML = T))
 
 
 
