@@ -57,6 +57,10 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
                  "honesty"= honesty$response,
                  "subject_pool"= d$Pool,
                  "filename"= d$filename) # only info we need
+
+
+dem$list[which(dem$list=="FALSE")]= "F"
+
 write.csv(dem, "data/participant_data.csv", row.names = F) # save device info
 
 
@@ -75,6 +79,8 @@ q<- q[, c("subject","item", "Provo_ID", "list", "accuracy", "duration",   # save
 
 q$item_quest<- rep(c(1,2), nrow(q)/2)
 
+q$list[which(q$list=="FALSE")]= "F"
+
 write.csv(q, "data/question_accuracy.csv", row.names = F) # save accuracy data
 
 
@@ -83,6 +89,73 @@ rt<- subset(dat, sender== "screen") # subset reaction time data
 rt<- rt[, c("subject", "item", "Provo_ID", "list", "word", "word_ID",  # save just columns we need
             "ended_on", "duration", "sound")]
 rt<- subset(rt, item<20) # remove practice items
+
+
+rt<- subset(rt, word>0) # remove RT on first word in the passage (pre-reg)
+
+rt$list[which(rt$list=="FALSE")]= "F"
+
+ 
+# remove trials with >5 word timeouts (pre-reg):
+
+nsubs<- unique(rt$subject)
+
+for(i in 1:length(nsubs)){
+  
+  t<- subset(rt, subject==nsubs[i]) 
+  
+  nitems<- unique(t$item)
+  
+  for (j in 1:length(nitems)){
+    n<- subset(t, item== nitems[j])
+    
+    a<- length(which(n$ended_on== "timeout"))
+  #  cat(a); cat("\n")
+    if(a>5){
+      cat(sprintf("Subject %g, item % g\n", n$subject[1], n$item[1]))
+    }
+    
+  }
+  
+}
+
+# remove identified trials:
+rt<- rt[-which(rt$subject==13 & rt$item==12),]
+q<- q[-which(q$subject==13 & q$item==12),]
+
+rt<- rt[-which(rt$subject==56 & rt$item==6),]
+q<- q[-which(q$subject==56 & q$item==6),]
+
+rt<- rt[-which(rt$subject==61 & rt$item==10),]
+q<- q[-which(q$subject==61 & q$item==10),]
+
+rt<- rt[-which(rt$subject==130 & rt$item==12),]
+q<- q[-which(q$subject==130 & q$item==12),]
+
+rt<- rt[-which(rt$subject==146 & rt$item==3),]
+q<- q[-which(q$subject==146 & q$item==3),]
+
+rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
+
+
+# check remaining percentage of observations per subject:
+
+a<- NULL
+
+nsubs<- unique(rt$subject)
+
+for(i in 1:length(nsubs)){
+  
+  n<- subset(rt, subject== nsubs[i])
+
+  remain<- round((nrow(n)/ (801-15))*100,1)
+  a<- c(a, remain)
+  
+  cat(sprintf("Subject %g:  %g percent \n", nsubs[i], remain))
+      
+}
+
+sort(a)
 
 #rt<- subset(rt, ended_on== "response")
 
@@ -95,6 +168,9 @@ ratings<- subset(dat, sender == "song_ratings")
 ratings<- ratings[, c("subject", "which_list", "song_rating", "snippet_file", "familiarity",
                       "preference", "pleasantness", "offensiveness", 
                       "distraction", "artist_name", "song_name" )]
+
+ratings$which_list[which(ratings$which_list=="FALSE")]= "F"
+
 write.csv(ratings, "data/music_ratings.csv", row.names = F) # save accuracy data
 
 
@@ -125,7 +201,7 @@ table(dem$list)
 table(q$item, q$sound)
 table(rt$item, rt$sound)
 
-rt<- rt[which(rt$duration>100 & rt$duration<5000), ]
+
 
 
 # hist(ratings$familiarity, breaks= 10)
