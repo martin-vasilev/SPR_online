@@ -105,6 +105,35 @@ mSongs<- cast(DesSongs, music ~ variable
               ,function(x) c(M=signif(mean(x),3)
                              , SD= sd(x) ))
 
+
+##### plot difference between lyrical and non-lyrical:
+
+df<-  data.frame("Mean"= c(mSongs$familiarity_M, mSongs$preference_M, mSongs$pleasantness_M, 
+                           mSongs$offensiveness_M, mSongs$distraction_M),
+                 "SD"= c(mSongs$familiarity_SD, mSongs$preference_SD, mSongs$pleasantness_SD, 
+                           mSongs$offensiveness_SD, mSongs$distraction_SD),
+                 "Measure"= c("Familiarity", "Familiarity", "Preference", "Preference",
+                              "Pleasantness", "Pleasantness", "Offensiveness",
+                              "Offensiveness", "Distraction", "Distraction"),
+                 "Music"= rep(c("Instrumental", "Lyrical"), 5))
+
+df$SE<- df$SD/sqrt(204)
+
+df$Measure<- as.factor(df$Measure)
+df$Measure<- factor(df$Measure, levels= c("Familiarity", "Preference", "Pleasantness", "Distraction", "Offensiveness"))
+
+
+# Default line plot
+Plot<- ggplot(df, aes(x=Measure, y=Mean, ymin=Mean-SE, ymax=Mean+SE, group=Music, color=Music)) + 
+  theme_minimal(20)+
+  ylim(1, 10)+
+ # geom_line( size= 2)+
+  geom_point(size=3)+
+  geom_errorbar(width=.15, size= 1.5)+ ylab("Mean rating (1= very low; 10= very high)")
+
+##### correlation plot
+
+
 r_mat<- ratings[, c(8:12, 15, 18)]
 colnames(r_mat)<- c("familiarity", "preference", "pleasantness", "offensiveness",
                     "distraction", "artist accuracy", "song accuracy" )
@@ -117,6 +146,7 @@ C1<- ggcorrplot(r_corr,  type = "lower",outline.color = 'white', sig.level = 0.0
            show.diag = T, lab = T, lab_size = 8, p.mat = p.mat, tl.cex = 20, insig = 'pch', 
            pch = 4, pch.cex = 18, show.legend = T)
 ggsave(plot = C1, filename = "plots/Corr_plot.pdf")
+
 
 
 
