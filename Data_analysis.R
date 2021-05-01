@@ -3,7 +3,7 @@ rm(list= ls())
 
 
 # load/ install required packages:
-packages= c("simr", "MASS", "readr", "reshape") # list of used packages:
+packages= c("simr", "MASS", "readr", "reshape", "ggcorrplot", "ggplot2", "sjPlot") # list of used packages:
 
 for(i in 1:length(packages)){
   
@@ -67,7 +67,17 @@ if(!file.exists("models/LM1.Rda")){
 }
 
 
+# RE1<- ranef(LM1)
+# RE1<- RE1$subject
+# RE1$subject<- 1:nrow(RE1)
+# RE1$Pool<- ifelse(RE1$subject< 104, "University", "Prolific")
 
+P1= plot_model(model = LM1, type= "re", rm.terms = 'subject', transform = NULL)
+P1= P1[[1]]
+
+P1+theme_minimal(20)
+
+ggsave(plot = P1, filename = "plots/raneff_RT.pdf", height = 18, width = 12)
 
 ## Main model with accuracy data:
 if(!file.exists("models/LM2.Rda")){
@@ -86,8 +96,6 @@ if(!file.exists("models/LM2.Rda")){
 ######## Music ratings:
 
 ratings <- read.csv("D:/R/SPR_online/data/prep/ratings_manual_coding.csv", sep=";")
-
-
 
 DesSongs<- melt(ratings, id=c('subject', 'music', 'song_number', 'music_set'), 
                 measure=c("familiarity", 'preference', 'pleasantness',
