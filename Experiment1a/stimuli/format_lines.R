@@ -2,6 +2,7 @@
 rm(list= ls())
 
 library(readxl)
+library(stringi)
 
 Text_stimuli <- read_excel("stimuli/Text_stimuli.xlsx")
 

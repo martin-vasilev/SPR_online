@@ -126,7 +126,7 @@ df$Measure<- factor(df$Measure, levels= c("Familiarity", "Preference", "Pleasant
 # Default line plot
 Plot<- ggplot(df, aes(x=Measure, y=Mean, ymin=Mean-SE, ymax=Mean+SE, group=Music, color=Music)) + 
   theme_minimal(20)+
-  ylim(1, 10)+
+  ylim(1, 10, )+
  # geom_line( size= 2)+
   geom_point(size=3)+
   geom_errorbar(width=.15, size= 1.5)+ ylab("Mean rating (1= very low; 10= very high)")
