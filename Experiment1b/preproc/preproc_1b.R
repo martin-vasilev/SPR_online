@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_
 
 library(readr)
 
-files<- list.files("data/raw") # get all available files in directory
-files<-paste("data/raw/", files, sep= '') # paste full root link
+files<- list.files("Experiment1b/data/raw") # get all available files in directory
+files<-paste("Experiment1b/data/raw/", files, sep= '') # paste full root link
 
 dat<- NULL
 
@@ -61,12 +61,12 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
 
 dem$list[which(dem$list=="FALSE")]= "F"
 
-write.csv(dem, "data/participant_data.csv", row.names = F) # save device info
+write.csv(dem, "Experiment1b/data/participant_data.csv", row.names = F) # save device info
 
 
 ### DEVICE DATA:
 device<- LabJs_device(dat) # extract devide info from lab.js
-write.csv(device, "data/device_info.csv", row.names = F) # save device info
+write.csv(device, "Experiment1b/data/device_info.csv", row.names = F) # save device info
 
 
 ### QUESTION ACCURACY DATA:
@@ -81,7 +81,9 @@ q$item_quest<- rep(c(1,2), nrow(q)/2)
 
 q$list[which(q$list=="FALSE")]= "F"
 
-write.csv(q, "data/question_accuracy.csv", row.names = F) # save accuracy data
+q<- subset(q, item<20) # remove practice
+
+write.csv(q, "Experiment1b/data/question_accuracy.csv", row.names = F) # save accuracy data
 
 
 ### REACTION TIME DATA:
@@ -120,20 +122,20 @@ for(i in 1:length(nsubs)){
 }
 
 # remove identified trials:
-rt<- rt[-which(rt$subject==13 & rt$item==12),]
-q<- q[-which(q$subject==13 & q$item==12),]
-
-rt<- rt[-which(rt$subject==56 & rt$item==6),]
-q<- q[-which(q$subject==56 & q$item==6),]
-
-rt<- rt[-which(rt$subject==61 & rt$item==10),]
-q<- q[-which(q$subject==61 & q$item==10),]
-
-rt<- rt[-which(rt$subject==130 & rt$item==12),]
-q<- q[-which(q$subject==130 & q$item==12),]
-
-rt<- rt[-which(rt$subject==146 & rt$item==3),]
-q<- q[-which(q$subject==146 & q$item==3),]
+# rt<- rt[-which(rt$subject==13 & rt$item==12),]
+# q<- q[-which(q$subject==13 & q$item==12),]
+# 
+# rt<- rt[-which(rt$subject==56 & rt$item==6),]
+# q<- q[-which(q$subject==56 & q$item==6),]
+# 
+# rt<- rt[-which(rt$subject==61 & rt$item==10),]
+# q<- q[-which(q$subject==61 & q$item==10),]
+# 
+# rt<- rt[-which(rt$subject==130 & rt$item==12),]
+# q<- q[-which(q$subject==130 & q$item==12),]
+# 
+# rt<- rt[-which(rt$subject==146 & rt$item==3),]
+# q<- q[-which(q$subject==146 & q$item==3),]
 
 rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
 
@@ -159,7 +161,7 @@ sort(a)
 
 rt$log_duration<- log(rt$duration) # add log-transform
 
-write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
+write.csv(rt, "Experiment1b/data/reaction_time.csv", row.names = F) # save accuracy data
 
 
 ### MUSIC RATING DATA:
@@ -265,10 +267,10 @@ r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet
                 "artist_name", "song_name" )]
 
 
-write.csv(r, "data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
+write.csv(r, "Experiment1b/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
 
 
-ratings <- read.csv("D:/R/SPR_online/data/prep/ratings_manual_coding.csv", sep=";")
+ratings <- read.csv("data/prep/ratings_manual_coding.csv", sep=";")
 
 
 
@@ -288,7 +290,7 @@ freq<- subset(dat, sender== "Music_frequency")
 freq<- freq[, c("subject", "music_frequency")]
 
 preference <- merge(freq, genres) # merge two dataframes
-write.csv(preference, "data/music_preferences.csv") # save data
+write.csv(preference, "Experiment1b/data/music_preferences.csv") # save data
 
 ### TRIAL DURATIONS
 

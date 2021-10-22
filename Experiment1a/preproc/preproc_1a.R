@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_
 
 library(readr)
 
-files<- list.files("data/raw") # get all available files in directory
-files<-paste("data/raw/", files, sep= '') # paste full root link
+files<- list.files("Experiment1a/data/raw") # get all available files in directory
+files<-paste("Experiment1a/data/raw/", files, sep= '') # paste full root link
 
 dat<- NULL
 
@@ -61,12 +61,12 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
 
 dem$list[which(dem$list=="FALSE")]= "F"
 
-write.csv(dem, "data/participant_data.csv", row.names = F) # save device info
+write.csv(dem, "Experiment1a/data/participant_data.csv", row.names = F) # save device info
 
 
 ### DEVICE DATA:
 device<- LabJs_device(dat) # extract devide info from lab.js
-write.csv(device, "data/device_info.csv", row.names = F) # save device info
+write.csv(device, "Experiment1a/data/device_info.csv", row.names = F) # save device info
 
 
 ### QUESTION ACCURACY DATA:
@@ -81,7 +81,9 @@ q$item_quest<- rep(c(1,2), nrow(q)/2)
 
 q$list[which(q$list=="FALSE")]= "F"
 
-write.csv(q, "data/question_accuracy.csv", row.names = F) # save accuracy data
+q<- subset(q, item<20) # remove practice
+
+write.csv(q, "Experiment1a/data/question_accuracy.csv", row.names = F) # save accuracy data
 
 
 ### REACTION TIME DATA:
@@ -159,7 +161,7 @@ sort(a)
 
 rt$log_duration<- log(rt$duration) # add log-transform
 
-write.csv(rt, "data/reaction_time.csv", row.names = F) # save accuracy data
+write.csv(rt, "Experiment1a/data/reaction_time.csv", row.names = F) # save accuracy data
 
 
 ### MUSIC RATING DATA:
@@ -265,10 +267,10 @@ r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet
                 "artist_name", "song_name" )]
 
 
-write.csv(r, "data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
+write.csv(r, "Experiment1a/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
 
 
-ratings <- read.csv("D:/R/SPR_online/data/prep/ratings_manual_coding.csv", sep=";")
+ratings <- read.csv("D:/R/SPR_online/Experiment1a/data/prep/ratings_manual_coding.csv", sep=";")
 
 
 
@@ -288,7 +290,7 @@ freq<- subset(dat, sender== "Music_frequency")
 freq<- freq[, c("subject", "music_frequency")]
 
 preference <- merge(freq, genres) # merge two dataframes
-write.csv(preference, "data/music_preferences.csv") # save data
+write.csv(preference, "Experiment1a/data/music_preferences.csv") # save data
 
 ### TRIAL DURATIONS
 
