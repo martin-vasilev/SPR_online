@@ -35,7 +35,7 @@ for(i in 1:length(files)){ # for each participant file..
   q1<- subset(t, sender== "Question 1")
   t$which_list= q1$list[1]
   
-  string_file<-substr(x= files[i], start = 10, stop = 17) 
+  string_file<-substr(x= files[i], start = 23, stop = 30) 
   
   t$Pool<- ifelse(string_file== "PROLIFIC", "Prolific", "University pool")
   
