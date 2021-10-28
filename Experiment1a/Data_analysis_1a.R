@@ -3,7 +3,8 @@ rm(list= ls())
 
 
 # load/ install required packages:
-packages= c("simr", "MASS", "readr", "reshape", "ggcorrplot", "ggplot2", "sjPlot", "brms", "parallel") # list of used packages:
+packages= c("simr", "MASS", "readr", "reshape", "ggcorrplot", "ggplot2", "sjPlot", "brms", "parallel", "effects",
+            "ggstatsplot") # list of used packages:
 
 for(i in 1:length(packages)){
   
@@ -47,6 +48,18 @@ contrasts(q$sound)<- cmat
 contrasts(q$sound)
 
 
+### Extra (pool type contrast):
+
+rt$Pool<- as.factor(rt$Pool)
+contrasts(rt$Pool)<- c(1, 0) # make uni pool the baseline
+contrasts(rt$Pool)
+
+
+q$Pool<- as.factor(q$Pool)
+contrasts(q$Pool)<- c(1, 0) # make uni pool the baseline
+contrasts(q$Pool)
+
+
 aggregate(rt$duration, by= list(rt$sound), FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                                 sd = sd(x, na.rm=T) ))
 
@@ -66,6 +79,13 @@ if(!file.exists("Experiment1a/models/LM1.Rda")){
   summary(LM1)
 }
 
+
+summary(LM1.2<- lmer(log_duration ~ sound*Pool+ (Pool|subject)+ (1|item), data = rt, REML = T))
+
+plot(effect('Pool', LM1.2))
+plot(effect('sound:Pool', LM1.2))
+
+effect('sound:Pool', LM1.2)
 
 
 #### Bayesian model parameters:
@@ -120,23 +140,41 @@ P1+theme_minimal(20)
 
 ggsave(plot = P1, filename = "plots/raneff_RT.pdf", height = 18, width = 12)
 
+
+
 ## Main model with accuracy data:
-if(!file.exists("models/LM2.Rda")){
+if(!file.exists("Experiment1a/models/LM2.Rda")){
   summary(LM2<- glmer(accuracy ~ sound+ (sound|subject)+ (1|item), data = q, family = binomial))
   
-  save(LM2, file = 'models/LM2.Rda')
+  save(LM2, file = 'Experiment1a/models/LM2.Rda')
   
 }else{
-  load('models/LM2.Rda')
+  load('Experiment1a/models/LM2.Rda')
   summary(LM2)
 }
 
 
+GM1<- brm(formula = accuracy ~ sound + (sound|subject)+ (1|item), data = q, family= bernoulli, warmup = NwarmUp,
+          iter = Niter, chains = Nchains, sample_prior = TRUE, cores = detectCores(), seed= 1234, control = list(adapt_delta = 0.9),
+          prior =  c(set_prior('normal(0, 0.75)', class = 'b', coef= 'sound.instr_vs_slc'),
+                     set_prior('normal(0, 0.75)', class = 'b', coef= 'sound.lyr_vs_instr'),
+                     set_prior('normal(0, 2)', class = 'Intercept')))
+
+A= print(GM1, digits=3)
+save(GM1, file= "Experiment1a/models/GM1.Rda")
+
+# sound effect 1:
+BF2_sound1 = hypothesis(GM1, hypothesis = 'sound.instr_vs_slc = 0', seed= 1234)  # H0: No  slc vs instr difference
+(BFQ1= 1/BF2_sound1$hypothesis$Evid.Ratio)
+
+# sound effect 2:
+BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  # H0: No  lyr vs instr difference
+(BFQ2= 1/BF2_sound2$hypothesis$Evid.Ratio)
 
 
 ######## Music ratings:
 
-ratings <- read.csv("D:/R/SPR_online/data/prep/ratings_manual_coding.csv", sep=";")
+ratings <- read.csv("D:/R/SPR_online/Experiment1a/data/prep/ratings_manual_coding.csv", sep=";")
 
 DesSongs<- melt(ratings, id=c('subject', 'music', 'song_number', 'music_set'), 
                 measure=c("familiarity", 'preference', 'pleasantness',
@@ -189,6 +227,26 @@ C1<- ggcorrplot(r_corr,  type = "lower",outline.color = 'white', sig.level = 0.0
 ggsave(plot = C1, filename = "plots/Corr_plot.pdf")
 
 
+set.seed(123)
 
+C2= ggcorrmat(data = r_mat, colors = c("#4D4D4D", "white", "#B2182B"), title= "Song Ratings (Experiment 1a)", conf.level = 0.95,
+          ggplot.component = list(ggplot2::theme(plot.title = element_text(hjust = 0.5, size= 18))))
+ggsave(plot = C2, filename = "Experiment1a/plots/Corr_plot2.pdf")
+
+
+
+
+##################################################################################
+
+DesRT<- melt(rt, id=c('subject', 'item', 'sound'), 
+                measure=c("duration"), na.rm=TRUE)
+
+mRT<- cast(DesRT, sound+subject ~ variable
+              ,function(x) c(M=signif(mean(x),3)
+                             , SD= sd(x) ))
+
+
+ax=pt.RainCloud(x = sound, y = duration_M, data = mRT,  width_viol = .6, figsize = c(7,5),  
+                orient = ort, pointplot = T)
 
 

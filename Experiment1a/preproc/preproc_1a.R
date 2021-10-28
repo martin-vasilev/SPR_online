@@ -12,6 +12,8 @@ files<-paste("Experiment1a/data/raw/", files, sep= '') # paste full root link
 
 dat<- NULL
 
+block<- NULL
+
 for(i in 1:length(files)){ # for each participant file..
   t<- suppressWarnings(suppressMessages(read.csv(files[i]))) # load it up
   t$subject<- i # assign subject number
@@ -43,7 +45,36 @@ for(i in 1:length(files)){ # for each participant file..
   
   dat<- plyr::rbind.fill(dat, t) # combine with available dataset
   
+  
+  
+  #### Figure out block times for subject:
+  h<- subset(t, sender== "Standby") # standby screen is when music starts playing
+  start<- h$time_show
+  
+  be<-  t[which(t$sender== "Trap_instruction")[2:4]-1, ]
+  
+  block_time<- be$time_end - start
+  block_string<- substr(be$sender, 10, nchar(be$sender))
+  
+  t_b<- data.frame("subject"= rep(i, length(block_time)), 
+                   "block_number"= 1:length(block_time),
+                   "sound"= block_string,
+                   "list"= h$which_list,
+                   "block_time"= block_time)
+  t_b$block_time_s<- t_b$block_time/1000
+  t_b$block_time_m<- t_b$block_time_s/60
+  
+  block<- rbind(block, t_b)
+  
 }
+
+
+### BLOCK INFORMATION:
+block$list[which(block$list=="FALSE")]= "F"
+
+write.csv(block, "Experiment1a/data/block_info.csv", row.names = F) # save block info data
+
+
 
 
 ### DEMOGRAPHIC DATA:
