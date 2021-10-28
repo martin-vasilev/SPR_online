@@ -59,7 +59,7 @@ aggregate(dat$duration, by= list(dat$sound), FUN= function(x) c(mean = mean(x, n
 
 #### Bayesian model parameters:
 NwarmUp<- 500#500
-Niter<- 1500#2500
+Niter<- 2000#2500
 Nchains<- 10 #10
 
 
