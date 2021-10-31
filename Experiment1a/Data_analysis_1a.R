@@ -17,6 +17,9 @@ for(i in 1:length(packages)){
 }
 
 
+# colorblind palletes: # https://venngage.com/blog/color-blind-friendly-palette/
+pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & trustworthy"
+
 options(scipen = 999)
 
 
@@ -245,8 +248,90 @@ mRT<- cast(DesRT, sound+subject ~ variable
               ,function(x) c(M=signif(mean(x),3)
                              , SD= sd(x) ))
 
+levels(mRT$sound)<- c("silence",            "instrumental music", "lyrical music"  )
 
-ax=pt.RainCloud(x = sound, y = duration_M, data = mRT,  width_viol = .6, figsize = c(7,5),  
-                orient = ort, pointplot = T)
+levels(mRT$sound)
 
 
+fun_mean <- function(x){
+  return(data.frame(y=mean(x),label= paste("M= ", round(mean(x,na.rm=T)), sep= '')))}
+
+MPlot <-ggplot(mRT, aes(x = sound, y = duration_M, color= sound, fill= sound)) + 
+  ggdist::stat_halfeye(
+    adjust = .5, 
+    width = .6, 
+    .width = 0, 
+    justification = -.3, 
+    point_colour = NA) + 
+  geom_boxplot(
+    width = .25, 
+    outlier.shape = NA, fill= NA
+  ) +
+  geom_point(
+    size = 1.3,
+    alpha = .3,
+    position = position_jitter(
+      seed = 1, width = .1
+    )
+  ) + 
+  coord_cartesian(xlim = c(1.2, NA), clip = "off")+
+  scale_color_manual(values=pallete1[1:3])+
+  scale_fill_manual(values=pallete1[1:3])+
+  theme_classic(20) +ylab("Reaction time (in ms)")+
+  theme(legend.position = 'none')+
+  stat_summary(fun = mean, geom="point",colour="black", size=3, ) +
+  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, colour="black")
+
+MPlot
+
+
+ggsave(plot = MPlot, filename = "Experiment1a/plots/RT_mean.pdf", height = 9, width = 9)
+
+
+##################################################################################
+
+DesQ<- melt(q, id=c('subject', 'item', 'sound'), 
+            measure=c("accuracy"), na.rm=TRUE)
+
+mQ<- cast(DesQ, sound+subject ~ variable
+          ,function(x) c(M=signif(mean(x),3)
+                         , SD= sd(x) ))
+
+levels(mQ$sound)<- c("silence",            "instrumental music", "lyrical music"  )
+
+levels(mQ$sound)
+
+
+fun_mean <- function(x){
+  return(data.frame(y=mean(x),label= paste("M= ", round(mean(x,na.rm=T), 2), sep= '')))}
+
+MPlot2 <-ggplot(mQ, aes(x = sound, y = accuracy_M, color= sound, fill= sound)) + 
+  ggdist::stat_halfeye(
+    adjust = .5, 
+    width = .6, 
+    .width = 0, 
+    justification = -.3, 
+    point_colour = NA) + 
+  geom_boxplot(
+    width = .25, 
+    outlier.shape = NA, fill= NA
+  ) +
+  geom_point(
+    size = 1.3,
+    alpha = .3,
+    position = position_jitter(
+      seed = 1, width = .1
+    )
+  ) + 
+  coord_cartesian(xlim = c(1.2, NA), clip = "off")+
+  scale_color_manual(values=pallete1[1:3])+
+  scale_fill_manual(values=pallete1[1:3])+
+  theme_classic(20) +ylab("Reaction time (in ms)")+
+  theme(legend.position = 'none')+
+  stat_summary(fun = mean, geom="point",colour="black", size=3 ) +
+  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, colour="black")
+
+MPlot2
+
+
+ggsave(plot = MPlot2, filename = "Experiment1a/plots/Acc_mean.pdf", height = 9, width = 9)
