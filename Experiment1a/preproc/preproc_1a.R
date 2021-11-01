@@ -5,6 +5,18 @@ rm(list= ls())
 get_num<- function(string){as.numeric(unlist(gsub("[^0-9]", "", unlist(string)), ""))}
 source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_device.R")
 
+get_time<- function(string){
+  time_string<- unlist(strptime(string, format = "%Y-%m-%dT%H:%M:%S"))
+  h<- as.numeric(time_string[3])
+  m<- as.numeric(time_string[2])
+  s<- as.numeric(time_string[1])
+  
+  time<- h*60*60 + m*60 + s 
+  
+  return(time)
+}
+
+
 library(readr)
 
 files<- list.files("Experiment1a/data/raw") # get all available files in directory
@@ -43,6 +55,17 @@ for(i in 1:length(files)){ # for each participant file..
   
   t$filename<- files[i]
   
+  
+  
+  
+  t$new_time<- NA
+    
+  for(j in 1:nrow(t)){
+    t$new_time[j]<- get_time(t$timestamp[j])
+  }
+  
+  
+  
   dat<- plyr::rbind.fill(dat, t) # combine with available dataset
   
   
@@ -63,6 +86,8 @@ for(i in 1:length(files)){ # for each participant file..
                    "block_time"= block_time)
   t_b$block_time_s<- t_b$block_time/1000
   t_b$block_time_m<- t_b$block_time_s/60
+  
+  t_b$block_start<- h$new_time
   
   block<- rbind(block, t_b)
   
@@ -114,7 +139,6 @@ q$list[which(q$list=="FALSE")]= "F"
 
 q<- subset(q, item<20) # remove practice
 
-write.csv(q, "Experiment1a/data/question_accuracy.csv", row.names = F) # save accuracy data
 
 
 ### REACTION TIME DATA:
@@ -192,7 +216,63 @@ sort(a)
 
 rt$log_duration<- log(rt$duration) # add log-transform
 
+
+
+################################################
+##      Add music ratings to data frames       #
+################################################
+
+
+# We want to use the ratings only fot the songs that were actually heard!
+# Therefore, we need to find the max song that was played in each block...
+
+block$max_song<- NA
+
+song_stamps <- read_excel("Experiment1a/preproc/song_stamps.xlsx")
+
+
+for(i in 1:nrow(block)){
+  
+  if(block$sound[i]== "Silence"){ # skip silent blocks
+    next
+  }else{
+    
+    which_row<- which(song_stamps$Music== block$sound[i] & song_stamps$List== block$list[i])
+    
+
+    if(block$block_time_s[i]<= song_stamps$first[which_row]){
+      
+      block$max_song[i]<- 1
+      
+    }else{
+      
+      if(block$block_time_s[i]<= song_stamps$second[which_row]){
+        
+        block$max_song[i]<- 2
+        
+      }else{
+        block$max_song[i]<- 3
+      }
+      
+    }
+        
+    
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+#### save RT & accuracy data:
 write.csv(rt, "Experiment1a/data/reaction_time.csv", row.names = F) # save accuracy data
+write.csv(q, "Experiment1a/data/question_accuracy.csv", row.names = F) # save accuracy data
+
+
 
 
 ### MUSIC RATING DATA:
