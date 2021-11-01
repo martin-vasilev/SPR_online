@@ -183,7 +183,7 @@ DesSongs<- melt(ratings, id=c('subject', 'music', 'song_number', 'music_set'),
                 measure=c("familiarity", 'preference', 'pleasantness',
                           'offensiveness', 'distraction', 
                           'accuracy_artist', 'accuracy_song'), na.rm=TRUE)
-mSongs<- cast(DesSongs, music ~ variable
+mSongs<- cast(DesSongs, music+song_number+music_set ~ variable
               ,function(x) c(M=signif(mean(x),3)
                              , SD= sd(x) ))
 
@@ -194,10 +194,11 @@ df<-  data.frame("Mean"= c(mSongs$familiarity_M, mSongs$preference_M, mSongs$ple
                            mSongs$offensiveness_M, mSongs$distraction_M),
                  "SD"= c(mSongs$familiarity_SD, mSongs$preference_SD, mSongs$pleasantness_SD, 
                            mSongs$offensiveness_SD, mSongs$distraction_SD),
-                 "Measure"= c("Familiarity", "Familiarity", "Preference", "Preference",
-                              "Pleasantness", "Pleasantness", "Offensiveness",
-                              "Offensiveness", "Distraction", "Distraction"),
-                 "Music"= rep(c("Instrumental", "Lyrical"), 5))
+                 "Measure"= c(rep("Familiarity", 12), rep("Preference", 12),
+                              rep("Pleasantness", 12), rep("Offensiveness", 12),
+                              rep("Distraction",12)),
+                 "Music"= rep(mSongs$music, 5))#,
+                 #"Music"= rep(c("Instrumental", "Lyrical"), 5*204))
 
 df$SE<- df$SD/sqrt(204)
 
@@ -205,13 +206,38 @@ df$Measure<- as.factor(df$Measure)
 df$Measure<- factor(df$Measure, levels= c("Familiarity", "Preference", "Pleasantness", "Distraction", "Offensiveness"))
 
 
-# Default line plot
-Plot<- ggplot(df, aes(x=Measure, y=Mean, ymin=Mean-SE, ymax=Mean+SE, group=Music, color=Music)) + 
-  theme_minimal(20)+
-  ylim(1, 10, )+
- # geom_line( size= 2)+
-  geom_point(size=3)+
-  geom_errorbar(width=.15, size= 1.5)+ ylab("Mean rating (1= very low; 10= very high)")
+# # Default line plot
+# Plot<- ggplot(df, aes(x=Measure, y=Mean, ymin=Mean-SE, ymax=Mean+SE, group=Music, color=Music)) + 
+#   theme_minimal(20)+
+#   ylim(1, 10)+
+#  # geom_line( size= 2)+
+#   geom_point(size=3)+
+#   geom_errorbar(width=.15, size= 1.5)+ ylab("Mean rating (1= very low; 10= very high)")
+
+
+  
+a <- ggplot(df, aes(x = Measure, y= Mean, fill= Music, color= Music))+
+  geom_boxplot(
+    width = .25, 
+    outlier.shape = NA, fill= NA, position = position_dodge(width = 0.7)
+  ) +
+  geom_point(aes(fill=Music),
+    size = 1.3,
+    alpha = .6,
+    position =  position_jitterdodge(jitter.width = 0.1, dodge.width = 0.7)
+  ) + 
+  coord_cartesian(xlim = c(1.2, NA), clip = "off")+
+  scale_color_manual(values=pallete1[1:2])+
+  scale_fill_manual(values=pallete1[1:2])+
+  theme_classic(20) +ylab("Mean rating (1= very low; 10= very high)")+
+  theme(legend.position = 'top')+
+  stat_summary(fun = mean, geom="point",colour="black", size=3, position = position_dodge(0.7), show.legend = F) +
+  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, colour="black", position = position_dodge(0.7))
+
+ggsave(plot = a, filename = "Experiment1a/plots/Ratings_M.pdf", height = 7, width = 10)
+
+
+
 
 ##### correlation plot
 
