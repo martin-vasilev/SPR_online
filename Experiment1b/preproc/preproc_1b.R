@@ -270,7 +270,7 @@ r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet
 write.csv(r, "Experiment1b/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
 
 
-ratings <- read.csv("data/prep/ratings_manual_coding.csv", sep=";")
+ratings <- read.csv("Experiment1b/data/prep/ratings_manual_coding.csv", sep=";")
 
 
 
