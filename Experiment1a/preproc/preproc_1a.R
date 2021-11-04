@@ -144,7 +144,7 @@ q<- subset(q, item<20) # remove practice
 ### REACTION TIME DATA:
 rt<- subset(dat, sender== "screen") # subset reaction time data
 rt<- rt[, c("subject", "item", "Provo_ID", "list", "word", "word_ID",  # save just columns we need
-            "ended_on", "duration", "sound", "Pool")]
+            "ended_on", "duration", "sound", "Pool", "new_time")]
 rt<- subset(rt, item<20) # remove practice items
 
 
@@ -263,6 +263,28 @@ for(i in 1:nrow(block)){
   
   
 }
+
+
+
+#######
+## add block start to rt data frame:
+
+rt$block_start<- NA
+
+block$sound<- tolower(block$sound)
+
+for(i in 1:nrow(rt)){
+  
+  a<- which(block$subject== rt$subject[i] & block$sound== rt$sound[i])  
+  rt$block_start[i]<- block$block_start[a]
+  
+}
+
+
+table(rt$block_start)
+
+rt$t_since_block<- rt$new_time- (rt$block_start-7)
+
 
 
 
