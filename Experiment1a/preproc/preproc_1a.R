@@ -227,7 +227,11 @@ rt$log_duration<- log(rt$duration) # add log-transform
 # Therefore, we need to find the max song that was played in each block...
 
 block$max_song<- NA
+block$first_start<-NA
+block$second_start<-NA
+block$third_start<-NA
 
+library(readxl)
 song_stamps <- read_excel("Experiment1a/preproc/song_stamps.xlsx")
 
 
@@ -243,15 +247,20 @@ for(i in 1:nrow(block)){
     if(block$block_time_s[i]<= song_stamps$first[which_row]){
       
       block$max_song[i]<- 1
-      
+      block$first_start[i]<- song_stamps$first[which_row]
     }else{
       
       if(block$block_time_s[i]<= song_stamps$second[which_row]){
         
         block$max_song[i]<- 2
+        block$first_start[i]<- song_stamps$first[which_row]
+        block$second_start[i]<- song_stamps$second[which_row]
         
       }else{
         block$max_song[i]<- 3
+        block$first_start[i]<- song_stamps$first[which_row]
+        block$second_start[i]<- song_stamps$second[which_row]
+        block$third_start[i]<- song_stamps$third[which_row]
       }
       
     }
@@ -270,20 +279,31 @@ for(i in 1:nrow(block)){
 ## add block start to rt data frame:
 
 rt$block_start<- NA
-
+rt$first<- NA
+rt$second<-NA
+rt$third<-NA
 block$sound<- tolower(block$sound)
 
 for(i in 1:nrow(rt)){
   
   a<- which(block$subject== rt$subject[i] & block$sound== rt$sound[i])  
   rt$block_start[i]<- block$block_start[a]
-  
+  rt$first[i]<- block$first_start[a]
+  rt$second[i]<- block$second_start[a]
+  rt$third[i]<- block$third_start[a]
 }
 
 
-table(rt$block_start)
+#table(rt$block_start)
 
 rt$t_since_block<- rt$new_time- (rt$block_start-7)
+
+
+## load song ratings by subject:
+
+music_preferences <- read_csv("Experiment1a/data/music_preferences.csv")
+ratings <- read.csv("D:/R/SPR_online/Experiment1a/data/prep/ratings_manual_coding.csv", sep=";")
+
 
 
 
