@@ -305,7 +305,62 @@ music_preferences <- read_csv("Experiment1a/data/music_preferences.csv")
 ratings <- read.csv("D:/R/SPR_online/Experiment1a/data/prep/ratings_manual_coding.csv", sep=";")
 
 
+# create empty columns:
+rt$familiarity <- NA
+rt$preference <- NA
+rt$pleasantness <- NA
+rt$offensiveness <- NA
+rt$distraction <- NA
+rt$accuracy_artist<- NA
+rt$accuracy_song<- NA
+rt$music_frequency<- NA
 
+
+for(i in 1:nrow(rt)){
+  
+  if(rt$sound[i]== "silence"){
+    rt$music_frequency[i]<- music_preferences$music_frequency[which(music_preferences$subject== rt$subject[i])]
+    next
+  }else{
+     # music conditions which have ratings..
+     
+     which_song<- NA
+     
+     if(rt$t_since_block[i]<= rt$first[i]){
+       which_song<- 1
+     }else{
+       
+       if(rt$t_since_block[i]<= rt$second[i]){
+         which_song<- 2
+       }else{
+         
+         if(rt$t_since_block[i]<= rt$third[i]){
+           which_song<- 2
+         }
+         
+       }
+       
+       
+     }
+     
+     s<- subset(ratings, subject== rt$subject[i] & music== rt$sound[i] & song_number== which_song)
+     
+     
+     rt$familiarity[i] <- s$familiarity
+     rt$preference[i] <- s$preference
+     rt$pleasantness[i] <- s$pleasantness
+     rt$offensiveness[i] <- s$offensiveness
+     rt$distraction[i] <- s$distraction
+     rt$accuracy_artist[i] <- s$accuracy_artist
+     rt$accuracy_song[i] <- s$accuracy_song
+
+     rt$music_frequency[i]<- music_preferences$music_frequency[which(music_preferences$subject== rt$subject[i])]
+    
+  }
+  
+  
+  
+}
 
 
 
