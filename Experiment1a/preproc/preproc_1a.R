@@ -362,7 +362,12 @@ for(i in 1:nrow(rt)){
   
 }
 
-
+rt$new_time<- NULL
+rt$block_start<- NULL
+#rt$t_since_block<- NULL
+rt$first<- NULL
+rt$second<- NULL
+rt$third<- NULL
 
 
 #### save RT & accuracy data:

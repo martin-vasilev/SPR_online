@@ -385,8 +385,6 @@
 13,9,NA,"A",1,7032,"instrumental","response","FALSE","FALSE","University pool",2
 13,15,NA,"A",0,2072,"instrumental","response","TRUE","FALSE","University pool",1
 13,15,NA,"A",0,3193,"instrumental","response","FALSE","TRUE","University pool",2
-13,12,NA,"A",1,1668.00000000012,"instrumental","response","FALSE","FALSE","University pool",1
-13,12,NA,"A",1,1585,"instrumental","response","TRUE","TRUE","University pool",2
 13,3,NA,"A",1,2061,"instrumental","response","TRUE","TRUE","University pool",1
 13,3,NA,"A",0,1560,"instrumental","response","TRUE","FALSE","University pool",2
 14,10,NA,"A",1,5975.0510000044,"silence","response","TRUE","TRUE","University pool",1
@@ -1671,8 +1669,6 @@
 56,2,NA,"D",1,3421.77799980808,"lyrical","response","FALSE","FALSE","University pool",2
 56,12,NA,"D",1,2170.14499985229,"instrumental","response","FALSE","FALSE","University pool",1
 56,12,NA,"D",0,1377.3719999051,"instrumental","response","FALSE","TRUE","University pool",2
-56,6,NA,"D",0,2216.50800007,"instrumental","response","FALSE","TRUE","University pool",1
-56,6,NA,"D",1,533.150999894133,"instrumental","response","FALSE","FALSE","University pool",2
 56,9,NA,"D",1,2691.10899992543,"instrumental","response","FALSE","FALSE","University pool",1
 56,9,NA,"D",0,2313.81600003899,"instrumental","response","TRUE","FALSE","University pool",2
 56,3,NA,"D",0,1548.86100004683,"instrumental","response","FALSE","TRUE","University pool",1
@@ -1805,8 +1801,6 @@
 61,13,NA,"D",1,2725.05499999982,"silence","response","TRUE","TRUE","University pool",2
 61,7,NA,"D",1,3569.00299999997,"silence","response","FALSE","FALSE","University pool",1
 61,7,NA,"D",1,2864.37199999986,"silence","response","TRUE","TRUE","University pool",2
-61,10,NA,"D",1,6672.40299999999,"silence","response","TRUE","TRUE","University pool",1
-61,10,NA,"D",1,2260.60399999988,"silence","response","TRUE","TRUE","University pool",2
 61,4,NA,"D",0,2355.69100000005,"silence","response","TRUE","FALSE","University pool",1
 61,4,NA,"D",1,2871.21899999992,"silence","response","TRUE","TRUE","University pool",2
 61,2,NA,"D",0,2515.38699999993,"lyrical","response","TRUE","FALSE","University pool",1
@@ -3889,8 +3883,6 @@
 130,14,NA,"B",1,3773.74699999875,"instrumental","response","FALSE","FALSE","Prolific",2
 130,11,NA,"B",1,2089.00700000161,"instrumental","response","FALSE","FALSE","Prolific",1
 130,11,NA,"B",0,1724.25300000148,"instrumental","response","TRUE","FALSE","Prolific",2
-130,12,NA,"B",1,1262.51100000122,"silence","response","FALSE","FALSE","Prolific",1
-130,12,NA,"B",1,1011.66200000141,"silence","response","TRUE","TRUE","Prolific",2
 130,6,NA,"B",0,1851.86900000146,"silence","response","FALSE","TRUE","Prolific",1
 130,6,NA,"B",0,1065.68100000056,"silence","response","TRUE","FALSE","Prolific",2
 130,3,NA,"B",1,1741.22700000007,"silence","response","TRUE","TRUE","Prolific",1
@@ -4371,8 +4363,6 @@
 146,8,NA,"C",1,2127.17400000186,"silence","response","TRUE","TRUE","Prolific",2
 146,12,NA,"C",1,1687.63300000341,"lyrical","response","FALSE","FALSE","Prolific",1
 146,12,NA,"C",1,3290.27000000107,"lyrical","response","TRUE","TRUE","Prolific",2
-146,3,NA,"C",1,2455.89200000325,"lyrical","response","TRUE","TRUE","Prolific",1
-146,3,NA,"C",1,1879.70300000091,"lyrical","response","FALSE","FALSE","Prolific",2
 146,9,NA,"C",1,2670.13500000199,"lyrical","response","FALSE","FALSE","Prolific",1
 146,9,NA,"C",1,2248.6430000012,"lyrical","response","FALSE","FALSE","Prolific",2
 146,6,NA,"C",1,2087.68100000056,"lyrical","response","TRUE","TRUE","Prolific",1

@@ -128,5 +128,13 @@ GM1<- brm(formula = accuracy ~ sound + (sound|subject)+ (1|item), data = q, fami
                      set_prior('normal(0, 2)', class = 'Intercept')))
 
 A= print(GM1, digits=3)
+save(BM, file= "power/BM.Rda")
 
+# sound effect 1:
+BF2_sound1 = hypothesis(GM1, hypothesis = 'sound.instr_vs_slc = 0', seed= 1234)  # H0: No  slc vs instr difference
+(BFQ1= 1/BF2_sound1$hypothesis$Evid.Ratio)
+
+# sound effect 2:
+BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  # H0: No  lyr vs instr difference
+(BFQ2= 1/BF2_sound2$hypothesis$Evid.Ratio)
 
