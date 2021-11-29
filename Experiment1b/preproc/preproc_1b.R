@@ -122,11 +122,11 @@ for(i in 1:length(nsubs)){
 }
 
 # remove identified trials:
-# rt<- rt[-which(rt$subject==13 & rt$item==12),]
-# q<- q[-which(q$subject==13 & q$item==12),]
-# 
-# rt<- rt[-which(rt$subject==56 & rt$item==6),]
-# q<- q[-which(q$subject==56 & q$item==6),]
+rt<- rt[-which(rt$subject==82 & rt$item==10),]
+q<- q[-which(q$subject== 82 & q$item==10),]
+
+rt<- rt[-which(rt$subject==96 & rt$item==3),]
+q<- q[-which(q$subject==96 & q$item==3),]
 # 
 # rt<- rt[-which(rt$subject==61 & rt$item==10),]
 # q<- q[-which(q$subject==61 & q$item==10),]
