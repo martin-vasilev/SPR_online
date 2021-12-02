@@ -60,6 +60,8 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
 
 
 dem$list[which(dem$list=="FALSE")]= "F"
+table(dem$list)
+
 
 write.csv(dem, "Experiment1b/data/participant_data.csv", row.names = F) # save device info
 
