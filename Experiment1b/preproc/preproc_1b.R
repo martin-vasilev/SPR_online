@@ -124,11 +124,11 @@ for(i in 1:length(nsubs)){
 }
 
 # remove identified trials:
-rt<- rt[-which(rt$subject==82 & rt$item==10),]
-q<- q[-which(q$subject== 82 & q$item==10),]
+rt<- rt[-which(rt$subject==117 & rt$item==10),]
+q<- q[-which(q$subject== 117 & q$item==10),]
 
-rt<- rt[-which(rt$subject==96 & rt$item==3),]
-q<- q[-which(q$subject==96 & q$item==3),]
+rt<- rt[-which(rt$subject==145 & rt$item==3),]
+q<- q[-which(q$subject==145 & q$item==3),]
 # 
 # rt<- rt[-which(rt$subject==61 & rt$item==10),]
 # q<- q[-which(q$subject==61 & q$item==10),]
@@ -304,8 +304,6 @@ trial_time<- trial_time[, c("subject", "sender", "duration", "Pool"),]
 table(dem$list)
 table(q$item, q$sound)
 table(rt$item, rt$sound)
-
-
 
 
 # hist(ratings$familiarity, breaks= 10)
