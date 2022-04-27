@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_
 
 library(readr)
 
-files<- list.files("Experiment3/data/raw") # get all available files in directory
-files<-paste("Experiment3/data/raw/", files, sep= '') # paste full root link
+files<- list.files("Experiment3/data/test") # get all available files in directory
+files<-paste("Experiment3/data/test/", files, sep= '') # paste full root link
 
 dat<- NULL
 
@@ -29,7 +29,7 @@ for(i in 1:length(files)){ # for each participant file..
   trap<- subset(t, sender== "trap_trial")
   
   trap$accuracy<- ifelse(trap$correct== "true", 1, 0)
-  t$trap_accuracy<- sum(trap$accuracy)/4
+  t$trap_accuracy<- sum(trap$accuracy)/5
   
   
   q1<- subset(t, sender== "Question 1")
@@ -45,6 +45,8 @@ for(i in 1:length(files)){ # for each participant file..
   
 }
 
+prolific_ID<- subset(dat, sender== "Prolific ID")
+prolific_ID<- prolific_ID$Prolific_id
 
 ### DEMOGRAPHIC DATA:
 d<- subset(dat, sender== "Demography form") # extract demographic data
@@ -56,6 +58,7 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
                  "trap_accuracy"= d$trap_accuracy,
                  "honesty"= honesty$response,
                  "subject_pool"= d$Pool,
+                 "prolific_ID"= prolific_ID,
                  "filename"= d$filename) # only info we need
 
 
@@ -84,6 +87,16 @@ q$item_quest<- rep(c(1,2), nrow(q)/2)
 q$list[which(q$list=="FALSE")]= "F"
 
 q<- subset(q, item<90) # remove practice
+
+library(reshape)
+
+Desq<- melt(q, id=c('subject', 'sound'), 
+            measure=c('accuracy'), na.rm=TRUE)
+Qsub<- cast(Desq, subject ~ variable
+            ,function(x) c(M=signif(mean(x),3)
+                           , SD= sd(x) ))
+
+Qsub<- Qsub[order(Qsub$accuracy_M),]
 
 write.csv(q, "Experiment3/data/question_accuracy.csv", row.names = F) # save accuracy data
 
@@ -163,7 +176,7 @@ sort(a)
 
 rt$log_duration<- log(rt$duration) # add log-transform
 
-write.csv(rt, "Experiment1b/data/reaction_time.csv", row.names = F) # save accuracy data
+write.csv(rt, "Experiment3/data/reaction_time.csv", row.names = F) # save accuracy data
 
 
 ### MUSIC RATING DATA:
