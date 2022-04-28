@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_
 
 library(readr)
 
-files<- list.files("Experiment3/data/raw") # get all available files in directory
-files<-paste("Experiment3/data/raw/", files, sep= '') # paste full root link
+files<- list.files("Experiment3/data/test") # get all available files in directory
+files<-paste("Experiment3/data/test/", files, sep= '') # paste full root link
 
 dat<- NULL
 
@@ -84,6 +84,9 @@ q$item_quest<- rep(c(1,2), nrow(q)/2)
 q$list[which(q$list=="FALSE")]= "F"
 
 q<- subset(q, item<90) # remove practice
+
+a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
+a$x
 
 write.csv(q, "Experiment3/data/question_accuracy.csv", row.names = F) # save accuracy data
 
