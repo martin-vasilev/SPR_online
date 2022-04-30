@@ -71,6 +71,15 @@ aggregate(q$accuracy, by= list(q$sound), FUN= function(x) c(mean = mean(x, na.rm
                                                               sd = sd(x, na.rm=T) ))
 
 
+Desq<- melt(q, id=c('subject', 'sound'), 
+            measure=c('accuracy'), na.rm=TRUE)
+Qsub<- cast(Desq, subject ~ variable
+            ,function(x) c(M=signif(mean(x),3)
+                           , SD= sd(x) ))
+
+Qsub<- Qsub[order(Qsub$accuracy_M),]
+
+
 ## Main model with RT data:
 if(!file.exists("Experiment1a/models/LM1.Rda")){
   summary(LM1<- lmer(log_duration ~ sound+ (sound|subject)+ (1|item), data = rt, REML = T))
