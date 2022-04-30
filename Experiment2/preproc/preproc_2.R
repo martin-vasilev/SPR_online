@@ -193,7 +193,7 @@ for(i in 1:length(nsubs)){
 # rt<- rt[-which(rt$subject==146 & rt$item==3),]
 # q<- q[-which(q$subject==146 & q$item==3),]
 # 
-# rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
+ rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
 
 
 # check remaining percentage of observations per subject:

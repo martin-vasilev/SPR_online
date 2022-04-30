@@ -37,6 +37,9 @@ q$sound<- as.factor(q$sound)
 q$sound<- factor(q$sound, levels= c( "silence", "instrumental", "lyrical"))
 levels(q$sound)
 
+# accuracy by participant:
+a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
+a= a$x
 
 ## successive differences contrast:
 cmat<- contr.sdif(3)
@@ -56,6 +59,7 @@ aggregate(rt$duration, by= list(rt$sound), FUN= function(x) c(mean = mean(x, na.
 aggregate(q$accuracy, by= list(q$sound), FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                               sd = sd(x, na.rm=T) ))
 
+<<<<<<< HEAD
 Desq<- melt(q, id=c('subject', 'sound'), 
                 measure=c('accuracy'), na.rm=TRUE)
 Qsub<- cast(Desq, subject ~ variable
@@ -63,6 +67,11 @@ Qsub<- cast(Desq, subject ~ variable
                              , SD= sd(x) ))
 
 Qsub<- Qsub[order(Qsub$accuracy_M),]
+=======
+# accuracy by participant:
+a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
+a= a$x
+>>>>>>> 89a36db13a9d4d5f9f8ade4a94a9317c7608f893
 
 
 ## Main model with RT data:

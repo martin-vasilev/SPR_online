@@ -88,6 +88,9 @@ q$list[which(q$list=="FALSE")]= "F"
 
 q<- subset(q, item<90) # remove practice
 
+a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
+a$x
+
 library(reshape)
 
 Desq<- melt(q, id=c('subject', 'sound'), 
@@ -97,6 +100,7 @@ Qsub<- cast(Desq, subject ~ variable
                            , SD= sd(x) ))
 
 Qsub<- Qsub[order(Qsub$accuracy_M),]
+
 
 write.csv(q, "Experiment3/data/question_accuracy.csv", row.names = F) # save accuracy data
 

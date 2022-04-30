@@ -69,7 +69,9 @@ aggregate(rt$duration, by= list(rt$sound), FUN= function(x) c(mean = mean(x, na.
 
 aggregate(q$accuracy, by= list(q$sound), FUN= function(x) c(mean = mean(x, na.rm= T), 
                                                               sd = sd(x, na.rm=T) ))
-
+# accuracy by participant:
+a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
+a= a$x
 
 Desq<- melt(q, id=c('subject', 'sound'), 
             measure=c('accuracy'), na.rm=TRUE)
