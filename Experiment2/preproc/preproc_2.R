@@ -178,21 +178,24 @@ for(i in 1:length(nsubs)){
 }
 
 # remove identified trials:
-# rt<- rt[-which(rt$subject==13 & rt$item==12),]
-# q<- q[-which(q$subject==13 & q$item==12),]
-# 
-# rt<- rt[-which(rt$subject==56 & rt$item==6),]
-# q<- q[-which(q$subject==56 & q$item==6),]
-# 
-# rt<- rt[-which(rt$subject==61 & rt$item==10),]
-# q<- q[-which(q$subject==61 & q$item==10),]
-# 
-# rt<- rt[-which(rt$subject==130 & rt$item==12),]
-# q<- q[-which(q$subject==130 & q$item==12),]
-# 
-# rt<- rt[-which(rt$subject==146 & rt$item==3),]
-# q<- q[-which(q$subject==146 & q$item==3),]
-# 
+rt<- rt[-which(rt$subject==20 & rt$item==13),]
+q<- q[-which(q$subject==20 & q$item==13),]
+
+rt<- rt[-which(rt$subject==34 & rt$item==8),]
+q<- q[-which(q$subject==34 & q$item==8),]
+ 
+rt<- rt[-which(rt$subject==62 & rt$item==8),]
+q<- q[-which(q$subject==62 & q$item==8),]
+
+rt<- rt[-which(rt$subject==180 & rt$item==4),]
+q<- q[-which(q$subject==180 & q$item==4),]
+
+rt<- rt[-which(rt$subject==180 & rt$item==8),]
+q<- q[-which(q$subject==180 & q$item==8),]
+
+rt<- rt[-which(rt$subject==180 & rt$item==15),]
+q<- q[-which(q$subject==180 & q$item==15),]
+ 
  rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
 
 
