@@ -31,17 +31,17 @@ q <- read_csv("Experiment3/data/question_accuracy.csv")
 
 # set up contrast coding:
 rt$sound<- as.factor(rt$sound)
-rt$sound<- factor(rt$sound, levels= c( "silence", "instrumental", "lyrical"))
+rt$sound<- factor(rt$sound, levels= c( "silence", "instrumental", "lyrical", 'speech'))
 levels(rt$sound)
 
 q$sound<- as.factor(q$sound)
-q$sound<- factor(q$sound, levels= c( "silence", "instrumental", "lyrical"))
+q$sound<- factor(q$sound, levels= c( "silence", "instrumental", "lyrical", 'speech'))
 levels(q$sound)
 
 
 ## successive differences contrast:
-cmat<- contr.sdif(3)
-colnames(cmat)<- c(".instr_vs_slc", ".lyr_vs_instr")
+cmat<- contr.sdif(4)
+colnames(cmat)<- c(".instr_vs_slc", ".lyr_vs_instr", "speech_vs_instr")
 
 contrasts(rt$sound)<- cmat 
 contrasts(rt$sound)
@@ -65,3 +65,11 @@ Qsub<- cast(Desq, subject ~ variable
                            , SD= sd(x) ))
 
 Qsub<- Qsub[order(Qsub$accuracy_M),]
+
+
+summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = rt, REML = T))
+
+
+library(effects)
+plot(effect('sound', LM1))
+effect('sound', LM1)
