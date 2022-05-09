@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_
 
 library(readr)
 
-files<- list.files("Experiment3/data/test") # get all available files in directory
-files<-paste("Experiment3/data/test/", files, sep= '') # paste full root link
+files<- list.files("Experiment3/data/raw") # get all available files in directory
+files<-paste("Experiment3/data/raw/", files, sep= '') # paste full root link
 
 dat<- NULL
 
@@ -169,7 +169,7 @@ for(i in 1:length(nsubs)){
   
   n<- subset(rt, subject== nsubs[i])
 
-  remain<- round((nrow(n)/ (801-15))*100,1)
+  remain<- round((nrow(n)/ (1049-15))*100,1)
   a<- c(a, remain)
   
   cat(sprintf("Subject %g:  %g percent \n", nsubs[i], remain))
