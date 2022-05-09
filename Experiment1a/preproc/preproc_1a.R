@@ -138,7 +138,8 @@ q$item_quest<- rep(c(1,2), nrow(q)/2)
 q$list[which(q$list=="FALSE")]= "F"
 
 q<- subset(q, item<20) # remove practice
-
+a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
+a$x
 
 
 ### REACTION TIME DATA:
@@ -177,20 +178,18 @@ for(i in 1:length(nsubs)){
 }
 
 # remove identified trials:
-rt<- rt[-which(rt$subject==13 & rt$item==12),]
-q<- q[-which(q$subject==13 & q$item==12),]
+rt<- rt[-which(rt$subject==12 & rt$item==12),]
+q<- q[-which(q$subject==12 & q$item==12),]
 
-rt<- rt[-which(rt$subject==56 & rt$item==6),]
-q<- q[-which(q$subject==56 & q$item==6),]
-
-rt<- rt[-which(rt$subject==61 & rt$item==10),]
-q<- q[-which(q$subject==61 & q$item==10),]
+rt<- rt[-which(rt$subject==60 & rt$item==10),]
+q<- q[-which(q$subject==60 & q$item==10),]
 
 rt<- rt[-which(rt$subject==130 & rt$item==12),]
 q<- q[-which(q$subject==130 & q$item==12),]
 
 rt<- rt[-which(rt$subject==146 & rt$item==3),]
 q<- q[-which(q$subject==146 & q$item==3),]
+
 
 rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
 
