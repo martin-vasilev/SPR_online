@@ -51,7 +51,7 @@ for(i in 1:length(files)){ # for each participant file..
   
   string_file<-substr(x= files[i], start = 23, stop = 30) 
   
-  t$Pool<- ifelse(string_file== "PROLIFIC", "Prolific", "University pool")
+  t$Pool<- "Prolific "#ifelse(string_file== "PROLIFIC", "Prolific", "University pool")
   
   t$filename<- files[i]
   

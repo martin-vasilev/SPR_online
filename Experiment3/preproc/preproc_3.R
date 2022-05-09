@@ -57,7 +57,7 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
                  "experiment_time"= d$exp_time,
                  "trap_accuracy"= d$trap_accuracy,
                  "honesty"= honesty$response,
-                 "subject_pool"= d$Pool,
+                 "subject_pool"= "Prolific",
                  "prolific_ID"= prolific_ID,
                  "filename"= d$filename) # only info we need
 
