@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_
 
 library(readr)
 
-files<- list.files("Experiment3/data/raw") # get all available files in directory
-files<-paste("Experiment3/data/raw/", files, sep= '') # paste full root link
+files<- list.files("Experiment3/data/test") # get all available files in directory
+files<-paste("Experiment3/data/test/", files, sep= '') # paste full root link
 
 dat<- NULL
 

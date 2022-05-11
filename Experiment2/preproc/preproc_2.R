@@ -140,6 +140,19 @@ q$list[which(q$list=="FALSE")]= "F"
 
 q<- subset(q, item<20) # remove practice
 
+a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
+a$x
+
+library(reshape)
+
+Desq<- melt(q, id=c('subject', 'sound'), 
+            measure=c('accuracy'), na.rm=TRUE)
+Qsub<- cast(Desq, subject ~ variable
+            ,function(x) c(M=signif(mean(x),3)
+                           , SD= sd(x) ))
+
+Qsub<- Qsub[order(Qsub$accuracy_M),]
+
 
 
 ### REACTION TIME DATA:
