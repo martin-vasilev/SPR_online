@@ -200,16 +200,8 @@ q<- q[-which(q$subject==34 & q$item==8),]
 rt<- rt[-which(rt$subject==62 & rt$item==8),]
 q<- q[-which(q$subject==62 & q$item==8),]
 
-rt<- rt[-which(rt$subject==180 & rt$item==4),]
-q<- q[-which(q$subject==180 & q$item==4),]
-
-rt<- rt[-which(rt$subject==180 & rt$item==8),]
-q<- q[-which(q$subject==180 & q$item==8),]
-
-rt<- rt[-which(rt$subject==180 & rt$item==15),]
-q<- q[-which(q$subject==180 & q$item==15),]
  
- rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
+rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
 
 
 # check remaining percentage of observations per subject:
