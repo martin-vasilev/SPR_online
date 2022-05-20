@@ -7,8 +7,8 @@ source("https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/LabJs_
 
 library(readr)
 
-files<- list.files("Experiment3/data/test") # get all available files in directory
-files<-paste("Experiment3/data/test/", files, sep= '') # paste full root link
+files<- list.files("Experiment3/data/raw") # get all available files in directory
+files<-paste("Experiment3/data/raw/", files, sep= '') # paste full root link
 
 dat<- NULL
 
@@ -141,20 +141,20 @@ for(i in 1:length(nsubs)){
 }
 
 # remove identified trials:
-rt<- rt[-which(rt$subject==117 & rt$item==10),]
-q<- q[-which(q$subject== 117 & q$item==10),]
+rt<- rt[-which(rt$subject==39 & rt$item==1),]
+q<- q[-which(q$subject== 39 & q$item==1),]
 
-rt<- rt[-which(rt$subject==145 & rt$item==3),]
-q<- q[-which(q$subject==145 & q$item==3),]
-# 
-# rt<- rt[-which(rt$subject==61 & rt$item==10),]
-# q<- q[-which(q$subject==61 & q$item==10),]
-# 
-# rt<- rt[-which(rt$subject==130 & rt$item==12),]
-# q<- q[-which(q$subject==130 & q$item==12),]
-# 
-# rt<- rt[-which(rt$subject==146 & rt$item==3),]
-# q<- q[-which(q$subject==146 & q$item==3),]
+rt<- rt[-which(rt$subject==70 & rt$item==3),]
+q<- q[-which(q$subject==70 & q$item==3),]
+
+rt<- rt[-which(rt$subject==122 & rt$item==16),]
+q<- q[-which(q$subject==122 & q$item==16),]
+
+rt<- rt[-which(rt$subject==145 & rt$item==9),]
+q<- q[-which(q$subject==145 & q$item==9),]
+
+rt<- rt[-which(rt$subject==173 & rt$item==16),]
+q<- q[-which(q$subject==173 & q$item==16),]
 
 rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
 
