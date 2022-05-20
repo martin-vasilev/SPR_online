@@ -69,6 +69,10 @@ Qsub<- Qsub[order(Qsub$accuracy_M),]
 
 summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = rt, REML = T))
 
+library(emmeans)
+
+EM<- emmeans(LM1, pairwise ~ sound)
+
 
 library(effects)
 plot(effect('sound', LM1))
