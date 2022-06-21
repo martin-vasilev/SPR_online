@@ -41,6 +41,14 @@ levels(q$sound)
 a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
 a= a$x
 
+Desq<- melt(q, id=c('subject', 'sound'), 
+            measure=c('accuracy'), na.rm=TRUE)
+Qsub<- cast(Desq, subject ~ variable
+            ,function(x) c(M=signif(mean(x),3)
+                           , SD= sd(x) ))
+
+Qsub<- Qsub[order(Qsub$accuracy_M),]
+
 ## successive differences contrast:
 cmat<- contr.sdif(3)
 colnames(cmat)<- c(".instr_vs_slc", ".lyr_vs_instr")
