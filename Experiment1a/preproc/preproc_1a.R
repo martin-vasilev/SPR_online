@@ -177,6 +177,8 @@ for(i in 1:length(nsubs)){
   
 }
 
+nstart<- nrow(rt)
+
 # remove identified trials:
 rt<- rt[-which(rt$subject==12 & rt$item==12),]
 q<- q[-which(q$subject==12 & q$item==12),]
@@ -190,9 +192,18 @@ q<- q[-which(q$subject==130 & q$item==12),]
 rt<- rt[-which(rt$subject==146 & rt$item==3),]
 q<- q[-which(q$subject==146 & q$item==3),]
 
+ntrials<- nrow(rt)
+
+cat(sprintf("Trial data loss %g percent", ((nstart- ntrials)/nstart)*100))
+
 
 rt<- rt[which(rt$duration>100 & rt$duration<5000), ] # remove RT outliers (pre-reg)
 
+noutliers<- nrow(rt)
+
+cat(sprintf("Outlier data loss %g percent", ((nstart- noutliers)/nstart)*100))
+
+cat(sprintf(" %g percent data left", ((nrow(rt)/nstart)*100))) 
 
 # check remaining percentage of observations per subject:
 
