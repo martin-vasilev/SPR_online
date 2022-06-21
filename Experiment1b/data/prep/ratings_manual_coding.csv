@@ -1,0 +1,1225 @@
+subject;list;music;song_number;music_set;snippet_file;Pool;familiarity;preference;pleasantness;offensiveness;distraction;actual_artist;artist_name;accuracy_artist;actual_song_name;song_name;accuracy_song
+1;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;6;1;4;Eminem;Eminem;1;The way I am;;0
+1;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;3;1;2;1;4;Post Malone;;0;WoW;;0
+1;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;9;7;1;4;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;fly;1
+1;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;7;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+1;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;6;5;5;1;4;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+1;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;6;5;1;4;Outkast;;0;Ms. Jackson;sorry ms jackson;1
+2;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;5;3;1;6;Eminem;Eminem ;1;The way I am;;0
+2;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;5;6;1;1;Post Malone;;0;WoW;;0
+2;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;7;NA;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+2;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;8;1;8;Jessie J (feat. B.o.B);;0;Price tag;;0
+2;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;5;5;1;6;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+2;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;3;1;1;8;Outkast;;0;Ms. Jackson;;0
+3;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;2;2;2;7;Eminem;;0;The way I am;;0
+3;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;9;7;2;6;Post Malone;;0;WoW;;0
+3;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;7;7;1;5;Nicki Minaj (feat. Rihanna);Jessie J;0;Fly;fly;1
+3;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;7;7;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+3;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;8;7;2;7;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+3;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;9;1;8;Outkast;;0;Ms. Jackson;Miss Jackson;1
+4;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;7;6;2;9;Eminem;Eminem;1;The way I am;N/A;0
+4;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;6;Post Malone;Post malone;1;WoW;Wow;1
+4;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;5;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+4;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;8;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+4;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+4;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;7;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+5;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;8;9;1;7;Eminem;Eminem;1;The way I am;N/A;0
+5;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;1;1;3;1;7;Post Malone;Post malone;1;WoW;N/A;0
+5;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;3;2;4;1;9;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+5;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;5;5;1;1;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+5;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;1;1;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+5;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;1;1;1;4;Outkast;Outkast;1;Ms. Jackson;N/A;0
+6;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;5;4;1;7;Eminem;Eminem;1;The way I am;;0
+6;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;2;2;3;1;7;Post Malone;Outkast;0;WoW;;0
+6;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;5;5;1;6;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+6;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;7;3;4;1;4;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+6;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;3;3;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azalea/Charlie XCX;1;Fancy;Fancy;1
+6;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;8;1;6;Outkast;;0;Ms. Jackson;Ms. Jackson;1
+7;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;4;7;1;9;Eminem;Eminem;1;The way I am;;0
+7;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;5;10;1;9;Post Malone;Post Malone;1;WoW;fly;0
+7;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;10;1;10;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;fly;1
+7;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;2;5;1;4;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+7;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;2;2;1;4;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+7;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;3;5;1;3;Outkast;Outcast;1;Ms. Jackson;Miss Jackson;1
+8;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;4;4;3;10;Eminem;Eminem;1;The way I am;;0
+8;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;2;8;Post Malone;Post Malone;1;WoW;Wow;1
+8;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;6;7;1;7;Nicki Minaj (feat. Rihanna);rhianna;1;Fly;fly;1
+8;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;6;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+8;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;5;5;9;Iggy Azalea (ft. Charli XCX);Iggy Azaelea;1;Fancy;Fancy;1
+8;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;5;4;5;2;6;Outkast;;0;Ms. Jackson;;0
+9;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;5;5;1;10;Eminem;Eminem;1;The way I am;;0
+9;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;8;1;5;Post Malone;Post Malone;1;WoW;Wow;1
+9;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;8;1;6;Nicki Minaj (feat. Rihanna);Rihanna and Nicki Minaj;1;Fly;Fly;1
+9;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;4;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+9;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;7;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azealez and Charlie XCX;1;Fancy;Fancy;1
+9;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;4;Outkast;;0;Ms. Jackson;Ms Jackson;1
+10;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;2;4;5;1;9;Eminem;Eminem;1;The way I am;Fly;0
+10;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;8;7;8;1;5;Post Malone;Post malone;1;WoW;Wow;1
+10;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;5;5;1;4;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+10;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;5;6;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+10;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;4;4;1;6;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+10;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;9;1;7;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+11;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;8;5;2;7;Eminem;Eminem;1;The way I am;;0
+11;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;8;7;7;1;6;Post Malone;Post Malone;1;WoW;;0
+11;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;3;5;1;3;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+11;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;5;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+11;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;7;3;4;1;4;Iggy Azalea (ft. Charli XCX);Charlie XCX;1;Fancy;Fancy;1
+11;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;6;4;3;4;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+12;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;7;6;1;8;Eminem;eminem;1;The way I am;???;0
+12;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;7;8;7;1;3;Post Malone;post malone;1;WoW;???;0
+12;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;1;Nicki Minaj (feat. Rihanna);rihanna;1;Fly;;0
+12;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;5;7;1;2;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+12;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;5;1;7;Iggy Azalea (ft. Charli XCX);iggy ;1;Fancy;fancy;1
+12;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;1;Outkast;outkast;1;Ms. Jackson;ms jackson ;1
+13;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;9;8;7;1;8;Eminem;Eminem;1;The way I am;N/A;0
+13;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;9;Post Malone;Post malone;1;WoW;Wow;1
+13;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;10;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+13;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;9;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+13;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;8;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+13;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;10;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+14;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;5;4;NA;8;Eminem;Eminem;1;The way I am;;0
+14;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;1;9;Post Malone;Post Malone;1;WoW;wow;1
+14;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;7;7;1;8;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+14;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;3;3;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+14;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;8;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azealia;1;Fancy;Fancy;1
+14;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;5;5;5;1;6;Outkast;;0;Ms. Jackson;;0
+15;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;10;1;10;Eminem;Eminem;1;The way I am;The way I am;1
+15;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;10;Post Malone;Post Malone;1;WoW;Wow!;1
+15;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;6;8;1;7;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;Fly;1
+15;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;3;5;1;3;Jessie J (feat. B.o.B);Jessie J, BOB;1;Price tag;Price tag;1
+15;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;9;9;1;3;Iggy Azalea (ft. Charli XCX);Iggy Azelea, Charli XCX;1;Fancy;Fancy;1
+15;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;7;8;1;3;Outkast;;0;Ms. Jackson;Ms Jackson;1
+16;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;5;7;1;9;Eminem;Eminem;1;The way I am;;0
+16;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;9;1;3;Post Malone;;0;WoW;;0
+16;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;1;2;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+16;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;6;1;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+16;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+16;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;1;Outkast;OutKast;1;Ms. Jackson;Ms Jackson;1
+17;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;8;6;4;9;Eminem;eminem;1;The way I am;;0
+17;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;7;2;8;Post Malone;post malone;1;WoW;wow;1
+17;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;5;5;1;5;Nicki Minaj (feat. Rihanna);little mix;0;Fly;;0
+17;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;5;1;7;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+17;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;7;2;8;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;fancy;1
+17;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;9;9;1;8;Outkast;outkast;1;Ms. Jackson;mrs jackson;1
+18;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;3;2;2;9;Eminem;;0;The way I am;;0
+18;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;5;5;5;4;5;Post Malone;;0;WoW;;0
+18;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;6;10;1;6;Nicki Minaj (feat. Rihanna);FEATURTNG CARDI B;0;Fly;FLY;1
+18;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;8;1;4;Jessie J (feat. B.o.B);JESSI J;1;Price tag;PRICE TAG;1
+18;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;5;6;4;6;Iggy Azalea (ft. Charli XCX);IGGY;1;Fancy;FANCY;1
+18;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;7;6;6;1;4;Outkast;;0;Ms. Jackson;;0
+19;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;6;6;6;10;Eminem;Eminem;1;The way I am;;0
+19;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;8;5;5;6;10;Post Malone;;0;WoW;;0
+19;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;9;1;10;Nicki Minaj (feat. Rihanna);Rhianna;1;Fly;Fly;1
+19;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;8;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+19;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;9;9;3;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+19;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;2;5;8;1;4;Outkast;;0;Ms. Jackson;;0
+20;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;8;8;3;5;Eminem;No;0;The way I am;No;0
+20;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;3;5;Post Malone;No;0;WoW;No;0
+20;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;2;Nicki Minaj (feat. Rihanna);No;0;Fly;No;0
+20;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+20;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;9;9;3;4;Iggy Azalea (ft. Charli XCX);Iggy Azela;1;Fancy;Problem;0
+20;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;8;8;2;3;Outkast;No;0;Ms. Jackson;No;0
+21;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;5;6;1;10;Eminem;eminem ;1;The way I am;;0
+21;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;7;1;10;Post Malone;;0;WoW;wow;1
+21;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;3;3;1;9;Nicki Minaj (feat. Rihanna);rihanna;1;Fly;;0
+21;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;2;1;2;1;8;Jessie J (feat. B.o.B);;0;Price tag;;0
+21;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;2;3;6;1;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+21;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;2;2;1;10;Outkast;;0;Ms. Jackson;;0
+22;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;5;6;10;Eminem;Eminem;1;The way I am;N/A;0
+22;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;7;1;7;Post Malone;Post malone;1;WoW;wow;1
+22;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;4;Nicki Minaj (feat. Rihanna);Rhianna;1;Fly;fly;1
+22;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;8;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+22;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;8;1;4;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+22;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;2;3;Outkast;Outcast!;1;Ms. Jackson;Mrs Jackson;1
+23;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;6;4;6;10;Eminem;Eminem;1;The way I am;NA;0
+23;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;1;2;1;2;10;Post Malone;;0;WoW;NA;0
+23;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;2;2;2;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;NA;0
+23;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;9;1;3;Jessie J (feat. B.o.B);;0;Price tag;NA;0
+23;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;3;2;2;2;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;NA;0
+23;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;5;4;2;1;7;Outkast;;0;Ms. Jackson;NA;0
+24;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;10;1;8;Eminem;eminem;1;The way I am;without me;0
+24;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;5;Post Malone;post malone;1;WoW;wow;1
+24;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;4;Nicki Minaj (feat. Rihanna);nicki minaj;1;Fly;fly;1
+24;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;10;1;5;Jessie J (feat. B.o.B);jessie jay;1;Price tag;price tag;1
+24;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;1;10;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;fancy;1
+24;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;NA;10;1;10;Outkast;outkast;1;Ms. Jackson;ms. jackson;1
+25;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;3;3;1;NA;Eminem;Eminem;1;The way I am;;0
+25;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;3;Post Malone;Post Malone;1;WoW;WOW;1
+25;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;3;Nicki Minaj (feat. Rihanna);Rhianna and nicki manaj;1;Fly;Fly;1
+25;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Jessie J (feat. B.o.B);;0;Price tag;;0
+25;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;5;1;3;Iggy Azalea (ft. Charli XCX);Iggy ;1;Fancy;;0
+25;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;3;Outkast;;0;Ms. Jackson;Mrs Jackson;1
+26;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;8;9;1;9;Eminem;emimim;1;The way I am;;0
+26;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;2;9;8;1;8;Post Malone;;0;WoW;;0
+26;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;5;8;8;1;7;Nicki Minaj (feat. Rihanna);rihanna;1;Fly;;0
+26;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;7;7;1;9;Jessie J (feat. B.o.B);Jessie j;1;Price tag;price tag;1
+26;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;7;8;1;10;Iggy Azalea (ft. Charli XCX);Iggy alzela ft charlie xcx;1;Fancy;fancy;1
+26;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;4;6;1;9;Outkast;;0;Ms. Jackson;;0
+27;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;1;4;1;10;Eminem;;0;The way I am;NA;0
+27;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;6;1;6;Post Malone;post malone;1;WoW;NA;0
+27;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;10;1;1;Nicki Minaj (feat. Rihanna);rhianna;1;Fly;NA;0
+27;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;1;1;4;1;1;Jessie J (feat. B.o.B);;0;Price tag;NA;0
+27;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;3;3;1;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;NA;0
+27;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;8;1;4;Outkast;;0;Ms. Jackson;NA;0
+28;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;1;1;3;9;Eminem;eminem ;1;The way I am;NA;0
+28;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;2;6;Post Malone;;0;WoW;NA;0
+28;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;NA;0
+28;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;3;1;2;Jessie J (feat. B.o.B);;0;Price tag;NA;0
+28;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;2;4;Iggy Azalea (ft. Charli XCX);;0;Fancy;NA;0
+28;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;6;6;2;4;Outkast;;0;Ms. Jackson;NA;0
+29;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;6;2;7;Eminem;Eninem;1;The way I am;I am ;1
+29;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;4;2;3;7;Post Malone;;0;WoW;wow;1
+29;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;5;2;1;7;Nicki Minaj (feat. Rihanna);Rihanna and Nikki Minaj;1;Fly;To conquer;0
+29;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;8;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+29;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;4;2;1;7;Iggy Azalea (ft. Charli XCX);Charlie xcx and ;1;Fancy;Fancy;1
+29;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;9;7;1;7;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+30;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;8;8;1;5;Eminem;Eminem;1;The way I am;say i am;1
+30;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;8;1;7;Post Malone;Post Malone;1;WoW;Wow;1
+30;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;5;6;1;2;Nicki Minaj (feat. Rihanna);beyonce;0;Fly;;0
+30;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;6;5;1;2;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+30;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;5;5;1;3;Iggy Azalea (ft. Charli XCX);iggy izalea;1;Fancy;fancy;1
+30;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;7;Outkast;Outcast Andre 3000 ;1;Ms. Jackson;Ms Jackson;1
+31;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;7;7;1;8;Eminem;Eminem;1;The way I am;;0
+31;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;2;1;1;1;4;Post Malone;;0;WoW;;0
+31;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;2;2;2;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+31;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;3;6;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+31;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;3;4;1;4;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+31;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;7;6;1;3;Outkast;;0;Ms. Jackson;;0
+32;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;9;7;6;9;Eminem;;0;The way I am;;0
+32;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;5;4;3;5;7;Post Malone;;0;WoW;;0
+32;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;7;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+32;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;8;2;5;Jessie J (feat. B.o.B);Katy Perry;0;Price tag;its not about the money;0
+32;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;4;3;3;5;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+32;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;2;8;6;2;4;Outkast;;0;Ms. Jackson;;0
+33;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;6;6;2;8;Eminem;eminem;1;The way I am;;0
+33;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;2;9;Post Malone;Post Malone;1;WoW;Wow;1
+33;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;6;3;3;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+33;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;6;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;PriceTag;1
+33;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;8;1;8;Iggy Azalea (ft. Charli XCX);Fancy;1;Fancy;Iggy Azalia;1
+33;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;3;2;3;1;2;Outkast;;0;Ms. Jackson;;0
+34;A;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;8;6;4;2;Eminem;Eminem;1;The way I am;;0
+34;A;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;8;2;2;Post Malone;;0;WoW;;0
+34;A;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;5;5;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+34;A;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;7;5;1;1;Jessie J (feat. B.o.B);;0;Price tag;Katty Perry;0
+34;A;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;8;2;2;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+34;A;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;2;1;Outkast;;0;Ms. Jackson;Ms Jackson;1
+35;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;7;6;3;9;Eminem;Eminem;1;The way I am;;0
+35;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;4;3;4;1;5;Post Malone;Post malone;1;WoW;;0
+35;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;6;7;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+35;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;10;1;10;Jessie J (feat. B.o.B);;0;Price tag;money;0
+35;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;5;3;5;Iggy Azalea (ft. Charli XCX);SOmeone featuring Iggy Azalea;1;Fancy;Fancy;1
+35;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;10;10;1;2;Outkast;;0;Ms. Jackson;Miss Jackson;1
+36;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;2;2;1;8;Eminem;Eminem;1;The way I am;N/A;0
+36;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;1;8;Post Malone;Post malone;1;WoW;Wow;1
+36;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;6;6;1;7;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;Fly;1
+36;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+36;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;5;5;2;7;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+36;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;4;8;1;6;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+37;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;6;4;5;Eminem;eminem;1;The way I am;;0
+37;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;2;4;Post Malone;post malone;1;WoW;wow;1
+37;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;7;6;2;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+37;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;8;5;5;2;3;Jessie J (feat. B.o.B);Jesy J;1;Price tag;Price tag;1
+37;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;7;6;2;5;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;fancy;1
+37;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;8;2;3;Outkast;;0;Ms. Jackson;Ms Jackson;1
+38;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;8;6;1;9;Eminem;Eminem;1;The way I am;Fancy;0
+38;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;9;1;3;Post Malone;Post Malone;1;WoW;Wow;1
+38;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;5;2;9;1;2;Nicki Minaj (feat. Rihanna);Jessie J;0;Fly;Fancy;0
+38;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;5;8;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+38;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;8;4;1;6;Iggy Azalea (ft. Charli XCX);Outkast;0;Fancy;Fancy;1
+38;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;9;9;1;4;Outkast;Outkast;1;Ms. Jackson;Ms. Jackson;1
+39;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;5;5;2;9;Eminem;Eminem;1;The way I am;;0
+39;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;2;1;1;3;9;Post Malone;;0;WoW;;0
+39;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;4;6;6;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+39;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;7;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+39;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;2;2;2;2;9;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+39;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;5;5;2;8;Outkast;;0;Ms. Jackson;Ms. Jackson;1
+40;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;6;7;1;9;Eminem;Eminem;1;The way I am;;0
+40;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;7;Post Malone;Post malone;1;WoW;Wow;1
+40;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;9;1;4;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+40;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+40;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;4;3;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+40;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;6;1;6;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+41;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;4;5;3;1;8;Eminem;NA;0;The way I am;NA;0
+41;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;1;6;4;1;7;Post Malone;NA;0;WoW;NA;0
+41;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;5;7;1;6;Nicki Minaj (feat. Rihanna);NA;0;Fly;NA;0
+41;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;10;9;1;3;Jessie J (feat. B.o.B);NA;0;Price tag;NA;0
+41;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;NA;0
+41;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;3;5;1;7;Outkast;NA;0;Ms. Jackson;NA;0
+42;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;8;1;4;Eminem;Eminem;1;The way I am;The Way I Am;1
+42;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;1;3;5;1;2;Post Malone;Post Malone;1;WoW;;0
+42;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;2;1;5;1;4;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;Fly;1
+42;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;10;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+42;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;7;8;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea/Charlie XCX;1;Fancy;Fast Lane;0
+42;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;3;1;5;1;10;Outkast;;0;Ms. Jackson;;0
+43;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;2;1;1;1;10;Eminem;Eminem;1;The way I am;;0
+43;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;5;5;1;10;Post Malone;;0;WoW;;0
+43;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;9;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+43;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;5;5;1;1;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+43;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;1;1;1;5;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+43;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;7;8;1;5;Outkast;;0;Ms. Jackson;Sorry Miss Jackson;1
+44;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;3;4;6;8;Eminem;Eminem;1;The way I am;;0
+44;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;8;5;7;2;8;Post Malone;;0;WoW;;0
+44;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;6;5;7;1;5;Nicki Minaj (feat. Rihanna);Beyonce;0;Fly;;0
+44;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;9;1;4;Jessie J (feat. B.o.B);Price Tag ;1;Price tag;Jessie J;1
+44;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;6;7;1;4;Iggy Azalea (ft. Charli XCX);Fancy;1;Fancy;Iggy ;1
+44;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;7;8;1;6;Outkast;;0;Ms. Jackson;Miss Jackson;1
+45;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;10;5;8;Eminem;Eminem ;1;The way I am;;0
+45;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;7;8;7;5;8;Post Malone;;0;WoW;;0
+45;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;6;6;3;6;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+45;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;1;4;Jessie J (feat. B.o.B);Jesse J;1;Price tag;Price Tag;1
+45;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;1;3;2;1;8;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+45;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;5;NA;1;4;Outkast;;0;Ms. Jackson;;0
+46;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;4;7;6;1;10;Eminem;Eminem;1;The way I am;The Way I Am;1
+46;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;1;10;Post Malone;Post Malone;1;WoW;Wow;1
+46;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;6;6;1;4;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;Fly;1
+46;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;9;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+46;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;8;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea/Charlie XCX;1;Fancy;Fancy;1
+46;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;10;Outkast;Outkast;1;Ms. Jackson;Ms. Jackson;1
+47;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;7;2;10;Eminem;eminem;1;The way I am;;0
+47;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;1;10;10;1;7;Post Malone;;0;WoW;g wagon;0
+47;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;10;6;1;9;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+47;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;2;5;NA;3;Jessie J (feat. B.o.B);jessie j ;1;Price tag;price tag;1
+47;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;8;8;1;5;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;fancy ;1
+47;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;10;10;1;4;Outkast;;0;Ms. Jackson;;0
+48;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;4;7;5;4;10;Eminem;Eminem;1;The way I am;;0
+48;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;3;3;3;5;Post Malone;;0;WoW;taste;0
+48;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;6;8;2;5;Nicki Minaj (feat. Rihanna);rihanna;1;Fly;;0
+48;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;3;5;1;8;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+48;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;7;4;7;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;fancy;1
+48;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;7;7;6;2;3;Outkast;;0;Ms. Jackson;im sorry miss jackson?;1
+49;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;6;6;5;4;Eminem;Eminem;1;The way I am;the real slim shady;0
+49;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;8;1;9;Post Malone;;0;WoW;;0
+49;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;8;1;9;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+49;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;9;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+49;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;7;7;1;9;Iggy Azalea (ft. Charli XCX);iggy azalea ;1;Fancy;fancy;1
+49;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;5;4;4;1;2;Outkast;;0;Ms. Jackson;;0
+50;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;1;1;1;10;Eminem;;0;The way I am;;0
+50;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;3;3;1;10;Post Malone;;0;WoW;;0
+50;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;1;1;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+50;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;6;5;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+50;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;3;1;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+50;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;5;6;1;8;Outkast;;0;Ms. Jackson;;0
+51;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;7;7;2;9;Eminem;Eminem;1;The way I am;;0
+51;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;8;8;2;6;Post Malone;post malone;1;WoW;wow;1
+51;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;6;6;8;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+51;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;7;1;4;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+51;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+51;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;5;7;1;6;Outkast;;0;Ms. Jackson;;0
+52;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;1;1;5;10;Eminem;eminem;1;The way I am;;0
+52;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;7;7;7;1;8;Post Malone;post malone ;1;WoW;;0
+52;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;5;4;1;10;Nicki Minaj (feat. Rihanna);rihanna;1;Fly;;0
+52;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;5;1;5;Jessie J (feat. B.o.B);jessie j ;1;Price tag;money;0
+52;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;7;1;8;Iggy Azalea (ft. Charli XCX);iggy azalea ;1;Fancy;fancy;1
+52;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;10;1;7;Outkast;outkast;1;Ms. Jackson;miss jackson;1
+53;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;8;8;1;9;Eminem;Eminem;1;The way I am;;0
+53;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;9;9;1;9;Post Malone;;0;WoW;on me;0
+53;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;7;8;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+53;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;8;1;5;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+53;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;9;9;1;8;Iggy Azalea (ft. Charli XCX);iggy azelia ;1;Fancy;fancy ;1
+53;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;9;Outkast;outkast;1;Ms. Jackson;miss jackson ;1
+54;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;6;5;2;6;Eminem;eminem?;1;The way I am;;0
+54;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;6;Post Malone;post malone;1;WoW;wow;1
+54;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;7;1;4;Nicki Minaj (feat. Rihanna);nicki minaj;1;Fly;fly;1
+54;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;8;1;7;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+54;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;6;1;1;Iggy Azalea (ft. Charli XCX);iggy;1;Fancy;fancy;1
+54;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;6;1;7;Outkast;;0;Ms. Jackson;ms jackson;1
+55;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;1;4;1;7;Eminem;eminem;1;The way I am;;0
+55;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;7;1;3;Post Malone;post malone ;1;WoW;wow;1
+55;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;6;8;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+55;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;1;4;1;2;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+55;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;2;3;2;5;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;fancy;1
+55;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;4;Outkast;outkast;1;Ms. Jackson;ms jackson;1
+56;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;9;8;6;1;10;Eminem;Eminem ;1;The way I am;;0
+56;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;1;8;Post Malone;;0;WoW;;0
+56;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;4;7;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+56;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;6;7;1;4;Jessie J (feat. B.o.B);Jessy J;1;Price tag;Price tag;1
+56;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;9;3;2;10;Iggy Azalea (ft. Charli XCX);Iggy Azelea;1;Fancy;Fancy;1
+56;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;7;6;5;1;6;Outkast;;0;Ms. Jackson;;0
+57;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;9;8;1;9;Eminem;Eminem;1;The way I am;;0
+57;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;6;Post Malone;Post Malone;1;WoW;Wow;1
+57;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;7;8;1;6;Nicki Minaj (feat. Rihanna);Rihana;1;Fly;Fly;1
+57;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price taf;1
+57;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;8;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+57;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;4;Outkast;OutKast;1;Ms. Jackson;Ms. Jackson;1
+58;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;8;8;4;9;Eminem;Eninem;1;The way I am;;0
+58;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;2;9;Post Malone;Post Malone;1;WoW;wow;1
+58;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;10;1;9;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+58;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+58;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;1;6;Iggy Azalea (ft. Charli XCX);Iggy Azelea;1;Fancy;Fancy;1
+58;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;2;7;Outkast;;0;Ms. Jackson;Ms Jackson;1
+59;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;6;6;5;10;Eminem;eminem;1;The way I am;;0
+59;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;2;6;Post Malone;post malone;1;WoW;wow;1
+59;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;5;5;1;4;Nicki Minaj (feat. Rihanna);rhianna;1;Fly;fly;1
+59;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;2;5;Jessie J (feat. B.o.B);jessie J;1;Price tag;price tag;1
+59;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;6;3;6;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+59;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;8;3;7;Outkast;;0;Ms. Jackson;miss jackson;1
+60;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;2;2;1;10;Eminem;eminem;1;The way I am;;0
+60;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;3;3;2;8;Post Malone;;0;WoW;;0
+60;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;4;7;6;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+60;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;8;1;4;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+60;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;6;1;7;Iggy Azalea (ft. Charli XCX);iggi azalia;1;Fancy;fancy;1
+60;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;7;Outkast;;0;Ms. Jackson;ms. jackson;1
+61;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;7;5;3;9;Eminem;Eminem;1;The way I am;;0
+61;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;8;6;7;2;8;Post Malone;Post Malone;1;WoW;Wow;1
+61;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;5;5;6;2;8;Nicki Minaj (feat. Rihanna);Rhianna;1;Fly;;0
+61;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;6;7;2;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+61;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;5;6;3;8;Iggy Azalea (ft. Charli XCX);Iggy Azelia;1;Fancy;Fancy;1
+61;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;7;7;7;2;8;Outkast;;0;Ms. Jackson;Ms Jackson;1
+62;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;7;5;4;9;Eminem;;0;The way I am;;0
+62;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;8;2;10;Post Malone;Post malone;1;WoW;wow;1
+62;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;6;5;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+62;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;6;5;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+62;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;NA;8;6;1;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+62;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;4;6;1;2;Outkast;;0;Ms. Jackson;;0
+63;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;10;8;1;6;Eminem;Eminem?;1;The way I am;;0
+63;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;5;6;Post Malone;Post Malone;1;WoW;WOW;1
+63;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;10;10;1;NA;Nicki Minaj (feat. Rihanna);Rhianna, Nikki Minaj;1;Fly;Fly;1
+63;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+63;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;9;1;3;Iggy Azalea (ft. Charli XCX);Charlie XCX??;1;Fancy;Fancy;1
+63;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;7;10;10;1;2;Outkast;;0;Ms. Jackson;;0
+64;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;1;1;1;10;Eminem;eminem;1;The way I am;;0
+64;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;9;1;10;Post Malone;;0;WoW;;0
+64;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;3;6;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+64;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;10;Jessie J (feat. B.o.B);;0;Price tag;Price tag;1
+64;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;1;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+64;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;3;3;1;3;Outkast;;0;Ms. Jackson;;0
+65;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;7;7;2;5;Eminem;;0;The way I am;;0
+65;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;NA;NA;NA;NA;NA;Post Malone;;0;WoW;;0
+65;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+65;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;4;Jessie J (feat. B.o.B);jessie j;1;Price tag;pricetag;1
+65;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;7;1;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+65;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;8;1;6;Outkast;;0;Ms. Jackson;;0
+66;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;5;5;3;10;Eminem;Eminem ;1;The way I am;;0
+66;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;8;1;6;Post Malone;Post Malone;1;WoW;Wow;1
+66;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;6;Nicki Minaj (feat. Rihanna);Rhianna;1;Fly;Fly;1
+66;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;7;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+66;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;9;8;1;3;Iggy Azalea (ft. Charli XCX);Iggy Aezalia, Charlie XCX;1;Fancy;Fancy;1
+66;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;9;9;1;2;Outkast;;0;Ms. Jackson;Ms Jackson;1
+67;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;9;1;1;1;8;Eminem;NA;0;The way I am;NA;0
+67;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;3;3;1;3;Post Malone;NA;0;WoW;NA;0
+67;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;6;1;9;1;4;Nicki Minaj (feat. Rihanna);NA;0;Fly;NA;0
+67;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;2;6;1;3;Jessie J (feat. B.o.B);NA;0;Price tag;NA;0
+67;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;3;2;1;5;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;NA;0
+67;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;6;1;4;Outkast;NA;0;Ms. Jackson;NA;0
+68;B;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;6;7;1;8;Eminem;Eminem;1;The way I am;;0
+68;B;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;1;7;Post Malone;Post Malone;1;WoW;wow;1
+68;B;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;6;Nicki Minaj (feat. Rihanna);Rhihanna and Nicki Minaj;1;Fly;Fly;1
+68;B;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;NA;10;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+68;B;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;6;1;6;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+68;B;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;3;Outkast;Outcast;1;Ms. Jackson;Ms Jackson;1
+69;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;10;1;9;Eminem;Eminem;1;The way I am;the way I am;1
+69;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;8;1;6;Post Malone;Post Malone;1;WoW;Wow;1
+69;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;5;5;1;5;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+69;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;6;6;1;4;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+69;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;4;4;1;5;Iggy Azalea (ft. Charli XCX);Iggy Azeala;1;Fancy;Fancy;1
+69;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;8;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+70;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;1;1;2;10;Eminem;Eminem;1;The way I am;;0
+70;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;8;1;10;Post Malone;Post Malone;1;WoW;Wow;1
+70;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;6;8;1;10;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+70;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+70;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;9;1;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+70;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;9;10;1;10;Outkast;Outkast;1;Ms. Jackson;Ms. Jackson;1
+71;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;6;5;4;10;Eminem;Eminem;1;The way I am;;0
+71;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;7;2;7;Post Malone;Post Malone;1;WoW;WOW;1
+71;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;7;9;2;6;Nicki Minaj (feat. Rihanna);Nicki minaj ;1;Fly;fly;1
+71;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;10;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+71;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;8;2;7;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+71;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;8;2;7;Outkast;Outcast;1;Ms. Jackson;Miss Jackson;1
+72;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;2;2;2;8;3;Eminem;;0;The way I am;;0
+72;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;4;4;5;5;4;Post Malone;;0;WoW;;0
+72;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;5;5;5;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+72;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+72;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;6;5;5;5;5;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+72;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;4;5;5;2;3;Outkast;;0;Ms. Jackson;;0
+73;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;8;1;9;Eminem;Eminem;1;The way I am;fly;0
+73;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;10;Post Malone;Post Malone;1;WoW;Fancy;0
+73;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;4;7;10;1;5;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;fly;1
+73;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+73;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+73;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;7;Outkast;Outcast;1;Ms. Jackson;Sorry Ms Jackson;1
+74;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;1;1;1;8;Eminem;Eminem;1;The way I am;;0
+74;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;10;Post Malone;;0;WoW;;0
+74;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;10;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+74;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+74;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;10;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea/Charlie XCX;1;Fancy;Fancy;1
+74;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;10;Outkast;;0;Ms. Jackson;Ms. Jackson;1
+75;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;9;1;4;Eminem;Slim Shady;0;The way I am;What I am;0
+75;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;8;7;6;5;Post Malone;;0;WoW;;0
+75;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;2;3;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+75;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;9;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+75;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;1;2;3;1;5;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+75;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;9;1;3;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+76;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;4;4;5;8;Eminem;NA;0;The way I am;NA;0
+76;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;1;4;4;5;8;Post Malone;NA;0;WoW;NA;0
+76;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;7;7;1;8;Nicki Minaj (feat. Rihanna);NA;0;Fly;NA;0
+76;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;10;Jessie J (feat. B.o.B);NA;0;Price tag;NA;0
+76;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;1;3;4;7;10;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;NA;0
+76;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;1;3;4;4;8;Outkast;NA;0;Ms. Jackson;NA;0
+77;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;8;3;4;Eminem;eminem;1;The way I am;;0
+77;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;2;5;Post Malone;post malone;1;WoW;wow;1
+77;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;9;1;4;Nicki Minaj (feat. Rihanna);rhiana ;1;Fly;;0
+77;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;7;2;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+77;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;7;4;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+77;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;9;8;3;6;Outkast;outkast;1;Ms. Jackson;Miss Jackson;1
+78;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;3;8;7;1;7;Eminem;Eminem;1;The way I am;fly;0
+78;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;4;4;1;8;Post Malone;Post Malone;1;WoW;fly;0
+78;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;4;5;1;5;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;fly;1
+78;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;7;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+78;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;4;6;1;5;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+78;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;9;Outkast;Outcast;1;Ms. Jackson;sorry ms jackson;1
+79;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;9;8;2;7;Eminem;eminem;1;The way I am;;0
+79;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;6;Post Malone;post malone;1;WoW;wow;1
+79;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;3;Nicki Minaj (feat. Rihanna);rihanna and nicki mj;1;Fly;fly;1
+79;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;2;3;1;2;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+79;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;6;1;3;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;fancy;1
+79;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;2;Outkast;outcast;1;Ms. Jackson;ms jackson;1
+80;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;8;6;6;7;Eminem;Eminem;1;The way I am;;0
+80;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;8;6;7;2;7;Post Malone;;0;WoW;;0
+80;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;7;7;7;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+80;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Not about the money;0
+80;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;3;2;2;5;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+80;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;6;6;2;8;Outkast;;0;Ms. Jackson;;0
+81;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;7;7;4;3;Eminem;Eminem;1;The way I am;;0
+81;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;5;2;7;Post Malone;Post Malone ;1;WoW;WOW;1
+81;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;9;1;4;Nicki Minaj (feat. Rihanna);Rhianna;1;Fly;;0
+81;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;6;6;1;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+81;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;6;2;7;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Im So Fancy;1
+81;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;8;1;2;Outkast;;0;Ms. Jackson;Sorry miss Jackson;1
+82;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;4;5;10;Eminem;;0;The way I am;;0
+82;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;6;2;10;Post Malone;;0;WoW;G wagon;0
+82;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;6;8;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+82;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;9;1;7;Jessie J (feat. B.o.B);jessie J;1;Price tag;Price tag;1
+82;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;3;3;1;9;Iggy Azalea (ft. Charli XCX);;0;Fancy;fancy;1
+82;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;6;1;7;Outkast;;0;Ms. Jackson;Mrs Jackson;1
+83;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;7;7;6;9;Eminem;Eminem;1;The way I am;don't know it;0
+83;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;8;3;6;Post Malone;post malone;1;WoW;wow;1
+83;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;8;7;3;8;Nicki Minaj (feat. Rihanna);Nicki M;1;Fly;fly;1
+83;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;6;7;3;7;Jessie J (feat. B.o.B);jessie J;1;Price tag;;0
+83;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;8;8;6;9;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;fancy;1
+83;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;7;4;9;Outkast;;0;Ms. Jackson;ms jackson;1
+84;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;2;5;1;8;Eminem;slim shady ;0;The way I am;;0
+84;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;6;9;Post Malone;;0;WoW;;0
+84;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;9;1;6;Nicki Minaj (feat. Rihanna);rhianna ;1;Fly;;0
+84;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;3;5;1;7;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+84;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;NA;1;8;Iggy Azalea (ft. Charli XCX);iggy azalia;1;Fancy;fancy;1
+84;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;7;7;1;10;Outkast;;0;Ms. Jackson;mrs jackson ;1
+85;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;8;7;1;9;Eminem;eminem;1;The way I am;;0
+85;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;5;5;1;7;Post Malone;;0;WoW;;0
+85;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;8;8;1;4;Nicki Minaj (feat. Rihanna);rihanna ;1;Fly;;0
+85;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;6;1;5;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+85;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;6;1;4;Iggy Azalea (ft. Charli XCX);charlie xcx;1;Fancy;fancy;1
+85;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;8;Outkast;;0;Ms. Jackson;miss jackson;1
+86;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;6;6;2;9;Eminem;Eminem;1;The way I am;;0
+86;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;2;5;Post Malone;Post Malone;1;WoW;Wow;1
+86;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;9;2;3;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+86;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;5;5;1;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+86;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;7;2;5;Iggy Azalea (ft. Charli XCX);Iggy Azalea and Charlie XCX;1;Fancy;Fancy;1
+86;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;9;9;1;3;Outkast;;0;Ms. Jackson;Miss Jackson;1
+87;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;2;2;2;8;Eminem;NA;0;The way I am;;0
+87;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;2;7;Post Malone;NA;0;WoW;;0
+87;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;8;8;1;8;Nicki Minaj (feat. Rihanna);NA;0;Fly;;0
+87;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;NA;1;6;Jessie J (feat. B.o.B);NA;0;Price tag;price tag;1
+87;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;9;8;2;8;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;;0
+87;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;7;7;1;7;Outkast;NA;0;Ms. Jackson;Mrs Jackson;1
+88;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;8;7;2;5;Eminem;Eminem ;1;The way I am;;0
+88;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;9;8;1;2;Post Malone;;0;WoW;Recognise the song but im not good at naming them;0
+88;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;9;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;Again I love this song but couldnt name it;0
+88;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+88;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;8;NA;3;Iggy Azalea (ft. Charli XCX);;0;Fancy;Im so fancy ;1
+88;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;8;8;1;3;Outkast;;0;Ms. Jackson;Familliar but I dont know the name ;0
+89;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;9;9;7;1;9;Eminem;eminem;1;The way I am;i am what you say i am;0
+89;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;9;9;1;8;Post Malone;;0;WoW;;0
+89;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;9;9;1;7;Nicki Minaj (feat. Rihanna);rihanna;1;Fly;;0
+89;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;2;7;8;1;3;Jessie J (feat. B.o.B);;0;Price tag;;0
+89;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;4;3;1;8;Iggy Azalea (ft. Charli XCX);iggy azalea;1;Fancy;;0
+89;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;8;Outkast;outkast;1;Ms. Jackson;ms.jackson;1
+90;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;5;7;1;9;Eminem;Eminem;1;The way I am; say i am;1
+90;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;4;2;1;1;4;Post Malone;;0;WoW;;0
+90;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;8;7;1;9;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly; ;0
+90;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;9;2;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag; price tag backing;1
+90;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;7;7;1;4;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+90;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;9;8;1;5;Outkast;jackson 5;0;Ms. Jackson;Miss Jackson;1
+91;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;6;2;2;4;2;Eminem;;0;The way I am;;0
+91;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;9;8;8;1;5;Post Malone;Post Malone;1;WoW;wow;1
+91;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;6;7;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+91;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;6;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+91;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;6;6;1;5;Iggy Azalea (ft. Charli XCX);Iggy;1;Fancy;Fancy;1
+91;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;2;3;5;1;1;Outkast;;0;Ms. Jackson;;0
+92;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;3;3;5;4;Eminem;Eminem;1;The way I am;;0
+92;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;8;2;3;Post Malone;Post Malone ;1;WoW;Wow;1
+92;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;9;9;9;1;2;Nicki Minaj (feat. Rihanna);Rihanna ;1;Fly;;0
+92;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;7;7;2;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag ;1
+92;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;7;1;3;Iggy Azalea (ft. Charli XCX);Iggy Azela, Charlie XCX;1;Fancy;Fancy;1
+92;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;8;1;2;Outkast;OutKast ;1;Ms. Jackson;Ms Jackson;1
+93;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;2;8;7;1;9;Eminem;Eminem;1;The way I am;;0
+93;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;5;6;NA;9;Post Malone;Post malone;1;WoW;;0
+93;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;6;6;7;1;8;Nicki Minaj (feat. Rihanna);Rihana;1;Fly;;0
+93;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;7;7;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+93;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;8;8;1;8;Iggy Azalea (ft. Charli XCX);Iggy Izealia;1;Fancy;Fancy;1
+93;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;9;7;7;1;6;Outkast;;0;Ms. Jackson;;0
+94;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;1;1;1;2;Eminem;Eminem;1;The way I am;;0
+94;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;2;8;8;1;10;Post Malone;;0;WoW;;0
+94;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;1;3;2;1;5;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+94;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;4;9;1;8;Jessie J (feat. B.o.B);;0;Price tag;Price Tag;1
+94;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;2;3;1;6;Iggy Azalea (ft. Charli XCX);Iggy;1;Fancy;Fancy;1
+94;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;10;Outkast;;0;Ms. Jackson;;0
+95;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;5;8;8;1;7;Eminem;;0;The way I am;;0
+95;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;6;Post Malone;Post Malone;1;WoW;Wow;1
+95;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+95;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;5;5;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+95;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;6;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azealia;1;Fancy;Fancy;1
+95;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;1;8;Outkast;;0;Ms. Jackson;;0
+96;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;4;4;1;9;Eminem;;0;The way I am;;0
+96;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;8;1;9;Post Malone;Post Malone;1;WoW;Wow;1
+96;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;6;3;7;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+96;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;8;1;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Money;0
+96;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;10;7;1;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+96;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;4;6;5;1;7;Outkast;;0;Ms. Jackson;;0
+97;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;10;9;1;8;Eminem;Eminem;1;The way I am;?;0
+97;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;7;9;8;1;7;Post Malone;?;0;WoW;?;0
+97;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;8;6;6;1;6;Nicki Minaj (feat. Rihanna);Rhiana;1;Fly;;0
+97;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;8;6;6;1;6;Jessie J (feat. B.o.B);?;0;Price tag;?;0
+97;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;9;9;8;1;8;Iggy Azalea (ft. Charli XCX);?;0;Fancy;?;0
+97;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;3;3;3;1;5;Outkast;?;0;Ms. Jackson;?;0
+98;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;1;2;2;5;8;Eminem;;0;The way I am;;0
+98;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;4;5;5;1;5;Post Malone;;0;WoW;;0
+98;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;2;9;9;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+98;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;9;8;1;4;Jessie J (feat. B.o.B);Katy Perry;0;Price tag;Price Tag;1
+98;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;6;1;1;3;6;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+98;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;4;3;1;1;6;Outkast;;0;Ms. Jackson;;0
+99;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;7;6;3;9;9;Eminem;Eminem ;1;The way I am;Way I am;1
+99;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;8;7;4;5;Post Malone;;0;WoW;;0
+99;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;4;4;5;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+99;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;9;6;6;3;3;Jessie J (feat. B.o.B);;0;Price tag;Price tag;1
+99;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;4;4;3;8;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+99;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;3;4;7;2;6;Outkast;;0;Ms. Jackson;;0
+100;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;10;9;9;8;10;Eminem;Eminem;1;The way I am;;0
+100;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;2;2;2;10;Post Malone;;0;WoW;;0
+100;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;10;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;Fly;1
+100;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;10;10;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+100;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;1;1;7;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+100;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;10;10;7;10;Outkast;;0;Ms. Jackson;Miss Jackson;1
+101;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;1;1;6;10;Eminem;Eminem ;1;The way I am;;0
+101;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;7;8;4;6;Post Malone;post Malone;1;WoW;rockstar;0
+101;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;3;5;Nicki Minaj (feat. Rihanna);Rhiannon;1;Fly;Fly;1
+101;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;8;7;6;3;7;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+101;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;8;4;4;4;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+101;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;10;8;8;4;NA;Outkast;;0;Ms. Jackson;sorry ms Jackson;1
+102;C;lyrical;1;A;static/A1_lyrical.mp3;University pool;8;10;10;1;4;Eminem;Eminem;1;The way I am;;0
+102;C;lyrical;2;A;static/A2_lyrical.mp3;University pool;10;10;10;1;2;Post Malone;Post Malone;1;WoW;WOW;1
+102;C;lyrical;3;A;static/A3_lyrical.mp3;University pool;10;10;10;1;2;Nicki Minaj (feat. Rihanna);Nikki Minaj;1;Fly;Fly;1
+102;C;instrumental;1;B;static/B1_instrumental.mp3;University pool;10;8;9;1;1;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+102;C;instrumental;2;B;static/B2_instrumental.mp3;University pool;10;7;8;1;2;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+102;C;instrumental;3;B;static/B3_instrumental.mp3;University pool;8;7;9;1;2;Outkast;;0;Ms. Jackson;Ms Jackson;1
+103;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;6;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+103;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+103;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;10;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+103;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;3;7;1;1;Eminem;;0;The way I am;;0
+103;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;10;1;10;Post Malone;Post malone;1;WoW;Wow;1
+103;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;10;10;1;10;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+104;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+104;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;7;3;8;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+104;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;9;1;4;Outkast;Outkast;1;Ms. Jackson;Ms. Jackson;1
+104;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;2;3;1;4;Eminem;;0;The way I am;;0
+104;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;6;8;1;3;Post Malone;Post Malone;1;WoW;Wow;1
+104;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;5;7;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+105;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;9;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+105;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;6;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+105;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;9;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+105;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;5;7;1;3;Eminem;Eminem;1;The way I am;N/A;0
+105;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;8;9;1;3;Post Malone;Post malone;1;WoW;N/A;0
+105;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;8;7;7;1;4;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;N/A;0
+106;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;1;NA;1;Jessie J (feat. B.o.B);NA;0;Price tag;NA;0
+106;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;4;NA;9;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;NA;0
+106;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;2;Outkast;NA;0;Ms. Jackson;NA;0
+106;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;9;9;1;6;Eminem;NA;0;The way I am;NA;0
+106;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;9;10;10;1;2;Post Malone;NA;0;WoW;NA;0
+106;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;3;10;Nicki Minaj (feat. Rihanna);NA;0;Fly;NA;0
+107;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;3;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+107;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;3;9;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+107;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;2;10;Outkast;;0;Ms. Jackson;Miss Jackson;1
+107;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;9;6;7;5;Eminem;Eminem;1;The way I am;;0
+107;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;9;2;8;Post Malone;;0;WoW;;0
+107;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;2;5;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+108;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+108;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;6;2;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+108;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;7;Outkast;outkast;1;Ms. Jackson;Ms Jackson;1
+108;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;3;4;1;5;Eminem;eminem;1;The way I am;fancy;0
+108;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;7;7;1;6;Post Malone;post malone;1;WoW;G wagon;0
+108;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;9;9;1;8;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+109;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;8;1;4;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+109;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;4;4;1;6;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+109;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;2;8;Outkast;outkast;1;Ms. Jackson;ms. jackson;1
+109;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;2;4;1;7;Eminem;;0;The way I am;;0
+109;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;3;6;6;1;3;Post Malone;;0;WoW;;0
+109;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;4;4;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+110;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;8;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+110;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;6;2;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+110;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;5;Outkast;Eminem;0;Ms. Jackson;Miss Jackson;1
+110;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;4;5;2;4;Eminem;;0;The way I am;;0
+110;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;5;7;2;5;Post Malone;;0;WoW;;0
+110;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;4;2;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+111;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+111;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;7;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+111;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;9;5;Outkast;Post Malone;0;Ms. Jackson;Miss Jackson;1
+111;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;3;3;3;7;Eminem;Eminem;1;The way I am;Gangsters Paradise;0
+111;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;10;2;10;Post Malone;Post Malone;1;WoW;;0
+111;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;9;5;5;2;7;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;fly;1
+112;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+112;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;6;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azalea/Charlie XCX;1;Fancy;Fancy;1
+112;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;4;Outkast;Outkast;1;Ms. Jackson;Ms. Jackson;1
+112;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;5;3;1;8;Eminem;Eminem;1;The way I am;The Way I Am;1
+112;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;8;1;5;Post Malone;Post Malone;1;WoW;Wow;1
+112;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;7;6;1;7;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;ms. jackson;0
+113;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;4;5;NA;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+113;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;4;6;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+113;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;10;1;7;Outkast;Eminem;0;Ms. Jackson;Ms Jackson;1
+113;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;3;5;1;4;Eminem;Outkast;0;The way I am;N/A;0
+113;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;9;1;3;Post Malone;Post malone;1;WoW;Wow;1
+113;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;5;4;8;1;4;Nicki Minaj (feat. Rihanna);Nicki Minaj and Rihanna;1;Fly;Fly;1
+114;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;10;1;6;Jessie J (feat. B.o.B);Jessie J ft(someone);1;Price tag;Price Tag;1
+114;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;3;3;9;Iggy Azalea (ft. Charli XCX);Iggy Azalea ft Carlie XCX;1;Fancy;So Fancy?;1
+114;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;7;3;7;2;7;Outkast;Outcast?;1;Ms. Jackson;Ms Jackson;1
+114;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;5;10;9;1;8;Eminem;50 Cent?;0;The way I am;;0
+114;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;3;2;1;3;Post Malone;;0;WoW;;0
+114;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;1;1;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+115;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+115;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;6;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea & Charli XCX;1;Fancy;Fancy;1
+115;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;7;Outkast;;0;Ms. Jackson;Ms Jackson;1
+115;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;8;7;1;4;Eminem;;0;The way I am;;0
+115;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;9;9;1;9;Post Malone;Post Malone;1;WoW;WOW;1
+115;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;10;10;1;4;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;Fly;1
+116;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;6;NA;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag ;1
+116;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea ;1;Fancy;Fancy ;1
+116;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;10;Outkast;;0;Ms. Jackson;Ms Jackson ;1
+116;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;6;5;5;1;6;Eminem;;0;The way I am;;0
+116;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;9;9;1;10;Post Malone;Post Malone ;1;WoW;Wow;1
+116;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;6;4;4;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+117;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;6;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+117;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;7;1;7;Iggy Azalea (ft. Charli XCX);Iggy ;1;Fancy;Fancy ;1
+117;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;7;Outkast;Ms Jackson;1;Ms. Jackson;Outkast;1
+117;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;7;6;1;2;Eminem;;0;The way I am;;0
+117;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;5;4;1;2;Post Malone;;0;WoW;;0
+117;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;6;5;4;1;2;Nicki Minaj (feat. Rihanna);Maroon 5 ;0;Fly;Girls like you;0
+118;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+118;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+118;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;7;Outkast;;0;Ms. Jackson;;0
+118;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;4;8;1;6;Eminem;;0;The way I am;;0
+118;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;4;5;1;7;Post Malone;;0;WoW;;0
+118;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;8;6;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+119;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;6;1;8;Jessie J (feat. B.o.B);Katy Perry or Miley Cyrus;0;Price tag;Money? or Bling?;0
+119;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;6;2;6;Iggy Azalea (ft. Charli XCX);Iggy Ghazeilia;1;Fancy;Fancy? ;1
+119;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;NA;NA;NA;NA;NA;Outkast;Outkast;1;Ms. Jackson;Mrs Jackson;1
+119;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;6;3;1;3;Eminem;;0;The way I am;;0
+119;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;4;1;7;Post Malone;;0;WoW;;0
+119;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;1;Nicki Minaj (feat. Rihanna);Fly;0;Fly;;0
+120;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;8;1;4;Jessie J (feat. B.o.B);Katy Perry or Miley Cyrus;0;Price tag;Money? or Bling?;0
+120;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;1;6;Iggy Azalea (ft. Charli XCX);Iggy Ghazeilia;1;Fancy;Fancy? ;1
+120;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;4;Outkast;Outkast;1;Ms. Jackson;Mrs Jackson;1
+120;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;6;7;1;2;Eminem;;0;The way I am;;0
+120;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;7;8;6;1;4;Post Malone;;0;WoW;;0
+120;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;2;2;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+121;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+121;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;7;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azaelea;1;Fancy;;0
+121;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;5;Outkast;;0;Ms. Jackson;Miss Jackson;1
+121;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;5;3;1;5;Eminem;;0;The way I am;;0
+121;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;7;7;6;1;4;Post Malone;;0;WoW;;0
+121;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;8;6;5;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+122;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;7;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+122;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;2;7;Iggy Azalea (ft. Charli XCX);iggy azelea, charile xcx;1;Fancy;fancy;1
+122;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;6;8;7;2;4;Outkast;;0;Ms. Jackson;miss jackson;1
+122;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;1;1;1;6;Eminem;;0;The way I am;;0
+122;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;1;1;1;6;Post Malone;;0;WoW;;0
+122;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+123;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;9;3;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+123;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;8;7;10;Iggy Azalea (ft. Charli XCX);Iggy;1;Fancy;Fancy;1
+123;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;7;5;6;Outkast;;0;Ms. Jackson;;0
+123;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;1;2;1;3;Eminem;;0;The way I am;;0
+123;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;9;8;NA;5;Post Malone;;0;WoW;;0
+123;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;1;1;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+124;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;4;3;1;7;Jessie J (feat. B.o.B);;0;Price tag;price tag;1
+124;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;8;2;2;1;5;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+124;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;10;1;9;Outkast;outcast;1;Ms. Jackson;Ms Jackson;1
+124;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;10;9;3;10;Eminem;Eminem  ;1;The way I am;the way i am;1
+124;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;8;7;2;8;Post Malone;Post malone;1;WoW;wow;1
+124;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;2;1;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+125;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;7;1;5;Jessie J (feat. B.o.B);jessie j ;1;Price tag;Price tag ;1
+125;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;2;4;1;3;Iggy Azalea (ft. Charli XCX);Gwen staffani ;0;Fancy;fancy ;1
+125;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;8;2;2;1;1;Outkast;;0;Ms. Jackson;Miss jackson ;1
+125;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;9;9;1;2;Eminem;Eminem ;1;The way I am;Way i am ;1
+125;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;4;6;1;3;Post Malone;;0;WoW;;0
+125;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;2;2;1;10;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+126;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;10;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+126;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azaleia and Charlie XCX;1;Fancy;Fancy;1
+126;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;2;8;Outkast;;0;Ms. Jackson;;0
+126;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;9;7;1;3;Eminem;;0;The way I am;;0
+126;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;8;6;1;6;Post Malone;Post Malone;1;WoW;;0
+126;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;5;5;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+127;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;10;1;1;Jessie J (feat. B.o.B);Jessy J ;1;Price tag;Price Tag ;1
+127;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;4;4;1;1;Iggy Azalea (ft. Charli XCX);Iggy azalea ;1;Fancy;Fancy;1
+127;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;8;10;10;1;1;Outkast;;0;Ms. Jackson;Ms Jackson;1
+127;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;5;6;1;1;Eminem;;0;The way I am;;0
+127;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;3;8;5;1;4;Post Malone;;0;WoW;;0
+127;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;5;7;1;1;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+128;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;10;Jessie J (feat. B.o.B);Katy Perry;0;Price tag;Pricetag;1
+128;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;1;10;Iggy Azalea (ft. Charli XCX);Iggy;1;Fancy;Fancy;1
+128;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;10;Outkast;Jackson 5;0;Ms. Jackson;Ms Jackson ;1
+128;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;6;5;1;10;Eminem;M and M;1;The way I am;;0
+128;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;3;5;1;10;Post Malone;;0;WoW;;0
+128;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;6;8;8;1;10;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+129;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;3;3;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+129;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;1;1;1;10;Iggy Azalea (ft. Charli XCX);Charli XCX;1;Fancy;Fancy;1
+129;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;4;3;1;7;Outkast;Outkast;1;Ms. Jackson;Sorry Ms. Jackson;1
+129;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;9;5;5;1;10;Eminem;Eminem;1;The way I am;;0
+129;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;4;3;3;1;7;Post Malone;;0;WoW;;0
+129;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;4;4;5;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+130;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;3;4;1;8;Jessie J (feat. B.o.B);Jesse J;1;Price tag;Price tag;1
+130;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;6;1;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+130;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;7;7;1;8;Outkast;;0;Ms. Jackson;Ms Jackson;1
+130;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;3;2;1;5;Eminem;;0;The way I am;;0
+130;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;8;8;2;9;Post Malone;Post Malone;1;WoW;Congratulations;0
+130;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+131;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;1;9;10;1;6;Jessie J (feat. B.o.B);jessie J;1;Price tag;price tag;1
+131;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;3;1;9;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+131;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;8;1;5;Outkast;;0;Ms. Jackson;mrs jackson;1
+131;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;6;5;1;6;Eminem;;0;The way I am;;0
+131;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;8;7;1;3;Post Malone;post malone;1;WoW;wow;1
+131;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;3;5;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+132;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;4;Jessie J (feat. B.o.B);NA;0;Price tag;NA;0
+132;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;3;3;2;4;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;NA;0
+132;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;7;7;1;3;Outkast;NA;0;Ms. Jackson;NA;0
+132;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;7;3;3;1;2;Eminem;NA;0;The way I am;NA;0
+132;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;4;3;1;2;Post Malone;NA;0;WoW;NA;0
+132;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;3;5;1;2;Nicki Minaj (feat. Rihanna);NA;0;Fly;NA;0
+133;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;9;Jessie J (feat. B.o.B);Jessie J ;1;Price tag;Price Tag;1
+133;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azelea;1;Fancy;Fancy;1
+133;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;9;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+133;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;2;2;1;10;Eminem;Eminem;1;The way I am;;0
+133;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;6;6;1;6;Post Malone;Post Malone;1;WoW;Wow;1
+133;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;1;1;1;10;Nicki Minaj (feat. Rihanna);;0;Fly;Fly;1
+134;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;2;3;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Money;0
+134;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;7;2;3;1;7;Iggy Azalea (ft. Charli XCX);Iggy;1;Fancy;;0
+134;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;6;6;5;1;9;Outkast;;0;Ms. Jackson;;0
+134;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;2;1;1;3;Eminem;;0;The way I am;;0
+134;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;4;3;1;2;Post Malone;;0;WoW;;0
+134;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+135;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+135;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;7;1;6;Iggy Azalea (ft. Charli XCX);Iggy Ezala;1;Fancy;Fancy;1
+135;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;5;1;1;1;4;Outkast;outcast;1;Ms. Jackson;Miss Jackson;1
+135;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;5;3;2;1;4;Eminem;unknown;0;The way I am;unknown;0
+135;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;7;7;7;1;4;Post Malone;post malone ;1;WoW;g wagon?;0
+135;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;1;1;1;4;Nicki Minaj (feat. Rihanna);-;0;Fly;tonight;0
+136;D;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;6;6;1;9;Jessie J (feat. B.o.B);Jessie J ;1;Price tag;Price Tag;1
+136;D;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;4;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azelea;1;Fancy;Fancy;1
+136;D;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;9;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+136;D;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;7;7;2;6;Eminem;Eminem;1;The way I am;;0
+136;D;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;7;5;1;7;Post Malone;Post Malone;1;WoW;Wow;1
+136;D;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;6;5;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;Fly;1
+137;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+137;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;4;3;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+137;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;2;Outkast;Outcast;1;Ms. Jackson;Miss Jackson;1
+137;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;5;4;2;1;Eminem;;0;The way I am;Gangsters Paradise;0
+137;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;3;2;2;6;Post Malone;;0;WoW;;0
+137;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;7;4;2;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+138;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;10;1;10;Jessie J (feat. B.o.B);Jesy J;1;Price tag;Pricetag;1
+138;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;6;2;10;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+138;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;6;Outkast;;0;Ms. Jackson;Miss Jackson;1
+138;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;5;5;1;5;Eminem;;0;The way I am;;0
+138;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;1;1;1;5;Post Malone;;0;WoW;;0
+138;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;4;2;5;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+139;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;9;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+139;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+139;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;9;9;1;9;Outkast;Outcast;1;Ms. Jackson;sorry ms jackson;1
+139;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;7;6;6;1;8;Eminem;Eminem;1;The way I am;;0
+139;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;10;1;9;Post Malone;Post Malone;1;WoW;WOW;1
+139;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;5;6;7;1;8;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;fly;1
+140;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+140;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;8;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azalea/Charlie XCX;1;Fancy;Fancy;1
+140;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;6;Outkast;Outkast;1;Ms. Jackson;Ms. Jackson;1
+140;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;3;6;1;3;Eminem;;0;The way I am;;0
+140;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;2;2;1;1;Post Malone;;0;WoW;;0
+140;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;3;2;1;1;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+141;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+141;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;7;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+141;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;2;4;5;1;6;Outkast;;0;Ms. Jackson;;0
+141;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;4;4;1;6;Eminem;;0;The way I am;;0
+141;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;4;5;3;1;6;Post Malone;;0;WoW;;0
+141;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;4;3;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+142;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+142;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;8;4;4;1;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea/Charlie XCX;1;Fancy;Fancy;1
+142;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;6;8;1;1;10;Outkast;Outkast;1;Ms. Jackson;Ms. Jackson;1
+142;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;5;7;7;1;9;Eminem;Eminem;1;The way I am;Wow;0
+142;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;6;6;1;7;Post Malone;Rihanna;0;WoW;;0
+142;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;5;5;1;8;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+143;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+143;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;9;8;2;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+143;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;1;1;3;1;3;Outkast;Outcast;1;Ms. Jackson;sorry ms jackson;1
+143;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;2;4;2;4;Eminem;Outcast;0;The way I am;Gangsters Paradise;0
+143;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;7;4;3;2;4;Post Malone;Post Malone;1;WoW;Gangsters Paradise;0
+143;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;4;4;1;5;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;fly;1
+144;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;9;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+144;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;9;9;7;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+144;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;7;7;8;2;9;Outkast;eminem;0;Ms. Jackson;Miss Jackson;1
+144;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;2;2;2;9;Eminem;outkast;0;The way I am;;0
+144;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;5;4;4;1;9;Post Malone;;0;WoW;;0
+144;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;2;2;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+145;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;10;3;9;Jessie J (feat. B.o.B);Katy Perry;0;Price tag;Price Tag;1
+145;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;8;6;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+145;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;8;1;4;Outkast;OutKast;1;Ms. Jackson;Ms. Jackson;1
+145;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;1;9;2;9;Eminem;;0;The way I am;;0
+145;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;6;10;2;2;6;Post Malone;;0;WoW;;0
+145;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;3;4;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+146;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;9;Jessie J (feat. B.o.B);Katy Perry;0;Price tag;Price Tag;1
+146;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;3;3;1;9;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+146;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;9;Outkast;OutKast;1;Ms. Jackson;Ms. Jackson;1
+146;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;6;4;3;1;8;Eminem;;0;The way I am;;0
+146;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;5;4;NA;1;7;Post Malone;;0;WoW;;0
+146;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;2;2;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+147;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;5;4;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+147;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;1;1;1;2;10;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;fly;0
+147;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;4;3;1;1;10;Outkast;;0;Ms. Jackson;;0
+147;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;10;10;1;5;Eminem;Eminem;1;The way I am;;0
+147;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;1;1;1;5;Post Malone;;0;WoW;;0
+147;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+148;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;6;6;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+148;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;7;2;7;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+148;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;3;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+148;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;3;4;1;3;Eminem;;0;The way I am;;0
+148;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;3;3;1;3;Post Malone;;0;WoW;;0
+148;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+149;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;NA;NA;NA;Jessie J (feat. B.o.B);NA;0;Price tag;price tag;1
+149;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;6;1;10;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;;0
+149;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;NA;NA;6;Outkast;NA;0;Ms. Jackson;mrs jackson;1
+149;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;4;6;1;3;Eminem;NA;0;The way I am;;0
+149;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;3;3;NA;3;Post Malone;NA;0;WoW;;0
+149;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;3;3;1;5;Nicki Minaj (feat. Rihanna);NA;0;Fly;;0
+150;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+150;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;3;8;Iggy Azalea (ft. Charli XCX);Charlie XCX;1;Fancy;Fancy;1
+150;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;5;8;3;5;Outkast;;0;Ms. Jackson;;0
+150;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;5;4;1;2;Eminem;;0;The way I am;;0
+150;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;6;5;1;2;Post Malone;;0;WoW;;0
+150;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;7;7;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+151;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;price tag;1
+151;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;7;1;9;Iggy Azalea (ft. Charli XCX);iggy azalea, charlie xcx;1;Fancy;fancy;1
+151;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;10;Outkast;outkast;1;Ms. Jackson;ms jackson;1
+151;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;8;9;1;6;Eminem;;0;The way I am;;0
+151;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;4;4;1;5;Post Malone;;0;WoW;;0
+151;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;6;4;3;2;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+152;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;2;2;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+152;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;4;4;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azaelia;1;Fancy;Fancy;1
+152;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;7;8;1;7;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+152;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;2;2;1;4;Eminem;;0;The way I am;;0
+152;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;9;8;8;1;5;Post Malone;post malone ;1;WoW;wow;1
+152;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;8;8;1;7;Nicki Minaj (feat. Rihanna);nicki minaj ;1;Fly;fly;1
+153;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;9;Jessie J (feat. B.o.B);Jessie J ;1;Price tag;Price Tag;1
+153;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;3;9;Iggy Azalea (ft. Charli XCX);Iggy Azelea ;1;Fancy;Fancy;1
+153;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;9;8;5;7;Outkast;Outkast;1;Ms. Jackson;Miss Jackon ;1
+153;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;6;6;6;2;4;Eminem;;0;The way I am;;0
+153;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;5;5;5;3;5;Post Malone;chris brown?;0;WoW;;0
+153;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;4;4;4;3;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+154;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;3;2;1;10;Jessie J (feat. B.o.B);NA;0;Price tag;PRICE TAG;1
+154;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;2;3;1;10;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;FANCY;1
+154;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;6;6;1;5;Outkast;NA;0;Ms. Jackson;MISS JACKSON;1
+154;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;4;2;1;6;Eminem;NA;0;The way I am;;0
+154;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;7;6;1;6;Post Malone;NA;0;WoW;;0
+154;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;3;3;1;5;Nicki Minaj (feat. Rihanna);NA;0;Fly;;0
+155;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;7;1;8;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+155;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;4;4;2;9;Iggy Azalea (ft. Charli XCX);;0;Fancy;fancy;1
+155;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;2;7;Outkast;outkastt ;1;Ms. Jackson;ms. jackson;1
+155;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;6;8;7;1;5;Eminem;;0;The way I am;;0
+155;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;4;4;4;NA;6;Post Malone;;0;WoW;;0
+155;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;3;3;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+156;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;5;6;1;8;Jessie J (feat. B.o.B);katy perry;0;Price tag;NA;0
+156;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;7;5;4;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;NA;0
+156;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;6;5;1;8;Outkast;;0;Ms. Jackson;NA;0
+156;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;2;2;1;5;Eminem;;0;The way I am;NA;0
+156;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;2;2;1;5;Post Malone;;0;WoW;NA;0
+156;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;3;6;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;NA;0
+157;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;NA;1;9;Jessie J (feat. B.o.B);Katy Perry;0;Price tag;Price Tag;1
+157;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;4;4;1;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+157;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;4;Outkast;;0;Ms. Jackson;Ms. Jackson;1
+157;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;9;9;1;8;Eminem;;0;The way I am;;0
+157;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;9;9;1;8;Post Malone;Post Malone;1;WoW;Motley Crew;0
+157;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;5;5;1;10;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+158;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;NA;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+158;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;9;1;9;Iggy Azalea (ft. Charli XCX);Charli XCX, Iggy Azeala;1;Fancy;Fancy;1
+158;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;10;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+158;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;4;2;1;4;Eminem;;0;The way I am;;0
+158;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;10;1;10;Post Malone;Post Malone;1;WoW;Wow;1
+158;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;4;4;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+159;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;1;10;Jessie J (feat. B.o.B);Jessie ;1;Price tag;;0
+159;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;1;10;Iggy Azalea (ft. Charli XCX);Iggy azaelia charlie xcx;1;Fancy;fancy;1
+159;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;10;Outkast;;0;Ms. Jackson;miss jackson;1
+159;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;6;6;1;10;Eminem;;0;The way I am;;0
+159;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;1;1;1;10;Post Malone;;0;WoW;;0
+159;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;9;9;5;1;10;Nicki Minaj (feat. Rihanna);nicki minaj;1;Fly;fly;1
+160;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;2;7;Jessie J (feat. B.o.B);Jessie J featuring B.O.B;1;Price tag;Price Tag;1
+160;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;7;6;9;Iggy Azalea (ft. Charli XCX);Iggy Azalea ;1;Fancy;Fancy;1
+160;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;8;8;4;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+160;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;8;6;7;7;Eminem;Dr Dre and Eminem;1;The way I am;;0
+160;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;9;9;9;7;6;Post Malone;Post Malone;1;WoW;WOW;1
+160;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;8;8;7;2;3;Nicki Minaj (feat. Rihanna);Rhianna;1;Fly;;0
+161;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;8;Jessie J (feat. B.o.B);jessy J;1;Price tag;price tag;1
+161;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;1;9;Iggy Azalea (ft. Charli XCX);Iggy azaela;1;Fancy;Fancy;1
+161;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;9;Outkast;Outkast;1;Ms. Jackson;Mrs jackson;1
+161;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;10;10;1;10;Eminem;Eminem;1;The way I am;;0
+161;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;4;4;1;4;Post Malone;;0;WoW;;0
+161;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;1;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+162;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+162;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;1;8;Iggy Azalea (ft. Charli XCX);fancy;1;Fancy;iggy izeala;1
+162;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;6;Outkast;outkast;1;Ms. Jackson;ms jackson;1
+162;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;3;4;1;2;Eminem;;0;The way I am;;0
+162;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;7;5;3;1;4;Post Malone;;0;WoW;;0
+162;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;2;2;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+163;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;4;5;6;5;5;Jessie J (feat. B.o.B);no;0;Price tag;no;0
+163;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;1;1;1;1;1;Iggy Azalea (ft. Charli XCX);no;0;Fancy;no;0
+163;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;1;1;1;1;1;Outkast;no;0;Ms. Jackson;no;0
+163;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;1;1;1;1;Eminem;no;0;The way I am;no;0
+163;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;1;1;1;1;Post Malone;no;0;WoW;no;0
+163;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;1;Nicki Minaj (feat. Rihanna);no;0;Fly;no;0
+164;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+164;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;1;9;Iggy Azalea (ft. Charli XCX);Charlie XCX and IGGY Azalea;1;Fancy;Fancy;1
+164;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;7;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+164;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Eminem;;0;The way I am;;0
+164;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;5;6;1;4;Post Malone;;0;WoW;;0
+164;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;5;6;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+165;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;2;10;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+165;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;1;10;Iggy Azalea (ft. Charli XCX);iggy azelea;1;Fancy;fancy;1
+165;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;6;Outkast;?;0;Ms. Jackson;im sorry ms jackson;1
+165;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;5;5;4;7;Eminem;;0;The way I am;;0
+165;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;7;6;3;5;Post Malone;;0;WoW;;0
+165;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;3;5;2;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+166;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;6;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+166;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;5;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+166;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;7;1;7;Outkast;;0;Ms. Jackson;Ms Jackson;1
+166;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;5;5;1;8;Eminem;;0;The way I am;;0
+166;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;4;5;1;7;Post Malone;;0;WoW;G-wagon;0
+166;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;4;5;6;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+167;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;7;1;9;Jessie J (feat. B.o.B);Jessy J;1;Price tag;Price tag;1
+167;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;6;2;9;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+167;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;8;NA;8;Outkast;;0;Ms. Jackson;ms jackson ;1
+167;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;7;7;1;3;Eminem;;0;The way I am;;0
+167;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;3;3;1;4;Post Malone;;0;WoW;;0
+167;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;4;2;2;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+168;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;9;8;9;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Money;0
+168;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;8;8;1;7;Iggy Azalea (ft. Charli XCX);;0;Fancy;;0
+168;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;5;7;8;1;6;Outkast;;0;Ms. Jackson;;0
+168;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;10;9;1;4;Eminem;;0;The way I am;;0
+168;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;7;8;1;3;Post Malone;;0;WoW;;0
+168;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;9;9;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+169;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;4;3;3;7;Jessie J (feat. B.o.B);jessie j;1;Price tag;price tag;1
+169;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;5;3;8;Iggy Azalea (ft. Charli XCX);iggy izalea;1;Fancy;fancy;1
+169;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;2;3;Outkast;;0;Ms. Jackson;miss jackson;1
+169;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;8;7;2;3;Eminem;;0;The way I am;;0
+169;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;6;6;2;4;Post Malone;;0;WoW;;0
+169;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;4;4;3;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+170;E;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;NA;NA;NA;NA;Jessie J (feat. B.o.B);Jessi J;1;Price tag;Price tag;1
+170;E;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;NA;NA;NA;NA;Iggy Azalea (ft. Charli XCX);Iggy Azelea;1;Fancy;Fancy;1
+170;E;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;NA;NA;NA;NA;Outkast;;0;Ms. Jackson;Miss Jackson;1
+170;E;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;NA;NA;NA;NA;Eminem;Eminem;1;The way I am;Valley of death;0
+170;E;instrumental;2;A;static/A2_instrumental.mp3;University pool;4;NA;NA;NA;NA;Post Malone;;0;WoW;;0
+170;E;instrumental;3;A;static/A3_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+171;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;7;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+171;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;1;9;Iggy Azalea (ft. Charli XCX);Izzy Azalea;1;Fancy;Fancy ;1
+171;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;6;7;1;7;Outkast;;0;Ms. Jackson;Ms Jackson;1
+171;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;2;2;1;7;Eminem;Eminem;1;The way I am;;0
+171;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;6;6;5;1;7;Post Malone;;0;WoW;J wagon;0
+171;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;4;5;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+172;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;9;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+172;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;8;6;1;10;Iggy Azalea (ft. Charli XCX);Nicki minaj;0;Fancy;Fancy;1
+172;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;9;8;1;7;Outkast;Iggy Azalia;0;Ms. Jackson;Miss Jackson;1
+172;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;3;1;1;3;Eminem;Outcast;0;The way I am;Gangsters Paradise;0
+172;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;3;2;3;1;3;Post Malone;Outcast;0;WoW;fly;0
+172;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;3;NA;1;4;Nicki Minaj (feat. Rihanna);Outcast;0;Fly;Fancy;0
+173;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+173;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;4;1;6;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;fancy;1
+173;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;6;3;3;1;5;Outkast;outkast;1;Ms. Jackson;Ms Jackson;1
+173;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;7;5;1;5;Eminem;eminem;1;The way I am;;0
+173;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Post Malone;;0;WoW;;0
+173;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;1;1;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+174;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;7;8;1;4;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+174;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;1;6;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+174;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;10;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+174;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;8;6;1;3;Eminem;Eminem;1;The way I am;N/A;0
+174;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;3;2;2;1;2;Post Malone;Nicki Minaj and Rihanna;0;WoW;Fly;0
+174;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;1;2;1;2;Nicki Minaj (feat. Rihanna);Post malone;0;Fly;Wow;0
+175;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;9;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+175;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;8;7;2;5;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+175;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;6;7;7;1;5;Outkast;Outcast;1;Ms. Jackson;sorry ms jackson;1
+175;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;5;5;1;4;Eminem;;0;The way I am;;0
+175;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;3;3;1;3;Post Malone;;0;WoW;;0
+175;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;5;5;5;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+176;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+176;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;7;5;5;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azealea and Charlie XCX;1;Fancy;Fancy;1
+176;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;5;5;4;1;3;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+176;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;6;4;3;1;3;Eminem;Eminem;1;The way I am;N/A;0
+176;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;2;2;1;5;Post Malone;Post malone;1;WoW;N/A;0
+176;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;3;4;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+177;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+177;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azalia;1;Fancy;Fancy;1
+177;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;7;Outkast;Outcast;1;Ms. Jackson;Miss Jackson;1
+177;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;8;8;2;5;Eminem;Eminem;1;The way I am;fly;0
+177;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;3;5;5;1;5;Post Malone;Post Malone;1;WoW;Gangsters Paradise;0
+177;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;1;Nicki Minaj (feat. Rihanna);Nicki minaj;1;Fly;;0
+178;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;NA;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+178;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;8;1;8;Iggy Azalea (ft. Charli XCX);Iggy I;1;Fancy;Fancy;1
+178;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;5;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+178;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;2;2;1;4;Eminem;;0;The way I am;;0
+178;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;9;7;6;2;5;Post Malone;;0;WoW;;0
+178;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;9;9;1;6;Nicki Minaj (feat. Rihanna);Nicki Minaj;1;Fly;Fly;1
+179;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+179;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;8;8;7;7;10;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+179;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;7;10;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+179;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;6;7;8;6;8;Eminem;Eminem;1;The way I am;;0
+179;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;2;7;1;3;Post Malone;;0;WoW;;0
+179;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;8;8;10;1;3;Nicki Minaj (feat. Rihanna);Nicki Minaj;1;Fly;;0
+180;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;8;1;8;Jessie J (feat. B.o.B);Jessy J;1;Price tag;Price Tag;1
+180;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;6;6;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azalea/ Charli XCX;1;Fancy;Fancy;1
+180;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;8;7;7;2;7;Outkast;;0;Ms. Jackson;Miss Jackson;1
+180;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;3;3;1;4;Eminem;;0;The way I am;;0
+180;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;3;2;1;3;Post Malone;;0;WoW;;0
+180;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;3;4;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+181;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;9;8;8;3;10;Jessie J (feat. B.o.B);jessie jay ;1;Price tag;NA;0
+181;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;8;7;8;2;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;NA;0
+181;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;2;7;7;2;9;Outkast;;0;Ms. Jackson;NA;0
+181;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;6;7;1;4;Eminem;;0;The way I am;NA;0
+181;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;7;8;2;2;Post Malone;;0;WoW;NA;0
+181;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;7;6;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;NA;0
+182;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;9;1;9;Jessie J (feat. B.o.B);Katy Perry;0;Price tag;Price Tag;1
+182;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;7;2;9;Iggy Azalea (ft. Charli XCX);Iggy ;1;Fancy;;0
+182;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;8;1;8;Outkast;;0;Ms. Jackson;Miss Jackson;1
+182;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;3;2;1;5;Eminem;;0;The way I am;;0
+182;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;9;9;1;9;Post Malone;Post Malone;1;WoW;;0
+182;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;2;2;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+183;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;6;8;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;price tag ;1
+183;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;1;10;Iggy Azalea (ft. Charli XCX);charlie xcx ;1;Fancy;fancy;1
+183;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;9;1;10;Outkast;outkast;1;Ms. Jackson;Ms Jackson;1
+183;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;2;3;1;6;Eminem;;0;The way I am;;0
+183;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;5;3;2;1;5;Post Malone;;0;WoW;;0
+183;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;7;5;4;1;5;Nicki Minaj (feat. Rihanna);Rihanna;1;Fly;;0
+184;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;7;Jessie J (feat. B.o.B);Jessie ;1;Price tag;Pricetag;1
+184;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;9;2;9;Iggy Azalea (ft. Charli XCX);Gwen Steffani;0;Fancy;Fast lane;0
+184;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;10;Outkast;Outcast;1;Ms. Jackson;Miss Jackson;1
+184;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;10;10;10;3;8;Eminem;Eminem;1;The way I am;can't remember;0
+184;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;3;6;2;7;Post Malone;?;0;WoW;?;0
+184;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;5;4;1;7;Nicki Minaj (feat. Rihanna);?;0;Fly;?;0
+185;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;7;Jessie J (feat. B.o.B);Jessy J;1;Price tag;Price Tag;1
+185;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;8;8;1;6;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+185;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;1;Outkast;;0;Ms. Jackson;Ms Jackson;1
+185;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;8;6;1;1;Eminem;;0;The way I am;;0
+185;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;8;8;1;1;Post Malone;;0;WoW;;0
+185;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;8;5;8;1;1;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+186;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;10;1;9;Jessie J (feat. B.o.B);Jessie J ;1;Price tag;Price Tag;1
+186;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;7;1;9;Iggy Azalea (ft. Charli XCX);Iggy ft Charli xcx;1;Fancy;Fancy;1
+186;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;7;9;1;6;Outkast;;0;Ms. Jackson;;0
+186;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;9;6;NA;1;9;Eminem;;0;The way I am;;0
+186;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;9;4;4;1;7;Post Malone;;0;WoW;;0
+186;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;9;9;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+187;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;6;7;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+187;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;8;8;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+187;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;9;1;9;Outkast;;0;Ms. Jackson;Miss Jackson;1
+187;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;4;4;1;6;Eminem;;0;The way I am;;0
+187;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;9;8;1;8;Post Malone;post malone;1;WoW;wow;1
+187;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;6;7;7;1;6;Nicki Minaj (feat. Rihanna);nicki minaj;1;Fly;;0
+188;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;5;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Pricetag;1
+188;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;NA;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+188;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;6;Outkast;Ouutkast;1;Ms. Jackson;Ms Jackson;1
+188;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;4;4;1;2;Eminem;;0;The way I am;;0
+188;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;8;7;1;1;Post Malone;;0;WoW;G wagon;0
+188;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;6;6;7;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+189;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+189;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;6;1;9;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+189;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;8;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+189;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;1;2;1;8;Eminem;;0;The way I am;;0
+189;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;8;8;1;3;Post Malone;Post Malone;1;WoW;;0
+189;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;9;9;8;1;9;Nicki Minaj (feat. Rihanna);Rhianna;1;Fly;Fly;1
+190;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;5;5;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+190;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;7;1;5;Iggy Azalea (ft. Charli XCX);charli xcx iggy azalea;1;Fancy;fancy;1
+190;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;4;Outkast;outkast;1;Ms. Jackson;ms jackson;1
+190;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;2;4;1;2;Eminem;;0;The way I am;;0
+190;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;5;5;1;1;Post Malone;;0;WoW;;0
+190;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;3;3;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+191;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;6;7;1;9;Jessie J (feat. B.o.B);Alicia Keys;0;Price tag;Money;0
+191;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;7;7;5;1;8;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+191;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;7;7;1;8;Outkast;;0;Ms. Jackson;;0
+191;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;9;6;7;1;3;Eminem;;0;The way I am;;0
+191;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;9;8;8;1;5;Post Malone;Post Malone;1;WoW;;0
+191;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;3;5;6;1;3;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+192;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;7;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+192;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;6;6;3;8;Iggy Azalea (ft. Charli XCX);Iggy Azealia;1;Fancy;Fancy;1
+192;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;8;7;7;1;6;Outkast;;0;Ms. Jackson;;0
+192;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;6;6;1;3;Eminem;;0;The way I am;;0
+192;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;5;5;1;3;Post Malone;;0;WoW;;0
+192;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;4;6;6;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+193;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;9;1;3;Jessie J (feat. B.o.B);Jessie J;1;Price tag;price Tag;1
+193;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;8;6;6;3;6;Iggy Azalea (ft. Charli XCX);iggy ;1;Fancy;fancy;1
+193;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;5;6;6;1;2;Outkast;;0;Ms. Jackson;ms jackson;1
+193;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;4;2;1;3;Eminem;;0;The way I am;;0
+193;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;8;8;4;5;Post Malone;post malone;1;WoW;wow;1
+193;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;2;2;1;5;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+194;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;4;5;1;6;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+194;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;3;5;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azalea ft. Charlie XCX;1;Fancy;Fancy;1
+194;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;8;8;1;6;Outkast;;0;Ms. Jackson;Miss Jackson;1
+194;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;7;7;7;1;6;Eminem;;0;The way I am;;0
+194;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;2;5;5;1;6;Post Malone;;0;WoW;;0
+194;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;6;5;5;1;7;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+195;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;5;7;1;9;Jessie J (feat. B.o.B);;0;Price tag;NA;0
+195;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;8;1;3;Iggy Azalea (ft. Charli XCX);;0;Fancy;NA;0
+195;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;1;4;8;2;7;Outkast;;0;Ms. Jackson;NA;0
+195;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;1;2;1;6;Eminem;eminem?;1;The way I am;NA;0
+195;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;1;4;1;10;Post Malone;;0;WoW;NA;0
+195;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;1;Nicki Minaj (feat. Rihanna);;0;Fly;NA;0
+196;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;6;6;1;4;Jessie J (feat. B.o.B);;0;Price tag;Price Tag;1
+196;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;1;2;1;5;Iggy Azalea (ft. Charli XCX);Iggy Azalea;1;Fancy;Fancy;1
+196;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;9;1;1;Outkast;Outkast;1;Ms. Jackson;Ms Jackson;1
+196;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;3;5;1;2;Eminem;;0;The way I am;;0
+196;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;9;8;1;1;Post Malone;Post Malone;1;WoW;Wow;1
+196;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;1;1;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+197;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;2;2;1;7;Jessie J (feat. B.o.B);Jessi J;1;Price tag;Its not about the money;0
+197;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;4;2;2;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+197;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;10;1;6;Outkast;Outkast;1;Ms. Jackson;Ms jackson;1
+197;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;9;7;8;1;3;Eminem;Eminem;1;The way I am;;0
+197;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;1;1;5;2;Post Malone;;0;WoW;;0
+197;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;NA;NA;NA;NA;NA;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+198;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;7;5;9;1;6;Jessie J (feat. B.o.B);NA;0;Price tag;money;0
+198;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;4;4;4;1;8;Iggy Azalea (ft. Charli XCX);NA;0;Fancy;;0
+198;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;9;10;10;1;4;Outkast;NA;0;Ms. Jackson;;0
+198;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;2;10;9;1;3;Eminem;NA;0;The way I am;;0
+198;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;3;10;10;1;2;Post Malone;NA;0;WoW;;0
+198;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;2;2;1;1;10;Nicki Minaj (feat. Rihanna);NA;0;Fly;;0
+199;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;9;9;2;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+199;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;7;NA;NA;9;Iggy Azalea (ft. Charli XCX);Charlie XCX and iggy Azelia;1;Fancy;Fancy;1
+199;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;NA;2;9;Outkast;Outkast;1;Ms. Jackson;Miss Jackson;1
+199;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;7;NA;1;4;Eminem;;0;The way I am;;0
+199;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;6;5;1;6;Post Malone;;0;WoW;;0
+199;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;2;2;1;4;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+200;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;10;1;10;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+200;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;9;8;8;1;10;Iggy Azalea (ft. Charli XCX);;0;Fancy;Fancy;1
+200;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;8;10;10;1;9;Outkast;;0;Ms. Jackson;;0
+200;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;4;4;1;7;Eminem;;0;The way I am;;0
+200;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;1;5;5;1;7;Post Malone;;0;WoW;;0
+200;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;4;4;1;6;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+201;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;10;NA;1;9;Jessie J (feat. B.o.B);Jessie J, B.O.B;1;Price tag;Price tag;1
+201;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;10;10;1;8;Iggy Azalea (ft. Charli XCX);Iggy Azalea, Charlie XCX;1;Fancy;Fancy;1
+201;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;7;7;8;1;5;Outkast;;0;Ms. Jackson;;0
+201;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;4;4;4;1;5;Eminem;;0;The way I am;;0
+201;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;10;10;2;5;Post Malone;Post Malone;1;WoW;WOW;1
+201;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;9;9;1;6;Nicki Minaj (feat. Rihanna);Nicki Minaj;1;Fly;;0
+202;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;9;1;8;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+202;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;9;9;1;7;Iggy Azalea (ft. Charli XCX);Iggy Azaela ;1;Fancy;Fancy;1
+202;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;7;6;1;6;Outkast;;0;Ms. Jackson;;0
+202;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;1;2;2;1;4;Eminem;;0;The way I am;;0
+202;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;10;7;NA;1;5;Post Malone;Post Malone;1;WoW;;0
+202;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;1;2;1;1;2;Nicki Minaj (feat. Rihanna);;0;Fly;;0
+203;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;10;1;2;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price Tag;1
+203;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;5;8;2;7;Iggy Azalea (ft. Charli XCX);Fancy ;1;Fancy;Iggy Azelea;1
+203;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;9;10;1;1;Outkast;Outkast ;1;Ms. Jackson;Ms. Jackson;1
+203;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;3;2;5;3;8;Eminem;;0;The way I am;;0
+203;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;7;8;2;3;Post Malone;;0;WoW;;0
+203;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;10;10;2;1;Nicki Minaj (feat. Rihanna);Nicki Minaj ;1;Fly;Fly;1
+204;F;lyrical;1;B;static/B1_lyrical.mp3;University pool;10;8;8;1;9;Jessie J (feat. B.o.B);Jessie J;1;Price tag;Price tag;1
+204;F;lyrical;2;B;static/B2_lyrical.mp3;University pool;10;6;6;1;9;Iggy Azalea (ft. Charli XCX);Iggie and Charlie XCX;1;Fancy;Fancy;1
+204;F;lyrical;3;B;static/B3_lyrical.mp3;University pool;10;10;10;1;10;Outkast;Outcast;1;Ms. Jackson;Ms Jackson;1
+204;F;instrumental;1;A;static/A1_instrumental.mp3;University pool;8;8;8;1;5;Eminem;;0;The way I am;;0
+204;F;instrumental;2;A;static/A2_instrumental.mp3;University pool;8;9;9;1;8;Post Malone;Post Malone;1;WoW;Wow;1
+204;F;instrumental;3;A;static/A3_instrumental.mp3;University pool;10;10;10;1;6;Nicki Minaj (feat. Rihanna);Nicki Minaj;1;Fly;Fly;1
