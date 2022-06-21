@@ -88,15 +88,15 @@ for(i in 1:length(files)){ # for each participant file..
   t_b$block_start<- h$new_time
   
   if(t$which_list[1]== "A" | t$which_list[1]== "D"){
-    t_b$sound<- c("silence", "lyrical", "instrumental")
+    t_b$sound<- c("Silence", "Lyrical", "Instrumental")
   }
   
   if(t$which_list[1]== "B" | t$which_list[1]== "E"){
-    t_b$sound<- c("lyrical", "instrumental", "silence")
+    t_b$sound<- c("Lyrical", "Instrumental", "Silence")
   }
   
-  if(t$which_list[1]== "C" | t$which_list[1]== "F"){
-    t_b$sound<- c("instrumental", "silence", "lyrical")
+  if(t$which_list[1]== "C" | t$which_list[1]== "FALSE"){
+    t_b$sound<- c("Instrumental", "Silence", "Lyrical")
   }
   
   block<- rbind(block, t_b)
@@ -133,6 +133,137 @@ write.csv(dem, "Experiment1b/data/participant_data.csv", row.names = F) # save d
 ### DEVICE DATA:
 device<- LabJs_device(dat) # extract devide info from lab.js
 write.csv(device, "Experiment1b/data/device_info.csv", row.names = F) # save device info
+
+
+### MUSIC RATING DATA:
+ratings<- subset(dat, sender == "song_ratings")
+
+ratings<- ratings[, c("subject", "which_list", "song_rating", "snippet_file", "familiarity",
+                      "preference", "pleasantness", "offensiveness", 
+                      "distraction", "artist_name", "song_name", "Pool")]
+
+ratings$which_list[which(ratings$which_list=="FALSE")]= "F"
+
+### prep data:
+ratings$music_set<- substr(x = ratings$snippet_file, start = 8, stop = 8)
+ratings$music<- ifelse(substr(x = ratings$snippet_file, start = 11, stop = 17)== "lyrical",
+                       "lyrical", "instrumental")
+
+ratings$song_number<- substr(x = ratings$snippet_file, start = 9, stop = 9)
+ratings$list<- ratings$which_list
+ratings$which_list<- NULL
+
+
+### Code actual song names:
+
+ratings$actual_artist<- NA
+ratings$actual_song_name<- NA
+
+for(i in 1:nrow(ratings)){
+  
+  #############
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Eminem"
+    ratings$actual_song_name[i]<- "The way I am"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Post Malone"
+    ratings$actual_song_name[i]<- "WoW"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
+    ratings$actual_song_name[i]<- "Fly"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Eminem"
+    ratings$actual_song_name[i]<- "The way I am"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Post Malone"
+    ratings$actual_song_name[i]<- "WoW"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
+    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
+    ratings$actual_song_name[i]<- "Fly"
+  }
+  
+  
+  
+  #############
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
+    ratings$actual_song_name[i]<- "Price tag"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
+    ratings$actual_song_name[i]<- "Fancy"
+  }
+  
+  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Outkast"
+    ratings$actual_song_name[i]<- "Ms. Jackson"
+  }
+  
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
+    ratings$actual_song_name[i]<- "Price tag"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
+    ratings$actual_song_name[i]<- "Fancy"
+  }
+  
+  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
+    ratings$actual_artist[i]<- "Outkast"
+    ratings$actual_song_name[i]<- "Ms. Jackson"
+  }
+  
+}
+
+colnames(ratings)
+
+r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet_file",  "Pool",
+                "familiarity", "preference", "pleasantness", "offensiveness", 
+                "distraction", "actual_artist", "actual_song_name",
+                "artist_name", "song_name" )]
+
+
+write.csv(r, "Experiment1b/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
+
+
+ratings <- read.csv("Experiment1b/data/prep/ratings_manual_coding.csv", sep=";")
+
+
+
+
+
+### Music preferences:
+
+genres<- subset(dat, sender== "Music styles")
+genres<- genres[, c("subject", "Blues",  "Classical", "Country", "Dance", "Electronic", 
+                    "Folk", "Gospel", "Hip.Hop", "Jazz", "Latin",
+                    "Musical.Film", "New.age", "Pop", "R.B",
+                    "Rap", "Reggae", "Religious", "Rock",  "Soul",
+                    "Swing", "Traditional", "Pool")] # subset colums we need
+
+
+freq<- subset(dat, sender== "Music_frequency")
+freq<- freq[, c("subject", "music_frequency")]
+
+preference <- merge(freq, genres) # merge two dataframes
+write.csv(preference, "Experiment1b/data/music_preferences.csv") # save data
+
+
 
 
 ### QUESTION ACCURACY DATA:
@@ -311,8 +442,8 @@ rt$t_since_block<- rt$new_time- (rt$block_start-7)
 
 ## load song ratings by subject:
 
-music_preferences <- read_csv("Experiment1a/data/music_preferences.csv")
-ratings <- read.csv("D:/R/SPR_online/Experiment1a/data/prep/ratings_manual_coding.csv", sep=";")
+music_preferences <- read_csv("Experiment1b/data/music_preferences.csv")
+ratings <- read.csv("Experiment1b/data/prep/ratings_manual_coding.csv", sep=";")
 
 
 # create empty columns:
@@ -381,139 +512,9 @@ rt$third<- NULL
 
 
 #### save RT & accuracy data:
-write.csv(rt, "Experiment1a/data/reaction_time.csv", row.names = F) # save accuracy data
-write.csv(q, "Experiment1a/data/question_accuracy.csv", row.names = F) # save accuracy data
+write.csv(rt, "Experiment1b/data/reaction_time.csv", row.names = F) # save accuracy data
+write.csv(q, "Experiment1b/data/question_accuracy.csv", row.names = F) # save accuracy data
 
-
-
-
-### MUSIC RATING DATA:
-ratings<- subset(dat, sender == "song_ratings")
-
-ratings<- ratings[, c("subject", "which_list", "song_rating", "snippet_file", "familiarity",
-                      "preference", "pleasantness", "offensiveness", 
-                      "distraction", "artist_name", "song_name", "Pool")]
-
-ratings$which_list[which(ratings$which_list=="FALSE")]= "F"
-
-### prep data:
-ratings$music_set<- substr(x = ratings$snippet_file, start = 8, stop = 8)
-ratings$music<- ifelse(substr(x = ratings$snippet_file, start = 11, stop = 17)== "lyrical",
-                       "lyrical", "instrumental")
-
-ratings$song_number<- substr(x = ratings$snippet_file, start = 9, stop = 9)
-ratings$list<- ratings$which_list
-ratings$which_list<- NULL
-
-
-### Code actual song names:
-
-ratings$actual_artist<- NA
-ratings$actual_song_name<- NA
-
-for(i in 1:nrow(ratings)){
-  
-  #############
-  
-  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Eminem"
-    ratings$actual_song_name[i]<- "The way I am"
-  }
-  
-  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Post Malone"
-    ratings$actual_song_name[i]<- "WoW"
-  }
-  
-  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
-    ratings$actual_song_name[i]<- "Fly"
-  }
-  
-  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Eminem"
-    ratings$actual_song_name[i]<- "The way I am"
-  }
-  
-  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Post Malone"
-    ratings$actual_song_name[i]<- "WoW"
-  }
-  
-  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
-    ratings$actual_song_name[i]<- "Fly"
-  }
-  
-  
-  
-  #############
-  
-  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
-    ratings$actual_song_name[i]<- "Price tag"
-  }
-  
-  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
-    ratings$actual_song_name[i]<- "Fancy"
-  }
-  
-  if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Outkast"
-    ratings$actual_song_name[i]<- "Ms. Jackson"
-  }
-  
-  
-  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
-    ratings$actual_song_name[i]<- "Price tag"
-  }
-  
-  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
-    ratings$actual_song_name[i]<- "Fancy"
-  }
-  
-  if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Outkast"
-    ratings$actual_song_name[i]<- "Ms. Jackson"
-  }
-  
-}
-
-colnames(ratings)
-
-r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet_file",  "Pool",
-                "familiarity", "preference", "pleasantness", "offensiveness", 
-                "distraction", "actual_artist", "actual_song_name",
-                "artist_name", "song_name" )]
-
-
-write.csv(r, "Experiment1a/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
-
-
-ratings <- read.csv("D:/R/SPR_online/Experiment1a/data/prep/ratings_manual_coding.csv", sep=";")
-
-
-
-
-
-### Music preferences:
-
-genres<- subset(dat, sender== "Music styles")
-genres<- genres[, c("subject", "Blues",  "Classical", "Country", "Dance", "Electronic", 
-                    "Folk", "Gospel", "Hip.Hop", "Jazz", "Latin",
-                    "Musical.Film", "New.age", "Pop", "R.B",
-                    "Rap", "Reggae", "Religious", "Rock",  "Soul",
-                    "Swing", "Traditional", "Pool")] # subset colums we need
-
-
-freq<- subset(dat, sender== "Music_frequency")
-freq<- freq[, c("subject", "music_frequency")]
-
-preference <- merge(freq, genres) # merge two dataframes
-write.csv(preference, "Experiment1a/data/music_preferences.csv") # save data
 
 ### TRIAL DURATIONS
 
