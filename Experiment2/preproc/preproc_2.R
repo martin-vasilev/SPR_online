@@ -537,3 +537,4 @@ table(rt$item, rt$sound)
 # hist(ratings$preference, breaks= 10)
 #dem<- subset(dem, honesty==1 & trap_accuracy==1)
 table(dem$list)
+
