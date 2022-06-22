@@ -70,23 +70,16 @@ Qsub<- Qsub[order(Qsub$accuracy_M),]
 
 
 ## Main model with RT data:
-if(!file.exists("Experiment1a/models/LM1.Rda")){
+if(!file.exists("Experiment2/models/LM1.Rda")){
   summary(LM1<- lmer(log_duration ~ sound+ (sound|subject)+ (1|item), data = rt, REML = T))
   
-  save(LM1, file = 'Experiment1a/models/LM1.Rda')
+  save(LM1, file = 'Experiment2/models/LM1.Rda')
   
 }else{
-   load('Experiment1a/models/LM1.Rda')
+   load('Experiment2/models/LM1.Rda')
   summary(LM1)
 }
 
-
-summary(LM1.2<- lmer(log_duration ~ sound*Pool+ (Pool|subject)+ (1|item), data = rt, REML = T))
-
-plot(effect('Pool', LM1.2))
-plot(effect('sound:Pool', LM1.2))
-
-effect('sound:Pool', LM1.2)
 
 
 #### Bayesian model parameters:
@@ -105,7 +98,7 @@ BM1<- brm(formula = log_duration ~ sound + (sound|subject)+ (1|item), data = rt,
 A= print(BM1, digits=5)
 prior_summary(BM1)
 
-save(BM1, file= "Experiment1a/models/BM1.Rda")
+save(BM1, file= "Experiment2/models/BM1.Rda")
 
 ## Bayes factors:
 
@@ -144,13 +137,13 @@ ggsave(plot = P1, filename = "plots/raneff_RT.pdf", height = 18, width = 12)
 
 
 ## Main model with accuracy data:
-if(!file.exists("Experiment1a/models/LM2.Rda")){
+if(!file.exists("Experiment2/models/LM2.Rda")){
   summary(LM2<- glmer(accuracy ~ sound+ (sound|subject)+ (1|item), data = q, family = binomial))
   
-  save(LM2, file = 'Experiment1a/models/LM2.Rda')
+  save(LM2, file = 'Experiment2/models/LM2.Rda')
   
 }else{
-  load('Experiment1a/models/LM2.Rda')
+  load('Experiment2/models/LM2.Rda')
   summary(LM2)
 }
 
@@ -162,7 +155,7 @@ GM1<- brm(formula = accuracy ~ sound + (sound|subject)+ (1|item), data = q, fami
                      set_prior('normal(0, 2)', class = 'Intercept')))
 
 A= print(GM1, digits=3)
-save(GM1, file= "Experiment1a/models/GM1.Rda")
+save(GM1, file= "Experiment2/models/GM1.Rda")
 
 # sound effect 1:
 BF2_sound1 = hypothesis(GM1, hypothesis = 'sound.instr_vs_slc = 0', seed= 1234)  # H0: No  slc vs instr difference
@@ -175,7 +168,7 @@ BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234) 
 
 ######## Music ratings:
 
-ratings <- read.csv("D:/R/SPR_online/Experiment1a/data/prep/ratings_manual_coding.csv", sep=";")
+ratings <- read.csv("D:/R/SPR_online/Experiment2/data/prep/ratings_manual_coding.csv", sep=";")
 
 DesSongs<- melt(ratings, id=c('subject', 'music', 'song_number', 'music_set'), 
                 measure=c("familiarity", 'preference', 'pleasantness',
