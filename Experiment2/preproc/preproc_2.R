@@ -132,7 +132,7 @@ write.csv(dem, "Experiment2/data/participant_data.csv", row.names = F) # save de
 
 ### DEVICE DATA:
 device<- LabJs_device(dat) # extract devide info from lab.js
-write.csv(device, "Experiment1b/data/device_info.csv", row.names = F) # save device info
+write.csv(device, "Experiment2/data/device_info.csv", row.names = F) # save device info
 
 
 ### MUSIC RATING DATA:
@@ -164,33 +164,33 @@ for(i in 1:nrow(ratings)){
   #############
   
   if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Eminem"
-    ratings$actual_song_name[i]<- "The way I am"
+    ratings$actual_artist[i]<- "Sa-Roc"
+    ratings$actual_song_name[i]<- "Starseed"
   }
   
   if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Post Malone"
-    ratings$actual_song_name[i]<- "WoW"
+    ratings$actual_artist[i]<- "Johnie Bee ft. Rasco"
+    ratings$actual_song_name[i]<- "In My Prime"
   }
   
   if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
-    ratings$actual_song_name[i]<- "Fly"
+    ratings$actual_artist[i]<- "Evidence"
+    ratings$actual_song_name[i]<- "Throw It All Away"
   }
   
   if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Eminem"
-    ratings$actual_song_name[i]<- "The way I am"
+    ratings$actual_artist[i]<- "Sa-Roc"
+    ratings$actual_song_name[i]<- "Starseed"
   }
   
   if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Post Malone"
-    ratings$actual_song_name[i]<- "WoW"
+    ratings$actual_artist[i]<- "Johnie Bee ft. Rasco"
+    ratings$actual_song_name[i]<- "In My Prime"
   }
   
   if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "A"){
-    ratings$actual_artist[i]<- "Nicki Minaj (feat. Rihanna)"
-    ratings$actual_song_name[i]<- "Fly"
+    ratings$actual_artist[i]<- "Evidence"
+    ratings$actual_song_name[i]<- "Throw It All Away"
   }
   
   
@@ -198,34 +198,34 @@ for(i in 1:nrow(ratings)){
   #############
   
   if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
-    ratings$actual_song_name[i]<- "Price tag"
+    ratings$actual_artist[i]<- "The Four Owls"
+    ratings$actual_song_name[i]<- "Old Earth"
   }
   
   if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
-    ratings$actual_song_name[i]<- "Fancy"
+    ratings$actual_artist[i]<- "Aesop Rock"
+    ratings$actual_song_name[i]<- "Molecules"
   }
   
   if(ratings$music[i]== "lyrical" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Outkast"
-    ratings$actual_song_name[i]<- "Ms. Jackson"
+    ratings$actual_artist[i]<- "Atmosphere"
+    ratings$actual_song_name[i]<- "Just for show"
   }
   
   
   if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "1" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Jessie J (feat. B.o.B)"
-    ratings$actual_song_name[i]<- "Price tag"
+    ratings$actual_artist[i]<- "The Four Owls"
+    ratings$actual_song_name[i]<- "Old Earth"
   }
   
   if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "2" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Iggy Azalea (ft. Charli XCX)"
-    ratings$actual_song_name[i]<- "Fancy"
+    ratings$actual_artist[i]<- "Aesop Rock"
+    ratings$actual_song_name[i]<- "Molecules"
   }
   
   if(ratings$music[i]== "instrumental" & ratings$song_number[i]== "3" & ratings$music_set[i]== "B"){
-    ratings$actual_artist[i]<- "Outkast"
-    ratings$actual_song_name[i]<- "Ms. Jackson"
+    ratings$actual_artist[i]<- "Atmosphere"
+    ratings$actual_song_name[i]<- "Just for show"
   }
   
 }
@@ -238,10 +238,10 @@ r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet
                 "artist_name", "song_name" )]
 
 
-write.csv(r, "Experiment1b/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
+write.csv(r, "Experiment2/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
 
 
-ratings <- read.csv("Experiment1b/data/prep/ratings_manual_coding.csv", sep=";")
+ratings <- read.csv("Experiment2/data/prep/ratings_manual_coding.csv", sep=";")
 
 
 

@@ -1,0 +1,1225 @@
+subject,list,music,song_number,music_set,snippet_file,Pool,familiarity,preference,pleasantness,offensiveness,distraction,actual_artist,artist_name,accuracy_artist,actual_song_name,song_name,accuracy_song
+1,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,6,3,5,10,Sa-Roc,NA,0,Starseed,NA,0
+1,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,NA,2,10,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+1,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,3,3,5,10,Evidence,NA,0,Throw It All Away,NA,0
+1,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,7,6,5,1,10,The Four Owls,NA,0,Old Earth,NA,0
+1,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,10,Aesop Rock,NA,0,Molecules,NA,0
+1,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,1,10,Atmosphere,NA,0,Just for show,NA,0
+2,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,4,3,1,10,Sa-Roc,NA,0,Starseed,NA,0
+2,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,6,5,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+2,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,9,5,6,1,8,Evidence,NA,0,Throw It All Away,NA,0
+2,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,5,7,1,6,The Four Owls,NA,0,Old Earth,NA,0
+2,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,1,1,9,Aesop Rock,NA,0,Molecules,NA,0
+2,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,2,2,1,8,Atmosphere,NA,0,Just for show,NA,0
+3,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,2,2,2,10,Sa-Roc,NA,0,Starseed,NA,0
+3,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,1,8,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+3,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,1,9,Evidence,NA,0,Throw It All Away,NA,0
+3,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,2,2,1,4,The Four Owls,NA,0,Old Earth,NA,0
+3,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,4,Aesop Rock,NA,0,Molecules,NA,0
+3,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,3,1,4,Atmosphere,NA,0,Just for show,NA,0
+4,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,7,NA,2,7,Sa-Roc,NA,0,Starseed,NA,0
+4,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,4,2,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+4,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,3,2,3,Evidence,NA,0,Throw It All Away,NA,0
+4,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,2,4,1,2,The Four Owls,NA,0,Old Earth,NA,0
+4,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,4,1,3,Aesop Rock,NA,0,Molecules,NA,0
+4,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,4,4,1,2,Atmosphere,NA,0,Just for show,NA,0
+5,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,2,1,1,9,Sa-Roc,NA,0,Starseed,NA,0
+5,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,4,3,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+5,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,6,6,1,6,Evidence,NA,0,Throw It All Away,NA,0
+5,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,5,7,8,1,4,The Four Owls,NA,0,Old Earth,NA,0
+5,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,3,2,1,7,Aesop Rock,NA,0,Molecules,NA,0
+5,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,6,6,6,1,7,Atmosphere,NA,0,Just for show,NA,0
+6,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,6,9,NA,8,8,Sa-Roc,,0,Starseed,NA,0
+6,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,5,9,6,6,7,Johnie Bee ft. Rasco,,0,In My Prime,NA,0
+6,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,7,8,7,3,8,Evidence,Snoop dog,0,Throw It All Away,NA,0
+6,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,3,8,8,1,5,The Four Owls,,0,Old Earth,NA,0
+6,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,2,3,1,9,Aesop Rock,,0,Molecules,NA,0
+6,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,3,5,1,8,Atmosphere,,0,Just for show,NA,0
+7,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,3,3,5,8,Sa-Roc,NA,0,Starseed,NA,0
+7,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,4,3,4,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+7,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,2,5,6,Evidence,NA,0,Throw It All Away,NA,0
+7,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,6,3,4,The Four Owls,NA,0,Old Earth,NA,0
+7,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,4,4,7,Aesop Rock,NA,0,Molecules,NA,0
+7,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,5,5,8,Atmosphere,NA,0,Just for show,NA,0
+8,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,8,9,1,5,Sa-Roc,NA,0,Starseed,NA,0
+8,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,7,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+8,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,8,9,1,4,Evidence,NA,0,Throw It All Away,NA,0
+8,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,7,7,1,3,The Four Owls,NA,0,Old Earth,NA,0
+8,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,1,7,Aesop Rock,NA,0,Molecules,NA,0
+8,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,7,7,1,5,Atmosphere,NA,0,Just for show,NA,0
+9,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,1,3,6,Sa-Roc,NA,0,Starseed,NA,0
+9,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,10,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+9,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,4,7,Evidence,NA,0,Throw It All Away,NA,0
+9,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,1,1,1,3,The Four Owls,NA,0,Old Earth,NA,0
+9,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,2,1,2,Aesop Rock,NA,0,Molecules,NA,0
+9,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,2,1,3,Atmosphere,NA,0,Just for show,NA,0
+10,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,6,5,3,4,Sa-Roc,NA,0,Starseed,NA,0
+10,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,4,6,5,3,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+10,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,4,5,5,3,5,Evidence,NA,0,Throw It All Away,NA,0
+10,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,5,5,2,2,The Four Owls,NA,0,Old Earth,NA,0
+10,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,4,2,2,2,4,Aesop Rock,NA,0,Molecules,NA,0
+10,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,4,4,4,1,4,Atmosphere,NA,0,Just for show,NA,0
+11,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,5,7,1,4,Sa-Roc,NA,0,Starseed,NA,0
+11,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,7,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+11,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,7,1,4,Evidence,NA,0,Throw It All Away,NA,0
+11,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,4,8,1,2,The Four Owls,NA,0,Old Earth,NA,0
+11,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,5,8,1,2,Aesop Rock,NA,0,Molecules,NA,0
+11,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,7,1,2,Atmosphere,NA,0,Just for show,NA,0
+12,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,1,1,7,Sa-Roc,NA,0,Starseed,NA,0
+12,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,3,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+12,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,1,4,Evidence,NA,0,Throw It All Away,NA,0
+12,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,3,5,1,6,The Four Owls,NA,0,Old Earth,NA,0
+12,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,5,1,2,Aesop Rock,NA,0,Molecules,NA,0
+12,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,5,1,7,Atmosphere,NA,0,Just for show,NA,0
+13,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,2,3,4,2,8,Sa-Roc,NA,0,Starseed,NA,0
+13,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,5,7,2,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+13,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,7,8,1,5,Evidence,NA,0,Throw It All Away,NA,0
+13,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,7,9,1,4,The Four Owls,NA,0,Old Earth,NA,0
+13,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,5,5,1,8,Aesop Rock,NA,0,Molecules,NA,0
+13,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,5,1,9,Atmosphere,NA,0,Just for show,NA,0
+14,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,4,6,3,1,10,Sa-Roc,NA,0,Starseed,NA,0
+14,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,5,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+14,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,4,3,2,6,Evidence,NA,0,Throw It All Away,NA,0
+14,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,5,7,1,5,The Four Owls,NA,0,Old Earth,NA,0
+14,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,10,Aesop Rock,NA,0,Molecules,NA,0
+14,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,3,4,1,6,Atmosphere,NA,0,Just for show,NA,0
+15,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,8,2,2,2,7,Sa-Roc,NA,0,Starseed,NA,0
+15,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,7,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+15,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,1,5,Evidence,NA,0,Throw It All Away,NA,0
+15,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,3,3,1,4,The Four Owls,NA,0,Old Earth,NA,0
+15,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,7,Aesop Rock,NA,0,Molecules,NA,0
+15,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,2,1,1,7,Atmosphere,NA,0,Just for show,NA,0
+16,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,9,2,3,2,9,Sa-Roc,NA,0,Starseed,NA,0
+16,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,9,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+16,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,8,5,5,5,6,Evidence,NA,0,Throw It All Away,NA,0
+16,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,6,1,4,The Four Owls,NA,0,Old Earth,NA,0
+16,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,5,5,4,3,5,Aesop Rock,NA,0,Molecules,NA,0
+16,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,6,5,5,1,6,Atmosphere,NA,0,Just for show,NA,0
+17,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,4,7,8,1,8,Sa-Roc,no,0,Starseed,no,0
+17,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,9,10,1,5,Johnie Bee ft. Rasco,no,0,In My Prime,no,0
+17,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,9,10,1,3,Evidence,no,0,Throw It All Away,no,0
+17,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,9,10,1,3,The Four Owls,no,0,Old Earth,no,0
+17,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,9,10,1,4,Aesop Rock,no,0,Molecules,no,0
+17,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,8,9,1,6,Atmosphere,no,0,Just for show,no,0
+18,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,3,5,2,7,Sa-Roc,NA,0,Starseed,NA,0
+18,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,7,2,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+18,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,5,1,6,Evidence,NA,0,Throw It All Away,NA,0
+18,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,9,9,1,2,The Four Owls,NA,0,Old Earth,NA,0
+18,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,9,Aesop Rock,NA,0,Molecules,NA,0
+18,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,1,7,Atmosphere,NA,0,Just for show,NA,0
+19,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,8,7,2,6,Sa-Roc,NA,0,Starseed,NA,0
+19,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,3,3,6,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+19,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,4,3,4,7,Evidence,NA,0,Throw It All Away,NA,0
+19,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,9,8,2,3,The Four Owls,NA,0,Old Earth,NA,0
+19,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,4,6,NA,4,Aesop Rock,NA,0,Molecules,NA,0
+19,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,4,5,2,3,Atmosphere,NA,0,Just for show,NA,0
+20,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,8,8,1,8,Sa-Roc,NA,0,Starseed,NA,0
+20,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,2,6,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+20,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,5,3,4,Evidence,NA,0,Throw It All Away,NA,0
+20,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,5,4,1,7,The Four Owls,NA,0,Old Earth,NA,0
+20,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,8,Aesop Rock,NA,0,Molecules,NA,0
+20,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,2,3,1,7,Atmosphere,NA,0,Just for show,NA,0
+21,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,5,5,2,8,Sa-Roc,NA,0,Starseed,NA,0
+21,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,8,7,2,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+21,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,7,6,2,7,Evidence,NA,0,Throw It All Away,NA,0
+21,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,5,8,1,4,The Four Owls,NA,0,Old Earth,NA,0
+21,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,7,5,1,3,Aesop Rock,NA,0,Molecules,NA,0
+21,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,7,6,3,4,Atmosphere,NA,0,Just for show,NA,0
+22,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,7,2,2,1,8,Sa-Roc,NA,0,Starseed,NA,0
+22,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,NA,NA,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+22,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,1,6,Evidence,NA,0,Throw It All Away,NA,0
+22,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,3,1,1,4,The Four Owls,NA,0,Old Earth,NA,0
+22,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,5,Aesop Rock,NA,0,Molecules,NA,0
+22,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,1,5,Atmosphere,NA,0,Just for show,NA,0
+23,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,4,4,1,10,Sa-Roc,NA,0,Starseed,NA,0
+23,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+23,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,1,1,5,Evidence,NA,0,Throw It All Away,NA,0
+23,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,8,1,3,The Four Owls,NA,0,Old Earth,NA,0
+23,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,1,5,Aesop Rock,NA,0,Molecules,NA,0
+23,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,2,1,3,Atmosphere,NA,0,Just for show,NA,0
+24,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,1,6,6,Sa-Roc,NA,0,Starseed,NA,0
+24,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,NA,1,6,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+24,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,3,4,Evidence,NA,0,Throw It All Away,NA,0
+24,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,1,1,3,6,The Four Owls,NA,0,Old Earth,NA,0
+24,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,7,Aesop Rock,NA,0,Molecules,NA,0
+24,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,4,5,Atmosphere,NA,0,Just for show,NA,0
+25,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,5,7,4,8,Sa-Roc,,0,Starseed,NA,0
+25,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,7,3,3,6,7,Johnie Bee ft. Rasco,no idea like last one,0,In My Prime,NA,0
+25,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,5,3,6,5,8,Evidence,,0,Throw It All Away,NA,0
+25,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,7,5,5,8,8,The Four Owls,,0,Old Earth,NA,0
+25,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,3,3,6,9,Aesop Rock,,0,Molecules,NA,0
+25,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,7,7,4,7,Atmosphere,,0,Just for show,NA,0
+26,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,9,9,1,10,Sa-Roc,NA,0,Starseed,NA,0
+26,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,3,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+26,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,2,6,1,2,Evidence,NA,0,Throw It All Away,NA,0
+26,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,4,4,1,2,The Four Owls,NA,0,Old Earth,NA,0
+26,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,1,1,1,4,Aesop Rock,NA,0,Molecules,NA,0
+26,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,4,3,1,4,Atmosphere,NA,0,Just for show,NA,0
+27,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,1,5,5,Sa-Roc,NA,0,Starseed,NA,0
+27,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,8,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+27,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,5,5,Evidence,NA,0,Throw It All Away,NA,0
+27,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,5,5,1,1,The Four Owls,NA,0,Old Earth,NA,0
+27,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,5,Aesop Rock,NA,0,Molecules,NA,0
+27,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,1,5,Atmosphere,NA,0,Just for show,NA,0
+28,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,3,2,2,8,Sa-Roc,NA,0,Starseed,NA,0
+28,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,2,2,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+28,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,2,2,7,Evidence,NA,0,Throw It All Away,NA,0
+28,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,4,5,1,6,The Four Owls,NA,0,Old Earth,NA,0
+28,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,3,1,6,Aesop Rock,NA,0,Molecules,NA,0
+28,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,2,2,1,6,Atmosphere,NA,0,Just for show,NA,0
+29,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,3,3,1,9,Sa-Roc,NA,0,Starseed,NA,0
+29,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,5,2,2,1,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+29,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,8,2,2,1,8,Evidence,NA,0,Throw It All Away,NA,0
+29,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,8,8,1,3,The Four Owls,NA,0,Old Earth,NA,0
+29,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,1,5,Aesop Rock,NA,0,Molecules,NA,0
+29,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,6,5,1,7,Atmosphere,NA,0,Just for show,NA,0
+30,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,8,7,1,10,Sa-Roc,NA,0,Starseed,NA,0
+30,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,5,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+30,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,7,6,1,10,Evidence,NA,0,Throw It All Away,NA,0
+30,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,7,8,1,2,The Four Owls,NA,0,Old Earth,NA,0
+30,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,1,6,Aesop Rock,NA,0,Molecules,NA,0
+30,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,2,1,5,Atmosphere,NA,0,Just for show,NA,0
+31,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,7,4,2,1,10,Sa-Roc,NA,0,Starseed,NA,0
+31,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,5,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+31,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,7,1,1,1,10,Evidence,NA,0,Throw It All Away,NA,0
+31,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,7,8,8,1,3,The Four Owls,NA,0,Old Earth,NA,0
+31,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,7,Aesop Rock,NA,0,Molecules,NA,0
+31,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,6,5,1,9,Atmosphere,NA,0,Just for show,NA,0
+32,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,8,6,1,8,Sa-Roc,NA,0,Starseed,NA,0
+32,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,4,3,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+32,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,4,4,4,1,6,Evidence,NA,0,Throw It All Away,NA,0
+32,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,5,7,1,4,The Four Owls,NA,0,Old Earth,NA,0
+32,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,3,1,5,Aesop Rock,NA,0,Molecules,NA,0
+32,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,4,6,5,1,7,Atmosphere,NA,0,Just for show,NA,0
+33,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,6,3,3,1,10,Sa-Roc,NA,0,Starseed,,0
+33,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,4,2,7,Johnie Bee ft. Rasco,NA,0,In My Prime,,0
+33,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,2,3,1,6,Evidence,NA,0,Throw It All Away,,0
+33,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,6,7,1,3,The Four Owls,NA,0,Old Earth,,0
+33,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,10,10,1,2,Aesop Rock,NA,0,Molecules,,0
+33,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,8,9,NA,1,2,Atmosphere,NA,0,Just for show, brussels ?,0
+34,A,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,8,5,3,2,Sa-Roc,NA,0,Starseed,NA,0
+34,A,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,5,5,3,2,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+34,A,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,5,5,3,2,Evidence,NA,0,Throw It All Away,NA,0
+34,A,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,10,10,1,1,The Four Owls,NA,0,Old Earth,NA,0
+34,A,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,5,5,2,2,Aesop Rock,NA,0,Molecules,NA,0
+34,A,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,5,2,2,Atmosphere,NA,0,Just for show,NA,0
+35,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,1,7,10,Sa-Roc,NA,0,Starseed,NA,0
+35,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,8,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+35,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,2,2,7,Evidence,NA,0,Throw It All Away,NA,0
+35,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,7,1,4,The Four Owls,NA,0,Old Earth,NA,0
+35,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,4,9,Aesop Rock,NA,0,Molecules,NA,0
+35,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,3,1,7,Atmosphere,NA,0,Just for show,NA,0
+36,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,4,3,2,2,8,Sa-Roc,No,0,Starseed,No,0
+36,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,1,10,Johnie Bee ft. Rasco,No,0,In My Prime,No,0
+36,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,1,10,Evidence,No,0,Throw It All Away,No,0
+36,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,3,2,2,1,6,The Four Owls,No,0,Old Earth,No,0
+36,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,1,1,6,Aesop Rock,No,0,Molecules,No,0
+36,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,5,7,5,1,5,Atmosphere,No,0,Just for show,No,0
+37,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,7,NA,4,7,Sa-Roc,NA,0,Starseed,NA,0
+37,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,6,3,4,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+37,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,3,2,3,3,Evidence,NA,0,Throw It All Away,NA,0
+37,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,6,6,1,4,The Four Owls,NA,0,Old Earth,NA,0
+37,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,3,1,3,Aesop Rock,NA,0,Molecules,NA,0
+37,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,2,3,2,4,Atmosphere,NA,0,Just for show,NA,0
+38,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,6,3,2,9,Sa-Roc,NA,0,Starseed,NA,0
+38,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,1,6,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+38,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,4,2,2,6,Evidence,NA,0,Throw It All Away,NA,0
+38,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,7,6,1,5,The Four Owls,NA,0,Old Earth,NA,0
+38,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,2,1,5,Aesop Rock,NA,0,Molecules,NA,0
+38,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,6,6,2,6,Atmosphere,NA,0,Just for show,NA,0
+39,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,2,9,9,1,8,Sa-Roc,NA,0,Starseed,NA,0
+39,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,5,3,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+39,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,3,1,2,Evidence,NA,0,Throw It All Away,NA,0
+39,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,5,5,1,4,The Four Owls,NA,0,Old Earth,NA,0
+39,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,8,Aesop Rock,NA,0,Molecules,NA,0
+39,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,2,2,1,5,Atmosphere,NA,0,Just for show,NA,0
+40,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,8,8,7,1,7,Sa-Roc,N/A,0,Starseed,N/A,0
+40,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,8,7,1,6,Johnie Bee ft. Rasco,N/A,0,In My Prime,N/A,0
+40,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,6,1,4,Evidence,N/A,0,Throw It All Away,N/A,0
+40,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,7,7,1,2,The Four Owls,N/A,0,Old Earth,N/A,0
+40,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,2,1,6,Aesop Rock,N/A,0,Molecules,N/A,0
+40,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,3,1,4,Atmosphere,N/A,0,Just for show,N/A,0
+41,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,5,5,3,3,Sa-Roc,NA,0,Starseed,NA,0
+41,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,6,7,6,5,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+41,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,7,7,5,7,Evidence,NA,0,Throw It All Away,NA,0
+41,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,8,8,1,3,The Four Owls,NA,0,Old Earth,NA,0
+41,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,6,7,3,4,Aesop Rock,NA,0,Molecules,NA,0
+41,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,4,1,5,Atmosphere,NA,0,Just for show,NA,0
+42,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,9,8,1,8,Sa-Roc,no,0,Starseed,no,0
+42,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,7,7,1,7,Johnie Bee ft. Rasco,no,0,In My Prime,no,0
+42,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,4,1,4,Evidence,no,0,Throw It All Away,no,0
+42,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,6,7,1,6,The Four Owls,no,0,Old Earth,no,0
+42,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,1,6,Aesop Rock,no,0,Molecules,no,0
+42,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,5,5,4,1,6,Atmosphere,no,0,Just for show,no,0
+43,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,10,10,1,8,Sa-Roc,NA,0,Starseed,NA,0
+43,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,6,6,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+43,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,10,10,1,7,Evidence,NA,0,Throw It All Away,NA,0
+43,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,10,10,1,1,The Four Owls,NA,0,Old Earth,NA,0
+43,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,2,1,8,Aesop Rock,NA,0,Molecules,NA,0
+43,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,5,1,8,Atmosphere,NA,0,Just for show,NA,0
+44,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,3,3,2,7,Sa-Roc,NA,0,Starseed,NA,0
+44,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,2,3,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+44,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,4,4,3,6,Evidence,NA,0,Throw It All Away,NA,0
+44,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,3,3,1,6,The Four Owls,NA,0,Old Earth,NA,0
+44,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,NA,2,2,7,Aesop Rock,NA,0,Molecules,NA,0
+44,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,4,4,4,1,8,Atmosphere,NA,0,Just for show,NA,0
+45,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,3,3,1,10,Sa-Roc,NA,0,Starseed,NA,0
+45,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,5,1,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+45,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,5,5,1,7,Evidence,NA,0,Throw It All Away,NA,0
+45,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,8,1,3,The Four Owls,NA,0,Old Earth,NA,0
+45,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,10,Aesop Rock,NA,0,Molecules,NA,0
+45,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,6,6,1,7,Atmosphere,NA,0,Just for show,NA,0
+46,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,9,2,2,2,10,Sa-Roc,NA,0,Starseed,NA,0
+46,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,8,4,2,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+46,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,8,9,7,2,8,Evidence,NA,0,Throw It All Away,NA,0
+46,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,7,9,1,4,The Four Owls,NA,0,Old Earth,NA,0
+46,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,5,4,2,7,Aesop Rock,NA,0,Molecules,NA,0
+46,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,5,7,3,4,3,Atmosphere,NA,0,Just for show,NA,0
+47,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,9,4,3,1,9,Sa-Roc,NA,0,Starseed,NA,0
+47,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,6,4,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+47,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,7,6,1,7,Evidence,NA,0,Throw It All Away,NA,0
+47,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,9,2,4,1,3,The Four Owls,NA,0,Old Earth,NA,0
+47,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,5,4,1,2,Aesop Rock,NA,0,Molecules,NA,0
+47,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,6,5,1,3,Atmosphere,NA,0,Just for show,NA,0
+48,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,5,5,5,1,3,Sa-Roc,NA,0,Starseed,NA,0
+48,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,8,7,6,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+48,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,6,5,7,1,6,Evidence,NA,0,Throw It All Away,NA,0
+48,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,1,1,1,10,The Four Owls,NA,0,Old Earth,NA,0
+48,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,7,6,1,2,Aesop Rock,NA,0,Molecules,NA,0
+48,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,8,8,1,1,Atmosphere,NA,0,Just for show,NA,0
+49,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,6,7,7,3,8,Sa-Roc,no,0,Starseed,no,0
+49,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,4,3,10,Johnie Bee ft. Rasco,no,0,In My Prime,no,0
+49,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,2,1,3,Evidence,no,0,Throw It All Away,no,0
+49,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,7,7,1,2,The Four Owls,no,0,Old Earth,no,0
+49,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,10,Aesop Rock,no,0,Molecules,no,0
+49,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,3,4,3,6,Atmosphere,no,0,Just for show,no,0
+50,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,4,5,1,9,Sa-Roc,NA,0,Starseed,NA,0
+50,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,4,4,6,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+50,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,5,4,6,Evidence,NA,0,Throw It All Away,NA,0
+50,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,NA,1,6,The Four Owls,NA,0,Old Earth,NA,0
+50,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,1,8,Aesop Rock,NA,0,Molecules,NA,0
+50,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,4,2,8,Atmosphere,NA,0,Just for show,NA,0
+51,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,8,7,2,8,Sa-Roc,NA,0,Starseed,NA,0
+51,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,6,5,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+51,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,7,8,2,6,Evidence,NA,0,Throw It All Away,NA,0
+51,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,8,9,1,4,The Four Owls,NA,0,Old Earth,NA,0
+51,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,3,1,8,Aesop Rock,NA,0,Molecules,NA,0
+51,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,7,7,1,5,Atmosphere,NA,0,Just for show,NA,0
+52,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,5,7,7,1,9,Sa-Roc,nicki manji,0,Starseed,?,0
+52,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,6,4,1,7,Johnie Bee ft. Rasco,,0,In My Prime,,0
+52,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,4,7,1,6,Evidence,,0,Throw It All Away,,0
+52,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,5,7,8,1,5,The Four Owls,,0,Old Earth,,0
+52,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,3,1,6,Aesop Rock,,0,Molecules,,0
+52,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,6,6,1,4,Atmosphere,,0,Just for show,,0
+53,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,8,8,3,9,Sa-Roc,NA,0,Starseed,NA,0
+53,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,2,8,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+53,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,3,3,1,5,Evidence,NA,0,Throw It All Away,NA,0
+53,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,9,9,1,3,The Four Owls,NA,0,Old Earth,NA,0
+53,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,10,Aesop Rock,NA,0,Molecules,NA,0
+53,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,6,6,1,7,Atmosphere,NA,0,Just for show,NA,0
+54,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,10,8,2,8,Sa-Roc,Little Simz,0,Starseed,Black Medallion ,0
+54,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,6,8,10,Johnie Bee ft. Rasco,,0,In My Prime,,0
+54,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,9,7,2,5,Evidence,,0,Throw It All Away,,0
+54,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,10,10,1,2,The Four Owls,,0,Old Earth,,0
+54,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,6,6,1,3,Aesop Rock,,0,Molecules,,0
+54,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,7,7,1,8,Atmosphere,,0,Just for show,,0
+55,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,5,7,7,4,10,Sa-Roc,NA,0,Starseed,NA,0
+55,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,5,7,7,4,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+55,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,6,6,4,8,Evidence,NA,0,Throw It All Away,NA,0
+55,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,5,6,3,5,The Four Owls,NA,0,Old Earth,NA,0
+55,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,4,4,2,8,Aesop Rock,NA,0,Molecules,NA,0
+55,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,5,5,3,8,Atmosphere,NA,0,Just for show,NA,0
+56,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,7,2,1,3,9,Sa-Roc,NA,0,Starseed,NA,0
+56,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,4,3,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+56,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,4,4,NA,7,Evidence,NA,0,Throw It All Away,NA,0
+56,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,7,7,1,3,The Four Owls,NA,0,Old Earth,NA,0
+56,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,4,4,2,1,8,Aesop Rock,NA,0,Molecules,NA,0
+56,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,5,4,5,1,6,Atmosphere,NA,0,Just for show,NA,0
+57,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,7,7,4,6,Sa-Roc,NA,0,Starseed,Black Medallion,0
+57,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,5,5,8,Johnie Bee ft. Rasco,NA,0,In My Prime,,0
+57,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,3,4,3,6,Evidence,NA,0,Throw It All Away,,0
+57,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,5,6,3,7,The Four Owls,NA,0,Old Earth,,0
+57,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,2,7,Aesop Rock,NA,0,Molecules,,0
+57,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,5,5,2,6,Atmosphere,NA,0,Just for show,,0
+58,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,9,9,1,3,Sa-Roc,NA,0,Starseed,NA,0
+58,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,6,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+58,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,7,7,1,2,Evidence,NA,0,Throw It All Away,NA,0
+58,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,9,8,1,1,The Four Owls,NA,0,Old Earth,NA,0
+58,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,3,1,9,Aesop Rock,NA,0,Molecules,NA,0
+58,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,4,1,3,Atmosphere,NA,0,Just for show,NA,0
+59,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,10,9,3,8,Sa-Roc,NA,0,Starseed,NA,0
+59,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,6,6,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+59,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,6,6,2,6,Evidence,NA,0,Throw It All Away,NA,0
+59,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,8,8,1,8,The Four Owls,NA,0,Old Earth,NA,0
+59,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,5,5,1,9,Aesop Rock,NA,0,Molecules,NA,0
+59,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,8,7,1,8,Atmosphere,NA,0,Just for show,NA,0
+60,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,6,3,4,9,Sa-Roc,NA,0,Starseed,NA,0
+60,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,7,5,2,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+60,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,8,8,1,3,Evidence,NA,0,Throw It All Away,NA,0
+60,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,7,5,1,2,The Four Owls,NA,0,Old Earth,NA,0
+60,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,8,8,Aesop Rock,NA,0,Molecules,NA,0
+60,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,4,3,1,2,Atmosphere,NA,0,Just for show,NA,0
+61,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,4,4,1,7,Sa-Roc,NA,0,Starseed,NA,0
+61,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,8,8,2,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+61,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,8,7,6,1,3,Evidence,NA,0,Throw It All Away,NA,0
+61,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,7,8,9,1,2,The Four Owls,NA,0,Old Earth,NA,0
+61,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,5,10,Aesop Rock,NA,0,Molecules,NA,0
+61,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,6,3,4,2,8,Atmosphere,NA,0,Just for show,NA,0
+62,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,3,3,2,9,Sa-Roc,no,0,Starseed,no,0
+62,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,2,2,8,Johnie Bee ft. Rasco,,0,In My Prime,,0
+62,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,3,2,7,Evidence,,0,Throw It All Away,,0
+62,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,7,1,5,The Four Owls,,0,Old Earth,,0
+62,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,4,1,5,Aesop Rock,,0,Molecules,,0
+62,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,5,7,2,3,Atmosphere,,0,Just for show,,0
+63,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,6,7,1,8,Sa-Roc,N/A,0,Starseed,N/A,0
+63,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,6,5,1,7,Johnie Bee ft. Rasco,N/A,0,In My Prime,N/A,0
+63,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,5,5,1,6,Evidence,N/A,0,Throw It All Away,N/A,0
+63,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,6,7,1,4,The Four Owls,N/A,0,Old Earth,N/A,0
+63,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,4,8,7,1,4,Aesop Rock,N/A,0,Molecules,N/A,0
+63,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,6,1,3,Atmosphere,N/A,0,Just for show,N/A,0
+64,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,10,10,1,7,Sa-Roc,Don't know but like it!,0,Starseed,NA,0
+64,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,9,9,1,8,Johnie Bee ft. Rasco,Don't know but like it!,0,In My Prime,NA,0
+64,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,7,7,1,6,Evidence,Don't know ,0,Throw It All Away,NA,0
+64,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,10,10,1,2,The Four Owls,"Don't know but very chilled song, like it",0,Old Earth,NA,0
+64,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,4,1,9,Aesop Rock,not a clue,0,Molecules,NA,0
+64,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,4,1,5,Atmosphere,,0,Just for show,NA,0
+65,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,4,2,1,10,Sa-Roc,No,0,Starseed,No,0
+65,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,6,3,3,10,Johnie Bee ft. Rasco,No,0,In My Prime,No,0
+65,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,2,5,10,Evidence,No,0,Throw It All Away,No,0
+65,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,9,9,1,2,The Four Owls,No,0,Old Earth,No,0
+65,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,4,1,3,Aesop Rock,No,0,Molecules,No,0
+65,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,3,1,3,Atmosphere,No,0,Just for show,No,0
+66,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,5,4,4,2,8,Sa-Roc,NA,0,Starseed,NA,0
+66,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,5,4,4,2,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+66,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,5,4,5,2,5,Evidence,NA,0,Throw It All Away,NA,0
+66,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,3,7,7,1,4,The Four Owls,NA,0,Old Earth,NA,0
+66,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,4,6,5,2,5,Aesop Rock,NA,0,Molecules,NA,0
+66,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,6,5,4,2,6,Atmosphere,NA,0,Just for show,NA,0
+67,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,6,2,1,6,10,Sa-Roc,Doja Cat,0,Starseed,NA,0
+67,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,2,9,10,Johnie Bee ft. Rasco,,0,In My Prime,NA,0
+67,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,2,6,8,Evidence,,0,Throw It All Away,NA,0
+67,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,3,4,1,6,The Four Owls,,0,Old Earth,NA,0
+67,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,2,7,Aesop Rock,,0,Molecules,NA,0
+67,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,3,4,2,7,Atmosphere,,0,Just for show,NA,0
+68,B,lyrical,1,A,static/A1_lyrical.mp3,Prolific,2,3,3,3,8,Sa-Roc,NA,0,Starseed,NA,0
+68,B,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,3,2,5,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+68,B,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,4,3,3,5,Evidence,NA,0,Throw It All Away,NA,0
+68,B,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,2,3,2,2,The Four Owls,NA,0,Old Earth,NA,0
+68,B,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,3,2,6,Aesop Rock,NA,0,Molecules,NA,0
+68,B,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,2,2,5,Atmosphere,NA,0,Just for show,NA,0
+69,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,2,1,7,Sa-Roc,NA,0,Starseed,NA,0
+69,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,4,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+69,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,1,6,Evidence,NA,0,Throw It All Away,NA,0
+69,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,4,4,1,3,The Four Owls,NA,0,Old Earth,NA,0
+69,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,5,Aesop Rock,NA,0,Molecules,NA,0
+69,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,1,6,Atmosphere,NA,0,Just for show,NA,0
+70,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,7,8,4,6,Sa-Roc,NA,0,Starseed,NA,0
+70,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,2,9,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+70,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,5,3,3,Evidence,NA,0,Throw It All Away,NA,0
+70,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,7,6,1,5,The Four Owls,NA,0,Old Earth,NA,0
+70,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,1,5,10,Aesop Rock,NA,0,Molecules,NA,0
+70,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,5,3,3,1,5,Atmosphere,NA,0,Just for show,NA,0
+71,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,8,9,10,1,9,Sa-Roc,NA,0,Starseed,NA,0
+71,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,7,6,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+71,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,6,7,2,8,Evidence,NA,0,Throw It All Away,NA,0
+71,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,4,6,1,4,The Four Owls,NA,0,Old Earth,NA,0
+71,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,4,1,6,Aesop Rock,NA,0,Molecules,NA,0
+71,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,6,7,7,1,7,Atmosphere,NA,0,Just for show,NA,0
+72,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,4,7,7,1,10,Sa-Roc,NA,0,Starseed,NA,0
+72,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,3,4,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+72,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,5,5,5,1,8,Evidence,NA,0,Throw It All Away,NA,0
+72,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,7,7,1,7,The Four Owls,NA,0,Old Earth,NA,0
+72,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,2,3,1,6,Aesop Rock,NA,0,Molecules,NA,0
+72,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,4,3,3,1,7,Atmosphere,NA,0,Just for show,NA,0
+73,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,3,2,5,8,Sa-Roc,NA,0,Starseed,NA,0
+73,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,8,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+73,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,5,7,Evidence,NA,0,Throw It All Away,NA,0
+73,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,4,5,2,4,The Four Owls,NA,0,Old Earth,NA,0
+73,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,3,9,Aesop Rock,NA,0,Molecules,NA,0
+73,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,2,3,8,Atmosphere,NA,0,Just for show,NA,0
+74,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,4,4,1,8,Sa-Roc,NA,0,Starseed,NA,0
+74,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,2,4,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+74,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,3,3,1,8,Evidence,NA,0,Throw It All Away,NA,0
+74,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,4,6,1,7,The Four Owls,NA,0,Old Earth,NA,0
+74,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,4,4,3,1,5,Aesop Rock,NA,0,Molecules,NA,0
+74,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,4,3,3,1,6,Atmosphere,NA,0,Just for show,NA,0
+75,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,5,4,1,9,Sa-Roc,NA,0,Starseed,NA,0
+75,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,3,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+75,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,7,1,3,Evidence,NA,0,Throw It All Away,NA,0
+75,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,8,9,1,2,The Four Owls,NA,0,Old Earth,NA,0
+75,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,3,2,7,Aesop Rock,NA,0,Molecules,NA,0
+75,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,3,1,5,Atmosphere,NA,0,Just for show,NA,0
+76,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,3,2,1,9,Sa-Roc,NA,0,Starseed,NA,0
+76,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,6,6,3,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+76,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,1,2,2,8,Evidence,NA,0,Throw It All Away,NA,0
+76,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,7,8,8,1,2,The Four Owls,NA,0,Old Earth,NA,0
+76,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,NA,5,Aesop Rock,NA,0,Molecules,NA,0
+76,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,2,2,1,6,Atmosphere,NA,0,Just for show,NA,0
+77,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,4,3,1,9,Sa-Roc,NA,0,Starseed,NA,0
+77,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,6,6,2,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+77,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,6,7,1,6,Evidence,NA,0,Throw It All Away,NA,0
+77,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,1,2,1,4,The Four Owls,NA,0,Old Earth,NA,0
+77,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,7,6,1,4,Aesop Rock,NA,0,Molecules,NA,0
+77,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,7,8,1,3,Atmosphere,NA,0,Just for show,NA,0
+78,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,8,7,2,9,Sa-Roc,NA,0,Starseed,NA,0
+78,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,2,5,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+78,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,2,3,2,6,Evidence,NA,0,Throw It All Away,NA,0
+78,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,7,8,2,3,The Four Owls,NA,0,Old Earth,NA,0
+78,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,2,3,2,8,Aesop Rock,NA,0,Molecules,NA,0
+78,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,6,5,3,7,Atmosphere,NA,0,Just for show,NA,0
+79,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,10,10,1,10,Sa-Roc,NA,0,Starseed,NA,0
+79,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,8,7,6,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+79,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,4,8,3,6,Evidence,NA,0,Throw It All Away,NA,0
+79,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,3,8,10,1,4,The Four Owls,NA,0,Old Earth,NA,0
+79,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,9,5,1,3,Aesop Rock,NA,0,Molecules,NA,0
+79,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,9,10,1,5,Atmosphere,NA,0,Just for show,NA,0
+80,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,5,5,2,8,Sa-Roc,NA,0,Starseed,NA,0
+80,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,2,2,NA,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+80,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,4,4,2,6,Evidence,NA,0,Throw It All Away,NA,0
+80,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,4,6,7,1,3,The Four Owls,NA,0,Old Earth,NA,0
+80,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,5,4,1,3,Aesop Rock,NA,0,Molecules,NA,0
+80,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,4,3,5,1,3,Atmosphere,NA,0,Just for show,NA,0
+81,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,5,5,NA,10,Sa-Roc,NA,0,Starseed,NA,0
+81,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,6,6,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+81,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,6,6,1,10,Evidence,NA,0,Throw It All Away,NA,0
+81,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,4,7,1,2,The Four Owls,NA,0,Old Earth,NA,0
+81,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,5,1,8,Aesop Rock,NA,0,Molecules,NA,0
+81,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,2,4,6,1,7,Atmosphere,NA,0,Just for show,NA,0
+82,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,5,5,1,10,Sa-Roc,NA,0,Starseed,NA,0
+82,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,3,NA,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+82,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,3,3,NA,9,Evidence,NA,0,Throw It All Away,NA,0
+82,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,3,3,1,8,The Four Owls,NA,0,Old Earth,NA,0
+82,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,6,6,1,10,Aesop Rock,NA,0,Molecules,NA,0
+82,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,4,5,5,1,10,Atmosphere,NA,0,Just for show,NA,0
+83,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,8,7,4,NA,Sa-Roc,Don't know,0,Starseed,Don't know,0
+83,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,3,8,7,Johnie Bee ft. Rasco,Don't know,0,In My Prime,Don't know,0
+83,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,3,4,4,Evidence,Don't know,0,Throw It All Away,Don't know,0
+83,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,1,6,1,1,The Four Owls,Don't know,0,Old Earth,Don't know,0
+83,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,3,1,8,Aesop Rock,Don't know,0,Molecules,Don't know,0
+83,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,5,6,1,3,Atmosphere,Don't know,0,Just for show,Don't know,0
+84,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,2,2,1,7,Sa-Roc,NA,0,Starseed,NA,0
+84,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,3,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+84,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,2,1,5,Evidence,NA,0,Throw It All Away,NA,0
+84,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,5,6,1,3,The Four Owls,NA,0,Old Earth,NA,0
+84,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,2,1,4,Aesop Rock,NA,0,Molecules,NA,0
+84,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,4,1,3,Atmosphere,NA,0,Just for show,NA,0
+85,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,2,2,1,8,Sa-Roc,NA,0,Starseed,NA,0
+85,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,2,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+85,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,2,3,1,6,Evidence,NA,0,Throw It All Away,NA,0
+85,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,3,5,1,4,The Four Owls,NA,0,Old Earth,NA,0
+85,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,2,1,7,Aesop Rock,NA,0,Molecules,NA,0
+85,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,2,2,1,5,Atmosphere,NA,0,Just for show,NA,0
+86,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,7,8,2,6,Sa-Roc,NA,0,Starseed,NA,0
+86,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,4,5,6,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+86,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,3,2,7,Evidence,NA,0,Throw It All Away,NA,0
+86,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,1,2,1,9,The Four Owls,NA,0,Old Earth,NA,0
+86,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,5,3,2,10,Aesop Rock,NA,0,Molecules,NA,0
+86,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,2,1,1,8,Atmosphere,NA,0,Just for show,NA,0
+87,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,7,7,1,8,Sa-Roc,NA,0,Starseed,NA,0
+87,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,4,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+87,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,6,6,1,7,Evidence,NA,0,Throw It All Away,NA,0
+87,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,5,6,1,4,The Four Owls,NA,0,Old Earth,NA,0
+87,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,6,6,1,6,Aesop Rock,NA,0,Molecules,NA,0
+87,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,5,1,6,Atmosphere,NA,0,Just for show,NA,0
+88,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,7,5,6,8,Sa-Roc,,0,Starseed,NA,0
+88,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,2,7,5,Johnie Bee ft. Rasco,,0,In My Prime,NA,0
+88,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,4,4,6,6,Evidence,,0,Throw It All Away,NA,0
+88,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,9,8,1,3,The Four Owls,The Avalances?,0,Old Earth,NA,0
+88,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,6,6,2,4,Aesop Rock,,0,Molecules,NA,0
+88,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,6,8,6,3,4,Atmosphere,,0,Just for show,NA,0
+89,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,2,7,5,1,9,Sa-Roc,NA,0,Starseed,NA,0
+89,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,3,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+89,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,5,4,1,9,Evidence,NA,0,Throw It All Away,NA,0
+89,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,9,9,1,7,The Four Owls,NA,0,Old Earth,NA,0
+89,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,8,10,Aesop Rock,NA,0,Molecules,NA,0
+89,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,7,5,5,2,9,Atmosphere,NA,0,Just for show,NA,0
+90,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,8,8,5,3,Sa-Roc,NA,0,Starseed,NA,0
+90,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,7,7,4,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+90,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,2,6,5,4,5,Evidence,NA,0,Throw It All Away,NA,0
+90,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,4,5,2,7,The Four Owls,NA,0,Old Earth,NA,0
+90,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,4,3,1,6,Aesop Rock,NA,0,Molecules,NA,0
+90,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,3,3,7,Atmosphere,NA,0,Just for show,NA,0
+91,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,4,3,1,8,Sa-Roc,NA,0,Starseed,NA,0
+91,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,5,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+91,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,5,1,4,Evidence,NA,0,Throw It All Away,NA,0
+91,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,6,6,1,3,The Four Owls,NA,0,Old Earth,NA,0
+91,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,3,1,7,Aesop Rock,NA,0,Molecules,NA,0
+91,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,3,1,6,Atmosphere,NA,0,Just for show,NA,0
+92,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,8,5,5,7,5,Sa-Roc,N/A,0,Starseed,N/A,0
+92,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,2,2,5,6,Johnie Bee ft. Rasco,N/A,0,In My Prime,N/A,0
+92,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,3,3,5,Evidence,N/A,0,Throw It All Away,N/A,0
+92,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,7,7,2,6,The Four Owls,N/A,0,Old Earth,N/A,0
+92,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,3,3,2,Aesop Rock,N/A,0,Molecules,N/A,0
+92,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,3,3,2,4,Atmosphere,N/A,0,Just for show,N/A,0
+93,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,5,5,1,9,Sa-Roc,NA,0,Starseed,NA,0
+93,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,3,3,1,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+93,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,3,1,7,Evidence,NA,0,Throw It All Away,NA,0
+93,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,8,5,5,1,6,The Four Owls,NA,0,Old Earth,NA,0
+93,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,2,2,2,1,6,Aesop Rock,NA,0,Molecules,NA,0
+93,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,4,1,7,Atmosphere,NA,0,Just for show,NA,0
+94,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,1,1,6,Sa-Roc,NA,0,Starseed,NA,0
+94,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+94,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,1,6,Evidence,NA,0,Throw It All Away,NA,0
+94,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,7,7,7,1,4,The Four Owls,NA,0,Old Earth,NA,0
+94,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,6,Aesop Rock,NA,0,Molecules,NA,0
+94,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,4,5,1,1,Atmosphere,NA,0,Just for show,NA,0
+95,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,5,4,1,1,Sa-Roc,NA,0,Starseed,NA,0
+95,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,6,6,1,1,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+95,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,6,NA,1,1,Evidence,NA,0,Throw It All Away,NA,0
+95,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,6,6,6,1,1,The Four Owls,NA,0,Old Earth,NA,0
+95,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,3,3,1,1,Aesop Rock,NA,0,Molecules,NA,0
+95,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,5,3,3,1,1,Atmosphere,NA,0,Just for show,NA,0
+96,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,10,NA,1,8,Sa-Roc,NA,0,Starseed,NA,0
+96,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,2,7,7,6,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+96,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,6,6,4,8,Evidence,NA,0,Throw It All Away,NA,0
+96,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,2,4,5,1,4,The Four Owls,NA,0,Old Earth,NA,0
+96,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,1,9,Aesop Rock,NA,0,Molecules,NA,0
+96,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,6,5,1,9,Atmosphere,NA,0,Just for show,NA,0
+97,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,2,9,9,2,9,Sa-Roc,NA,0,Starseed,NA,0
+97,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,5,6,2,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+97,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,3,3,7,Evidence,NA,0,Throw It All Away,NA,0
+97,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,1,2,NA,8,The Four Owls,NA,0,Old Earth,NA,0
+97,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,2,2,2,9,Aesop Rock,NA,0,Molecules,NA,0
+97,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,5,5,1,8,Atmosphere,NA,0,Just for show,NA,0
+98,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,3,3,3,4,8,Sa-Roc,NA,0,Starseed,NA,0
+98,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,3,3,3,6,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+98,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,3,3,3,5,6,Evidence,NA,0,Throw It All Away,NA,0
+98,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,3,3,3,3,6,The Four Owls,NA,0,Old Earth,NA,0
+98,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,3,3,3,2,5,Aesop Rock,NA,0,Molecules,NA,0
+98,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,3,4,4,2,4,Atmosphere,NA,0,Just for show,NA,0
+99,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,1,NA,10,Sa-Roc,NA,0,Starseed,NA,0
+99,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,7,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+99,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,1,1,6,8,Evidence,NA,0,Throw It All Away,NA,0
+99,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,3,4,1,7,The Four Owls,NA,0,Old Earth,NA,0
+99,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,8,Aesop Rock,NA,0,Molecules,NA,0
+99,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,2,2,1,9,Atmosphere,NA,0,Just for show,NA,0
+100,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,10,1,2,1,10,Sa-Roc,NA,0,Starseed,NA,0
+100,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,10,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+100,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,5,5,2,10,Evidence,NA,0,Throw It All Away,NA,0
+100,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,10,8,8,1,3,The Four Owls,NA,0,Old Earth,NA,0
+100,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,10,Aesop Rock,NA,0,Molecules,NA,0
+100,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,1,10,Atmosphere,NA,0,Just for show,NA,0
+101,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,8,10,10,4,8,Sa-Roc,brandy,0,Starseed,,0
+101,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,4,2,10,10,Johnie Bee ft. Rasco,,0,In My Prime,,0
+101,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,10,3,4,Evidence,,0,Throw It All Away,,0
+101,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,10,10,1,1,The Four Owls,,0,Old Earth,got to go on,0
+101,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,1,7,Aesop Rock,,0,Molecules,,0
+101,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,4,1,4,Atmosphere,,0,Just for show,,0
+102,C,lyrical,1,A,static/A1_lyrical.mp3,Prolific,1,1,NA,5,10,Sa-Roc,NA,0,Starseed,NA,0
+102,C,lyrical,2,A,static/A2_lyrical.mp3,Prolific,1,1,1,7,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+102,C,lyrical,3,A,static/A3_lyrical.mp3,Prolific,1,3,5,2,10,Evidence,NA,0,Throw It All Away,NA,0
+102,C,instrumental,1,B,static/B1_instrumental.mp3,Prolific,1,3,4,1,8,The Four Owls,NA,0,Old Earth,NA,0
+102,C,instrumental,2,B,static/B2_instrumental.mp3,Prolific,1,1,1,2,8,Aesop Rock,NA,0,Molecules,NA,0
+102,C,instrumental,3,B,static/B3_instrumental.mp3,Prolific,1,1,1,1,8,Atmosphere,NA,0,Just for show,NA,0
+103,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,2,2,7,8,The Four Owls,NA,0,Old Earth,NA,0
+103,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,2,1,3,Aesop Rock,NA,0,Molecules,NA,0
+103,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,2,1,6,6,Atmosphere,NA,0,Just for show,NA,0
+103,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,7,6,1,5,Sa-Roc,NA,0,Starseed,NA,0
+103,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,2,2,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+103,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,6,3,2,4,3,Evidence,NA,0,Throw It All Away,NA,0
+104,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,6,7,3,8,The Four Owls,NA,0,Old Earth,NA,0
+104,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,2,8,Aesop Rock,NA,0,Molecules,NA,0
+104,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,5,4,2,3,Atmosphere,NA,0,Just for show,NA,0
+104,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,8,8,2,2,Sa-Roc,NA,0,Starseed,NA,0
+104,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,3,6,1,2,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+104,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,7,7,1,1,Evidence,NA,0,Throw It All Away,NA,0
+105,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,1,1,7,10,The Four Owls,NA,0,Old Earth,NA,0
+105,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,5,6,Aesop Rock,NA,0,Molecules,NA,0
+105,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,2,8,Atmosphere,NA,0,Just for show,NA,0
+105,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,1,1,5,6,Sa-Roc,NA,0,Starseed,NA,0
+105,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,5,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+105,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,1,4,4,Evidence,NA,0,Throw It All Away,NA,0
+106,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,1,1,10,8,The Four Owls,NA,0,Old Earth,NA,0
+106,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,5,8,Aesop Rock,NA,0,Molecules,NA,0
+106,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,4,7,Atmosphere,NA,0,Just for show,NA,0
+106,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,1,1,3,6,Sa-Roc,NA,0,Starseed,NA,0
+106,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,4,2,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+106,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,2,2,3,Evidence,NA,0,Throw It All Away,NA,0
+107,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,7,8,1,5,The Four Owls,NA,0,Old Earth,NA,0
+107,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,1,10,Aesop Rock,NA,0,Molecules,NA,0
+107,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,4,4,1,6,Atmosphere,NA,0,Just for show,NA,0
+107,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,4,4,1,6,Sa-Roc,NA,0,Starseed,NA,0
+107,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+107,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,5,5,1,3,Evidence,NA,0,Throw It All Away,NA,0
+108,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,1,1,4,7,The Four Owls,,0,Old Earth,,0
+108,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,NA,NA,NA,NA,NA,Aesop Rock,Don't know,0,Molecules,Don't know,0
+108,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,2,7,Atmosphere,Don't know,0,Just for show,Don't know,0
+108,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,1,1,3,7,Sa-Roc,Don't know,0,Starseed,Don't know,0
+108,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,2,8,Johnie Bee ft. Rasco,Don't know,0,In My Prime,Don't know,0
+108,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,1,2,6,Evidence,Don't know,0,Throw It All Away,Don't know,0
+109,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,9,9,1,9,The Four Owls,NA,0,Old Earth,NA,0
+109,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,3,1,9,Aesop Rock,NA,0,Molecules,NA,0
+109,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,3,2,1,9,Atmosphere,NA,0,Just for show,NA,0
+109,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,3,2,1,8,Sa-Roc,NA,0,Starseed,NA,0
+109,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,3,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+109,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,2,1,8,Evidence,NA,0,Throw It All Away,NA,0
+110,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,5,6,3,7,The Four Owls,NA,0,Old Earth,NA,0
+110,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,3,4,7,Aesop Rock,NA,0,Molecules,NA,0
+110,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,3,3,2,5,Atmosphere,NA,0,Just for show,NA,0
+110,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,3,3,1,4,Sa-Roc,NA,0,Starseed,NA,0
+110,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,2,2,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+110,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,4,4,1,4,Evidence,NA,0,Throw It All Away,NA,0
+111,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,8,NA,2,7,The Four Owls,NA,0,Old Earth,NA,0
+111,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,3,7,Aesop Rock,NA,0,Molecules,NA,0
+111,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,5,5,3,7,Atmosphere,NA,0,Just for show,NA,0
+111,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,2,3,2,5,Sa-Roc,NA,0,Starseed,NA,0
+111,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,3,3,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+111,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,5,5,2,3,Evidence,NA,0,Throw It All Away,NA,0
+112,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,9,9,1,3,The Four Owls,NA,0,Old Earth,NA,0
+112,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,4,1,6,Aesop Rock,NA,0,Molecules,NA,0
+112,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,6,5,1,3,Atmosphere,NA,0,Just for show,NA,0
+112,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,4,4,1,3,Sa-Roc,NA,0,Starseed,NA,0
+112,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,6,1,2,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+112,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,7,6,1,2,Evidence,NA,0,Throw It All Away,NA,0
+113,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,6,7,1,7,The Four Owls,NA,0,Old Earth,NA,0
+113,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,3,3,2,9,Aesop Rock,NA,0,Molecules,NA,0
+113,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,3,4,1,8,Atmosphere,NA,0,Just for show,NA,0
+113,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,6,6,7,1,4,Sa-Roc,NA,0,Starseed,NA,0
+113,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,4,5,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+113,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,6,7,6,1,4,Evidence,NA,0,Throw It All Away,NA,0
+114,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,5,6,2,9,The Four Owls,NA,0,Old Earth,NA,0
+114,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,3,3,3,8,Aesop Rock,NA,0,Molecules,NA,0
+114,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,7,6,6,1,4,Atmosphere,NA,0,Just for show,NA,0
+114,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,5,7,7,1,4,Sa-Roc,NA,0,Starseed,NA,0
+114,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,4,5,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+114,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,5,5,1,6,Evidence,NA,0,Throw It All Away,NA,0
+115,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,4,5,4,8,The Four Owls,NA,0,Old Earth,NA,0
+115,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,3,4,9,Aesop Rock,NA,0,Molecules,NA,0
+115,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,6,5,2,8,Atmosphere,NA,0,Just for show,NA,0
+115,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,5,5,3,1,10,Sa-Roc,NA,0,Starseed,NA,0
+115,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,2,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+115,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,5,7,7,2,9,Evidence,NA,0,Throw It All Away,NA,0
+116,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,6,8,1,8,The Four Owls,NA,0,Old Earth,NA,0
+116,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,8,7,1,8,Aesop Rock,NA,0,Molecules,NA,0
+116,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,4,4,1,9,Atmosphere,NA,0,Just for show,NA,0
+116,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,3,3,1,9,Sa-Roc,NA,0,Starseed,NA,0
+116,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,2,1,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+116,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,5,7,1,4,Evidence,NA,0,Throw It All Away,NA,0
+117,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,2,2,1,8,The Four Owls,NA,0,Old Earth,NA,0
+117,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,1,8,Aesop Rock,NA,0,Molecules,NA,0
+117,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,6,6,6,1,6,Atmosphere,NA,0,Just for show,NA,0
+117,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,6,6,1,6,Sa-Roc,NA,0,Starseed,NA,0
+117,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,3,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+117,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,4,5,1,5,Evidence,NA,0,Throw It All Away,NA,0
+118,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,4,4,5,8,The Four Owls,NA,0,Old Earth,NA,0
+118,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,3,4,8,Aesop Rock,NA,0,Molecules,NA,0
+118,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,2,2,8,Atmosphere,NA,0,Just for show,NA,0
+118,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,4,4,3,8,Sa-Roc,NA,0,Starseed,NA,0
+118,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,2,2,2,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+118,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,3,3,2,7,Evidence,NA,0,Throw It All Away,NA,0
+119,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,6,7,1,8,The Four Owls,NA,0,Old Earth,NA,0
+119,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,1,7,Aesop Rock,NA,0,Molecules,NA,0
+119,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,3,2,1,5,Atmosphere,NA,0,Just for show,NA,0
+119,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,2,2,1,3,Sa-Roc,NA,0,Starseed,NA,0
+119,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+119,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,8,8,1,2,Evidence,NA,0,Throw It All Away,NA,0
+120,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,8,8,1,8,The Four Owls,NA,0,Old Earth,NA,0
+120,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,8,8,1,7,Aesop Rock,NA,0,Molecules,NA,0
+120,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,7,7,1,8,Atmosphere,NA,0,Just for show,NA,0
+120,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,6,6,6,1,4,Sa-Roc,NA,0,Starseed,NA,0
+120,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,5,7,1,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+120,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,4,6,1,3,Evidence,NA,0,Throw It All Away,NA,0
+121,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,9,9,1,6,The Four Owls,NA,0,Old Earth,NA,0
+121,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,7,7,1,6,Aesop Rock,NA,0,Molecules,NA,0
+121,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,7,7,1,5,Atmosphere,NA,0,Just for show,NA,0
+121,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,4,5,1,6,Sa-Roc,NA,0,Starseed,NA,0
+121,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,3,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+121,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,6,6,1,6,Evidence,NA,0,Throw It All Away,NA,0
+122,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,6,NA,1,3,The Four Owls,NA,0,Old Earth,NA,0
+122,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,4,1,4,Aesop Rock,NA,0,Molecules,NA,0
+122,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,4,4,1,4,Atmosphere,NA,0,Just for show,NA,0
+122,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,8,8,1,3,Sa-Roc,NA,0,Starseed,NA,0
+122,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,8,8,1,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+122,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,9,9,1,3,Evidence,NA,0,Throw It All Away,NA,0
+123,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,3,2,2,7,The Four Owls,NA,0,Old Earth,NA,0
+123,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,2,7,Aesop Rock,NA,0,Molecules,NA,0
+123,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,3,3,2,7,Atmosphere,NA,0,Just for show,NA,0
+123,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,2,2,2,8,Sa-Roc,NA,0,Starseed,NA,0
+123,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,3,3,2,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+123,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,2,2,2,7,Evidence,NA,0,Throw It All Away,NA,0
+124,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,10,10,6,10,The Four Owls,NA,0,Old Earth,NA,0
+124,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,1,4,10,Aesop Rock,NA,0,Molecules,NA,0
+124,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,10,Atmosphere,NA,0,Just for show,NA,0
+124,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,7,10,9,1,2,Sa-Roc,NA,0,Starseed,NA,0
+124,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,2,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+124,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,6,5,1,4,Evidence,NA,0,Throw It All Away,NA,0
+125,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,7,6,1,NA,The Four Owls,,0,Old Earth,NA,0
+125,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,8,1,10,Aesop Rock,,0,Molecules,NA,0
+125,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,9,5,6,1,7,Atmosphere,D12,0,Just for show,NA,0
+125,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,8,8,1,9,Sa-Roc,,0,Starseed,NA,0
+125,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,10,10,1,2,Johnie Bee ft. Rasco,,0,In My Prime,NA,0
+125,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,2,1,9,Evidence,,0,Throw It All Away,NA,0
+126,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,7,7,2,3,The Four Owls,NA,0,Old Earth,NA,0
+126,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,2,1,8,Aesop Rock,NA,0,Molecules,NA,0
+126,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,4,5,1,7,Atmosphere,NA,0,Just for show,NA,0
+126,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,4,5,1,3,Sa-Roc,NA,0,Starseed,NA,0
+126,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,3,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+126,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,6,6,1,3,Evidence,NA,0,Throw It All Away,NA,0
+127,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,4,4,2,8,The Four Owls,NA,0,Old Earth,NA,0
+127,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,NA,10,Aesop Rock,NA,0,Molecules,NA,0
+127,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,8,9,6,8,Atmosphere,NA,0,Just for show,NA,0
+127,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,10,4,4,1,2,Sa-Roc,NA,0,Starseed,NA,0
+127,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,4,3,5,1,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+127,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,2,1,1,Evidence,NA,0,Throw It All Away,NA,0
+128,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,8,8,3,9,The Four Owls,NA,0,Old Earth,NA,0
+128,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,2,9,Aesop Rock,NA,0,Molecules,NA,0
+128,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,5,5,4,9,Atmosphere,NA,0,Just for show,NA,0
+128,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,9,3,3,1,6,Sa-Roc,NA,0,Starseed,NA,0
+128,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+128,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,2,2,1,3,Evidence,NA,0,Throw It All Away,NA,0
+129,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,7,5,5,10,The Four Owls,NA,0,Old Earth,NA,0
+129,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,7,10,Aesop Rock,NA,0,Molecules,NA,0
+129,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,3,1,5,10,Atmosphere,NA,0,Just for show,NA,0
+129,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,4,4,1,10,Sa-Roc,NA,0,Starseed,NA,0
+129,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+129,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,2,1,10,Evidence,NA,0,Throw It All Away,NA,0
+130,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,7,9,10,1,7,The Four Owls,NA,0,Old Earth,NA,0
+130,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,5,7,2,8,Aesop Rock,NA,0,Molecules,NA,0
+130,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,6,8,9,1,8,Atmosphere,NA,0,Just for show,NA,0
+130,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,9,9,1,4,Sa-Roc,NA,0,Starseed,NA,0
+130,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,7,6,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+130,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,7,7,1,3,Evidence,NA,0,Throw It All Away,NA,0
+131,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,8,8,1,7,The Four Owls,NA,0,Old Earth,NA,0
+131,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,2,NA,9,Aesop Rock,NA,0,Molecules,NA,0
+131,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,8,8,1,8,Atmosphere,NA,0,Just for show,NA,0
+131,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,5,4,1,7,Sa-Roc,NA,0,Starseed,NA,0
+131,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,6,6,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+131,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,7,7,1,6,Evidence,NA,0,Throw It All Away,NA,0
+132,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,8,10,2,9,The Four Owls,NA,0,Old Earth,NA,0
+132,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,6,5,9,Aesop Rock,NA,0,Molecules,NA,0
+132,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,4,5,5,8,Atmosphere,NA,0,Just for show,NA,0
+132,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,6,7,1,4,Sa-Roc,NA,0,Starseed,NA,0
+132,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,6,2,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+132,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,4,6,2,3,Evidence,NA,0,Throw It All Away,NA,0
+133,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,8,NA,2,NA,The Four Owls,NA,0,Old Earth,,0
+133,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,8,NA,2,3,Aesop Rock,NA,0,Molecules,,0
+133,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,7,7,2,3,Atmosphere,NA,0,Just for show,for show,1
+133,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,8,8,1,2,Sa-Roc,NA,0,Starseed,,0
+133,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,9,8,2,3,Johnie Bee ft. Rasco,NA,0,In My Prime,,0
+133,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,7,7,1,1,Evidence,NA,0,Throw It All Away,,0
+134,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,6,4,8,10,The Four Owls,NA,0,Old Earth,NA,0
+134,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,6,10,Aesop Rock,NA,0,Molecules,NA,0
+134,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,6,6,2,10,Atmosphere,NA,0,Just for show,NA,0
+134,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,5,2,1,9,Sa-Roc,NA,0,Starseed,NA,0
+134,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+134,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,6,6,1,4,Evidence,NA,0,Throw It All Away,NA,0
+135,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,7,5,1,7,The Four Owls,NA,0,Old Earth,NA,0
+135,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,8,1,5,Aesop Rock,NA,0,Molecules,NA,0
+135,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,4,5,1,6,Atmosphere,NA,0,Just for show,NA,0
+135,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,9,6,7,1,7,Sa-Roc,NA,0,Starseed,NA,0
+135,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+135,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,1,2,1,4,Evidence,NA,0,Throw It All Away,NA,0
+136,D,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,2,2,1,1,The Four Owls,NA,0,Old Earth,NA,0
+136,D,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,1,8,Aesop Rock,NA,0,Molecules,NA,0
+136,D,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,2,1,7,Atmosphere,NA,0,Just for show,NA,0
+136,D,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,4,4,1,5,Sa-Roc,NA,0,Starseed,NA,0
+136,D,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+136,D,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,2,1,4,Evidence,NA,0,Throw It All Away,NA,0
+137,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,5,8,8,4,6,The Four Owls,NA,0,Old Earth,NA,0
+137,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,2,7,Aesop Rock,NA,0,Molecules,NA,0
+137,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,2,2,5,Atmosphere,NA,0,Just for show,NA,0
+137,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,2,3,2,5,Sa-Roc,NA,0,Starseed,NA,0
+137,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,2,2,2,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+137,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,3,2,3,Evidence,NA,0,Throw It All Away,NA,0
+138,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,8,9,1,5,The Four Owls,NA,0,Old Earth,NA,0
+138,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,4,3,4,8,Aesop Rock,NA,0,Molecules,NA,0
+138,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,5,4,1,4,Atmosphere,NA,0,Just for show,NA,0
+138,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,7,7,1,4,Sa-Roc,NA,0,Starseed,NA,0
+138,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,3,4,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+138,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,6,5,1,3,Evidence,NA,0,Throw It All Away,NA,0
+139,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,7,7,4,8,The Four Owls,NA,0,Old Earth,NA,0
+139,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,6,5,2,7,Aesop Rock,NA,0,Molecules,NA,0
+139,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,6,7,7,2,7,Atmosphere,NA,0,Just for show,NA,0
+139,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,6,6,1,5,Sa-Roc,NA,0,Starseed,NA,0
+139,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,4,4,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+139,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,6,7,1,5,Evidence,NA,0,Throw It All Away,NA,0
+140,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,5,5,8,1,1,The Four Owls,NA,0,Old Earth,NA,0
+140,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,1,8,Aesop Rock,NA,0,Molecules,NA,0
+140,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,9,Atmosphere,NA,0,Just for show,NA,0
+140,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,6,6,1,3,Sa-Roc,NA,0,Starseed,NA,0
+140,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,7,7,1,1,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+140,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,7,1,1,Evidence,NA,0,Throw It All Away,NA,0
+141,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,6,6,2,4,The Four Owls,NA,0,Old Earth,NA,0
+141,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,5,3,3,3,9,Aesop Rock,NA,0,Molecules,NA,0
+141,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,9,8,8,2,4,Atmosphere,NA,0,Just for show,NA,0
+141,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,6,6,2,5,Sa-Roc,NA,0,Starseed,NA,0
+141,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,5,6,6,3,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+141,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,5,8,8,1,2,Evidence,NA,0,Throw It All Away,NA,0
+142,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,9,7,7,2,8,The Four Owls,n/a,0,Old Earth,n/a,0
+142,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,4,3,8,Aesop Rock,n/a,0,Molecules,n/a,0
+142,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,6,5,2,9,Atmosphere,n/a,0,Just for show,n/a,0
+142,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,7,7,1,6,Sa-Roc,n/a,0,Starseed,n/a,0
+142,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,5,5,2,7,Johnie Bee ft. Rasco,n/a,0,In My Prime,n/a,0
+142,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,6,7,2,6,Evidence,n/a,0,Throw It All Away,n/a,0
+143,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,1,4,NA,10,The Four Owls,NA,0,Old Earth,NA,0
+143,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,3,10,Aesop Rock,NA,0,Molecules,NA,0
+143,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,10,Atmosphere,NA,0,Just for show,NA,0
+143,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,3,1,1,4,Sa-Roc,NA,0,Starseed,NA,0
+143,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+143,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,4,3,1,3,Evidence,NA,0,Throw It All Away,NA,0
+144,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,2,2,6,10,The Four Owls,NA,0,Old Earth,NA,0
+144,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,3,10,Aesop Rock,NA,0,Molecules,NA,0
+144,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,5,4,4,2,8,Atmosphere,NA,0,Just for show,NA,0
+144,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,6,5,1,6,Sa-Roc,NA,0,Starseed,NA,0
+144,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,6,6,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+144,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,5,7,8,1,3,Evidence,NA,0,Throw It All Away,NA,0
+145,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,10,10,1,10,The Four Owls,NA,0,Old Earth,NA,0
+145,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,4,4,4,1,10,Aesop Rock,NA,0,Molecules,NA,0
+145,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,4,6,5,1,9,Atmosphere,NA,0,Just for show,NA,0
+145,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,9,10,1,2,Sa-Roc,NA,0,Starseed,NA,0
+145,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,4,4,5,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+145,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,5,6,8,1,8,Evidence,NA,0,Throw It All Away,NA,0
+146,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,3,3,2,8,The Four Owls,NA,0,Old Earth,NA,0
+146,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,2,2,9,Aesop Rock,NA,0,Molecules,NA,0
+146,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,3,3,2,9,Atmosphere,NA,0,Just for show,NA,0
+146,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,5,4,4,2,6,Sa-Roc,NA,0,Starseed,NA,0
+146,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,4,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+146,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,5,1,5,Evidence,NA,0,Throw It All Away,NA,0
+147,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,8,7,2,7,The Four Owls,NA,0,Old Earth,NA,0
+147,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,NA,1,8,Aesop Rock,NA,0,Molecules,NA,0
+147,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,7,6,1,6,Atmosphere,NA,0,Just for show,NA,0
+147,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,9,7,1,7,Sa-Roc,NA,0,Starseed,NA,0
+147,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,6,6,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+147,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,9,8,1,6,Evidence,NA,0,Throw It All Away,NA,0
+148,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,8,7,1,9,The Four Owls,No,0,Old Earth,No,0
+148,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,6,4,1,10,Aesop Rock,,0,Molecules,,0
+148,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,5,3,1,10,Atmosphere,,0,Just for show,,0
+148,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,4,3,1,8,Sa-Roc,,0,Starseed,,0
+148,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,7,10,Johnie Bee ft. Rasco,,0,In My Prime,,0
+148,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,5,4,1,7,Evidence,,0,Throw It All Away,,0
+149,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,7,7,7,2,6,The Four Owls,,0,Old Earth,NA,0
+149,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,4,5,1,7,Aesop Rock,,0,Molecules,NA,0
+149,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,7,6,6,NA,8,Atmosphere,,0,Just for show,NA,0
+149,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,9,8,8,1,7,Sa-Roc,Kanye West,0,Starseed,NA,0
+149,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,6,6,1,7,Johnie Bee ft. Rasco,,0,In My Prime,NA,0
+149,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,5,4,1,6,Evidence,,0,Throw It All Away,NA,0
+150,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,3,3,2,9,The Four Owls,dont know,0,Old Earth,dont know,0
+150,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,2,8,Aesop Rock,dont know,0,Molecules,dont know,0
+150,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,6,Atmosphere,dont know,0,Just for show,dont know,0
+150,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,3,3,1,4,Sa-Roc,dont know,0,Starseed,dont know,0
+150,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,9,Johnie Bee ft. Rasco,dont know,0,In My Prime,dont know,0
+150,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,1,1,9,Evidence,dont know,0,Throw It All Away,dont know,0
+151,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,8,8,1,7,The Four Owls,NA,0,Old Earth,NA,0
+151,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,4,4,2,6,Aesop Rock,NA,0,Molecules,NA,0
+151,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,5,3,3,1,4,Atmosphere,NA,0,Just for show,NA,0
+151,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,3,3,1,4,Sa-Roc,NA,0,Starseed,NA,0
+151,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,2,2,1,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+151,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,3,1,2,Evidence,NA,0,Throw It All Away,NA,0
+152,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,1,1,1,8,The Four Owls,no,0,Old Earth,no,0
+152,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,7,NA,Aesop Rock,no,0,Molecules,no,0
+152,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,3,5,6,10,Atmosphere,no,0,Just for show,no,0
+152,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,7,7,1,8,Sa-Roc,no,0,Starseed,no,0
+152,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,3,4,1,7,Johnie Bee ft. Rasco,no,0,In My Prime,no,0
+152,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,4,1,6,Evidence,no,0,Throw It All Away,no,0
+153,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,9,9,2,8,The Four Owls,NA,0,Old Earth,NA,0
+153,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,5,1,8,Aesop Rock,NA,0,Molecules,NA,0
+153,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,8,8,1,8,Atmosphere,NA,0,Just for show,NA,0
+153,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,10,9,9,1,4,Sa-Roc,NA,0,Starseed,NA,0
+153,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,5,5,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+153,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,7,7,1,3,Evidence,NA,0,Throw It All Away,NA,0
+154,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,2,2,2,7,The Four Owls,NA,0,Old Earth,NA,0
+154,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,1,8,Aesop Rock,NA,0,Molecules,NA,0
+154,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,6,Atmosphere,NA,0,Just for show,NA,0
+154,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,1,1,1,8,Sa-Roc,NA,0,Starseed,NA,0
+154,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+154,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,1,1,7,Evidence,NA,0,Throw It All Away,NA,0
+155,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,5,7,5,6,10,The Four Owls,,0,Old Earth,,0
+155,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,8,6,5,5,10,Aesop Rock,The Prodigy,0,Molecules,Wild Frontier,0
+155,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,4,4,5,9,Atmosphere,,0,Just for show,,0
+155,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,8,8,1,3,Sa-Roc,,0,Starseed,,0
+155,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,6,6,1,4,Johnie Bee ft. Rasco,,0,In My Prime,,0
+155,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,7,5,4,4,5,Evidence,Evidence,1,Throw It All Away,Throw It All Away,1
+156,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,5,5,2,7,The Four Owls,NA,0,Old Earth,NA,0
+156,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,1,5,Aesop Rock,NA,0,Molecules,NA,0
+156,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,3,4,1,7,Atmosphere,NA,0,Just for show,NA,0
+156,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,3,6,1,3,Sa-Roc,NA,0,Starseed,NA,0
+156,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,3,5,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+156,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,6,1,3,Evidence,NA,0,Throw It All Away,NA,0
+157,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,5,5,5,2,5,The Four Owls,NA,0,Old Earth,NA,0
+157,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,2,3,Aesop Rock,NA,0,Molecules,NA,0
+157,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,2,2,2,2,Atmosphere,NA,0,Just for show,NA,0
+157,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,3,4,1,2,Sa-Roc,NA,0,Starseed,NA,0
+157,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+157,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,5,6,5,1,3,Evidence,NA,0,Throw It All Away,NA,0
+158,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,9,10,1,10,The Four Owls,NA,0,Old Earth,NA,0
+158,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,6,1,8,Aesop Rock,NA,0,Molecules,NA,0
+158,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,4,9,8,1,9,Atmosphere,NA,0,Just for show,NA,0
+158,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,6,9,8,1,4,Sa-Roc,NA,0,Starseed,NA,0
+158,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,4,1,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+158,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,7,7,1,8,Evidence,NA,0,Throw It All Away,NA,0
+159,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,9,5,6,6,5,The Four Owls,NA,0,Old Earth,NA,0
+159,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,4,1,5,Aesop Rock,NA,0,Molecules,NA,0
+159,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,4,3,3,6,Atmosphere,NA,0,Just for show,NA,0
+159,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,7,5,5,3,5,Sa-Roc,NA,0,Starseed,NA,0
+159,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+159,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,3,1,5,Evidence,NA,0,Throw It All Away,NA,0
+160,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,NA,1,10,10,The Four Owls,NA,0,Old Earth,NA,0
+160,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,10,10,Aesop Rock,NA,0,Molecules,NA,0
+160,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,10,10,Atmosphere,NA,0,Just for show,NA,0
+160,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,1,1,10,10,Sa-Roc,NA,0,Starseed,NA,0
+160,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,2,3,6,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+160,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,2,8,10,Evidence,NA,0,Throw It All Away,NA,0
+161,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,7,8,6,3,3,The Four Owls,NA,0,Old Earth,NA,0
+161,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,5,7,7,Aesop Rock,NA,0,Molecules,NA,0
+161,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,5,6,3,4,Atmosphere,NA,0,Just for show,NA,0
+161,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,5,7,1,2,Sa-Roc,NA,0,Starseed,NA,0
+161,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,5,2,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+161,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,5,5,2,2,Evidence,NA,0,Throw It All Away,NA,0
+162,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,7,10,10,1,8,The Four Owls,NA,0,Old Earth,NA,0
+162,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,3,2,2,3,8,Aesop Rock,NA,0,Molecules,NA,0
+162,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,9,7,8,2,8,Atmosphere,NA,0,Just for show,NA,0
+162,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,6,8,1,2,Sa-Roc,NA,0,Starseed,NA,0
+162,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,2,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+162,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,6,2,2,1,8,Evidence,NA,0,Throw It All Away,NA,0
+163,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,1,3,4,10,The Four Owls,NA,0,Old Earth,NA,0
+163,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,2,7,10,Aesop Rock,NA,0,Molecules,NA,0
+163,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,10,10,Atmosphere,NA,0,Just for show,NA,0
+163,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,1,1,8,5,Sa-Roc,NA,0,Starseed,NA,0
+163,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,10,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+163,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,3,4,3,Evidence,NA,0,Throw It All Away,NA,0
+164,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,2,2,5,10,The Four Owls,NA,0,Old Earth,NA,0
+164,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,5,10,Aesop Rock,NA,0,Molecules,NA,0
+164,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,6,7,6,5,8,Atmosphere,NA,0,Just for show,NA,0
+164,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,7,7,NA,8,Sa-Roc,NA,0,Starseed,NA,0
+164,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,4,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+164,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,3,4,1,6,Evidence,NA,0,Throw It All Away,NA,0
+165,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,8,8,1,10,The Four Owls,NA,0,Old Earth,NA,0
+165,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,5,6,1,8,Aesop Rock,NA,0,Molecules,NA,0
+165,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,9,7,1,7,Atmosphere,NA,0,Just for show,NA,0
+165,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,6,6,1,5,Sa-Roc,NA,0,Starseed,NA,0
+165,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,7,7,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+165,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,5,5,1,4,Evidence,NA,0,Throw It All Away,NA,0
+166,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,2,5,1,10,The Four Owls,NA,0,Old Earth,NA,0
+166,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,3,1,10,Aesop Rock,NA,0,Molecules,NA,0
+166,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,10,Atmosphere,NA,0,Just for show,NA,0
+166,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,6,7,1,7,Sa-Roc,NA,0,Starseed,NA,0
+166,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+166,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,4,1,1,7,Evidence,NA,0,Throw It All Away,NA,0
+167,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,10,10,1,10,The Four Owls,Verb T/Four Owls,1,Old Earth,Freedom,0
+167,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,6,6,1,9,Aesop Rock,,0,Molecules,,0
+167,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,3,1,9,Atmosphere,,0,Just for show,,0
+167,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,7,6,NA,3,Sa-Roc,,0,Starseed,,0
+167,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,6,5,1,8,Johnie Bee ft. Rasco,,0,In My Prime,,0
+167,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,6,9,8,1,2,Evidence,,0,Throw It All Away,,0
+168,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,9,10,10,1,10,The Four Owls,NA,0,Old Earth,NA,0
+168,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,10,10,1,10,Aesop Rock,NA,0,Molecules,NA,0
+168,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,10,10,1,9,Atmosphere,NA,0,Just for show,NA,0
+168,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,6,7,1,1,Sa-Roc,NA,0,Starseed,NA,0
+168,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,5,5,1,10,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+168,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,9,9,1,1,Evidence,NA,0,Throw It All Away,NA,0
+169,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,4,4,1,6,The Four Owls,NA,0,Old Earth,NA,0
+169,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,3,1,8,Aesop Rock,NA,0,Molecules,NA,0
+169,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,4,1,8,Atmosphere,NA,0,Just for show,NA,0
+169,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,2,3,1,8,Sa-Roc,NA,0,Starseed,NA,0
+169,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+169,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,10,1,2,1,9,Evidence,NA,0,Throw It All Away,NA,0
+170,E,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,2,3,4,6,The Four Owls,NA,0,Old Earth,NA,0
+170,E,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,2,1,4,Aesop Rock,NA,0,Molecules,NA,0
+170,E,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,3,1,3,Atmosphere,NA,0,Just for show,NA,0
+170,E,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,4,3,1,4,Sa-Roc,NA,0,Starseed,NA,0
+170,E,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,4,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+170,E,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,4,5,1,4,Evidence,NA,0,Throw It All Away,NA,0
+171,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,1,1,4,6,The Four Owls,NA,0,Old Earth,NA,0
+171,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,3,7,Aesop Rock,NA,0,Molecules,NA,0
+171,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,2,2,2,6,Atmosphere,NA,0,Just for show,NA,0
+171,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,6,7,1,2,Sa-Roc,NA,0,Starseed,NA,0
+171,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,3,NA,1,2,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+171,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,1,1,2,Evidence,NA,0,Throw It All Away,NA,0
+172,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,2,1,5,10,The Four Owls,,0,Old Earth,NA,0
+172,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,1,1,8,Aesop Rock,,0,Molecules,NA,0
+172,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,9,7,7,1,3,Atmosphere,Purple Hills?,0,Just for show,NA,0
+172,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,9,7,7,1,1,Sa-Roc,,0,Starseed,NA,0
+172,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,7,7,1,1,Johnie Bee ft. Rasco,,0,In My Prime,NA,0
+172,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,7,7,7,1,2,Evidence,,0,Throw It All Away,NA,0
+173,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,6,6,5,7,The Four Owls,NA,0,Old Earth,NA,0
+173,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,3,4,3,3,8,Aesop Rock,NA,0,Molecules,NA,0
+173,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,5,5,4,4,7,Atmosphere,NA,0,Just for show,NA,0
+173,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,6,5,5,5,7,Sa-Roc,NA,0,Starseed,NA,0
+173,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,5,4,4,4,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+173,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,4,4,4,4,6,Evidence,NA,0,Throw It All Away,NA,0
+174,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,7,2,2,1,8,The Four Owls,NA,0,Old Earth,NA,0
+174,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,1,9,Aesop Rock,NA,0,Molecules,NA,0
+174,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,3,2,1,8,Atmosphere,NA,0,Just for show,NA,0
+174,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,7,1,1,1,9,Sa-Roc,NA,0,Starseed,NA,0
+174,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,2,2,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+174,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,2,1,1,9,Evidence,NA,0,Throw It All Away,NA,0
+175,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,7,5,1,7,The Four Owls,NA,0,Old Earth,NA,0
+175,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,3,1,7,Aesop Rock,NA,0,Molecules,NA,0
+175,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,3,3,1,8,Atmosphere,NA,0,Just for show,NA,0
+175,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,9,8,7,1,8,Sa-Roc,NA,0,Starseed,NA,0
+175,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,5,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+175,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,5,5,1,6,Evidence,NA,0,Throw It All Away,NA,0
+176,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,9,9,4,10,The Four Owls,NA,0,Old Earth,NA,0
+176,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,4,4,3,3,8,Aesop Rock,NA,0,Molecules,NA,0
+176,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,8,8,7,3,7,Atmosphere,NA,0,Just for show,NA,0
+176,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,2,4,1,5,Sa-Roc,NA,0,Starseed,NA,0
+176,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,3,3,2,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+176,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,5,4,2,4,Evidence,NA,0,Throw It All Away,NA,0
+177,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,8,7,1,10,The Four Owls,NA,0,Old Earth,NA,0
+177,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,4,1,8,Aesop Rock,NA,0,Molecules,NA,0
+177,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,7,7,1,5,Atmosphere,NA,0,Just for show,NA,0
+177,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,6,5,1,8,Sa-Roc,NA,0,Starseed,NA,0
+177,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,3,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+177,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,5,1,4,Evidence,NA,0,Throw It All Away,NA,0
+178,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,1,3,9,8,The Four Owls,NA,0,Old Earth,NA,0
+178,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,3,2,2,6,7,Aesop Rock,NA,0,Molecules,NA,0
+178,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,7,7,5,4,6,Atmosphere,NA,0,Just for show,NA,0
+178,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,6,5,5,8,Sa-Roc,NA,0,Starseed,NA,0
+178,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,2,4,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+178,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,3,3,4,6,Evidence,NA,0,Throw It All Away,NA,0
+179,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,6,8,1,10,The Four Owls,NA,0,Old Earth,NA,0
+179,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,5,4,1,10,Aesop Rock,NA,0,Molecules,NA,0
+179,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,5,4,1,9,Atmosphere,NA,0,Just for show,NA,0
+179,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,7,7,1,9,Sa-Roc,NA,0,Starseed,NA,0
+179,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,6,6,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+179,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,6,6,1,6,Evidence,NA,0,Throw It All Away,NA,0
+180,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,6,5,1,8,The Four Owls,NA,0,Old Earth,NA,0
+180,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,3,5,5,1,9,Aesop Rock,NA,0,Molecules,NA,0
+180,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,6,3,NA,2,6,Atmosphere,NA,0,Just for show,NA,0
+180,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,2,3,1,4,Sa-Roc,NA,0,Starseed,NA,0
+180,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,6,5,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+180,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,7,6,1,4,Evidence,NA,0,Throw It All Away,NA,0
+181,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,3,3,1,8,The Four Owls,NA,0,Old Earth,NA,0
+181,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,4,1,8,Aesop Rock,NA,0,Molecules,NA,0
+181,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,5,5,1,8,Atmosphere,NA,0,Just for show,NA,0
+181,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,7,7,1,6,Sa-Roc,NA,0,Starseed,NA,0
+181,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,7,7,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+181,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,7,7,1,5,Evidence,NA,0,Throw It All Away,NA,0
+182,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,8,8,1,3,The Four Owls,NA,0,Old Earth,NA,0
+182,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,1,5,Aesop Rock,NA,0,Molecules,NA,0
+182,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,2,1,4,Atmosphere,NA,0,Just for show,NA,0
+182,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,7,4,4,1,4,Sa-Roc,NA,0,Starseed,NA,0
+182,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,3,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+182,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,4,4,1,2,Evidence,NA,0,Throw It All Away,NA,0
+183,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,8,8,1,4,The Four Owls,NA,0,Old Earth,NA,0
+183,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,4,1,6,Aesop Rock,NA,0,Molecules,NA,0
+183,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,8,Atmosphere,NA,0,Just for show,NA,0
+183,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,7,7,1,5,Sa-Roc,NA,0,Starseed,NA,0
+183,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,5,5,1,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+183,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,7,8,1,4,Evidence,NA,0,Throw It All Away,NA,0
+184,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,7,2,4,1,10,The Four Owls,NA,0,Old Earth,NA,0
+184,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,3,3,8,Aesop Rock,NA,0,Molecules,NA,0
+184,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,9,4,2,1,7,Atmosphere,NA,0,Just for show,NA,0
+184,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,9,7,4,1,9,Sa-Roc,NA,0,Starseed,NA,0
+184,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,5,NA,8,1,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+184,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,4,6,NA,1,5,Evidence,NA,0,Throw It All Away,NA,0
+185,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,8,NA,6,9,The Four Owls,NA,0,Old Earth,NA,0
+185,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,5,5,5,5,5,Aesop Rock,NA,0,Molecules,NA,0
+185,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,7,6,6,5,7,Atmosphere,NA,0,Just for show,NA,0
+185,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,6,6,7,6,8,Sa-Roc,NA,0,Starseed,NA,0
+185,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,7,7,6,6,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+185,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,6,6,6,6,6,Evidence,NA,0,Throw It All Away,NA,0
+186,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,1,2,7,8,The Four Owls,NA,0,Old Earth,NA,0
+186,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,5,6,Aesop Rock,NA,0,Molecules,NA,0
+186,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,1,4,5,Atmosphere,NA,0,Just for show,NA,0
+186,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,2,2,2,4,Sa-Roc,NA,0,Starseed,NA,0
+186,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,2,1,1,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+186,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,3,2,2,4,Evidence,NA,0,Throw It All Away,NA,0
+187,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,7,8,2,4,The Four Owls,Soul,0,Old Earth,not known,0
+187,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,7,8,2,3,Aesop Rock,Jazz,0,Molecules,not known,0
+187,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,3,5,5,5,4,Atmosphere,not known,0,Just for show,not known,0
+187,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,8,9,3,5,Sa-Roc,not known,0,Starseed,not known,0
+187,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,6,7,4,5,Johnie Bee ft. Rasco,Spanish song,0,In My Prime,not known,0
+187,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,6,7,3,4,Evidence,not known,0,Throw It All Away,not known,0
+188,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,5,5,2,3,The Four Owls,NA,0,Old Earth,NA,0
+188,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,3,3,3,4,Aesop Rock,NA,0,Molecules,NA,0
+188,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,5,4,4,2,4,Atmosphere,NA,0,Just for show,NA,0
+188,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,6,5,5,1,3,Sa-Roc,NA,0,Starseed,NA,0
+188,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,2,2,1,3,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+188,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,4,3,3,2,2,Evidence,NA,0,Throw It All Away,NA,0
+189,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,6,7,2,9,The Four Owls,NA,0,Old Earth,NA,0
+189,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,3,1,8,Aesop Rock,NA,0,Molecules,NA,0
+189,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,1,10,Atmosphere,NA,0,Just for show,NA,0
+189,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,3,6,6,1,4,Sa-Roc,NA,0,Starseed,NA,0
+189,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,5,6,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+189,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,5,8,8,1,3,Evidence,NA,0,Throw It All Away,NA,0
+190,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,2,1,2,1,10,The Four Owls,,0,Old Earth,,0
+190,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,1,2,10,Aesop Rock,,0,Molecules,,0
+190,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,7,5,6,1,5,Atmosphere,Atmosphere,1,Just for show,Just for Show,1
+190,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,4,6,7,1,6,Sa-Roc,,0,Starseed,,0
+190,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,7,7,1,6,Johnie Bee ft. Rasco,,0,In My Prime,,0
+190,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,5,4,1,3,Evidence,,0,Throw It All Away,,0
+191,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,3,6,8,1,7,The Four Owls,NA,0,Old Earth,NA,0
+191,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,2,6,NA,1,8,Aesop Rock,NA,0,Molecules,NA,0
+191,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,2,5,5,1,8,Atmosphere,NA,0,Just for show,NA,0
+191,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,2,6,7,1,6,Sa-Roc,NA,0,Starseed,NA,0
+191,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,4,4,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+191,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,7,NA,1,6,Evidence,NA,0,Throw It All Away,NA,0
+192,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,4,8,5,1,9,The Four Owls,unknown,0,Old Earth,unknown,0
+192,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,4,2,10,Aesop Rock,unknown,0,Molecules,unknown,0
+192,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,6,4,3,2,9,Atmosphere,unknown,0,Just for show,unknown,0
+192,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,7,6,6,1,4,Sa-Roc,unknown,0,Starseed,unknown,0
+192,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,2,1,6,Johnie Bee ft. Rasco,unknown,0,In My Prime,unknown,0
+192,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,6,4,4,1,4,Evidence,unknown,0,Throw It All Away,unknown,0
+193,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,3,4,1,8,The Four Owls,NA,0,Old Earth,NA,0
+193,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,1,8,Aesop Rock,NA,0,Molecules,NA,0
+193,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,4,1,2,1,8,Atmosphere,NA,0,Just for show,NA,0
+193,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,4,4,1,7,Sa-Roc,NA,0,Starseed,NA,0
+193,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,3,4,1,8,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+193,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,5,5,1,5,Evidence,NA,0,Throw It All Away,NA,0
+194,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,5,4,2,8,The Four Owls,NA,0,Old Earth,NA,0
+194,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,4,3,3,2,9,Aesop Rock,NA,0,Molecules,NA,0
+194,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,6,7,7,1,7,Atmosphere,NA,0,Just for show,NA,0
+194,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,7,8,8,1,8,Sa-Roc,NA,0,Starseed,NA,0
+194,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,6,4,4,1,9,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+194,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,4,7,7,1,7,Evidence,NA,0,Throw It All Away,NA,0
+195,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,10,10,1,8,The Four Owls,NA,0,Old Earth,NA,0
+195,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,1,10,Aesop Rock,NA,0,Molecules,NA,0
+195,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,3,3,2,7,Atmosphere,NA,0,Just for show,NA,0
+195,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,10,4,5,1,4,Sa-Roc,NA,0,Starseed,NA,0
+195,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,4,1,2,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+195,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,5,1,8,Evidence,NA,0,Throw It All Away,NA,0
+196,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,7,4,5,6,9,The Four Owls,Not sure,0,Old Earth,Not sure,0
+196,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,4,2,2,8,10,Aesop Rock,Don't know,0,Molecules,Don't know,0
+196,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,8,5,5,6,9,Atmosphere,Don't know,0,Just for show,Don't know,0
+196,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,6,6,1,6,Sa-Roc,Don't know,0,Starseed,Don't know,0
+196,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,5,5,3,1,7,Johnie Bee ft. Rasco,Don't know,0,In My Prime,Don't know,0
+196,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,8,7,7,1,5,Evidence,Don't know,0,Throw It All Away,Don't know,0
+197,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,8,9,1,4,The Four Owls,NA,0,Old Earth,NA,0
+197,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,1,6,10,Aesop Rock,NA,0,Molecules,NA,0
+197,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,4,6,1,6,Atmosphere,NA,0,Just for show,NA,0
+197,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,7,8,1,3,Sa-Roc,NA,0,Starseed,NA,0
+197,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,5,1,4,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+197,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,3,1,9,Evidence,NA,0,Throw It All Away,NA,0
+198,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,8,10,1,6,The Four Owls,NA,0,Old Earth,NA,0
+198,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,6,10,Aesop Rock,NA,0,Molecules,NA,0
+198,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,2,4,2,8,Atmosphere,NA,0,Just for show,NA,0
+198,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,6,6,1,8,Sa-Roc,NA,0,Starseed,NA,0
+198,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,5,6,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+198,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,5,1,1,Evidence,NA,0,Throw It All Away,NA,0
+199,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,8,3,2,5,7,The Four Owls,NA,0,Old Earth,NA,0
+199,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,1,1,5,8,Aesop Rock,NA,0,Molecules,NA,0
+199,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,1,1,4,8,Atmosphere,NA,0,Just for show,NA,0
+199,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,1,1,2,4,Sa-Roc,NA,0,Starseed,NA,0
+199,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,1,1,1,5,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+199,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,1,1,1,5,Evidence,NA,0,Throw It All Away,NA,0
+200,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,5,10,10,1,7,The Four Owls,NA,0,Old Earth,NA,0
+200,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,6,4,1,7,Aesop Rock,NA,0,Molecules,NA,0
+200,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,7,7,1,1,Atmosphere,NA,0,Just for show,NA,0
+200,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,10,10,1,1,Sa-Roc,NA,0,Starseed,NA,0
+200,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,2,8,9,1,1,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+200,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,10,10,1,1,Evidence,NA,0,Throw It All Away,NA,0
+201,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,6,5,NA,NA,7,The Four Owls,NA,0,Old Earth,NA,0
+201,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,4,NA,1,5,Aesop Rock,NA,0,Molecules,NA,0
+201,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,8,7,7,1,6,Atmosphere,NA,0,Just for show,NA,0
+201,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,8,8,NA,1,3,Sa-Roc,NA,0,Starseed,NA,0
+201,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,4,NA,1,6,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+201,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,2,5,6,1,3,Evidence,NA,0,Throw It All Away,NA,0
+202,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,6,7,4,9,The Four Owls,na,0,Old Earth,na,0
+202,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,3,2,2,7,Aesop Rock,na,0,Molecules,na,0
+202,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,4,5,5,8,Atmosphere,na,0,Just for show,na,0
+202,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,1,5,6,2,4,Sa-Roc,na,0,Starseed,na,0
+202,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,3,5,6,3,5,Johnie Bee ft. Rasco,na,0,In My Prime,na,0
+202,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,6,6,2,3,Evidence,na,0,Throw It All Away,na,0
+203,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,10,10,10,4,7,The Four Owls,Don't know,0,Old Earth,Don't know,0
+203,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,2,5,7,Aesop Rock,,0,Molecules,,0
+203,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,3,3,5,7,Atmosphere,,0,Just for show,,0
+203,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,9,5,5,2,6,Sa-Roc,,0,Starseed,,0
+203,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,2,2,2,7,Johnie Bee ft. Rasco,,0,In My Prime,,0
+203,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,1,2,2,2,4,Evidence,,0,Throw It All Away,,0
+204,F,lyrical,1,B,static/B1_lyrical.mp3,Prolific,1,8,8,2,7,The Four Owls,NA,0,Old Earth,NA,0
+204,F,lyrical,2,B,static/B2_lyrical.mp3,Prolific,1,2,3,2,8,Aesop Rock,NA,0,Molecules,NA,0
+204,F,lyrical,3,B,static/B3_lyrical.mp3,Prolific,1,3,2,NA,8,Atmosphere,NA,0,Just for show,NA,0
+204,F,instrumental,1,A,static/A1_instrumental.mp3,Prolific,6,2,2,2,7,Sa-Roc,NA,0,Starseed,NA,0
+204,F,instrumental,2,A,static/A2_instrumental.mp3,Prolific,1,5,4,2,7,Johnie Bee ft. Rasco,NA,0,In My Prime,NA,0
+204,F,instrumental,3,A,static/A3_instrumental.mp3,Prolific,3,2,5,2,7,Evidence,NA,0,Throw It All Away,NA,0
