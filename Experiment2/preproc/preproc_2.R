@@ -241,14 +241,13 @@ r<- ratings[, c("subject", "list", "music", "song_number", "music_set", "snippet
 write.csv(r, "Experiment2/data/prep/music_ratings_raw.csv", row.names = F) # save accuracy data
 
 
-ratings <- read.csv("Experiment2/data/prep/ratings_manual_coding.csv", sep=";")
+ratings <- read.csv("Experiment2/data/prep/ratings_manual_coding.csv", sep=",")
 
 
 
 
 
 ### Music preferences:
-
 genres<- subset(dat, sender== "Music styles")
 genres<- genres[, c("subject", "Blues",  "Classical", "Country", "Dance", "Electronic", 
                     "Folk", "Gospel", "Hip.Hop", "Jazz", "Latin",
@@ -261,9 +260,7 @@ freq<- subset(dat, sender== "Music_frequency")
 freq<- freq[, c("subject", "music_frequency")]
 
 preference <- merge(freq, genres) # merge two dataframes
-write.csv(preference, "Experiment1b/data/music_preferences.csv") # save data
-
-
+write.csv(preference, "Experiment2/data/music_preferences.csv") # save data
 
 
 ### QUESTION ACCURACY DATA:
@@ -320,8 +317,14 @@ for(i in 1:length(nsubs)){
 nstart<- nrow(rt)
 
 # remove identified trials:
-rt<- rt[-which(rt$subject==117 & rt$item==10),]
-q<- q[-which(q$subject==117 & q$item==10),]
+rt<- rt[-which(rt$subject==20 & rt$item==13),]
+q<- q[-which(q$subject==20 & q$item==13),]
+
+rt<- rt[-which(rt$subject==34 & rt$item==8),]
+q<- q[-which(q$subject==34 & q$item==8),]
+
+rt<- rt[-which(rt$subject==62 & rt$item==8),]
+q<- q[-which(q$subject==62 & q$item==8),]
 
 ntrials<- nrow(rt)
 
