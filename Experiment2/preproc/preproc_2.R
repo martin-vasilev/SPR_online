@@ -376,7 +376,7 @@ block$second_start<-NA
 block$third_start<-NA
 
 library(readxl)
-song_stamps <- read_excel("Experiment1a/preproc/song_stamps.xlsx")
+song_stamps <- read_excel("Experiment2/preproc/song_stamps.xlsx")
 
 
 for(i in 1:nrow(block)){
@@ -445,8 +445,8 @@ rt$t_since_block<- rt$new_time- (rt$block_start-7)
 
 ## load song ratings by subject:
 
-music_preferences <- read_csv("Experiment1b/data/music_preferences.csv")
-ratings <- read.csv("Experiment1b/data/prep/ratings_manual_coding.csv", sep=";")
+music_preferences <- read_csv("Experiment2/data/music_preferences.csv")
+ratings <- read.csv("Experiment2/data/prep/ratings_manual_coding.csv", sep=",")
 
 
 # create empty columns:
@@ -515,8 +515,8 @@ rt$third<- NULL
 
 
 #### save RT & accuracy data:
-write.csv(rt, "Experiment1b/data/reaction_time.csv", row.names = F) # save accuracy data
-write.csv(q, "Experiment1b/data/question_accuracy.csv", row.names = F) # save accuracy data
+write.csv(rt, "Experiment2/data/reaction_time.csv", row.names = F) # save accuracy data
+write.csv(q, "Experiment2/data/question_accuracy.csv", row.names = F) # save accuracy data
 
 
 ### TRIAL DURATIONS
