@@ -107,7 +107,7 @@ for(i in 1:length(files)){ # for each participant file..
 ### BLOCK INFORMATION:
 block$list[which(block$list=="FALSE")]= "F"
 
-write.csv(block, "Experiment1b/data/block_info.csv", row.names = F) # save block info data
+write.csv(block, "Experiment2/data/block_info.csv", row.names = F) # save block info data
 
 
 
@@ -127,7 +127,7 @@ dem<- data.frame("subject" = d$subject, "gender"= d$gender, "age"= d$age,
 
 dem$list[which(dem$list=="FALSE")]= "F"
 
-write.csv(dem, "Experiment1b/data/participant_data.csv", row.names = F) # save device info
+write.csv(dem, "Experiment2/data/participant_data.csv", row.names = F) # save device info
 
 
 ### DEVICE DATA:
