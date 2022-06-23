@@ -115,12 +115,12 @@ df4$Experiment<- "Experiment 3"
 
 df<-rbind(df1, df2, df3, df4)
 df$Measure<- as.factor(df$Measure)
-df$Measure<- factor(df$Measure, levels= c("Familiarity", "Preference", "Pleasantness", "Distraction", "Offensiveness"))
+df$Measure<- factor(df$Measure, levels= c("Offensiveness", "Distraction", "Preference", "Pleasantness", "Familiarity"))
 
 
 
 
-a <- ggplot(df, aes(x = Measure, y= Mean, fill= Music, color= Music))+
+a <- ggplot(df, aes(x = Mean, y= Measure, fill= Music, color= Music))+
   geom_boxplot(
     width = .25, 
     outlier.shape = NA, fill= NA, position = position_dodge(width = 0.8)
@@ -130,15 +130,16 @@ a <- ggplot(df, aes(x = Measure, y= Mean, fill= Music, color= Music))+
              alpha = .6,
              position =  position_jitterdodge(jitter.width = 0.1, dodge.width = 0.8)
   ) + 
-  coord_cartesian(xlim = c(1.2, NA), clip = "off")+
+  coord_cartesian(ylim = c(1.2, NA), clip = "off")+
+  xlim(1,10)+
   scale_color_manual(values=pallete1[1:2])+
   scale_fill_manual(values=pallete1[1:2])+
-  theme_classic(20) +ylab("Mean rating (1= very low; 10= very high)")+
+  theme_classic(16) +ylab("Measure")+ xlab('Mean rating (1= very low; 10= very high)')+
   theme(legend.position = 'top')+
-  stat_summary(fun = mean, geom="point",colour="black", size=3, position = position_dodge(0.8), show.legend = F) +
+  stat_summary(fun = mean, geom="point",colour="black", size=2, position = position_dodge(0.8), show.legend = F) +
   stat_summary(fun.data = fun_mean, geom="text", vjust=-0.8, colour="black", position = position_dodge(0.8))+
   facet_wrap(~Experiment)
 
-ggsave(plot = a, filename = "Plots/Ratings_M.pdf", height = 10, width = 15)
+ggsave(plot = a, filename = "Plots/Ratings_M.pdf", height = 9, width = 9)
 
 
