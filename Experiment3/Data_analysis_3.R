@@ -67,7 +67,17 @@ Qsub<- cast(Desq, subject ~ variable
 Qsub<- Qsub[order(Qsub$accuracy_M),]
 
 
-summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = rt, REML = T))
+## Main model with RT data:
+if(!file.exists("Experiment3/models/LM1.Rda")){
+  summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = rt, REML = T))
+  
+  save(LM1, file = 'Experiment3/models/LM1.Rda')
+  
+}else{
+  load('Experiment3/models/LM1.Rda')
+  summary(LM1)
+}
+
 
 library(emmeans)
 
@@ -77,3 +87,19 @@ EM<- emmeans(LM1, pairwise ~ sound)
 library(effects)
 plot(effect('sound', LM1))
 effect('sound', LM1)
+
+
+
+
+## Main model with accuracy data:
+if(!file.exists("Experiment3/models/LM2.Rda")){
+  summary(LM2<- glmer(accuracy ~ sound+ (1|subject)+ (1|item), data = q, family = binomial))
+  
+  save(LM2, file = 'Experiment3/models/LM2.Rda')
+  
+}else{
+  load('Experiment3/models/LM2.Rda')
+  summary(LM2)
+}
+
+
