@@ -1,0 +1,1249 @@
+"subject","list","music","song_number","music_set","snippet_file","Pool","familiarity","preference","pleasantness","offensiveness","distraction","actual_artist","actual_song_name","artist_name","song_name"
+1,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,5,5,1,9,"Sa-Roc","Starseed",NA,NA
+1,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+1,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,3,1,10,"Evidence","Throw It All Away",NA,NA
+1,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,6,6,1,8,"The Four Owls","Old Earth",NA,NA
+1,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,4,1,6,"Aesop Rock","Molecules",NA,NA
+1,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,5,5,1,5,"Atmosphere","Just for show",NA,NA
+2,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",7,4,4,1,10,"Sa-Roc","Starseed",NA,NA
+2,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+2,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,2,1,10,"Evidence","Throw It All Away",NA,NA
+2,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,3,3,1,6,"The Four Owls","Old Earth",NA,NA
+2,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules",NA,NA
+2,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,2,2,1,10,"Atmosphere","Just for show",NA,NA
+3,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,3,3,1,10,"Sa-Roc","Starseed",NA,NA
+3,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,2,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+3,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,2,1,10,"Evidence","Throw It All Away",NA,NA
+3,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,4,4,1,8,"The Four Owls","Old Earth",NA,NA
+3,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,7,6,1,3,"Aesop Rock","Molecules",NA,NA
+3,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,6,6,1,3,"Atmosphere","Just for show",NA,NA
+4,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,9,9,1,6,"Sa-Roc","Starseed",NA,NA
+4,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,5,5,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+4,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,8,8,NA,3,"Evidence","Throw It All Away",NA,NA
+4,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,10,10,1,4,"The Four Owls","Old Earth",NA,NA
+4,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,5,5,1,5,"Aesop Rock","Molecules",NA,NA
+4,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,6,5,1,6,"Atmosphere","Just for show",NA,NA
+5,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,10,10,2,6,"Sa-Roc","Starseed",NA,NA
+5,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",7,6,2,9,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+5,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,3,5,4,10,"Evidence","Throw It All Away",NA,NA
+5,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,6,6,6,3,"The Four Owls","Old Earth",NA,NA
+5,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,5,2,1,"Aesop Rock","Molecules",NA,NA
+5,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,5,9,4,"Atmosphere","Just for show",NA,NA
+6,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,8,8,1,3,"Sa-Roc","Starseed",NA,NA
+6,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,8,8,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+6,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,6,6,1,4,"Evidence","Throw It All Away",NA,NA
+6,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,5,5,1,3,"The Four Owls","Old Earth",NA,NA
+6,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,4,1,3,"Aesop Rock","Molecules",NA,NA
+6,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,4,1,4,"Atmosphere","Just for show",NA,NA
+7,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,7,6,1,9,"Sa-Roc","Starseed",NA,NA
+7,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,3,3,2,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+7,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,2,1,7,"Evidence","Throw It All Away",NA,NA
+7,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,6,7,1,4,"The Four Owls","Old Earth",NA,NA
+7,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,4,1,6,"Aesop Rock","Molecules",NA,NA
+7,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,6,7,1,6,"Atmosphere","Just for show",NA,NA
+8,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,4,4,7,6,"Sa-Roc","Starseed",NA,NA
+8,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,7,3,9,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+8,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,4,4,4,"Evidence","Throw It All Away",NA,NA
+8,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,7,8,1,2,"The Four Owls","Old Earth",NA,NA
+8,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,3,1,6,"Aesop Rock","Molecules",NA,NA
+8,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,8,5,1,3,"Atmosphere","Just for show",NA,NA
+9,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,6,5,2,5,"Sa-Roc","Starseed",NA,NA
+9,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",6,7,6,2,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+9,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",4,7,7,2,5,"Evidence","Throw It All Away",NA,NA
+9,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,9,9,1,2,"The Four Owls","Old Earth",NA,NA
+9,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,6,1,4,"Aesop Rock","Molecules",NA,NA
+9,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,4,5,1,4,"Atmosphere","Just for show",NA,NA
+10,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",4,7,7,1,10,"Sa-Roc","Starseed",NA,NA
+10,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,6,6,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+10,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,7,1,7,"Evidence","Throw It All Away",NA,NA
+10,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,4,9,1,4,"The Four Owls","Old Earth",NA,NA
+10,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",5,7,8,1,8,"Aesop Rock","Molecules",NA,NA
+10,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",10,9,10,1,7,"Atmosphere","Just for show",NA,NA
+11,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,1,1,2,10,"Sa-Roc","Starseed","Nicki Minaj",NA
+11,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,2,2,9,"Johnie Bee ft. Rasco","In My Prime","50 Cent",NA
+11,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,2,10,"Evidence","Throw It All Away","Eminem",NA
+11,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",3,5,6,1,5,"The Four Owls","Old Earth","J Dilla",NA
+11,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,3,1,9,"Aesop Rock","Molecules","",NA
+11,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,2,1,8,"Atmosphere","Just for show","",NA
+12,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,1,1,8,10,"Sa-Roc","Starseed",NA,NA
+12,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,10,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+12,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,2,1,9,"Evidence","Throw It All Away",NA,NA
+12,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,8,9,1,6,"The Four Owls","Old Earth",NA,NA
+12,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,1,8,"Aesop Rock","Molecules",NA,NA
+12,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,1,1,10,"Atmosphere","Just for show",NA,NA
+13,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,4,4,1,8,"Sa-Roc","Starseed",NA,NA
+13,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,4,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+13,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,1,3,"Evidence","Throw It All Away",NA,NA
+13,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,1,1,1,8,"The Four Owls","Old Earth",NA,NA
+13,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,8,"Aesop Rock","Molecules",NA,NA
+13,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,1,1,5,"Atmosphere","Just for show",NA,NA
+14,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,7,7,1,7,"Sa-Roc","Starseed",NA,NA
+14,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,5,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+14,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,8,8,1,4,"Evidence","Throw It All Away",NA,NA
+14,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,8,8,1,2,"The Four Owls","Old Earth",NA,NA
+14,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,3,1,4,"Aesop Rock","Molecules",NA,NA
+14,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,5,1,4,"Atmosphere","Just for show",NA,NA
+15,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",5,3,3,3,8,"Sa-Roc","Starseed",NA,NA
+15,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,7,7,6,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+15,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",7,8,8,2,3,"Evidence","Throw It All Away",NA,NA
+15,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,9,9,1,1,"The Four Owls","Old Earth",NA,NA
+15,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,3,10,"Aesop Rock","Molecules",NA,NA
+15,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,4,4,2,8,"Atmosphere","Just for show",NA,NA
+16,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,10,10,2,10,"Sa-Roc","Starseed",NA,NA
+16,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,9,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+16,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,7,10,"Evidence","Throw It All Away",NA,NA
+16,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,4,4,1,5,"The Four Owls","Old Earth",NA,NA
+16,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,7,10,"Aesop Rock","Molecules",NA,NA
+16,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,6,6,1,5,"Atmosphere","Just for show",NA,NA
+17,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,5,5,3,4,"Sa-Roc","Starseed",NA,NA
+17,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,2,5,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+17,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,2,2,6,"Evidence","Throw It All Away",NA,NA
+17,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,4,6,1,3,"The Four Owls","Old Earth",NA,NA
+17,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,2,1,4,"Aesop Rock","Molecules",NA,NA
+17,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,7,7,1,3,"Atmosphere","Just for show",NA,NA
+18,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,2,1,4,8,"Sa-Roc","Starseed",NA,NA
+18,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,5,1,2,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+18,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,4,5,1,3,"Evidence","Throw It All Away",NA,NA
+18,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,6,5,1,2,"The Four Owls","Old Earth",NA,NA
+18,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,2,3,1,4,"Aesop Rock","Molecules",NA,NA
+18,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,4,4,1,3,"Atmosphere","Just for show",NA,NA
+19,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",4,6,7,3,5,"Sa-Roc","Starseed",NA,""
+19,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,4,4,2,4,"Johnie Bee ft. Rasco","In My Prime",NA,""
+19,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",8,5,5,1,4,"Evidence","Throw It All Away",NA,"Throw it all away"
+19,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,7,7,1,2,"The Four Owls","Old Earth",NA,""
+19,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,2,1,1,7,"Aesop Rock","Molecules",NA,""
+19,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,3,2,1,4,"Atmosphere","Just for show",NA,""
+20,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",6,10,8,1,8,"Sa-Roc","Starseed",NA,NA
+20,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",5,10,10,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+20,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",5,10,10,1,5,"Evidence","Throw It All Away",NA,NA
+20,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,10,10,1,2,"The Four Owls","Old Earth",NA,NA
+20,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,10,10,1,1,"Aesop Rock","Molecules",NA,NA
+20,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",10,10,10,1,1,"Atmosphere","Just for show",NA,NA
+21,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,4,4,2,10,"Sa-Roc","Starseed",NA,NA
+21,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,6,4,5,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+21,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,6,5,4,8,"Evidence","Throw It All Away",NA,NA
+21,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,8,8,1,2,"The Four Owls","Old Earth",NA,NA
+21,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,2,1,1,"Aesop Rock","Molecules",NA,NA
+21,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,3,2,3,"Atmosphere","Just for show",NA,NA
+22,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,10,10,NA,10,"Sa-Roc","Starseed",NA,NA
+22,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,2,2,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+22,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,3,3,1,10,"Evidence","Throw It All Away",NA,NA
+22,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,8,10,1,4,"The Four Owls","Old Earth",NA,NA
+22,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,3,1,10,"Aesop Rock","Molecules",NA,NA
+22,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,6,1,5,"Atmosphere","Just for show",NA,NA
+23,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",4,4,3,1,6,"Sa-Roc","Starseed",NA,NA
+23,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,3,2,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+23,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",4,2,NA,1,5,"Evidence","Throw It All Away",NA,NA
+23,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",8,5,7,1,7,"The Four Owls","Old Earth",NA,NA
+23,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,3,3,1,6,"Aesop Rock","Molecules",NA,NA
+23,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",5,5,6,1,6,"Atmosphere","Just for show",NA,NA
+24,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",8,6,6,3,7,"Sa-Roc","Starseed",NA,NA
+24,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",7,5,5,4,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+24,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",4,5,5,3,7,"Evidence","Throw It All Away",NA,NA
+24,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",8,7,7,3,5,"The Four Owls","Old Earth",NA,NA
+24,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,5,5,3,7,"Aesop Rock","Molecules",NA,NA
+24,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,4,3,7,"Atmosphere","Just for show",NA,NA
+25,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,7,4,5,9,"Sa-Roc","Starseed",NA,NA
+25,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,7,4,6,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+25,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,5,4,6,"Evidence","Throw It All Away",NA,NA
+25,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,7,7,1,5,"The Four Owls","Old Earth",NA,NA
+25,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,1,7,"Aesop Rock","Molecules",NA,NA
+25,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,3,1,5,"Atmosphere","Just for show",NA,NA
+26,"A","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,6,7,2,3,"Sa-Roc","Starseed","Nicki Minaj",NA
+26,"A","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,8,7,2,4,"Johnie Bee ft. Rasco","In My Prime","",NA
+26,"A","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,8,7,1,2,"Evidence","Throw It All Away","Andre 3000",NA
+26,"A","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,7,8,1,1,"The Four Owls","Old Earth","",NA
+26,"A","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,5,1,3,"Aesop Rock","Molecules","",NA
+26,"A","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,7,6,1,NA,"Atmosphere","Just for show","",NA
+27,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,7,8,1,8,"Sa-Roc","Starseed",NA,NA
+27,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,4,5,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+27,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,2,1,5,"Evidence","Throw It All Away",NA,NA
+27,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,2,5,1,4,"The Four Owls","Old Earth",NA,NA
+27,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,1,2,"Aesop Rock","Molecules",NA,NA
+27,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,2,4,1,2,"Atmosphere","Just for show",NA,NA
+28,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,9,2,2,9,"Sa-Roc","Starseed",NA,NA
+28,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",6,3,2,2,2,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+28,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",5,5,4,4,4,"Evidence","Throw It All Away",NA,NA
+28,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,4,5,2,4,"The Four Owls","Old Earth",NA,NA
+28,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,4,4,3,3,"Aesop Rock","Molecules",NA,NA
+28,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",5,4,6,4,4,"Atmosphere","Just for show",NA,NA
+29,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,5,4,1,1,"Sa-Roc","Starseed",NA,NA
+29,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,5,4,1,1,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+29,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,4,3,1,1,"Evidence","Throw It All Away",NA,NA
+29,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,3,3,1,1,"The Four Owls","Old Earth",NA,NA
+29,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,5,4,1,1,"Aesop Rock","Molecules",NA,NA
+29,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,7,6,1,1,"Atmosphere","Just for show",NA,NA
+30,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",8,2,2,7,10,"Sa-Roc","Starseed",NA,NA
+30,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,3,3,8,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+30,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,5,5,4,7,"Evidence","Throw It All Away",NA,NA
+30,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,6,5,2,6,"The Four Owls","Old Earth",NA,NA
+30,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,2,1,6,"Aesop Rock","Molecules",NA,NA
+30,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,4,3,1,5,"Atmosphere","Just for show",NA,NA
+31,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,7,8,5,4,"Sa-Roc","Starseed",NA,NA
+31,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",6,4,4,6,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+31,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,4,4,2,6,"Evidence","Throw It All Away",NA,NA
+31,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,2,2,1,4,"The Four Owls","Old Earth",NA,NA
+31,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,6,"Aesop Rock","Molecules",NA,NA
+31,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,3,1,6,"Atmosphere","Just for show",NA,NA
+32,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",7,8,8,NA,6,"Sa-Roc","Starseed",NA,NA
+32,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,7,7,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+32,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,7,7,1,6,"Evidence","Throw It All Away",NA,NA
+32,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,7,7,1,4,"The Four Owls","Old Earth",NA,NA
+32,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,8,8,1,6,"Aesop Rock","Molecules",NA,NA
+32,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,8,8,1,6,"Atmosphere","Just for show",NA,NA
+33,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,2,2,7,10,"Sa-Roc","Starseed",NA,NA
+33,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,10,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+33,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,6,6,"Evidence","Throw It All Away",NA,NA
+33,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,7,7,1,1,"The Four Owls","Old Earth",NA,NA
+33,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,6,"Aesop Rock","Molecules",NA,NA
+33,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,6,7,1,7,"Atmosphere","Just for show",NA,NA
+34,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,8,8,1,9,"Sa-Roc","Starseed","?","?"
+34,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,9,8,2,10,"Johnie Bee ft. Rasco","In My Prime","?","?"
+34,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,5,6,2,9,"Evidence","Throw It All Away","?","?"
+34,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,7,4,1,8,"The Four Owls","Old Earth","?","?"
+34,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,5,7,1,7,"Aesop Rock","Molecules","?","?"
+34,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,6,8,1,7,"Atmosphere","Just for show","?","?"
+35,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,2,2,1,10,"Sa-Roc","Starseed",NA,NA
+35,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,2,2,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+35,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,2,2,1,10,"Evidence","Throw It All Away",NA,NA
+35,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,8,8,1,7,"The Four Owls","Old Earth",NA,NA
+35,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",4,2,2,1,9,"Aesop Rock","Molecules",NA,NA
+35,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,2,2,1,10,"Atmosphere","Just for show",NA,NA
+36,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,4,5,2,10,"Sa-Roc","Starseed",NA,NA
+36,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,3,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+36,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,1,7,"Evidence","Throw It All Away",NA,NA
+36,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,3,3,1,3,"The Four Owls","Old Earth",NA,NA
+36,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",7,6,5,1,7,"Aesop Rock","Molecules",NA,NA
+36,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",5,3,3,1,8,"Atmosphere","Just for show",NA,NA
+37,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,2,3,2,9,"Sa-Roc","Starseed",NA,NA
+37,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,2,7,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+37,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,4,5,3,5,"Evidence","Throw It All Away",NA,NA
+37,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,8,8,1,3,"The Four Owls","Old Earth",NA,NA
+37,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,2,2,7,"Aesop Rock","Molecules",NA,NA
+37,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,4,2,9,"Atmosphere","Just for show",NA,NA
+38,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,2,2,5,10,"Sa-Roc","Starseed",NA,NA
+38,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,7,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+38,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,2,4,8,"Evidence","Throw It All Away",NA,NA
+38,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,2,3,1,8,"The Four Owls","Old Earth",NA,NA
+38,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,1,7,"Aesop Rock","Molecules",NA,NA
+38,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,2,2,9,"Atmosphere","Just for show",NA,NA
+39,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,2,2,1,6,"Sa-Roc","Starseed",NA,NA
+39,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,3,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+39,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,5,1,2,"Evidence","Throw It All Away",NA,NA
+39,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,2,6,1,2,"The Four Owls","Old Earth",NA,NA
+39,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,6,"Aesop Rock","Molecules",NA,NA
+39,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,2,3,1,NA,"Atmosphere","Just for show",NA,NA
+40,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",5,9,9,1,7,"Sa-Roc","Starseed",NA,NA
+40,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,8,8,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+40,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",4,6,8,1,5,"Evidence","Throw It All Away",NA,NA
+40,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",3,6,8,1,3,"The Four Owls","Old Earth",NA,NA
+40,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,7,7,1,6,"Aesop Rock","Molecules",NA,NA
+40,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,7,7,1,4,"Atmosphere","Just for show",NA,NA
+41,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,10,9,1,4,"Sa-Roc","Starseed",NA,NA
+41,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,4,5,5,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+41,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,3,3,3,6,"Evidence","Throw It All Away",NA,NA
+41,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,8,9,1,2,"The Four Owls","Old Earth",NA,NA
+41,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,8,6,1,7,"Aesop Rock","Molecules",NA,NA
+41,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,9,8,1,5,"Atmosphere","Just for show",NA,NA
+42,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",6,6,6,7,10,"Sa-Roc","Starseed",NA,NA
+42,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,10,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+42,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,1,10,"Evidence","Throw It All Away",NA,NA
+42,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",6,4,4,1,10,"The Four Owls","Old Earth",NA,NA
+42,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,NA,1,10,"Aesop Rock","Molecules",NA,NA
+42,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,4,4,1,10,"Atmosphere","Just for show",NA,NA
+43,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,6,6,1,8,"Sa-Roc","Starseed",NA,NA
+43,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,5,5,6,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+43,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,6,6,2,6,"Evidence","Throw It All Away",NA,NA
+43,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,7,7,1,4,"The Four Owls","Old Earth",NA,NA
+43,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,3,1,5,"Aesop Rock","Molecules",NA,NA
+43,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",5,7,7,1,5,"Atmosphere","Just for show",NA,NA
+44,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,5,6,3,5,"Sa-Roc","Starseed",NA,NA
+44,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,6,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+44,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,4,6,"Evidence","Throw It All Away",NA,NA
+44,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,4,5,1,3,"The Four Owls","Old Earth",NA,NA
+44,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,3,1,3,"Aesop Rock","Molecules",NA,NA
+44,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,7,7,1,3,"Atmosphere","Just for show",NA,NA
+45,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,4,5,2,8,"Sa-Roc","Starseed",NA,NA
+45,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,2,7,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+45,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,3,2,2,4,"Evidence","Throw It All Away",NA,NA
+45,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",6,5,8,1,3,"The Four Owls","Old Earth",NA,NA
+45,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,2,2,7,"Aesop Rock","Molecules",NA,NA
+45,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,3,2,1,5,"Atmosphere","Just for show",NA,NA
+46,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",8,3,1,1,8,"Sa-Roc","Starseed",NA,NA
+46,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,6,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+46,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,5,1,5,"Evidence","Throw It All Away",NA,NA
+46,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,5,6,1,3,"The Four Owls","Old Earth",NA,NA
+46,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,7,6,1,3,"Aesop Rock","Molecules",NA,NA
+46,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,7,5,1,4,"Atmosphere","Just for show",NA,NA
+47,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,6,6,3,7,"Sa-Roc","Starseed",NA,NA
+47,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,5,3,6,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+47,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,6,6,3,3,"Evidence","Throw It All Away",NA,NA
+47,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,7,7,1,1,"The Four Owls","Old Earth",NA,NA
+47,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,7,7,1,3,"Aesop Rock","Molecules",NA,NA
+47,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,6,6,1,2,"Atmosphere","Just for show",NA,NA
+48,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",5,2,2,3,9,"Sa-Roc","Starseed",NA,NA
+48,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,1,1,9,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+48,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,8,9,"Evidence","Throw It All Away",NA,NA
+48,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,4,4,1,7,"The Four Owls","Old Earth",NA,NA
+48,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,2,3,1,8,"Aesop Rock","Molecules",NA,NA
+48,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,2,2,3,7,"Atmosphere","Just for show",NA,NA
+49,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,10,9,4,10,"Sa-Roc","Starseed",NA,NA
+49,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,8,7,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+49,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,7,8,1,9,"Evidence","Throw It All Away",NA,NA
+49,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",6,6,10,1,3,"The Four Owls","Old Earth",NA,NA
+49,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,5,6,1,9,"Aesop Rock","Molecules",NA,NA
+49,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,9,6,1,8,"Atmosphere","Just for show",NA,NA
+50,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",9,8,7,NA,6,"Sa-Roc","Starseed",NA,NA
+50,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,2,5,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+50,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,2,6,3,"Evidence","Throw It All Away",NA,NA
+50,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,5,5,5,5,"The Four Owls","Old Earth",NA,NA
+50,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,2,2,NA,8,"Aesop Rock","Molecules",NA,NA
+50,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,4,3,3,7,"Atmosphere","Just for show",NA,NA
+51,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",4,7,7,1,8,"Sa-Roc","Starseed",NA,NA
+51,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,6,4,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+51,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",5,7,8,1,4,"Evidence","Throw It All Away",NA,NA
+51,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,8,8,1,2,"The Four Owls","Old Earth",NA,NA
+51,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,5,5,1,6,"Aesop Rock","Molecules",NA,NA
+51,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,5,5,1,4,"Atmosphere","Just for show",NA,NA
+52,"B","lyrical","1","A","static/A1_lyrical.mp3","Prolific",9,7,8,1,10,"Sa-Roc","Starseed",NA,NA
+52,"B","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,7,7,2,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+52,"B","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,8,8,1,10,"Evidence","Throw It All Away",NA,NA
+52,"B","instrumental","1","B","static/B1_instrumental.mp3","Prolific",9,9,10,1,3,"The Four Owls","Old Earth",NA,NA
+52,"B","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,5,4,1,8,"Aesop Rock","Molecules",NA,NA
+52,"B","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,7,6,1,6,"Atmosphere","Just for show",NA,NA
+53,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,9,9,1,4,"Sa-Roc","Starseed",NA,NA
+53,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,6,6,3,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+53,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,4,4,1,7,"Evidence","Throw It All Away",NA,NA
+53,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,3,4,1,3,"The Four Owls","Old Earth",NA,NA
+53,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,3,1,6,"Aesop Rock","Molecules",NA,NA
+53,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",5,6,5,1,3,"Atmosphere","Just for show",NA,NA
+54,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,8,9,2,7,"Sa-Roc","Starseed",NA,NA
+54,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,3,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+54,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,5,6,"Evidence","Throw It All Away",NA,NA
+54,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,2,2,1,6,"The Four Owls","Old Earth",NA,NA
+54,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,9,8,1,5,"Aesop Rock","Molecules",NA,NA
+54,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,8,6,1,7,"Atmosphere","Just for show",NA,NA
+55,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,5,5,1,5,"Sa-Roc","Starseed",NA,NA
+55,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,5,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+55,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,4,4,1,6,"Evidence","Throw It All Away",NA,NA
+55,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",8,8,9,1,2,"The Four Owls","Old Earth",NA,NA
+55,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,2,1,6,"Aesop Rock","Molecules",NA,NA
+55,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",6,6,6,1,4,"Atmosphere","Just for show",NA,NA
+56,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,8,8,NA,7,"Sa-Roc","Starseed",NA,NA
+56,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,8,8,2,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+56,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,7,8,1,5,"Evidence","Throw It All Away",NA,NA
+56,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,9,8,1,6,"The Four Owls","Old Earth",NA,NA
+56,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,7,8,1,6,"Aesop Rock","Molecules",NA,NA
+56,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,8,8,1,6,"Atmosphere","Just for show",NA,NA
+57,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,5,5,3,3,"Sa-Roc","Starseed",NA,NA
+57,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,10,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+57,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,5,7,"Evidence","Throw It All Away",NA,NA
+57,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,2,3,1,3,"The Four Owls","Old Earth",NA,NA
+57,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,3,5,"Aesop Rock","Molecules",NA,NA
+57,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,6,1,7,"Atmosphere","Just for show",NA,NA
+58,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,8,8,1,6,"Sa-Roc","Starseed",NA,NA
+58,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,8,7,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+58,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,6,6,1,5,"Evidence","Throw It All Away",NA,NA
+58,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,7,7,1,4,"The Four Owls","Old Earth",NA,NA
+58,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,NA,1,1,5,"Aesop Rock","Molecules",NA,NA
+58,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,2,1,5,"Atmosphere","Just for show",NA,NA
+59,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,1,1,1,NA,"Sa-Roc","Starseed",NA,NA
+59,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,5,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+59,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,1,10,"Evidence","Throw It All Away",NA,NA
+59,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,4,1,1,8,"The Four Owls","Old Earth",NA,NA
+59,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,6,"Aesop Rock","Molecules",NA,NA
+59,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,1,1,10,"Atmosphere","Just for show",NA,NA
+60,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,3,3,2,8,"Sa-Roc","Starseed",NA,NA
+60,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,2,2,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+60,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,2,2,1,9,"Evidence","Throw It All Away",NA,NA
+60,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",6,4,4,1,7,"The Four Owls","Old Earth",NA,NA
+60,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,1,7,"Aesop Rock","Molecules",NA,NA
+60,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,3,4,1,6,"Atmosphere","Just for show",NA,NA
+61,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,3,2,1,9,"Sa-Roc","Starseed",NA,NA
+61,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,3,2,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+61,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,3,4,1,7,"Evidence","Throw It All Away",NA,NA
+61,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",3,2,1,1,7,"The Four Owls","Old Earth",NA,NA
+61,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,3,"Aesop Rock","Molecules",NA,NA
+61,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,3,4,1,2,"Atmosphere","Just for show",NA,NA
+62,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,2,2,3,6,"Sa-Roc","Starseed",NA,NA
+62,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,3,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+62,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,2,2,4,"Evidence","Throw It All Away",NA,NA
+62,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,5,4,1,3,"The Four Owls","Old Earth",NA,NA
+62,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,2,1,2,"Aesop Rock","Molecules",NA,NA
+62,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,3,1,3,"Atmosphere","Just for show",NA,NA
+63,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",6,4,3,1,7,"Sa-Roc","Starseed",NA,NA
+63,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,2,2,2,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+63,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",6,2,1,3,8,"Evidence","Throw It All Away",NA,NA
+63,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",6,3,3,1,8,"The Four Owls","Old Earth",NA,NA
+63,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,1,1,1,8,"Aesop Rock","Molecules",NA,NA
+63,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",6,7,6,1,4,"Atmosphere","Just for show",NA,NA
+64,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,5,6,1,5,"Sa-Roc","Starseed",NA,NA
+64,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,2,2,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+64,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,6,5,2,4,"Evidence","Throw It All Away",NA,NA
+64,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",6,7,9,1,1,"The Four Owls","Old Earth",NA,NA
+64,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,7,1,4,"Aesop Rock","Molecules",NA,NA
+64,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,5,4,1,4,"Atmosphere","Just for show",NA,NA
+65,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",4,6,6,1,8,"Sa-Roc","Starseed","nicki minaj",NA
+65,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,7,7,5,8,"Johnie Bee ft. Rasco","In My Prime","",NA
+65,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,4,6,2,9,"Evidence","Throw It All Away","",NA
+65,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,7,8,3,9,"The Four Owls","Old Earth","",NA
+65,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,6,6,2,8,"Aesop Rock","Molecules","",NA
+65,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,5,6,3,8,"Atmosphere","Just for show","",NA
+66,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,8,8,2,5,"Sa-Roc","Starseed",NA,NA
+66,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,2,4,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+66,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,3,3,1,5,"Evidence","Throw It All Away",NA,NA
+66,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,7,7,1,3,"The Four Owls","Old Earth",NA,NA
+66,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,3,3,1,6,"Aesop Rock","Molecules",NA,NA
+66,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",5,4,4,1,5,"Atmosphere","Just for show",NA,NA
+67,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,3,5,1,10,"Sa-Roc","Starseed",NA,NA
+67,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,3,3,7,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+67,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,1,8,"Evidence","Throw It All Away",NA,NA
+67,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,2,4,1,7,"The Four Owls","Old Earth",NA,NA
+67,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,9,"Aesop Rock","Molecules",NA,NA
+67,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,4,1,8,"Atmosphere","Just for show",NA,NA
+68,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",5,8,9,3,9,"Sa-Roc","Starseed",NA,NA
+68,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,8,8,4,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+68,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",8,9,8,8,10,"Evidence","Throw It All Away",NA,NA
+68,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,4,4,2,6,"The Four Owls","Old Earth",NA,NA
+68,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,5,5,3,8,"Aesop Rock","Molecules",NA,NA
+68,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,5,5,4,8,"Atmosphere","Just for show",NA,NA
+69,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,7,6,3,8,"Sa-Roc","Starseed",NA,NA
+69,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,5,4,4,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+69,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,4,4,3,7,"Evidence","Throw It All Away",NA,NA
+69,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,6,5,2,7,"The Four Owls","Old Earth",NA,NA
+69,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,7,6,1,7,"Aesop Rock","Molecules",NA,NA
+69,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,6,5,1,7,"Atmosphere","Just for show",NA,NA
+70,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",9,7,8,1,9,"Sa-Roc","Starseed",NA,NA
+70,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,5,5,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+70,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,4,1,9,"Evidence","Throw It All Away",NA,NA
+70,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",9,9,10,1,2,"The Four Owls","Old Earth",NA,NA
+70,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,9,"Aesop Rock","Molecules",NA,NA
+70,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",9,7,6,1,3,"Atmosphere","Just for show",NA,NA
+71,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,10,10,NA,7,"Sa-Roc","Starseed",NA,NA
+71,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,7,7,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+71,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,10,10,1,5,"Evidence","Throw It All Away",NA,NA
+71,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,10,10,1,2,"The Four Owls","Old Earth",NA,NA
+71,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,10,10,1,3,"Aesop Rock","Molecules",NA,NA
+71,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,10,10,1,3,"Atmosphere","Just for show",NA,NA
+72,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,1,1,2,8,"Sa-Roc","Starseed","nope ","no idea"
+72,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,5,8,"Johnie Bee ft. Rasco","In My Prime","no idea ","no idea"
+72,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,1,6,"Evidence","Throw It All Away","",""
+72,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,3,4,1,6,"The Four Owls","Old Earth","",""
+72,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,3,1,8,"Aesop Rock","Molecules","",""
+72,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,3,1,7,"Atmosphere","Just for show","",""
+73,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,10,10,1,3,"Sa-Roc","Starseed","n/a","n/a"
+73,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,10,10,1,4,"Johnie Bee ft. Rasco","In My Prime","n/a","n/a"
+73,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,8,8,1,3,"Evidence","Throw It All Away","n/a","n/a"
+73,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,10,10,1,1,"The Four Owls","Old Earth","n/a","n/a"
+73,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,3,"Aesop Rock","Molecules","n/a","n/a"
+73,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,8,8,1,2,"Atmosphere","Just for show","n/a","n/a"
+74,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,7,6,1,9,"Sa-Roc","Starseed",NA,NA
+74,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,3,4,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+74,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,6,6,1,6,"Evidence","Throw It All Away",NA,NA
+74,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,7,7,1,5,"The Four Owls","Old Earth",NA,NA
+74,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,3,1,9,"Aesop Rock","Molecules",NA,NA
+74,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,5,5,NA,6,"Atmosphere","Just for show",NA,NA
+75,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,2,2,1,8,"Sa-Roc","Starseed",NA,NA
+75,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,8,8,2,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+75,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,7,7,2,4,"Evidence","Throw It All Away",NA,NA
+75,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,6,6,1,4,"The Four Owls","Old Earth",NA,NA
+75,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,4,1,8,"Aesop Rock","Molecules",NA,NA
+75,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,7,6,2,8,"Atmosphere","Just for show",NA,NA
+76,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,7,6,2,10,"Sa-Roc","Starseed",NA,NA
+76,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,5,4,4,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+76,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,7,6,1,9,"Evidence","Throw It All Away",NA,NA
+76,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,9,9,1,7,"The Four Owls","Old Earth",NA,NA
+76,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,2,9,"Aesop Rock","Molecules",NA,NA
+76,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,6,NA,1,9,"Atmosphere","Just for show",NA,NA
+77,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",9,5,5,2,10,"Sa-Roc","Starseed",NA,NA
+77,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,7,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+77,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,2,3,8,"Evidence","Throw It All Away",NA,NA
+77,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",8,6,6,1,6,"The Four Owls","Old Earth",NA,NA
+77,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,5,5,1,8,"Aesop Rock","Molecules",NA,NA
+77,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,5,1,9,"Atmosphere","Just for show",NA,NA
+78,"C","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,1,2,2,9,"Sa-Roc","Starseed",NA,NA
+78,"C","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,6,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+78,"C","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,2,2,5,"Evidence","Throw It All Away",NA,NA
+78,"C","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,3,4,1,3,"The Four Owls","Old Earth",NA,NA
+78,"C","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,4,4,1,6,"Aesop Rock","Molecules",NA,NA
+78,"C","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,2,3,1,6,"Atmosphere","Just for show",NA,NA
+79,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,9,9,1,4,"Sa-Roc","Starseed",NA,NA
+79,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,9,5,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+79,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,5,NA,5,"Evidence","Throw It All Away",NA,NA
+79,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,6,8,1,3,"The Four Owls","Old Earth",NA,NA
+79,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,1,1,8,"Aesop Rock","Molecules",NA,NA
+79,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,2,2,1,8,"Atmosphere","Just for show",NA,NA
+80,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",8,7,6,6,9,"Sa-Roc","Starseed","don't know","don't know"
+80,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,3,3,8,10,"Johnie Bee ft. Rasco","In My Prime","don't know","don't know"
+80,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,3,6,3,4,"Evidence","Throw It All Away","don't know","don't know"
+80,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",9,NA,10,1,2,"The Four Owls","Old Earth","don't know","don't know"
+80,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules","don't know","don't know"
+80,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,4,3,2,8,"Atmosphere","Just for show","don't know","don't know"
+81,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,4,4,1,2,"Sa-Roc","Starseed",NA,NA
+81,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,4,4,4,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+81,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",4,4,4,4,4,"Evidence","Throw It All Away",NA,NA
+81,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,4,4,2,2,"The Four Owls","Old Earth",NA,NA
+81,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,4,4,2,5,"Aesop Rock","Molecules",NA,NA
+81,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,2,3,2,10,"Atmosphere","Just for show",NA,NA
+82,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,1,2,4,9,"Sa-Roc","Starseed",NA,NA
+82,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,1,1,8,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+82,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,3,2,2,8,"Evidence","Throw It All Away",NA,NA
+82,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",3,8,7,1,7,"The Four Owls","Old Earth",NA,NA
+82,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,5,1,6,"Aesop Rock","Molecules",NA,NA
+82,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,3,1,7,"Atmosphere","Just for show",NA,NA
+83,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,8,7,2,6,"Sa-Roc","Starseed","Don't know","Don't know"
+83,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,5,5,3,6,"Johnie Bee ft. Rasco","In My Prime","Don't know","Don't know"
+83,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,3,3,2,4,"Evidence","Throw It All Away","Don't know","Don't know"
+83,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,5,6,1,2,"The Four Owls","Old Earth","Don't know","Don't know"
+83,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,2,1,3,"Aesop Rock","Molecules","Don't know","Don't know"
+83,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,4,1,3,"Atmosphere","Just for show","Don't know","Don't know"
+84,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,1,1,8,10,"Sa-Roc","Starseed",NA,NA
+84,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,1,1,10,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+84,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,1,1,6,9,"Evidence","Throw It All Away",NA,NA
+84,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,1,1,4,8,"The Four Owls","Old Earth",NA,NA
+84,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,6,9,"Aesop Rock","Molecules",NA,NA
+84,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,1,5,9,"Atmosphere","Just for show",NA,NA
+85,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",5,3,4,4,8,"Sa-Roc","Starseed",NA,NA
+85,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,2,2,9,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+85,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,3,3,2,6,"Evidence","Throw It All Away",NA,NA
+85,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,8,8,2,4,"The Four Owls","Old Earth",NA,NA
+85,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,2,2,2,9,"Aesop Rock","Molecules",NA,NA
+85,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,4,4,3,7,"Atmosphere","Just for show",NA,NA
+86,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,10,10,1,10,"Sa-Roc","Starseed",NA,NA
+86,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,3,3,2,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+86,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,2,2,2,9,"Evidence","Throw It All Away",NA,NA
+86,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,5,6,1,6,"The Four Owls","Old Earth",NA,NA
+86,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,1,6,"Aesop Rock","Molecules",NA,NA
+86,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,2,2,1,6,"Atmosphere","Just for show",NA,NA
+87,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,6,NA,1,NA,"Sa-Roc","Starseed",NA,NA
+87,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,5,6,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+87,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,5,1,4,"Evidence","Throw It All Away",NA,NA
+87,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,5,8,1,2,"The Four Owls","Old Earth",NA,NA
+87,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,4,1,2,"Aesop Rock","Molecules",NA,NA
+87,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,4,4,1,2,"Atmosphere","Just for show",NA,NA
+88,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,1,1,10,10,"Sa-Roc","Starseed",NA,NA
+88,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,7,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+88,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,5,5,3,5,"Evidence","Throw It All Away",NA,NA
+88,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,7,7,1,5,"The Four Owls","Old Earth",NA,NA
+88,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,9,9,1,7,"Aesop Rock","Molecules",NA,NA
+88,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",10,9,9,1,5,"Atmosphere","Just for show",NA,NA
+89,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,3,2,4,9,"Sa-Roc","Starseed",NA,NA
+89,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,2,1,10,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+89,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,4,6,1,6,"Evidence","Throw It All Away",NA,NA
+89,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,7,9,1,4,"The Four Owls","Old Earth",NA,NA
+89,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,1,5,"Aesop Rock","Molecules",NA,NA
+89,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,3,5,1,3,"Atmosphere","Just for show",NA,NA
+90,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,6,6,1,10,"Sa-Roc","Starseed",NA,NA
+90,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,6,6,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+90,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,7,7,1,8,"Evidence","Throw It All Away",NA,NA
+90,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,5,6,1,4,"The Four Owls","Old Earth",NA,NA
+90,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,6,5,1,5,"Aesop Rock","Molecules",NA,NA
+90,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,5,5,1,7,"Atmosphere","Just for show",NA,NA
+91,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",7,9,9,1,6,"Sa-Roc","Starseed",NA,NA
+91,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,8,8,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+91,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,8,8,1,5,"Evidence","Throw It All Away",NA,NA
+91,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,7,7,1,4,"The Four Owls","Old Earth",NA,NA
+91,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,2,7,2,"Aesop Rock","Molecules",NA,NA
+91,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,3,4,2,3,"Atmosphere","Just for show",NA,NA
+92,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",9,9,9,1,9,"Sa-Roc","Starseed",NA,NA
+92,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",9,8,8,1,2,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+92,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",8,8,8,1,2,"Evidence","Throw It All Away",NA,NA
+92,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,10,10,1,1,"The Four Owls","Old Earth",NA,NA
+92,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,2,2,2,9,"Aesop Rock","Molecules",NA,NA
+92,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",8,8,8,1,2,"Atmosphere","Just for show",NA,NA
+93,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,4,3,1,8,"Sa-Roc","Starseed",NA,NA
+93,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,6,4,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+93,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,8,6,1,6,"Evidence","Throw It All Away",NA,NA
+93,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,4,5,1,3,"The Four Owls","Old Earth",NA,NA
+93,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,2,1,1,6,"Aesop Rock","Molecules",NA,NA
+93,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,3,2,1,7,"Atmosphere","Just for show",NA,NA
+94,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,10,10,1,10,"Sa-Roc","Starseed","",NA
+94,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",8,9,9,1,10,"Johnie Bee ft. Rasco","In My Prime","Wu Tang clan",NA
+94,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",7,10,9,1,10,"Evidence","Throw It All Away","",NA
+94,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,10,10,1,1,"The Four Owls","Old Earth","Diangalo",NA
+94,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",5,6,7,1,10,"Aesop Rock","Molecules","",NA
+94,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,2,2,1,10,"Atmosphere","Just for show","",NA
+95,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",8,6,6,1,5,"Sa-Roc","Starseed",NA,NA
+95,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,2,3,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+95,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,3,2,1,5,"Evidence","Throw It All Away",NA,NA
+95,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,8,1,NA,2,"The Four Owls","Old Earth",NA,NA
+95,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,2,2,1,4,"Aesop Rock","Molecules",NA,NA
+95,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",7,8,8,1,4,"Atmosphere","Just for show",NA,NA
+96,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,7,4,1,6,"Sa-Roc","Starseed",NA,NA
+96,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,3,2,8,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+96,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,3,3,2,5,"Evidence","Throw It All Away",NA,NA
+96,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,6,7,1,3,"The Four Owls","Old Earth",NA,NA
+96,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,2,1,6,"Aesop Rock","Molecules",NA,NA
+96,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,3,3,1,4,"Atmosphere","Just for show",NA,NA
+97,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",9,3,3,1,9,"Sa-Roc","Starseed",NA,NA
+97,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",3,3,6,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+97,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,5,5,1,7,"Evidence","Throw It All Away",NA,NA
+97,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,7,7,1,1,"The Four Owls","Old Earth",NA,NA
+97,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",3,2,4,1,3,"Aesop Rock","Molecules",NA,NA
+97,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",8,6,6,1,4,"Atmosphere","Just for show",NA,NA
+98,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",1,10,10,2,8,"Sa-Roc","Starseed",NA,NA
+98,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,8,8,2,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+98,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,8,8,1,8,"Evidence","Throw It All Away",NA,NA
+98,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,4,4,1,5,"The Four Owls","Old Earth",NA,NA
+98,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,2,1,6,"Aesop Rock","Molecules",NA,NA
+98,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,5,6,1,6,"Atmosphere","Just for show",NA,NA
+99,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",9,8,7,NA,8,"Sa-Roc","Starseed","no","no"
+99,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",6,6,5,2,8,"Johnie Bee ft. Rasco","In My Prime","no","no"
+99,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,3,3,1,7,"Evidence","Throw It All Away","no","no"
+99,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",7,7,7,1,8,"The Four Owls","Old Earth","no","no"
+99,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",2,2,2,1,10,"Aesop Rock","Molecules","no","no"
+99,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",5,4,4,1,9,"Atmosphere","Just for show","no","no"
+100,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",10,10,10,1,10,"Sa-Roc","Starseed",NA,NA
+100,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",1,10,5,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+100,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",1,10,10,1,5,"Evidence","Throw It All Away",NA,NA
+100,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",10,10,10,1,1,"The Four Owls","Old Earth",NA,NA
+100,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,3,1,1,"Aesop Rock","Molecules",NA,NA
+100,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",1,1,1,1,1,"Atmosphere","Just for show",NA,NA
+101,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",5,6,6,1,8,"Sa-Roc","Starseed",NA,NA
+101,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,5,5,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+101,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,5,5,1,8,"Evidence","Throw It All Away",NA,NA
+101,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",1,2,2,1,7,"The Four Owls","Old Earth",NA,NA
+101,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,3,3,1,7,"Aesop Rock","Molecules",NA,NA
+101,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,5,5,1,7,"Atmosphere","Just for show",NA,NA
+102,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",2,5,5,5,7,"Sa-Roc","Starseed","No","No"
+102,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",2,5,4,7,8,"Johnie Bee ft. Rasco","In My Prime","No","No"
+102,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,4,4,2,5,"Evidence","Throw It All Away","No","No"
+102,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",5,9,9,1,3,"The Four Owls","Old Earth","No","No"
+102,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,3,10,"Aesop Rock","Molecules","No","No"
+102,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",3,3,2,2,8,"Atmosphere","Just for show","No","No"
+103,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,4,4,3,8,"Sa-Roc","Starseed",NA,NA
+103,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,2,2,7,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+103,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",3,2,3,2,5,"Evidence","Throw It All Away",NA,NA
+103,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",4,5,5,1,4,"The Four Owls","Old Earth",NA,NA
+103,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",4,4,4,1,7,"Aesop Rock","Molecules",NA,NA
+103,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",4,4,4,1,6,"Atmosphere","Just for show",NA,NA
+104,"D","lyrical","1","A","static/A1_lyrical.mp3","Prolific",3,2,2,6,8,"Sa-Roc","Starseed","",NA
+104,"D","lyrical","2","A","static/A2_lyrical.mp3","Prolific",4,2,2,6,9,"Johnie Bee ft. Rasco","In My Prime","ice cube?",NA
+104,"D","lyrical","3","A","static/A3_lyrical.mp3","Prolific",2,5,5,5,7,"Evidence","Throw It All Away","",NA
+104,"D","instrumental","1","B","static/B1_instrumental.mp3","Prolific",2,1,1,8,7,"The Four Owls","Old Earth","",NA
+104,"D","instrumental","2","B","static/B2_instrumental.mp3","Prolific",1,1,1,7,8,"Aesop Rock","Molecules","",NA
+104,"D","instrumental","3","B","static/B3_instrumental.mp3","Prolific",2,5,6,2,7,"Atmosphere","Just for show","",NA
+105,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",7,7,NA,2,3,"The Four Owls","Old Earth",NA,NA
+105,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",4,7,7,3,5,"Aesop Rock","Molecules",NA,NA
+105,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,4,4,5,NA,"Atmosphere","Just for show",NA,NA
+105,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,6,6,5,6,"Sa-Roc","Starseed",NA,NA
+105,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,3,3,4,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+105,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,4,4,3,4,"Evidence","Throw It All Away",NA,NA
+106,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",6,8,8,1,7,"The Four Owls","Old Earth",NA,NA
+106,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,2,1,8,"Aesop Rock","Molecules",NA,NA
+106,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,6,6,1,6,"Atmosphere","Just for show",NA,NA
+106,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,6,7,1,6,"Sa-Roc","Starseed",NA,NA
+106,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,3,4,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+106,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,3,5,1,3,"Evidence","Throw It All Away",NA,NA
+107,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,4,4,5,2,"The Four Owls","Old Earth",NA,NA
+107,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,2,1,6,"Aesop Rock","Molecules",NA,NA
+107,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,2,1,7,"Atmosphere","Just for show",NA,NA
+107,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,1,3,1,7,"Sa-Roc","Starseed",NA,NA
+107,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,2,4,2,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+107,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,3,2,4,"Evidence","Throw It All Away",NA,NA
+108,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,5,4,2,8,"The Four Owls","Old Earth",NA,NA
+108,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,1,3,7,"Aesop Rock","Molecules",NA,NA
+108,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,3,2,8,"Atmosphere","Just for show",NA,NA
+108,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,2,1,1,7,"Sa-Roc","Starseed",NA,NA
+108,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,4,5,1,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+108,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,1,2,7,"Evidence","Throw It All Away",NA,NA
+109,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,8,9,1,5,"The Four Owls","Old Earth",NA,NA
+109,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,8,"Aesop Rock","Molecules",NA,NA
+109,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,4,5,1,7,"Atmosphere","Just for show",NA,NA
+109,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,7,6,1,8,"Sa-Roc","Starseed",NA,NA
+109,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+109,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,8,8,1,3,"Evidence","Throw It All Away",NA,NA
+110,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,10,10,1,8,"The Four Owls","Old Earth",NA,NA
+110,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,6,5,1,6,"Aesop Rock","Molecules",NA,NA
+110,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,6,6,1,6,"Atmosphere","Just for show",NA,NA
+110,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,10,10,1,8,"Sa-Roc","Starseed",NA,NA
+110,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,7,7,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+110,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,6,8,1,7,"Evidence","Throw It All Away",NA,NA
+111,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,1,1,9,7,"The Four Owls","Old Earth",NA,NA
+111,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,1,1,7,7,"Aesop Rock","Molecules",NA,NA
+111,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,1,3,3,7,"Atmosphere","Just for show",NA,NA
+111,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",NA,4,4,4,5,"Sa-Roc","Starseed",NA,NA
+111,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,2,2,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+111,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,3,1,6,"Evidence","Throw It All Away",NA,NA
+112,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,10,10,1,3,"The Four Owls","Old Earth",NA,NA
+112,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,7,5,1,6,"Aesop Rock","Molecules",NA,NA
+112,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,6,3,1,4,"Atmosphere","Just for show",NA,NA
+112,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,10,8,1,1,"Sa-Roc","Starseed",NA,NA
+112,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,3,1,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+112,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,7,8,1,2,"Evidence","Throw It All Away",NA,NA
+113,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,10,8,1,2,"The Four Owls","Old Earth","the four owls","old earth"
+113,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,7,7,1,10,"Aesop Rock","Molecules","",""
+113,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",5,8,8,1,4,"Atmosphere","Just for show","",""
+113,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,8,8,1,1,"Sa-Roc","Starseed","",""
+113,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",5,7,8,1,2,"Johnie Bee ft. Rasco","In My Prime","",""
+113,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",6,8,9,1,1,"Evidence","Throw It All Away","",""
+114,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,6,5,NA,3,"The Four Owls","Old Earth",NA,NA
+114,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,4,3,3,4,"Aesop Rock","Molecules",NA,NA
+114,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",7,5,5,2,3,"Atmosphere","Just for show",NA,NA
+114,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",6,4,6,2,2,"Sa-Roc","Starseed",NA,NA
+114,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,4,6,1,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+114,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,6,5,2,2,"Evidence","Throw It All Away",NA,NA
+115,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,4,3,2,9,"The Four Owls","Old Earth",NA,NA
+115,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,1,10,"Aesop Rock","Molecules",NA,NA
+115,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,5,4,1,8,"Atmosphere","Just for show",NA,NA
+115,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",3,3,2,1,6,"Sa-Roc","Starseed",NA,NA
+115,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,2,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+115,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,7,"Evidence","Throw It All Away",NA,NA
+116,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,5,5,1,7,"The Four Owls","Old Earth",NA,NA
+116,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,2,2,1,7,"Aesop Rock","Molecules",NA,NA
+116,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,2,2,1,6,"Atmosphere","Just for show",NA,NA
+116,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,3,3,1,4,"Sa-Roc","Starseed",NA,NA
+116,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+116,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",5,5,4,1,4,"Evidence","Throw It All Away",NA,NA
+117,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,9,8,5,8,"The Four Owls","Old Earth",NA,NA
+117,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,8,9,5,8,"Aesop Rock","Molecules",NA,NA
+117,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,7,7,4,9,"Atmosphere","Just for show",NA,NA
+117,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",3,9,8,3,9,"Sa-Roc","Starseed",NA,NA
+117,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,7,7,4,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+117,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,6,6,4,7,"Evidence","Throw It All Away",NA,NA
+118,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,5,9,NA,1,"The Four Owls","Old Earth",NA,NA
+118,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,3,1,8,"Aesop Rock","Molecules",NA,NA
+118,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,1,6,"Atmosphere","Just for show",NA,NA
+118,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,4,6,1,2,"Sa-Roc","Starseed",NA,NA
+118,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,9,9,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+118,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,6,6,1,2,"Evidence","Throw It All Away",NA,NA
+119,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,8,8,1,10,"The Four Owls","Old Earth",NA,NA
+119,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,1,1,10,"Aesop Rock","Molecules",NA,NA
+119,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,2,2,1,9,"Atmosphere","Just for show",NA,NA
+119,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,9,9,1,4,"Sa-Roc","Starseed",NA,NA
+119,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,6,6,NA,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+119,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,9,9,1,5,"Evidence","Throw It All Away",NA,NA
+120,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",7,8,8,1,5,"The Four Owls","Old Earth",NA,NA
+120,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,7,7,1,6,"Aesop Rock","Molecules",NA,NA
+120,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,6,7,1,4,"Atmosphere","Just for show",NA,NA
+120,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,6,7,1,2,"Sa-Roc","Starseed",NA,NA
+120,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,6,1,1,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+120,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",4,5,7,1,1,"Evidence","Throw It All Away",NA,NA
+121,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,8,7,1,6,"The Four Owls","Old Earth",NA,NA
+121,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,4,3,1,4,"Aesop Rock","Molecules",NA,NA
+121,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,3,1,6,"Atmosphere","Just for show",NA,NA
+121,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,2,3,1,3,"Sa-Roc","Starseed",NA,NA
+121,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,4,5,NA,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+121,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,1,1,3,"Evidence","Throw It All Away",NA,NA
+122,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",7,4,4,2,7,"The Four Owls","Old Earth",NA,NA
+122,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,2,8,"Aesop Rock","Molecules",NA,NA
+122,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",5,4,4,1,7,"Atmosphere","Just for show",NA,NA
+122,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,6,6,1,5,"Sa-Roc","Starseed",NA,NA
+122,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,1,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+122,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",5,4,3,1,4,"Evidence","Throw It All Away",NA,NA
+123,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,6,8,1,4,"The Four Owls","Old Earth",NA,NA
+123,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,2,1,9,"Aesop Rock","Molecules",NA,NA
+123,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,5,5,1,8,"Atmosphere","Just for show",NA,NA
+123,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,7,7,1,6,"Sa-Roc","Starseed",NA,NA
+123,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,5,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+123,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,4,1,9,"Evidence","Throw It All Away",NA,NA
+124,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,6,6,2,8,"The Four Owls","Old Earth",NA,NA
+124,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,2,1,7,"Aesop Rock","Molecules",NA,NA
+124,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,4,1,8,"Atmosphere","Just for show",NA,NA
+124,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,5,5,1,4,"Sa-Roc","Starseed",NA,NA
+124,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,4,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+124,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,6,1,4,"Evidence","Throw It All Away",NA,NA
+125,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,1,1,2,10,"The Four Owls","Old Earth",NA,NA
+125,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules",NA,NA
+125,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,1,10,"Atmosphere","Just for show",NA,NA
+125,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,1,2,1,10,"Sa-Roc","Starseed",NA,NA
+125,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+125,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,10,"Evidence","Throw It All Away",NA,NA
+126,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,5,5,1,6,"The Four Owls","Old Earth",NA,NA
+126,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,5,4,1,9,"Aesop Rock","Molecules",NA,NA
+126,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,3,1,9,"Atmosphere","Just for show",NA,NA
+126,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,3,2,1,10,"Sa-Roc","Starseed",NA,NA
+126,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,6,3,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+126,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,6,5,1,6,"Evidence","Throw It All Away",NA,NA
+127,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",6,7,5,3,7,"The Four Owls","Old Earth","Don't know.","Time for healing."
+127,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",3,5,2,4,9,"Aesop Rock","Molecules","Don't know.","Don't know."
+127,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,7,6,3,8,"Atmosphere","Just for show","Don't know.","Don't know."
+127,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,8,8,1,5,"Sa-Roc","Starseed","Don't know.","Don't know."
+127,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,6,5,2,5,"Johnie Bee ft. Rasco","In My Prime","Don't know.","Don't know."
+127,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,5,7,1,3,"Evidence","Throw It All Away","Don't know.","Don't know."
+128,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",6,8,8,1,8,"The Four Owls","Old Earth",NA,NA
+128,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,4,4,5,9,"Aesop Rock","Molecules",NA,NA
+128,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,5,4,2,8,"Atmosphere","Just for show",NA,NA
+128,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",6,7,7,1,5,"Sa-Roc","Starseed",NA,NA
+128,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,4,5,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+128,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,6,1,5,"Evidence","Throw It All Away",NA,NA
+129,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,2,2,2,8,"The Four Owls","Old Earth",NA,NA
+129,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,3,1,7,"Aesop Rock","Molecules",NA,NA
+129,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,2,2,1,8,"Atmosphere","Just for show",NA,NA
+129,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,4,4,1,4,"Sa-Roc","Starseed",NA,NA
+129,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,3,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+129,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,3,1,5,"Evidence","Throw It All Away",NA,NA
+130,"E","lyrical","1","B","static/B1_lyrical.mp3","Prolific",9,2,2,1,9,"The Four Owls","Old Earth",NA,NA
+130,"E","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,5,5,1,9,"Aesop Rock","Molecules",NA,NA
+130,"E","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,2,2,2,10,"Atmosphere","Just for show",NA,NA
+130,"E","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,6,6,1,7,"Sa-Roc","Starseed",NA,NA
+130,"E","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,1,1,2,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+130,"E","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,2,2,1,6,"Evidence","Throw It All Away",NA,NA
+131,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,6,5,2,2,"The Four Owls","Old Earth",NA,NA
+131,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,6,5,1,4,"Aesop Rock","Molecules",NA,NA
+131,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,4,3,1,5,"Atmosphere","Just for show",NA,NA
+131,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,4,4,1,3,"Sa-Roc","Starseed",NA,NA
+131,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+131,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",6,5,4,1,7,"Evidence","Throw It All Away",NA,NA
+132,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,8,7,1,7,"The Four Owls","Old Earth","",""
+132,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",9,7,7,1,7,"Aesop Rock","Molecules","Aesop Rock","Molecules"
+132,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,6,NA,1,7,"Atmosphere","Just for show","",""
+132,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",6,6,6,1,5,"Sa-Roc","Starseed","",""
+132,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,7,7,1,6,"Johnie Bee ft. Rasco","In My Prime","",""
+132,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",5,9,9,1,7,"Evidence","Throw It All Away","",""
+133,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,9,NA,3,8,"The Four Owls","Old Earth",NA,NA
+133,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",7,7,6,3,9,"Aesop Rock","Molecules",NA,NA
+133,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",7,7,6,3,9,"Atmosphere","Just for show",NA,NA
+133,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,7,7,2,7,"Sa-Roc","Starseed",NA,NA
+133,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",8,8,8,2,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+133,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",8,8,8,2,8,"Evidence","Throw It All Away",NA,NA
+134,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",7,9,8,1,4,"The Four Owls","Old Earth",NA,NA
+134,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,8,8,1,4,"Aesop Rock","Molecules",NA,NA
+134,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,7,8,1,5,"Atmosphere","Just for show",NA,NA
+134,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,7,9,1,2,"Sa-Roc","Starseed",NA,NA
+134,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,8,9,1,2,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+134,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",10,9,9,1,1,"Evidence","Throw It All Away",NA,NA
+135,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,10,9,6,1,"The Four Owls","Old Earth",NA,NA
+135,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",3,7,5,4,3,"Aesop Rock","Molecules",NA,NA
+135,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",7,6,5,5,5,"Atmosphere","Just for show",NA,NA
+135,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",6,4,4,2,3,"Sa-Roc","Starseed",NA,NA
+135,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",5,5,5,5,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+135,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,2,2,2,6,"Evidence","Throw It All Away",NA,NA
+136,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,6,6,2,6,"The Four Owls","Old Earth",NA,NA
+136,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,1,8,"Aesop Rock","Molecules",NA,NA
+136,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,3,1,7,"Atmosphere","Just for show",NA,NA
+136,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,3,3,1,5,"Sa-Roc","Starseed",NA,NA
+136,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,4,4,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+136,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,6,6,1,4,"Evidence","Throw It All Away",NA,NA
+137,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,3,3,1,7,"The Four Owls","Old Earth",NA,NA
+137,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,NA,6,"Aesop Rock","Molecules",NA,NA
+137,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,5,3,1,4,"Atmosphere","Just for show",NA,NA
+137,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,1,2,1,6,"Sa-Roc","Starseed",NA,NA
+137,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+137,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,2,1,3,"Evidence","Throw It All Away",NA,NA
+138,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,4,4,1,6,"The Four Owls","Old Earth","",NA
+138,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",6,7,7,1,5,"Aesop Rock","Molecules","Aesop Rock",NA
+138,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,3,1,4,"Atmosphere","Just for show","",NA
+138,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,4,3,1,2,"Sa-Roc","Starseed","",NA
+138,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,2,3,1,4,"Johnie Bee ft. Rasco","In My Prime","",NA
+138,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,4,1,1,"Evidence","Throw It All Away","",NA
+139,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,9,10,1,10,"The Four Owls","Old Earth",NA,NA
+139,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,6,6,1,9,"Aesop Rock","Molecules",NA,NA
+139,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,8,8,1,8,"Atmosphere","Just for show",NA,NA
+139,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,2,2,1,7,"Sa-Roc","Starseed",NA,NA
+139,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,6,6,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+139,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,5,1,7,"Evidence","Throw It All Away",NA,NA
+140,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",6,9,10,1,2,"The Four Owls","Old Earth",NA,NA
+140,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,4,4,5,7,"Aesop Rock","Molecules",NA,NA
+140,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,3,4,3,5,"Atmosphere","Just for show",NA,NA
+140,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,5,5,3,3,"Sa-Roc","Starseed",NA,NA
+140,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,5,5,2,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+140,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,5,6,2,2,"Evidence","Throw It All Away",NA,NA
+141,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",7,7,6,1,10,"The Four Owls","Old Earth",NA,NA
+141,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,7,6,1,10,"Aesop Rock","Molecules",NA,NA
+141,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,7,5,1,10,"Atmosphere","Just for show",NA,NA
+141,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,9,8,1,7,"Sa-Roc","Starseed",NA,NA
+141,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,3,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+141,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,6,6,1,9,"Evidence","Throw It All Away",NA,NA
+142,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",4,6,7,6,9,"The Four Owls","Old Earth",NA,NA
+142,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,4,3,5,10,"Aesop Rock","Molecules",NA,NA
+142,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,4,4,2,6,"Atmosphere","Just for show",NA,NA
+142,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",6,7,6,3,8,"Sa-Roc","Starseed",NA,NA
+142,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,5,3,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+142,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,4,2,4,"Evidence","Throw It All Away",NA,NA
+143,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,8,6,5,7,"The Four Owls","Old Earth",NA,NA
+143,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,3,4,5,8,"Aesop Rock","Molecules",NA,NA
+143,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,3,4,5,7,"Atmosphere","Just for show",NA,NA
+143,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",3,6,6,3,4,"Sa-Roc","Starseed",NA,NA
+143,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,3,3,5,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+143,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,5,5,3,6,"Evidence","Throw It All Away",NA,NA
+144,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,3,5,4,6,"The Four Owls","Old Earth",NA,NA
+144,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,5,7,"Aesop Rock","Molecules",NA,NA
+144,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,5,8,"Atmosphere","Just for show",NA,NA
+144,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,3,4,2,7,"Sa-Roc","Starseed",NA,NA
+144,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,4,3,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+144,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,2,2,7,"Evidence","Throw It All Away",NA,NA
+145,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,8,8,1,9,"The Four Owls","Old Earth",NA,NA
+145,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,1,9,"Aesop Rock","Molecules",NA,NA
+145,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,2,1,9,"Atmosphere","Just for show",NA,NA
+145,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,7,6,1,4,"Sa-Roc","Starseed",NA,NA
+145,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,3,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+145,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,9,9,1,3,"Evidence","Throw It All Away",NA,NA
+146,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",4,2,2,3,8,"The Four Owls","Old Earth",NA,NA
+146,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,6,9,"Aesop Rock","Molecules",NA,NA
+146,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",5,4,3,2,7,"Atmosphere","Just for show",NA,NA
+146,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,5,6,2,4,"Sa-Roc","Starseed",NA,NA
+146,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,5,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+146,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,5,1,4,"Evidence","Throw It All Away",NA,NA
+147,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,6,6,1,7,"The Four Owls","Old Earth",NA,NA
+147,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,1,8,"Aesop Rock","Molecules",NA,NA
+147,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,5,5,1,8,"Atmosphere","Just for show",NA,NA
+147,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,6,6,1,9,"Sa-Roc","Starseed",NA,NA
+147,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+147,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,4,3,1,6,"Evidence","Throw It All Away",NA,NA
+148,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,10,10,1,7,"The Four Owls","Old Earth",NA,NA
+148,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",6,5,4,1,8,"Aesop Rock","Molecules",NA,NA
+148,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",8,8,8,1,4,"Atmosphere","Just for show",NA,NA
+148,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",9,9,9,1,3,"Sa-Roc","Starseed",NA,NA
+148,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",7,6,6,1,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+148,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",7,8,8,1,2,"Evidence","Throw It All Away",NA,NA
+149,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,9,9,1,3,"The Four Owls","Old Earth",NA,NA
+149,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,6,5,1,5,"Aesop Rock","Molecules",NA,NA
+149,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,6,6,1,4,"Atmosphere","Just for show",NA,NA
+149,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",3,8,7,1,6,"Sa-Roc","Starseed",NA,NA
+149,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+149,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,7,7,1,4,"Evidence","Throw It All Away",NA,NA
+150,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,6,6,1,6,"The Four Owls","Old Earth",NA,NA
+150,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,2,1,8,"Aesop Rock","Molecules",NA,NA
+150,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",5,6,6,1,8,"Atmosphere","Just for show",NA,NA
+150,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,7,7,1,5,"Sa-Roc","Starseed",NA,NA
+150,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",5,7,7,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+150,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",6,5,5,1,5,"Evidence","Throw It All Away",NA,NA
+151,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,3,5,1,8,"The Four Owls","Old Earth",NA,NA
+151,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,1,1,10,"Aesop Rock","Molecules",NA,NA
+151,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,2,2,1,10,"Atmosphere","Just for show",NA,NA
+151,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,5,4,1,7,"Sa-Roc","Starseed",NA,NA
+151,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,3,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+151,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,2,1,8,"Evidence","Throw It All Away",NA,NA
+152,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",7,10,10,1,9,"The Four Owls","Old Earth","",NA
+152,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,7,8,1,9,"Aesop Rock","Molecules","",NA
+152,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,10,9,1,9,"Atmosphere","Just for show","Atmosphere",NA
+152,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,7,8,1,6,"Sa-Roc","Starseed","",NA
+152,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,9,9,1,3,"Johnie Bee ft. Rasco","In My Prime","",NA
+152,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,7,1,3,"Evidence","Throw It All Away","",NA
+153,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,7,8,1,4,"The Four Owls","Old Earth",NA,NA
+153,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,2,1,6,"Aesop Rock","Molecules",NA,NA
+153,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",6,4,4,1,4,"Atmosphere","Just for show",NA,NA
+153,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,7,7,1,4,"Sa-Roc","Starseed",NA,NA
+153,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,2,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+153,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,5,5,1,2,"Evidence","Throw It All Away",NA,NA
+154,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,8,NA,1,4,"The Four Owls","Old Earth",NA,NA
+154,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,6,6,3,5,"Aesop Rock","Molecules",NA,NA
+154,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,8,7,2,6,"Atmosphere","Just for show",NA,NA
+154,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",3,6,6,1,4,"Sa-Roc","Starseed",NA,NA
+154,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,7,7,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+154,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,7,6,1,4,"Evidence","Throw It All Away",NA,NA
+155,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,6,6,1,8,"The Four Owls","Old Earth","",NA
+155,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,5,4,1,8,"Aesop Rock","Molecules","",NA
+155,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,4,1,6,"Atmosphere","Just for show","",NA
+155,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,7,6,1,9,"Sa-Roc","Starseed","Panic! At the disco",NA
+155,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,2,1,3,"Johnie Bee ft. Rasco","In My Prime","",NA
+155,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,4,5,1,5,"Evidence","Throw It All Away","",NA
+156,"F","lyrical","1","B","static/B1_lyrical.mp3","Prolific",9,3,3,6,7,"The Four Owls","Old Earth",NA,NA
+156,"F","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,2,2,7,8,"Aesop Rock","Molecules",NA,NA
+156,"F","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,3,3,6,7,"Atmosphere","Just for show",NA,NA
+156,"F","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,4,4,4,5,"Sa-Roc","Starseed",NA,NA
+156,"F","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,5,3,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+156,"F","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,4,5,3,3,"Evidence","Throw It All Away",NA,NA
+157,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,6,6,1,8,"The Four Owls","Old Earth",NA,NA
+157,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,3,3,7,"Aesop Rock","Molecules",NA,NA
+157,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,5,5,1,7,"Atmosphere","Just for show",NA,NA
+157,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,4,4,1,3,"Sa-Roc","Starseed",NA,NA
+157,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,2,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+157,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,3,1,4,"Evidence","Throw It All Away",NA,NA
+158,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,6,5,4,7,"The Four Owls","Old Earth",NA,NA
+158,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,3,8,"Aesop Rock","Molecules",NA,NA
+158,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,5,4,2,7,"Atmosphere","Just for show",NA,NA
+158,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,5,5,2,5,"Sa-Roc","Starseed",NA,NA
+158,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,3,2,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+158,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,3,2,4,"Evidence","Throw It All Away",NA,NA
+159,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,7,7,1,7,"The Four Owls","Old Earth",NA,NA
+159,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,5,5,1,8,"Aesop Rock","Molecules",NA,NA
+159,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,5,4,1,9,"Atmosphere","Just for show",NA,NA
+159,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",6,7,6,1,8,"Sa-Roc","Starseed",NA,NA
+159,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,9,9,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+159,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,8,8,1,5,"Evidence","Throw It All Away",NA,NA
+160,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,3,4,2,6,"The Four Owls","Old Earth",NA,NA
+160,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,2,1,6,"Aesop Rock","Molecules",NA,NA
+160,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,3,1,4,"Atmosphere","Just for show",NA,NA
+160,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,5,6,1,3,"Sa-Roc","Starseed",NA,NA
+160,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,6,6,1,2,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+160,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,6,6,1,2,"Evidence","Throw It All Away",NA,NA
+161,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,2,2,1,8,"The Four Owls","Old Earth",NA,NA
+161,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,9,"Aesop Rock","Molecules",NA,NA
+161,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,1,1,1,9,"Atmosphere","Just for show",NA,NA
+161,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,3,3,1,5,"Sa-Roc","Starseed",NA,NA
+161,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,1,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+161,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,3,3,1,7,"Evidence","Throw It All Away",NA,NA
+162,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",9,3,3,1,7,"The Four Owls","Old Earth",NA,NA
+162,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,3,3,8,"Aesop Rock","Molecules",NA,NA
+162,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,3,2,8,"Atmosphere","Just for show",NA,NA
+162,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,5,5,1,8,"Sa-Roc","Starseed",NA,NA
+162,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+162,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,3,1,7,"Evidence","Throw It All Away",NA,NA
+163,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,7,7,1,8,"The Four Owls","Old Earth",NA,NA
+163,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,4,3,2,8,"Aesop Rock","Molecules",NA,NA
+163,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,3,3,1,7,"Atmosphere","Just for show",NA,NA
+163,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,6,6,1,6,"Sa-Roc","Starseed",NA,NA
+163,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",6,7,7,1,1,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+163,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,5,5,1,6,"Evidence","Throw It All Away",NA,NA
+164,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,9,8,1,4,"The Four Owls","Old Earth",NA,NA
+164,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,3,3,2,8,"Aesop Rock","Molecules",NA,NA
+164,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,3,3,1,7,"Atmosphere","Just for show",NA,NA
+164,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,6,6,1,4,"Sa-Roc","Starseed",NA,NA
+164,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+164,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,5,"Evidence","Throw It All Away",NA,NA
+165,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,6,7,1,7,"The Four Owls","Old Earth","N/A","N/A"
+165,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,6,6,1,7,"Aesop Rock","Molecules","N/A","N/A"
+165,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,7,6,1,5,"Atmosphere","Just for show","N/A","N/A"
+165,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,7,7,1,5,"Sa-Roc","Starseed","N/A","N/A"
+165,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,6,1,4,"Johnie Bee ft. Rasco","In My Prime","N/A","N/A"
+165,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,6,1,3,"Evidence","Throw It All Away","N/A","N/A"
+166,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",5,2,3,1,6,"The Four Owls","Old Earth",NA,NA
+166,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,7,9,"Aesop Rock","Molecules",NA,NA
+166,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,2,6,9,"Atmosphere","Just for show",NA,NA
+166,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",6,5,5,6,8,"Sa-Roc","Starseed",NA,NA
+166,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,4,4,2,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+166,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,2,4,3,6,"Evidence","Throw It All Away",NA,NA
+167,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,9,9,1,8,"The Four Owls","Old Earth",NA,NA
+167,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",5,3,3,1,7,"Aesop Rock","Molecules",NA,NA
+167,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",10,10,10,1,7,"Atmosphere","Just for show",NA,NA
+167,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",3,1,1,1,9,"Sa-Roc","Starseed",NA,NA
+167,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+167,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,NA,9,"Evidence","Throw It All Away",NA,NA
+168,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,1,3,1,8,"The Four Owls","Old Earth",NA,NA
+168,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,8,"Aesop Rock","Molecules",NA,NA
+168,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,1,8,"Atmosphere","Just for show",NA,NA
+168,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,3,3,1,8,"Sa-Roc","Starseed",NA,NA
+168,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+168,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,8,"Evidence","Throw It All Away",NA,NA
+169,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,1,1,1,10,"The Four Owls","Old Earth",NA,NA
+169,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules",NA,NA
+169,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,1,10,"Atmosphere","Just for show",NA,NA
+169,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,1,2,1,10,"Sa-Roc","Starseed",NA,NA
+169,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,2,1,10,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+169,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,4,1,10,"Evidence","Throw It All Away",NA,NA
+170,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",5,9,8,1,9,"The Four Owls","Old Earth","N/A","N/A"
+170,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,5,5,1,8,"Aesop Rock","Molecules","N/A","N/A"
+170,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,6,5,1,7,"Atmosphere","Just for show","N/A","N/A"
+170,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,4,4,1,6,"Sa-Roc","Starseed","N/A","N/A"
+170,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,2,1,3,"Johnie Bee ft. Rasco","In My Prime","N/A","N/A"
+170,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,1,1,3,"Evidence","Throw It All Away","N/A","N/A"
+171,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,8,8,1,10,"The Four Owls","Old Earth",NA,NA
+171,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",6,4,3,1,10,"Aesop Rock","Molecules",NA,NA
+171,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",8,5,4,1,10,"Atmosphere","Just for show",NA,NA
+171,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,4,4,1,7,"Sa-Roc","Starseed",NA,NA
+171,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",8,6,6,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+171,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",5,5,5,1,4,"Evidence","Throw It All Away",NA,NA
+172,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,10,10,1,1,"The Four Owls","Old Earth",NA,NA
+172,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,8,6,1,1,"Aesop Rock","Molecules",NA,NA
+172,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,9,9,1,1,"Atmosphere","Just for show",NA,NA
+172,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,10,NA,1,1,"Sa-Roc","Starseed",NA,NA
+172,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,8,10,1,1,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+172,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,8,8,1,1,"Evidence","Throw It All Away",NA,NA
+173,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,3,4,4,6,"The Four Owls","Old Earth",NA,NA
+173,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",3,5,5,5,5,"Aesop Rock","Molecules",NA,NA
+173,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,2,2,5,5,"Atmosphere","Just for show",NA,NA
+173,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",3,3,4,4,5,"Sa-Roc","Starseed",NA,NA
+173,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,3,4,4,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+173,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,4,5,3,3,"Evidence","Throw It All Away",NA,NA
+174,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",6,8,7,6,5,"The Four Owls","Old Earth",NA,NA
+174,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,4,4,1,9,"Aesop Rock","Molecules",NA,NA
+174,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,NA,1,5,"Atmosphere","Just for show",NA,NA
+174,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,7,8,5,5,"Sa-Roc","Starseed",NA,NA
+174,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,7,8,1,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+174,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",4,4,5,1,3,"Evidence","Throw It All Away",NA,NA
+175,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,10,10,1,9,"The Four Owls","Old Earth",NA,NA
+175,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules",NA,NA
+175,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,3,4,3,2,"Atmosphere","Just for show",NA,NA
+175,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,2,1,3,10,"Sa-Roc","Starseed",NA,NA
+175,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,8,7,1,1,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+175,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,2,1,1,"Evidence","Throw It All Away",NA,NA
+176,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,1,1,1,8,"The Four Owls","Old Earth",NA,NA
+176,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules",NA,NA
+176,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,1,10,"Atmosphere","Just for show",NA,NA
+176,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,3,3,1,6,"Sa-Roc","Starseed",NA,NA
+176,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+176,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,6,"Evidence","Throw It All Away",NA,NA
+177,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,1,1,5,10,"The Four Owls","Old Earth",NA,NA
+177,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules",NA,NA
+177,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",10,6,2,1,10,"Atmosphere","Just for show",NA,NA
+177,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,4,4,1,7,"Sa-Roc","Starseed",NA,NA
+177,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+177,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,8,"Evidence","Throw It All Away",NA,NA
+178,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",4,5,5,2,6,"The Four Owls","Old Earth",NA,NA
+178,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",4,7,7,1,6,"Aesop Rock","Molecules",NA,NA
+178,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,6,5,2,6,"Atmosphere","Just for show",NA,NA
+178,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,4,5,1,3,"Sa-Roc","Starseed",NA,NA
+178,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,4,5,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+178,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,4,4,1,4,"Evidence","Throw It All Away",NA,NA
+179,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,6,5,1,3,"The Four Owls","Old Earth",NA,NA
+179,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,7,6,1,3,"Aesop Rock","Molecules",NA,NA
+179,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,3,4,1,2,"Atmosphere","Just for show",NA,NA
+179,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,4,4,1,3,"Sa-Roc","Starseed",NA,NA
+179,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,2,3,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+179,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,7,7,1,2,"Evidence","Throw It All Away",NA,NA
+180,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",4,6,5,1,4,"The Four Owls","Old Earth",NA,NA
+180,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",NA,NA,NA,NA,NA,"Aesop Rock","Molecules",NA,NA
+180,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,4,6,1,3,"Atmosphere","Just for show",NA,NA
+180,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,3,3,1,6,"Sa-Roc","Starseed",NA,NA
+180,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",NA,6,6,1,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+180,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",NA,NA,NA,NA,NA,"Evidence","Throw It All Away",NA,NA
+181,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,2,1,8,7,"The Four Owls","Old Earth",NA,NA
+181,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,2,1,2,5,"Aesop Rock","Molecules",NA,NA
+181,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,3,3,3,4,"Atmosphere","Just for show",NA,NA
+181,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,3,3,3,2,"Sa-Roc","Starseed",NA,NA
+181,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,2,2,3,3,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+181,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,3,3,2,2,"Evidence","Throw It All Away",NA,NA
+182,"G","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,10,9,3,9,"The Four Owls","Old Earth",NA,NA
+182,"G","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,4,10,"Aesop Rock","Molecules",NA,NA
+182,"G","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,2,2,3,10,"Atmosphere","Just for show",NA,NA
+182,"G","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,7,5,1,2,"Sa-Roc","Starseed",NA,NA
+182,"G","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,2,2,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+182,"G","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,3,3,2,3,"Evidence","Throw It All Away",NA,NA
+183,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,3,2,4,10,"The Four Owls","Old Earth",NA,NA
+183,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",6,4,2,3,9,"Aesop Rock","Molecules",NA,NA
+183,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",9,8,7,2,7,"Atmosphere","Just for show",NA,NA
+183,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",9,8,8,1,2,"Sa-Roc","Starseed",NA,NA
+183,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",4,7,5,2,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+183,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",8,7,7,2,1,"Evidence","Throw It All Away",NA,NA
+184,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,7,6,2,10,"The Four Owls","Old Earth",NA,NA
+184,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,7,10,"Aesop Rock","Molecules",NA,NA
+184,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,9,8,1,10,"Atmosphere","Just for show",NA,NA
+184,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,9,9,1,3,"Sa-Roc","Starseed",NA,NA
+184,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,4,4,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+184,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,5,1,5,"Evidence","Throw It All Away",NA,NA
+185,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",5,8,NA,3,5,"The Four Owls","Old Earth",NA,NA
+185,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,4,8,"Aesop Rock","Molecules",NA,NA
+185,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,5,4,2,5,"Atmosphere","Just for show",NA,NA
+185,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,5,6,1,5,"Sa-Roc","Starseed",NA,NA
+185,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",4,7,7,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+185,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",5,6,6,1,4,"Evidence","Throw It All Away",NA,NA
+186,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",4,7,7,1,8,"The Four Owls","Old Earth",NA,NA
+186,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,4,5,1,8,"Aesop Rock","Molecules",NA,NA
+186,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,5,5,1,8,"Atmosphere","Just for show",NA,NA
+186,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",2,6,6,1,7,"Sa-Roc","Starseed",NA,NA
+186,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,4,5,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+186,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,4,4,1,6,"Evidence","Throw It All Away",NA,NA
+187,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,8,8,5,8,"The Four Owls","Old Earth",NA,NA
+187,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,10,"Aesop Rock","Molecules",NA,NA
+187,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,1,10,"Atmosphere","Just for show",NA,NA
+187,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",2,6,5,2,8,"Sa-Roc","Starseed",NA,NA
+187,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+187,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,6,2,4,"Evidence","Throw It All Away",NA,NA
+188,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",7,3,3,3,9,"The Four Owls","Old Earth",NA,NA
+188,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",2,2,2,3,9,"Aesop Rock","Molecules",NA,NA
+188,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,2,2,2,9,"Atmosphere","Just for show",NA,NA
+188,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,2,2,2,7,"Sa-Roc","Starseed",NA,NA
+188,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",2,2,2,2,8,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+188,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",2,2,2,2,7,"Evidence","Throw It All Away",NA,NA
+189,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,4,3,2,6,"The Four Owls","Old Earth","Don't know","Don't know"
+189,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,4,7,"Aesop Rock","Molecules","Don't know","Don't know"
+189,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,2,2,4,5,"Atmosphere","Just for show","Don't know","Don't know"
+189,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",2,3,3,3,5,"Sa-Roc","Starseed","Don't know","Don't know"
+189,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,5,"Johnie Bee ft. Rasco","In My Prime","Don't know","Don't know"
+189,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,2,2,NA,4,"Evidence","Throw It All Away","Don't know","Don't know"
+190,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,NA,10,1,1,"The Four Owls","Old Earth","",NA
+190,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",7,10,10,1,1,"Aesop Rock","Molecules","Aesop Rock",NA
+190,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,6,5,1,4,"Atmosphere","Just for show","",NA
+190,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",2,4,5,1,3,"Sa-Roc","Starseed","",NA
+190,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,6,6,2,6,"Johnie Bee ft. Rasco","In My Prime","",NA
+190,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",7,8,8,1,1,"Evidence","Throw It All Away","Nas",NA
+191,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,3,6,1,8,"The Four Owls","Old Earth",NA,NA
+191,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,5,5,1,7,"Aesop Rock","Molecules",NA,NA
+191,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,5,6,1,7,"Atmosphere","Just for show",NA,NA
+191,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",2,5,5,1,7,"Sa-Roc","Starseed",NA,NA
+191,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,5,1,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+191,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,4,4,1,7,"Evidence","Throw It All Away",NA,NA
+192,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,10,NA,1,8,"The Four Owls","Old Earth",NA,NA
+192,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,2,1,10,"Aesop Rock","Molecules",NA,NA
+192,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,3,3,NA,8,"Atmosphere","Just for show",NA,NA
+192,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,2,2,1,10,"Sa-Roc","Starseed",NA,NA
+192,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,10,10,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+192,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,10,10,1,3,"Evidence","Throw It All Away",NA,NA
+193,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,8,9,2,2,"The Four Owls","Old Earth",NA,NA
+193,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",9,7,7,1,5,"Aesop Rock","Molecules",NA,NA
+193,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",9,8,8,1,3,"Atmosphere","Just for show",NA,NA
+193,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",9,7,7,1,6,"Sa-Roc","Starseed",NA,NA
+193,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",7,7,7,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+193,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",6,7,6,1,3,"Evidence","Throw It All Away",NA,NA
+194,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,3,3,3,10,"The Four Owls","Old Earth",NA,NA
+194,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,2,1,"Aesop Rock","Molecules",NA,NA
+194,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,1,1,"Atmosphere","Just for show",NA,NA
+194,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",5,1,6,1,3,"Sa-Roc","Starseed",NA,NA
+194,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,1,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+194,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,1,"Evidence","Throw It All Away",NA,NA
+195,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",8,3,4,2,2,"The Four Owls","Old Earth",NA,NA
+195,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,3,3,"Aesop Rock","Molecules",NA,NA
+195,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",6,5,5,1,2,"Atmosphere","Just for show",NA,NA
+195,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",7,7,7,1,1,"Sa-Roc","Starseed",NA,NA
+195,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",3,4,3,3,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+195,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,6,6,1,1,"Evidence","Throw It All Away",NA,NA
+196,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,3,3,1,7,"The Four Owls","Old Earth",NA,NA
+196,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,1,8,"Aesop Rock","Molecules",NA,NA
+196,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",3,4,5,1,8,"Atmosphere","Just for show",NA,NA
+196,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,4,4,1,5,"Sa-Roc","Starseed",NA,NA
+196,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,2,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+196,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,2,1,5,"Evidence","Throw It All Away",NA,NA
+197,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",10,10,10,1,4,"The Four Owls","Old Earth",NA,NA
+197,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,6,1,7,"Aesop Rock","Molecules",NA,NA
+197,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",6,6,7,1,8,"Atmosphere","Just for show",NA,NA
+197,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",9,8,9,1,5,"Sa-Roc","Starseed",NA,NA
+197,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,3,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+197,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,5,1,6,"Evidence","Throw It All Away",NA,NA
+198,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,1,1,1,6,"The Four Owls","Old Earth",NA,NA
+198,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,1,7,"Aesop Rock","Molecules",NA,NA
+198,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,2,2,1,4,"Atmosphere","Just for show",NA,NA
+198,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,1,2,1,3,"Sa-Roc","Starseed",NA,NA
+198,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,3,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+198,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",3,2,3,1,3,"Evidence","Throw It All Away",NA,NA
+199,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,3,3,5,7,"The Four Owls","Old Earth",NA,NA
+199,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,3,1,4,"Aesop Rock","Molecules",NA,NA
+199,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,2,2,2,6,"Atmosphere","Just for show",NA,NA
+199,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,1,2,1,3,"Sa-Roc","Starseed",NA,NA
+199,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,1,1,1,6,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+199,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,1,3,"Evidence","Throw It All Away",NA,NA
+200,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",NA,5,NA,1,6,"The Four Owls","Old Earth",NA,NA
+200,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",8,3,NA,1,8,"Aesop Rock","Molecules",NA,NA
+200,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",4,6,6,NA,8,"Atmosphere","Just for show",NA,NA
+200,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",10,7,7,1,6,"Sa-Roc","Starseed",NA,NA
+200,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,5,1,9,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+200,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,4,5,1,6,"Evidence","Throw It All Away",NA,NA
+201,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,10,10,1,8,"The Four Owls","Old Earth",NA,NA
+201,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,7,7,1,7,"Aesop Rock","Molecules",NA,NA
+201,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,7,7,1,5,"Atmosphere","Just for show",NA,NA
+201,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,3,3,1,3,"Sa-Roc","Starseed",NA,NA
+201,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,8,8,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+201,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,9,8,1,5,"Evidence","Throw It All Away",NA,NA
+202,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,1,1,6,9,"The Four Owls","Old Earth",NA,NA
+202,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,2,9,"Aesop Rock","Molecules",NA,NA
+202,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,2,9,"Atmosphere","Just for show",NA,NA
+202,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,2,2,1,5,"Sa-Roc","Starseed",NA,NA
+202,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,2,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+202,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,2,2,1,4,"Evidence","Throw It All Away",NA,NA
+203,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",4,2,2,1,5,"The Four Owls","Old Earth",NA,NA
+203,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,1,1,3,9,"Aesop Rock","Molecules",NA,NA
+203,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,1,1,2,8,"Atmosphere","Just for show",NA,NA
+203,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",8,3,3,5,6,"Sa-Roc","Starseed",NA,NA
+203,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,2,3,NA,7,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+203,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,1,1,2,8,"Evidence","Throw It All Away",NA,NA
+204,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,6,6,1,1,"The Four Owls","Old Earth",NA,NA
+204,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,3,3,1,5,"Aesop Rock","Molecules",NA,NA
+204,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,7,7,1,1,"Atmosphere","Just for show",NA,NA
+204,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",4,3,3,1,2,"Sa-Roc","Starseed",NA,NA
+204,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,3,1,NA,2,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+204,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,5,5,1,1,"Evidence","Throw It All Away",NA,NA
+205,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,8,9,1,10,"The Four Owls","Old Earth",NA,NA
+205,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,1,10,"Aesop Rock","Molecules",NA,NA
+205,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,2,2,1,8,"Atmosphere","Just for show",NA,NA
+205,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,7,7,1,5,"Sa-Roc","Starseed",NA,NA
+205,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,4,4,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+205,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,6,6,1,6,"Evidence","Throw It All Away",NA,NA
+206,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",3,7,7,1,8,"The Four Owls","Old Earth",NA,NA
+206,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,4,4,1,9,"Aesop Rock","Molecules",NA,NA
+206,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,5,5,1,7,"Atmosphere","Just for show",NA,NA
+206,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,8,6,1,3,"Sa-Roc","Starseed",NA,NA
+206,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,5,5,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+206,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,8,8,1,3,"Evidence","Throw It All Away",NA,NA
+207,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",2,4,6,1,8,"The Four Owls","Old Earth",NA,NA
+207,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,2,2,1,9,"Aesop Rock","Molecules",NA,NA
+207,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",2,3,2,1,9,"Atmosphere","Just for show",NA,NA
+207,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,3,4,1,6,"Sa-Roc","Starseed",NA,NA
+207,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,6,7,1,4,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+207,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,6,6,1,5,"Evidence","Throw It All Away",NA,NA
+208,"H","lyrical","1","B","static/B1_lyrical.mp3","Prolific",1,7,7,1,3,"The Four Owls","Old Earth",NA,NA
+208,"H","lyrical","2","B","static/B2_lyrical.mp3","Prolific",1,5,5,1,4,"Aesop Rock","Molecules",NA,NA
+208,"H","lyrical","3","B","static/B3_lyrical.mp3","Prolific",1,5,4,5,4,"Atmosphere","Just for show",NA,NA
+208,"H","instrumental","1","A","static/A1_instrumental.mp3","Prolific",1,3,3,1,5,"Sa-Roc","Starseed",NA,NA
+208,"H","instrumental","2","A","static/A2_instrumental.mp3","Prolific",1,4,4,1,5,"Johnie Bee ft. Rasco","In My Prime",NA,NA
+208,"H","instrumental","3","A","static/A3_instrumental.mp3","Prolific",1,3,4,1,5,"Evidence","Throw It All Away",NA,NA
