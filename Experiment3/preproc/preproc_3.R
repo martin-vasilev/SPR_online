@@ -264,7 +264,7 @@ freq<- subset(dat, sender== "Music_frequency")
 freq<- freq[, c("subject", "music_frequency")]
 
 preference <- merge(freq, genres) # merge two dataframes
-write.csv(preference, "Experiment2/data/music_preferences.csv") # save data
+write.csv(preference, "Experiment3/data/music_preferences.csv") # save data
 
 
 ### QUESTION ACCURACY DATA:
@@ -278,7 +278,7 @@ q$item_quest<- rep(c(1,2), nrow(q)/2)
 
 q$list[which(q$list=="FALSE")]= "F"
 
-q<- subset(q, item<20) # remove practice
+q<- subset(q, item<21) # remove practice
 a= aggregate(q$accuracy, by= list(q$subject), FUN= function(x) c(mean = mean(x, na.rm= T),                                                               sd = sd(x, na.rm=T) ))
 a$x
 
@@ -287,7 +287,7 @@ a$x
 rt<- subset(dat, sender== "screen") # subset reaction time data
 rt<- rt[, c("subject", "item", "Provo_ID", "list", "word", "word_ID",  # save just columns we need
             "ended_on", "duration", "sound", "Pool", "new_time")]
-rt<- subset(rt, item<20) # remove practice items
+rt<- subset(rt, item<21) # remove practice items
 
 
 rt<- subset(rt, word>0) # remove RT on first word in the passage (pre-reg)
@@ -321,14 +321,20 @@ for(i in 1:length(nsubs)){
 nstart<- nrow(rt)
 
 # remove identified trials:
-rt<- rt[-which(rt$subject==20 & rt$item==13),]
-q<- q[-which(q$subject==20 & q$item==13),]
+rt<- rt[-which(rt$subject== 39 & rt$item==1),]
+q<- q[-which(q$subject==39 & q$item==1),]
 
-rt<- rt[-which(rt$subject==34 & rt$item==8),]
-q<- q[-which(q$subject==34 & q$item==8),]
+rt<- rt[-which(rt$subject==70 & rt$item==3),]
+q<- q[-which(q$subject==70 & q$item==3),]
 
-rt<- rt[-which(rt$subject==62 & rt$item==8),]
-q<- q[-which(q$subject==62 & q$item==8),]
+rt<- rt[-which(rt$subject==122 & rt$item==16),]
+q<- q[-which(q$subject==122 & q$item==16),]
+
+rt<- rt[-which(rt$subject==145 & rt$item==9),]
+q<- q[-which(q$subject==145 & q$item==9),]
+
+rt<- rt[-which(rt$subject==173 & rt$item== 16),]
+q<- q[-which(q$subject==173 & q$item== 16),]
 
 ntrials<- nrow(rt)
 
@@ -353,7 +359,7 @@ for(i in 1:length(nsubs)){
   
   n<- subset(rt, subject== nsubs[i])
   
-  remain<- round((nrow(n)/ (801-15))*100,1)
+  remain<- round((nrow(n)/ (1049-20))*100,1)
   a<- c(a, remain)
   
   cat(sprintf("Subject %g:  %g percent \n", nsubs[i], remain))
@@ -385,7 +391,7 @@ song_stamps <- read_excel("Experiment2/preproc/song_stamps.xlsx")
 
 for(i in 1:nrow(block)){
   
-  if(block$sound[i]== "Silence"){ # skip silent blocks
+  if(block$sound[i]== "Silence"| block$sound[i]== "Speech"){ # skip silent blocks
     next
   }else{
     
