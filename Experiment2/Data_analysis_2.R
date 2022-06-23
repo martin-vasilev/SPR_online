@@ -138,7 +138,7 @@ ggsave(plot = P1, filename = "plots/raneff_RT.pdf", height = 18, width = 12)
 
 ## Main model with accuracy data:
 if(!file.exists("Experiment2/models/LM2.Rda")){
-  summary(LM2<- glmer(accuracy ~ sound+ (sound|subject)+ (1|item), data = q, family = binomial))
+  summary(LM2<- glmer(accuracy ~ sound+ (1|subject)+ (1|item), data = q, family = binomial))
   
   save(LM2, file = 'Experiment2/models/LM2.Rda')
   
