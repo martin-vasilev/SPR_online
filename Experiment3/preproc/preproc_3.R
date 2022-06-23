@@ -456,7 +456,7 @@ rt$t_since_block<- rt$new_time- (rt$block_start-7)
 ## load song ratings by subject:
 
 music_preferences <- read_csv("Experiment3/data/music_preferences.csv")
-ratings <- read.csv("Experiment3/data/prep/ratings_manual_coding.csv", sep=",")
+ratings <- read.csv("Experiment3/data/prep/ratings_manual_coding.csv", sep=";")
 
 
 # create empty columns:
