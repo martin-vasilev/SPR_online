@@ -22,6 +22,8 @@ pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & 
 
 options(scipen = 999)
 
+source('https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/CohensD_raw.R')
+
 
 # load  data:
 rt <- read_csv("Experiment1a/data/reaction_time.csv")
@@ -102,6 +104,17 @@ plot(effect('sound:Pool', LM1.2))
 effect('sound:Pool', LM1.2)
 
 
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(rt, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(rt, sound!= "silence"), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
+
 #### Bayesian model parameters:
 NwarmUp<- 500#500
 Niter<- 5000#2500
@@ -168,6 +181,17 @@ if(!file.exists("Experiment1a/models/LM2.Rda")){
   load('Experiment1a/models/LM2.Rda')
   summary(LM2)
 }
+
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(q, sound!= "lyrical"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(q, sound!= "silence"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
 
 
 GM1<- brm(formula = accuracy ~ sound + (sound|subject)+ (1|item), data = q, family= bernoulli, warmup = NwarmUp,
