@@ -103,3 +103,33 @@ if(!file.exists("Experiment3/models/LM2.Rda")){
 }
 
 
+#### Bayesian model parameters:
+NwarmUp<- 500#500
+Niter<- 5000#2500
+Nchains<- 4 #10
+
+job::job({
+  
+  GM1<- brm(formula = accuracy ~ sound + (sound|subject)+ (1|item), data = q, family= bernoulli, warmup = NwarmUp,
+            iter = Niter, chains = Nchains, sample_prior = TRUE, cores = detectCores(), seed= 1234, control = list(adapt_delta = 0.9),
+            prior =  c(set_prior('normal(0, 0.75)', class = 'b', coef= 'sound.instr_vs_slc'),
+                       set_prior('normal(0, 0.75)', class = 'b', coef= 'sound.lyr_vs_instr'),
+                       set_prior('normal(0, 0.75)', class = 'b', coef= 'soundspeech_vs_instr'),
+                       set_prior('normal(0, 2)', class = 'Intercept')))
+}) 
+
+A= print(GM1, digits=3)
+save(GM1, file= "Experiment3/models/GM1.Rda")
+
+# sound effect 1:
+BF2_sound1 = hypothesis(GM1, hypothesis = 'sound.instr_vs_slc = 0', seed= 1234)  # H0: No  slc vs instr difference
+(BFQ1= 1/BF2_sound1$hypothesis$Evid.Ratio)
+
+# sound effect 2:
+BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  # H0: No  lyr vs instr difference
+(BFQ2= 1/BF2_sound2$hypothesis$Evid.Ratio)
+
+# sound effect 3:
+BF2_sound3 = hypothesis(GM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234)  # H0: No  speech vs lyr difference
+(BFQ3= 1/BF2_sound3$hypothesis$Evid.Ratio)
+

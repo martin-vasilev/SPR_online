@@ -3,7 +3,7 @@ rm(list= ls())
 
 
 # load/ install required packages:
-packages= c("simr", "MASS", "readr", "reshape", "ggcorrplot", "ggplot2", "sjPlot", "readr") # list of used packages:
+packages= c("simr", "brms", "MASS", "readr", "reshape", "ggcorrplot", "ggplot2", "sjPlot", "readr") # list of used packages:
 
 for(i in 1:length(packages)){
   
@@ -93,10 +93,6 @@ if(!file.exists("Experiment1b/models/LM1.Rda")){
 }
 
 
-# RE1<- ranef(LM1)
-# RE1<- RE1$subject
-# RE1$subject<- 1:nrow(RE1)
-# RE1$Pool<- ifelse(RE1$subject< 104, "University", "Prolific")
 
 P1= plot_model(model = LM1, type= "re", rm.terms = 'subject', transform = NULL)
 P1= P1[[1]]
@@ -104,6 +100,52 @@ P1= P1[[1]]
 P1+theme_minimal(20)
 
 ggsave(plot = P1, filename = "Experiment1b/plots/raneff_RT.pdf", height = 18, width = 12)
+
+
+
+#### Bayesian model parameters:
+NwarmUp<- 500#500
+Niter<- 5000#2500
+Nchains<- 4 #10
+
+job::job({
+  BM1<- brm(formula = log_duration ~ sound + (sound|subject)+ (1|item), data = rt, 
+            warmup = NwarmUp, iter = Niter, chains = Nchains,
+            sample_prior = TRUE, cores = parallel::detectCores(), seed= 1234, control = list(adapt_delta = 0.9),
+            prior =  c(set_prior('normal(0, 0.05)', class = 'b', coef= 'sound.instr_vs_slc'),
+                       set_prior('normal(0, 0.05)', class = 'b', coef= 'sound.lyr_vs_instr'),
+                       set_prior('normal(0, 6)', class = 'Intercept')))
+}) 
+
+
+A= print(BM1, digits=5)
+prior_summary(BM1)
+
+save(BM1, file= "Experiment1b/models/BM1.Rda")
+
+## Bayes factors:
+
+# Note: the Bayes Factor is BH_10, so values >1 indicate evidence for the alternative, and values <1 indicate 
+# evidence in support of the null. Brms reports them the other way around, but I reverse them here because I 
+# Think BF_10 reporting is somewhat more common
+
+# sound effect 1:
+BF_sound1 = hypothesis(BM1, hypothesis = 'sound.instr_vs_slc = 0', seed= 1234)  # H0: No  slc vs instr difference
+(BF1= 1/BF_sound1$hypothesis$Evid.Ratio)
+
+# sound effect 2:
+BF_sound2 = hypothesis(BM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  # H0: No  lyr vs instr difference
+(BF2= 1/BF_sound2$hypothesis$Evid.Ratio)
+
+
+
+
+
+
+
+
+
+
 
 ## Main model with accuracy data:
 if(!file.exists("Experiment1b/models/LM2.Rda")){
@@ -116,6 +158,30 @@ if(!file.exists("Experiment1b/models/LM2.Rda")){
   load('Experiment1b/models/LM2.Rda')
   summary(LM2)
 }
+
+
+
+
+GM1<- brm(formula = accuracy ~ sound + (sound|subject)+ (1|item), data = q, family= bernoulli, warmup = NwarmUp,
+          iter = Niter, chains = Nchains, sample_prior = TRUE, cores = parallel::detectCores(), seed= 1234, control = list(adapt_delta = 0.9),
+          prior =  c(set_prior('normal(0, 0.75)', class = 'b', coef= 'sound.instr_vs_slc'),
+                     set_prior('normal(0, 0.75)', class = 'b', coef= 'sound.lyr_vs_instr'),
+                     set_prior('normal(0, 2)', class = 'Intercept')))
+
+A= print(GM1, digits=3)
+save(GM1, file= "Experiment1b/models/GM1.Rda")
+
+# sound effect 1:
+BF2_sound1 = hypothesis(GM1, hypothesis = 'sound.instr_vs_slc = 0', seed= 1234)  # H0: No  slc vs instr difference
+(BFQ1= 1/BF2_sound1$hypothesis$Evid.Ratio)
+
+# sound effect 2:
+BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  # H0: No  lyr vs instr difference
+(BFQ2= 1/BF2_sound2$hypothesis$Evid.Ratio)
+
+
+
+
 
 
 
