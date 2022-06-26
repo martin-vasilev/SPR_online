@@ -121,7 +121,7 @@ job::job({
 A= print(BM1, digits=5)
 prior_summary(BM1)
 
-save(BM1, file= "Experiment1b/models/BM1.Rda")
+save(BM1, file= "Experiment1b/models/BM1.Rda") 
 
 ## Bayes factors:
 

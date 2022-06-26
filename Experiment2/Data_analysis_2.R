@@ -87,12 +87,15 @@ NwarmUp<- 500#500
 Niter<- 5000#2500
 Nchains<- 4 #10
 
-BM1<- brm(formula = log_duration ~ sound + (sound|subject)+ (1|item), data = rt, 
-         warmup = NwarmUp, iter = Niter, chains = Nchains,
-         sample_prior = TRUE, cores = detectCores(), seed= 1234, control = list(adapt_delta = 0.9),
-         prior =  c(set_prior('normal(0, 0.05)', class = 'b', coef= 'sound.instr_vs_slc'),
-                    set_prior('normal(0, 0.05)', class = 'b', coef= 'sound.lyr_vs_instr'),
-                    set_prior('normal(0, 6)', class = 'Intercept')))
+job::job({
+  
+  BM1<- brm(formula = log_duration ~ sound + (sound|subject)+ (1|item), data = rt, 
+            warmup = NwarmUp, iter = Niter, chains = Nchains,
+            sample_prior = TRUE, cores = detectCores(), seed= 1234, control = list(adapt_delta = 0.9),
+            prior =  c(set_prior('normal(0, 0.05)', class = 'b', coef= 'sound.instr_vs_slc'),
+                       set_prior('normal(0, 0.05)', class = 'b', coef= 'sound.lyr_vs_instr'),
+                       set_prior('normal(0, 6)', class = 'Intercept')))
+}) 
 
 
 A= print(BM1, digits=5)
