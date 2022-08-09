@@ -323,15 +323,15 @@ MPlot <-ggplot(mRT, aes(x = sound, y = duration_M, color= sound, fill= sound)) +
   coord_cartesian(xlim = c(1.2, NA), clip = "off")+
   scale_color_manual(values=pallete1[1:3])+
   scale_fill_manual(values=pallete1[1:3])+
-  theme_classic(20) +ylab("Reaction time (in ms)")+
+  theme_classic(24) +ylab("Reaction time (in ms)")+
   theme(legend.position = 'none')+
   stat_summary(fun = mean, geom="point",colour="black", size=3, ) +
-  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, colour="black")
+  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, size= 6, colour="black")
 
 MPlot
 
 
-ggsave(plot = MPlot, filename = "Experiment1a/plots/RT_mean.pdf", height = 9, width = 9)
+ggsave(plot = MPlot, filename = "Experiment2/plots/RT_mean.pdf", height = 9, width = 9)
 
 
 ##################################################################################
