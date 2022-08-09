@@ -384,7 +384,7 @@ rt$preference_c<- scale(rt$preference)
 rt$pleasantness_c<- scale(rt$pleasantness)
 rt$offensiveness_c <- scale(rt$offensiveness) 
 rt$distraction_c<- scale(rt$distraction)
-rt$song_knowledge<- rt$accuracy_artist + rt$accuracy_song
+rt$song_knowledge_c<- scale(rt$accuracy_artist + rt$accuracy_song)
 rt$music_frequency_c<- scale(rt$music_frequency)
 
 
@@ -405,8 +405,8 @@ contrasts(rt2$sound)
 if(!file.exists("Experiment1b/models/CLM1.Rda")){
 
   # does not converge with a subject slope
-  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+ song_knowledge+
-                        music_frequency+offensiveness_c+distraction_c+
+  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+ song_knowledge_c+
+                        music_frequency_c+offensiveness_c+distraction_c+
                         (1|subject)+ (sound|item), data = rt, REML = T))
   
   save(CLM1, file = 'Experiment1b/models/CLM1.Rda')
@@ -422,3 +422,18 @@ gg2<- gg2 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtit
   theme(plot.title = element_text(hjust = 0.5))
 
 save(gg2, file = "Plots/covar_e1b.Rda")
+
+
+#mydf <- ggpredict(CLM1, terms = c( "familiarity_c", "song_knowledge", "offensiveness_c"))
+mydf1 <- ggpredict(CLM1, terms = c( "familiarity_c"))
+mydf2 <- ggpredict(CLM1, terms = c( "song_knowledge"))
+mydf3 <- ggpredict(CLM1, terms = c( "offensiveness_c"))
+
+
+
+Eff1<- ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= conf.high, ymin= conf.low)) +
+  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(20)+ geom_ribbon(alpha= 0.05, colour= NA)+
+  scale_color_manual(values=pallete1[1:3])+ theme(legend.position = "None")+
+  scale_fill_manual(values=pallete1[1:3])+ xlab('Offensiveness (z-score)') + ylab('log(RT)')
+
+ggsave(plot = Eff1,  filename = "Plots/cov1a.pdf", width = 4, height= 4)

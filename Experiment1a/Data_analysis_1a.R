@@ -450,7 +450,7 @@ rt$preference_c<- scale(rt$preference)
 rt$pleasantness_c<- scale(rt$pleasantness)
 rt$offensiveness_c <- scale(rt$offensiveness) 
 rt$distraction_c<- scale(rt$distraction)
-rt$song_knowledge<- rt$accuracy_artist + rt$accuracy_song
+rt$song_knowledge_c<- scale(rt$accuracy_artist + rt$accuracy_song)
 rt$music_frequency_c<- scale(rt$music_frequency)
 
 
@@ -470,8 +470,8 @@ contrasts(rt2$sound)
 
 if(!file.exists("Experiment1a/models/CLM1.Rda")){
   
-  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+ song_knowledge+
-                        music_frequency+offensiveness_c+distraction_c+
+  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+ song_knowledge_c+
+                        music_frequency_c+offensiveness_c+distraction_c+
                         (sound|subject)+ (1|item), data = rt, REML = T))
   
   save(CLM1, file = 'Experiment1a/models/CLM1.Rda')
