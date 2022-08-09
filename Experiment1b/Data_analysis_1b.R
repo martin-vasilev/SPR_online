@@ -366,3 +366,59 @@ ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= c
   scale_color_manual(values=pallete1[1:2])+
   scale_fill_manual(values=pallete1[1:2])+ xlab('Sound condition') + ylab('log(word RT): model prediction')
 
+
+
+
+
+#########################
+## Covariate analysis:  #
+#########################
+
+rm(rt)
+
+# load  data:
+rt <- read_csv("Experiment1b/data/reaction_time.csv")
+
+rt$familiarity_c<- scale(rt$familiarity)
+rt$preference_c<- scale(rt$preference)
+rt$pleasantness_c<- scale(rt$pleasantness)
+rt$offensiveness_c <- scale(rt$offensiveness) 
+rt$distraction_c<- scale(rt$distraction)
+rt$song_knowledge<- rt$accuracy_artist + rt$accuracy_song
+rt$music_frequency_c<- scale(rt$music_frequency)
+
+
+# remove silence condition (no ratings available there)
+rt2<- subset(rt, sound!= "silence")
+#rt2sound<- droplevels(rt2$sound)
+rt2$sound<- as.factor(rt2$sound)
+levels(rt2$sound)
+
+# contrast coding
+cmat2<- contr.sdif(2)
+colnames(cmat2)<- c(".lyr_vs_instr")
+
+contrasts(rt2$sound)<- cmat2 
+contrasts(rt2$sound)
+
+
+if(!file.exists("Experiment1b/models/CLM1.Rda")){
+
+  # does not converge with a subject slope
+  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+ song_knowledge+
+                        music_frequency+offensiveness_c+distraction_c+
+                        (1|subject)+ (sound|item), data = rt, REML = T))
+  
+  save(CLM1, file = 'Experiment1b/models/CLM1.Rda')
+  
+}else{
+  load('Experiment1b/models/CLM1.Rda')
+  summary(CLM1)
+}
+
+gg2<- plot_model(CLM1, show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
+                 rm.terms = c("(Intercept)"), vline.color = pallete1[5])
+gg2<- gg2 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtitle("Experiment 1b")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+save(gg2, file = "Plots/covar_e1b.Rda")

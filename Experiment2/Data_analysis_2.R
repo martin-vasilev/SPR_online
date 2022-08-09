@@ -432,3 +432,56 @@ z= ggplot(mp, aes(frequency, genre, label = paste(round(frequency, 1), ' %', sep
 ggsave(filename = 'Experiment1a/plots/music_preferences.pdf', plot = z)
 
 
+
+#########################
+## Covariate analysis:  #
+#########################
+
+rm(rt)
+
+# load  data:
+rt <- read_csv("Experiment2/data/reaction_time.csv")
+
+rt$familiarity_c<- scale(rt$familiarity)
+rt$preference_c<- scale(rt$preference)
+rt$pleasantness_c<- scale(rt$pleasantness)
+rt$offensiveness_c <- scale(rt$offensiveness) 
+rt$distraction_c<- scale(rt$distraction)
+rt$song_knowledge<- rt$accuracy_artist + rt$accuracy_song
+rt$music_frequency_c<- scale(rt$music_frequency)
+
+
+# remove silence condition (no ratings available there)
+rt2<- subset(rt, sound!= "silence")
+#rt2sound<- droplevels(rt2$sound)
+rt2$sound<- as.factor(rt2$sound)
+levels(rt2$sound)
+
+# contrast coding
+cmat2<- contr.sdif(2)
+colnames(cmat2)<- c(".lyr_vs_instr")
+
+contrasts(rt2$sound)<- cmat2 
+contrasts(rt2$sound)
+
+
+if(!file.exists("Experiment2/models/CLM1.Rda")){
+
+  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+
+                        music_frequency+offensiveness_c+distraction_c+
+                        (sound|subject)+ (1|item), data = rt, REML = T))
+  
+  save(CLM1, file = 'Experiment2/models/CLM1.Rda')
+  
+}else{
+  load('Experiment2/models/CLM1.Rda')
+  summary(CLM1)
+}
+
+
+gg3<- plot_model(CLM1, show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
+                 rm.terms = c("(Intercept)"), vline.color = pallete1[5])
+gg3<- gg3 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtitle("Experiment 2")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+save(gg3, file = "Plots/covar_e2.Rda")

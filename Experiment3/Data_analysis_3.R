@@ -211,3 +211,57 @@ CohensD_raw(data = subset(q, !is.element(sound, c("silence", "speech") )), measu
 # speech vs lyrical
 CohensD_raw(data = subset(q, !is.element(sound, c("silence", "instrumental") )), measure = 'duration', group_var = 'sound',
             baseline = 'lyrical', avg_var = 'subject')
+
+
+
+#########################
+## Covariate analysis:  #
+#########################
+
+rm(rt)
+
+# load  data:
+rt <- read_csv("Experiment3/data/reaction_time.csv")
+
+rt$familiarity_c<- scale(rt$familiarity)
+rt$preference_c<- scale(rt$preference)
+rt$pleasantness_c<- scale(rt$pleasantness)
+rt$offensiveness_c <- scale(rt$offensiveness) 
+rt$distraction_c<- scale(rt$distraction)
+rt$song_knowledge<- rt$accuracy_artist + rt$accuracy_song
+rt$music_frequency_c<- scale(rt$music_frequency)
+
+
+# remove silence condition (no ratings available there)
+rt2<- subset(rt, sound!= "silence" & sound!= "speech")
+#rt2sound<- droplevels(rt2$sound)
+rt2$sound<- as.factor(rt2$sound)
+levels(rt2$sound)
+
+# contrast coding
+cmat2<- contr.sdif(2)
+colnames(cmat2)<- c(".lyr_vs_instr")
+
+contrasts(rt2$sound)<- cmat2 
+contrasts(rt2$sound)
+
+
+if(!file.exists("Experiment3/models/CLM1.Rda")){
+  
+  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+
+                        music_frequency+offensiveness_c+distraction_c+
+                        (sound|subject)+ (1|item), data = rt, REML = T))
+  
+  save(CLM1, file = 'Experiment3/models/CLM1.Rda')
+  
+}else{
+  load('Experiment3/models/CLM1.Rda')
+  summary(CLM1)
+}
+
+gg4<- plot_model(CLM1, show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
+                 rm.terms = c("(Intercept)"), vline.color = pallete1[5])
+gg4<- gg4 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtitle("Experiment 3")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+save(gg4, file = "Plots/covar_e3.Rda")
