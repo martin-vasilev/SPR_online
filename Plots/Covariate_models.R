@@ -15,4 +15,4 @@ load('Plots/covar_e3.Rda')
 
 figure1 <- ggarrange(gg1, gg2, gg3, gg4, ncol = 2, nrow = 2)
 
-ggsave(filename = 'Plots/covar_plot.pdf', plot = figure1, width = 14, height = 14)
+ggsave(filename = 'Plots/covar_plot.pdf', plot = figure1, width = 14, height = 16)

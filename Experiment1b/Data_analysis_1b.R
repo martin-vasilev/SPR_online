@@ -426,14 +426,21 @@ save(gg2, file = "Plots/covar_e1b.Rda")
 
 #mydf <- ggpredict(CLM1, terms = c( "familiarity_c", "song_knowledge", "offensiveness_c"))
 mydf1 <- ggpredict(CLM1, terms = c( "familiarity_c"))
-mydf2 <- ggpredict(CLM1, terms = c( "song_knowledge"))
+mydf2 <- ggpredict(CLM1, terms = c( "song_knowledge_c"))
 mydf3 <- ggpredict(CLM1, terms = c( "offensiveness_c"))
 
+mydf1$covariate<- "Familiarity"
+mydf2$covariate<- "Song Knowledge"
+mydf3$covariate<- "Offensiveness"
+
+mydf<- rbind(mydf1, mydf2, mydf3)
 
 
-Eff1<- ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= conf.high, ymin= conf.low)) +
-  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(20)+ geom_ribbon(alpha= 0.05, colour= NA)+
+Eff1<- ggplot(mydf, aes(x, predicted, group= covariate, colour= covariate, fill= covariate, ymax= conf.high, ymin= conf.low)) +
+  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(24)+ geom_ribbon(alpha= 0.05, colour= NA)+
   scale_color_manual(values=pallete1[1:3])+ theme(legend.position = "None")+
-  scale_fill_manual(values=pallete1[1:3])+ xlab('Offensiveness (z-score)') + ylab('log(RT)')
+  scale_fill_manual(values=pallete1[1:3])+ xlab('Z-score') + ylab('log(RT)') +
+  #facet_grid(.~ covariate, scales="free_x")
+  facet_wrap(~ covariate, ncol = 1, scales= 'free_x')
 
-ggsave(plot = Eff1,  filename = "Plots/cov1a.pdf", width = 4, height= 4)
+ggsave(plot = Eff1,  filename = "Plots/cov1b.pdf", width = 5, height= 9)

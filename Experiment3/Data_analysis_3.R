@@ -265,3 +265,14 @@ gg4<- gg4 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtit
   theme(plot.title = element_text(hjust = 0.5))
 
 save(gg4, file = "Plots/covar_e3.Rda")
+
+
+mydf <- ggpredict(CLM1, terms = c("preference_c"))
+
+Eff1<- ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= conf.high, ymin= conf.low)) +
+  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(20)+ geom_ribbon(alpha= 0.05, colour= NA)+
+  scale_color_manual(values=pallete1[1:2])+ theme(legend.position = "None")+
+  scale_fill_manual(values=pallete1[1:2])+ xlab('Preference (z-score)') + ylab('log(RT)')
+
+ggsave(plot = Eff1,  filename = "Plots/cov3.pdf", width = 4, height= 4)
+
