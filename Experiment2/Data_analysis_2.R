@@ -22,6 +22,7 @@ pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & 
 
 options(scipen = 999)
 
+source('https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/CohensD_raw.R')
 
 # load  data:
 rt <- read_csv("Experiment2/data/reaction_time.csv")
@@ -79,6 +80,19 @@ if(!file.exists("Experiment2/models/LM1.Rda")){
    load('Experiment2/models/LM1.Rda')
   summary(LM1)
 }
+
+
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(rt, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(rt, sound!= "silence"), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
 
 
 
@@ -167,6 +181,18 @@ BF2_sound1 = hypothesis(GM1, hypothesis = 'sound.instr_vs_slc = 0', seed= 1234) 
 # sound effect 2:
 BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  # H0: No  lyr vs instr difference
 (BFQ2= 1/BF2_sound2$hypothesis$Evid.Ratio)
+
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(q, sound!= "lyrical"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(q, sound!= "silence"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
 
 
 ######## Music ratings:

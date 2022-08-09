@@ -1,6 +1,7 @@
 
 rm(list= ls())
 
+source('https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/CohensD_raw.R')
 
 # load/ install required packages:
 packages= c("simr", "brms", "MASS", "readr", "reshape", "ggcorrplot", "ggplot2", "sjPlot", "readr") # list of used packages:
@@ -141,6 +142,17 @@ BF_sound2 = hypothesis(BM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  
 
 
 
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(rt, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(rt, sound!= "silence"), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
+
 
 
 
@@ -182,6 +194,16 @@ BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234) 
 
 
 
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(q, sound!= "lyrical"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(q, sound!= "silence"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
 
 
 
@@ -294,5 +316,53 @@ ggsave(plot = MPlot, filename = "Experiment1b/plots/RT_mean.pdf", height = 9, wi
 
 
 
+##############
+# compare to student sample of Experiment 1a:
+
+e1b<- read_csv("Experiment1b/data/reaction_time.csv") # experiment 1b data, student sample
+e1b$Experiment<- "Experiment 1b [students]"
 
 
+e1a <- read_csv("Experiment1a/data/reaction_time.csv")
+e1a<- subset(e1a, Pool== "University pool")
+e1a$subject<- 1000+e1a$subject
+
+e1a$Experiment<- "Experiment 1a [students]"
+
+exp1<- rbind(e1a, e1b)
+
+table(exp1$Experiment)
+
+
+cmat<- contr.sdif(3)
+colnames(cmat)<- c(".instr_vs_slc", ".lyr_vs_instr")
+
+exp1$sound<- as.factor(exp1$sound)
+levels(exp1$sound)
+exp1$sound<- factor(exp1$sound, levels= c( "silence", "instrumental", "lyrical"))
+levels(exp1$sound)
+
+contrasts(exp1$sound)<- cmat 
+contrasts(exp1$sound)
+
+exp1$Experiment<- as.factor(exp1$Experiment)
+contrasts(exp1$Experiment)<- c(-1, 1)
+contrasts(exp1$Experiment)
+
+
+summary(LMPH<- lmer(log_duration ~ sound*Experiment+ (sound|subject)+ (1|item), data = exp1, REML = T))
+
+library(effects)
+effect('sound:Experiment', LMPH)
+
+effect('Experiment', LMPH)
+
+library(ggeffects)
+
+mydf <- ggpredict(LMPH, terms = c("sound", "Experiment"))
+mydf$sample<- mydf$group
+
+ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= conf.high, ymin= conf.low)) +
+  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(22)+ geom_ribbon(alpha= 0.05, colour= NA)+
+  scale_color_manual(values=pallete1[1:2])+
+  scale_fill_manual(values=pallete1[1:2])+ xlab('Sound condition') + ylab('log(word RT): model prediction')

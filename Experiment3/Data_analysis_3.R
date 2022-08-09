@@ -21,6 +21,7 @@ pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & 
 
 options(scipen = 999)
 
+source('https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/CohensD_raw.R')
 
 # load  data:
 rt <- read_csv("Experiment3/data/reaction_time.csv")
@@ -133,6 +134,22 @@ BF_sound3 = hypothesis(BM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234)
 
 
 
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(rt, !is.element(sound, c("lyrical", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(rt, !is.element(sound, c("silence", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
+# speech vs lyrical
+CohensD_raw(data = subset(rt, !is.element(sound, c("silence", "instrumental") )), measure = 'duration', group_var = 'sound',
+            baseline = 'lyrical', avg_var = 'subject')
+
+
+
 
 
 ## Main model with accuracy data:
@@ -178,3 +195,19 @@ BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234) 
 BF2_sound3 = hypothesis(GM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234)  # H0: No  speech vs lyr difference
 (BFQ3= 1/BF2_sound3$hypothesis$Evid.Ratio)
 
+
+
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(q, !is.element(sound, c("lyrical", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(q, !is.element(sound, c("silence", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
+# speech vs lyrical
+CohensD_raw(data = subset(q, !is.element(sound, c("silence", "instrumental") )), measure = 'duration', group_var = 'sound',
+            baseline = 'lyrical', avg_var = 'subject')
