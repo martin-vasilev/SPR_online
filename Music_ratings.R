@@ -1,4 +1,6 @@
 
+# Analysis of music ratings as a function of music type (lyrical/ instrumental)
+
 rm(list= ls())
 
 # load data:
@@ -85,3 +87,53 @@ plot(effect('music', M5))
 summary(M6<- glmer(accuracy_artist ~ music +(music|subject) +(music|actual_song_name),
                    data= familiar, family= binomial))
 plot(effect('music', M6))
+
+
+
+
+
+
+
+
+#------------------
+# UNFAMILIAR SONGS
+#------------------
+
+unfamiliar$music<- as.factor(unfamiliar$music)
+contrasts(unfamiliar$music) <- c(-0.5, 0.5)
+
+# familiarity:
+summary(M7<- lmer(familiarity ~ music +(1|subject) +(1|actual_song_name),
+                  data= unfamiliar, REML= T))
+#plot(effect('music', M7))
+
+
+# preference:
+summary(M8<- lmer(preference ~ music +(music|subject) +(music|actual_song_name),
+                  data= unfamiliar, REML= T))
+#plot(effect('music', M8))
+
+
+# offensiveness:
+summary(M9<- lmer(offensiveness ~ music +(1|subject) +(music|actual_song_name),
+                  data= unfamiliar, REML= T))
+plot(effect('music', M9))
+
+
+# distraction:
+summary(M10<- lmer(distraction ~ music +(music|subject) +(music|actual_song_name),
+                  data= unfamiliar, REML= T))
+plot(effect('music', M10))
+
+
+### Song accuracy:
+# no random effects converge
+summary(M11<- glm(accuracy_song ~ music,
+                   data= unfamiliar, family= binomial))
+#plot(effect('music', M11))
+
+
+### Artist accuracy:
+summary(M12<- glm(accuracy_artist ~ music,
+                   data= unfamiliar, family= binomial))
+#plot(effect('music', M12))
