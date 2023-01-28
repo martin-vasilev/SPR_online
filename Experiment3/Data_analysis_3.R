@@ -178,3 +178,55 @@ BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234) 
 BF2_sound3 = hypothesis(GM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234)  # H0: No  speech vs lyr difference
 (BFQ3= 1/BF2_sound3$hypothesis$Evid.Ratio)
 
+
+
+##################################################################################
+
+DesRT<- melt(rt, id=c('subject', 'item', 'sound'), 
+             measure=c("duration"), na.rm=TRUE)
+
+mRT<- cast(DesRT, sound+subject ~ variable
+           ,function(x) c(M=signif(mean(x),3)
+                          , SD= sd(x) ))
+
+levels(mRT$sound)<- c("silence",            "instrumental music", "lyrical music", "speech"  )
+
+levels(mRT$sound)
+
+
+fun_mean <- function(x){
+  return(data.frame(y=mean(x),label= paste("M= ", round(mean(x,na.rm=T)), sep= '')))}
+
+MPlot <-ggplot(mRT, aes(x = sound, y = duration_M, color= sound, fill= sound)) + 
+  ggdist::stat_halfeye(
+    adjust = .5, 
+    width = .6, 
+    .width = 0, 
+    justification = -.3, 
+    point_colour = NA) + 
+  geom_boxplot(
+    width = .25, 
+    outlier.shape = NA, fill= NA
+  ) +
+  geom_point(
+    size = 1.3,
+    alpha = .3,
+    position = position_jitter(
+      seed = 1, width = .1
+    )
+  ) + 
+  coord_cartesian(xlim = c(1.2, NA), clip = "off")+
+  scale_color_manual(values=pallete1[1:4])+
+  scale_fill_manual(values=pallete1[1:4])+
+  theme_classic(24) +ylab("Reaction time (in ms)")+
+  theme(legend.position = 'none')+
+  stat_summary(fun = mean, geom="point",colour="black", size=3, ) +
+  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, size= 6, colour="black")
+
+MPlot
+
+
+ggsave(plot = MPlot, filename = "Experiment3/plots/RT_mean.pdf", height = 9, width = 9)
+
+
+

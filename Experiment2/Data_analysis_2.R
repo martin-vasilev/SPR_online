@@ -81,6 +81,10 @@ if(!file.exists("Experiment2/models/LM1.Rda")){
 }
 
 
+## post-hoc tests:
+library(emmeans)
+
+EM<- emmeans(LM1, pairwise ~ sound, pbkrtest.limit = 159834)
 
 #### Bayesian model parameters:
 NwarmUp<- 500#500
