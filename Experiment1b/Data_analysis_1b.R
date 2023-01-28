@@ -1,6 +1,7 @@
 
 rm(list= ls())
 
+source('https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/CohensD_raw.R')
 
 # load/ install required packages:
 packages= c("simr", "brms", "MASS", "readr", "reshape", "ggcorrplot", "ggplot2", "sjPlot", "readr") # list of used packages:
@@ -158,6 +159,17 @@ BF_sound2 = hypothesis(BM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234)  
 
 
 
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(rt, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(rt, sound!= "silence"), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
+
 
 
 
@@ -199,6 +211,16 @@ BF2_sound2 = hypothesis(GM1, hypothesis = 'sound.lyr_vs_instr = 0', seed= 1234) 
 
 
 
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(q, sound!= "lyrical"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(q, sound!= "silence"), measure = 'accuracy', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
 
 
 
@@ -310,4 +332,132 @@ ggsave(plot = MPlot, filename = "Experiment1b/plots/RT_mean.pdf", height = 9, wi
 
 
 
+##############
+# compare to student sample of Experiment 1a:
 
+e1b<- read_csv("Experiment1b/data/reaction_time.csv") # experiment 1b data, student sample
+e1b$Experiment<- "Experiment 1b [students]"
+
+
+e1a <- read_csv("Experiment1a/data/reaction_time.csv")
+e1a<- subset(e1a, Pool== "University pool")
+e1a$subject<- 1000+e1a$subject
+
+e1a$Experiment<- "Experiment 1a [students]"
+
+exp1<- rbind(e1a, e1b)
+
+table(exp1$Experiment)
+
+
+cmat<- contr.sdif(3)
+colnames(cmat)<- c(".instr_vs_slc", ".lyr_vs_instr")
+
+exp1$sound<- as.factor(exp1$sound)
+levels(exp1$sound)
+exp1$sound<- factor(exp1$sound, levels= c( "silence", "instrumental", "lyrical"))
+levels(exp1$sound)
+
+contrasts(exp1$sound)<- cmat 
+contrasts(exp1$sound)
+
+exp1$Experiment<- as.factor(exp1$Experiment)
+contrasts(exp1$Experiment)<- c(-1, 1)
+contrasts(exp1$Experiment)
+
+
+summary(LMPH<- lmer(log_duration ~ sound*Experiment+ (sound|subject)+ (1|item), data = exp1, REML = T))
+
+library(effects)
+effect('sound:Experiment', LMPH)
+
+effect('Experiment', LMPH)
+
+library(ggeffects)
+
+mydf <- ggpredict(LMPH, terms = c("sound", "Experiment"))
+mydf$sample<- mydf$group
+
+ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= conf.high, ymin= conf.low)) +
+  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(22)+ geom_ribbon(alpha= 0.05, colour= NA)+
+  scale_color_manual(values=pallete1[1:2])+
+  scale_fill_manual(values=pallete1[1:2])+ xlab('Sound condition') + ylab('log(word RT): model prediction')
+
+
+
+
+
+#########################
+## Covariate analysis:  #
+#########################
+
+rm(rt)
+
+# load  data:
+rt <- read_csv("Experiment1b/data/reaction_time.csv")
+
+rt$familiarity_c<- scale(rt$familiarity)
+rt$preference_c<- scale(rt$preference)
+rt$pleasantness_c<- scale(rt$pleasantness)
+rt$offensiveness_c <- scale(rt$offensiveness) 
+rt$distraction_c<- scale(rt$distraction)
+rt$song_knowledge_c<- scale(rt$accuracy_artist + rt$accuracy_song)
+rt$music_frequency_c<- scale(rt$music_frequency)
+
+
+# remove silence condition (no ratings available there)
+rt2<- subset(rt, sound!= "silence")
+#rt2sound<- droplevels(rt2$sound)
+rt2$sound<- as.factor(rt2$sound)
+levels(rt2$sound)
+
+# contrast coding
+cmat2<- contr.sdif(2)
+colnames(cmat2)<- c(".lyr_vs_instr")
+
+contrasts(rt2$sound)<- cmat2 
+contrasts(rt2$sound)
+
+
+if(!file.exists("Experiment1b/models/CLM1.Rda")){
+
+  # does not converge with a subject slope
+  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+ song_knowledge_c+
+                        music_frequency_c+offensiveness_c+distraction_c+
+                        (1|subject)+ (sound|item), data = rt, REML = T))
+  
+  save(CLM1, file = 'Experiment1b/models/CLM1.Rda')
+  
+}else{
+  load('Experiment1b/models/CLM1.Rda')
+  summary(CLM1)
+}
+
+gg2<- plot_model(CLM1, show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
+                 rm.terms = c("(Intercept)"), vline.color = pallete1[5])
+gg2<- gg2 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtitle("Experiment 1b")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+save(gg2, file = "Plots/covar_e1b.Rda")
+
+
+#mydf <- ggpredict(CLM1, terms = c( "familiarity_c", "song_knowledge", "offensiveness_c"))
+mydf1 <- ggpredict(CLM1, terms = c( "familiarity_c"))
+mydf2 <- ggpredict(CLM1, terms = c( "song_knowledge_c"))
+mydf3 <- ggpredict(CLM1, terms = c( "offensiveness_c"))
+
+mydf1$covariate<- "Familiarity"
+mydf2$covariate<- "Song Knowledge"
+mydf3$covariate<- "Offensiveness"
+
+mydf<- rbind(mydf1, mydf2, mydf3)
+
+
+Eff1<- ggplot(mydf, aes(x, predicted, group= covariate, colour= covariate, fill= covariate, ymax= conf.high, ymin= conf.low)) +
+  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(24)+ geom_ribbon(alpha= 0.05, colour= NA)+
+  scale_color_manual(values=pallete1[1:3])+ theme(legend.position = "None")+
+  scale_fill_manual(values=pallete1[1:3])+ xlab('Z-score') + ylab('log(RT)') +
+  #facet_grid(.~ covariate, scales="free_x")
+  facet_wrap(~ covariate, ncol = 1, scales= 'free_x')
+
+ggsave(plot = Eff1,  filename = "Plots/cov1b.pdf", width = 5, height= 9)

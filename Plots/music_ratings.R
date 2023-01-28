@@ -143,3 +143,75 @@ a <- ggplot(df, aes(x = Mean, y= Measure, fill= Music, color= Music))+
 ggsave(plot = a, filename = "Plots/Ratings_M.pdf", height = 9, width = 9)
 
 
+###############################################################################
+
+e2= ratings3
+e2$Experiment= "Experiment 2"
+e3= ratings4
+e3$Experiment= "Experiment 3"
+
+dat= rbind(e2, e3)
+
+DesFam<- melt(dat, id=c('subject', 'music', 'song_number', 'music_set', 'Experiment'), 
+                 measure=c("familiarity"), na.rm=TRUE)
+mFam<- cast(DesFam, subject+ Experiment ~ variable
+               ,function(x) c(M=signif(mean(x),3)
+                              , SD= sd(x) ))
+s<- mFam[which(mFam$familiarity_M>= 6), ]
+table(s$Experiment)
+
+
+
+# load  data:
+rt <- read_csv("Experiment2/data/reaction_time.csv")
+rt$log_duration<- log(rt$duration)
+
+rt<- subset(rt, !is.element(subject, c(46, 141, 185, 196)))
+
+# set up contrast coding:
+rt$sound<- as.factor(rt$sound)
+rt$sound<- factor(rt$sound, levels= c( "silence", "instrumental", "lyrical"))
+levels(rt$sound)
+
+## successive differences contrast:
+library(MASS)
+cmat<- contr.sdif(3)
+colnames(cmat)<- c(".instr_vs_slc", ".lyr_vs_instr")
+
+contrasts(rt$sound)<- cmat 
+contrasts(rt$sound)
+
+
+aggregate(rt$duration, by= list(rt$sound), FUN= function(x) c(mean = mean(x, na.rm= T), 
+                                                              sd = sd(x, na.rm=T) ))
+
+library(lme4)
+summary(LM1<- lmer(log_duration ~ sound+ (sound|subject)+ (1|item), data = rt, REML = T))
+
+
+
+
+# load  data:
+rt <- read_csv("Experiment3/data/reaction_time.csv")
+rt$log_duration<- log(rt$duration)
+
+rt<- subset(rt, !is.element(subject, c(20, 28, 92, 94, 133, 148, 171, 183, 193)))
+
+# set up contrast coding:
+rt$sound<- as.factor(rt$sound)
+rt$sound<- factor(rt$sound, levels= c( "silence", "instrumental", "lyrical", 'speech'))
+levels(rt$sound)
+
+
+## successive differences contrast:
+cmat<- contr.sdif(4)
+colnames(cmat)<- c(".instr_vs_slc", ".lyr_vs_instr", "speech_vs_instr")
+
+contrasts(rt$sound)<- cmat 
+contrasts(rt$sound)
+
+
+aggregate(rt$duration, by= list(rt$sound), FUN= function(x) c(mean = mean(x, na.rm= T), 
+                                                              sd = sd(x, na.rm=T) ))
+summary(LM1<- lmer(log_duration ~ sound+ (1|subject)+ (1|item), data = rt, REML = T))
+

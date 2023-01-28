@@ -6,6 +6,7 @@ pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & 
 
 library(reshape)
 library(ggplot2)
+library(readr)
 
 # Experiment 1a:
 rt_e1 <- read_csv("Experiment1a/data/reaction_time.csv")
@@ -91,7 +92,7 @@ MPlot <-ggplot(mRT, aes(x = sound, y = duration_M, color= sound, fill= sound)) +
   theme_classic(20) +ylab("Mean reaction time per word (in ms)")+
   theme(legend.position = 'none')+
   stat_summary(fun = mean, geom="point",colour="black", size=2) +
-  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, colour="black", size= 4)+
+  stat_summary(fun.data = fun_mean, geom="text",fontface = "bold" , vjust=-0.7, colour="black", size= 5.5)+
   facet_wrap(~Experiment)
 
 MPlot

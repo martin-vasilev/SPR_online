@@ -21,6 +21,7 @@ pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & 
 
 options(scipen = 999)
 
+source('https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/CohensD_raw.R')
 
 # load  data:
 rt <- read_csv("Experiment3/data/reaction_time.csv")
@@ -133,6 +134,22 @@ BF_sound3 = hypothesis(BM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234)
 
 
 
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(rt, !is.element(sound, c("lyrical", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(rt, !is.element(sound, c("silence", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
+# speech vs lyrical
+CohensD_raw(data = subset(rt, !is.element(sound, c("silence", "instrumental") )), measure = 'duration', group_var = 'sound',
+            baseline = 'lyrical', avg_var = 'subject')
+
+
+
 
 
 ## Main model with accuracy data:
@@ -180,6 +197,7 @@ BF2_sound3 = hypothesis(GM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234
 
 
 
+<<<<<<< HEAD
 ##################################################################################
 
 DesRT<- melt(rt, id=c('subject', 'item', 'sound'), 
@@ -229,4 +247,84 @@ MPlot
 ggsave(plot = MPlot, filename = "Experiment3/plots/RT_mean.pdf", height = 9, width = 9)
 
 
+=======
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(q, !is.element(sound, c("lyrical", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(q, !is.element(sound, c("silence", "speech") )), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+
+# speech vs lyrical
+CohensD_raw(data = subset(q, !is.element(sound, c("silence", "instrumental") )), measure = 'duration', group_var = 'sound',
+            baseline = 'lyrical', avg_var = 'subject')
+
+
+
+#########################
+## Covariate analysis:  #
+#########################
+
+rm(rt)
+
+# load  data:
+rt <- read_csv("Experiment3/data/reaction_time.csv")
+
+rt$familiarity_c<- scale(rt$familiarity)
+rt$preference_c<- scale(rt$preference)
+rt$pleasantness_c<- scale(rt$pleasantness)
+rt$offensiveness_c <- scale(rt$offensiveness) 
+rt$distraction_c<- scale(rt$distraction)
+rt$song_knowledge_c<- scale(rt$accuracy_artist + rt$accuracy_song)
+rt$music_frequency_c<- scale(rt$music_frequency)
+
+
+# remove silence condition (no ratings available there)
+rt2<- subset(rt, sound!= "silence" & sound!= "speech")
+#rt2sound<- droplevels(rt2$sound)
+rt2$sound<- as.factor(rt2$sound)
+levels(rt2$sound)
+
+# contrast coding
+cmat2<- contr.sdif(2)
+colnames(cmat2)<- c(".lyr_vs_instr")
+
+contrasts(rt2$sound)<- cmat2 
+contrasts(rt2$sound)
+
+
+if(!file.exists("Experiment3/models/CLM1.Rda")){
+  
+  summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+
+                        music_frequency_c+offensiveness_c+distraction_c+
+                        (sound|subject)+ (sound|item), data = rt, REML = T))
+  
+  save(CLM1, file = 'Experiment3/models/CLM1.Rda')
+  
+}else{
+  load('Experiment3/models/CLM1.Rda')
+  summary(CLM1)
+}
+
+gg4<- plot_model(CLM1, show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
+                 rm.terms = c("(Intercept)"), vline.color = pallete1[5])
+gg4<- gg4 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtitle("Experiment 3")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+save(gg4, file = "Plots/covar_e3.Rda")
+
+
+mydf <- ggpredict(CLM1, terms = c("preference_c"))
+
+Eff1<- ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= conf.high, ymin= conf.low)) +
+  geom_line(size= 1.2) +geom_point(size= 3) + theme_classic(20)+ geom_ribbon(alpha= 0.05, colour= NA)+
+  scale_color_manual(values=pallete1[1:2])+ theme(legend.position = "None")+
+  scale_fill_manual(values=pallete1[1:2])+ xlab('Preference (z-score)') + ylab('log(RT)')
+
+ggsave(plot = Eff1,  filename = "Plots/cov3.pdf", width = 4, height= 4)
+>>>>>>> 221513f17a746d5b3cba727e12a2fc7f0d7d635c
 
