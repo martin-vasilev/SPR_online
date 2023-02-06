@@ -437,17 +437,11 @@ z= ggplot(mp, aes(frequency, genre, label = paste(round(frequency, 1), ' %', sep
 ggsave(filename = 'Experiment1a/plots/music_preferences.pdf', plot = z)
 
 
-
-<<<<<<< HEAD
-## Check if results differ based on when wether the z-string had a target (the letter "a")
-
-
-
-=======
-
 #########################
 ## Covariate analysis:  #
 #########################
+
+library(ggeffects)
 
 rm(rt)
 
@@ -507,6 +501,5 @@ Eff1<- ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, 
   scale_fill_manual(values=pallete1[1:2])+ xlab('Offensiveness (z-score)') + ylab('log(RT)')
 
 ggsave(plot = Eff1,  filename = "Plots/cov1a.pdf", width = 4, height= 4)
->>>>>>> 221513f17a746d5b3cba727e12a2fc7f0d7d635c
 
 
