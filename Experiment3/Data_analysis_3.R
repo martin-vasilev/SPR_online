@@ -196,8 +196,6 @@ BF2_sound3 = hypothesis(GM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234
 (BFQ3= 1/BF2_sound3$hypothesis$Evid.Ratio)
 
 
-
-<<<<<<< HEAD
 ##################################################################################
 
 DesRT<- melt(rt, id=c('subject', 'item', 'sound'), 
@@ -246,8 +244,6 @@ MPlot
 
 ggsave(plot = MPlot, filename = "Experiment3/plots/RT_mean.pdf", height = 9, width = 9)
 
-
-=======
 
 ### effect sizes:
 
@@ -300,7 +296,7 @@ contrasts(rt2$sound)
 if(!file.exists("Experiment3/models/CLM1.Rda")){
   
   summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+
-                        music_frequency_c+offensiveness_c+distraction_c+
+                        music_frequency_c+offensiveness_c+
                         (sound|subject)+ (sound|item), data = rt, REML = T))
   
   save(CLM1, file = 'Experiment3/models/CLM1.Rda')
@@ -310,8 +306,10 @@ if(!file.exists("Experiment3/models/CLM1.Rda")){
   summary(CLM1)
 }
 
-gg4<- plot_model(CLM1, show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
-                 rm.terms = c("(Intercept)"), vline.color = pallete1[5])
+gg4<- plot_model(CLM1, terms = c("soundlyrical", "familiarity_c", "preference_c", "music_frequency_c",
+                                 "offensiveness_c", "(Intercept)"),
+                 show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
+                 vline.color = pallete1[5])
 gg4<- gg4 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtitle("Experiment 3")+
   theme(plot.title = element_text(hjust = 0.5))
 
@@ -326,5 +324,4 @@ Eff1<- ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, 
   scale_fill_manual(values=pallete1[1:2])+ xlab('Preference (z-score)') + ylab('log(RT)')
 
 ggsave(plot = Eff1,  filename = "Plots/cov3.pdf", width = 4, height= 4)
->>>>>>> 221513f17a746d5b3cba727e12a2fc7f0d7d635c
 
