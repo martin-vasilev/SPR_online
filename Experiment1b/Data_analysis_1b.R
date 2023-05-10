@@ -374,6 +374,8 @@ ggplot(mydf, aes(x, predicted, group= group, colour= group, fill= group, ymax= c
 ## Covariate analysis:  #
 #########################
 
+library(ggeffects)
+
 rm(rt)
 
 # load  data:
