@@ -101,11 +101,14 @@ if(!file.exists("Experiment1a/models/LM1.Rda")){
 # instrumental vs silence
 CohensD_raw(data = subset(rt, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
             baseline = 'silence', avg_var = 'subject')
+CohensD_raw(data = subset(q, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
 
 # lyrical vs instrumental
 CohensD_raw(data = subset(rt, sound!= "silence"), measure = 'duration', group_var = 'sound',
             baseline = 'instrumental', avg_var = 'subject')
-
+CohensD_raw(data = subset(q, sound!= "silence"), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
 
 #### Bayesian model parameters:
 NwarmUp<- 500#500
@@ -434,11 +437,11 @@ z= ggplot(mp, aes(frequency, genre, label = paste(round(frequency, 1), ' %', sep
 ggsave(filename = 'Experiment1a/plots/music_preferences.pdf', plot = z)
 
 
-
-
 #########################
 ## Covariate analysis:  #
 #########################
+
+library(ggeffects)
 
 rm(rt)
 

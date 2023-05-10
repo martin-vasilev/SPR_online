@@ -196,6 +196,53 @@ BF2_sound3 = hypothesis(GM1, hypothesis = 'soundspeech_vs_instr = 0', seed= 1234
 (BFQ3= 1/BF2_sound3$hypothesis$Evid.Ratio)
 
 
+##################################################################################
+
+DesRT<- melt(rt, id=c('subject', 'item', 'sound'), 
+             measure=c("duration"), na.rm=TRUE)
+
+mRT<- cast(DesRT, sound+subject ~ variable
+           ,function(x) c(M=signif(mean(x),3)
+                          , SD= sd(x) ))
+
+levels(mRT$sound)<- c("silence",            "instrumental music", "lyrical music", "speech"  )
+
+levels(mRT$sound)
+
+
+fun_mean <- function(x){
+  return(data.frame(y=mean(x),label= paste("M= ", round(mean(x,na.rm=T)), sep= '')))}
+
+MPlot <-ggplot(mRT, aes(x = sound, y = duration_M, color= sound, fill= sound)) + 
+  ggdist::stat_halfeye(
+    adjust = .5, 
+    width = .6, 
+    .width = 0, 
+    justification = -.3, 
+    point_colour = NA) + 
+  geom_boxplot(
+    width = .25, 
+    outlier.shape = NA, fill= NA
+  ) +
+  geom_point(
+    size = 1.3,
+    alpha = .3,
+    position = position_jitter(
+      seed = 1, width = .1
+    )
+  ) + 
+  coord_cartesian(xlim = c(1.2, NA), clip = "off")+
+  scale_color_manual(values=pallete1[1:4])+
+  scale_fill_manual(values=pallete1[1:4])+
+  theme_classic(24) +ylab("Reaction time (in ms)")+
+  theme(legend.position = 'none')+
+  stat_summary(fun = mean, geom="point",colour="black", size=3, ) +
+  stat_summary(fun.data = fun_mean, geom="text", vjust=-0.7, size= 6, colour="black")
+
+MPlot
+
+
+ggsave(plot = MPlot, filename = "Experiment3/plots/RT_mean.pdf", height = 9, width = 9)
 
 
 ### effect sizes:
@@ -249,7 +296,7 @@ contrasts(rt2$sound)
 if(!file.exists("Experiment3/models/CLM1.Rda")){
   
   summary(CLM1<- lmer(log_duration ~ sound+ familiarity_c+preference_c+
-                        music_frequency_c+offensiveness_c+distraction_c+
+                        music_frequency_c+offensiveness_c+
                         (sound|subject)+ (sound|item), data = rt, REML = T))
   
   save(CLM1, file = 'Experiment3/models/CLM1.Rda')
@@ -259,8 +306,10 @@ if(!file.exists("Experiment3/models/CLM1.Rda")){
   summary(CLM1)
 }
 
-gg4<- plot_model(CLM1, show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
-                 rm.terms = c("(Intercept)"), vline.color = pallete1[5])
+gg4<- plot_model(CLM1, terms = c("soundlyrical", "familiarity_c", "preference_c", "music_frequency_c",
+                                 "offensiveness_c", "(Intercept)"),
+                 show.values = TRUE, value.offset = .3, value.size = 6, transform = NULL, digits=3,
+                 vline.color = pallete1[5])
 gg4<- gg4 + scale_y_continuous(limits = c(-0.05, 0.2)) +theme_classic(22)+ ggtitle("Experiment 3")+
   theme(plot.title = element_text(hjust = 0.5))
 

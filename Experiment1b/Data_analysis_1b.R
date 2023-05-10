@@ -21,6 +21,7 @@ pallete1= c("#CA3542", "#27647B", "#849FA0", "#AECBC9", "#57575F") # "Classic & 
 
 options(scipen = 999)
 
+source('https://raw.githubusercontent.com/martin-vasilev/R_scripts/master/CohensD_raw.R')
 
 # load  data:
 rt <- read_csv("Experiment1b/data/reaction_time.csv")
@@ -101,6 +102,22 @@ P1= P1[[1]]
 P1+theme_minimal(20)
 
 ggsave(plot = P1, filename = "Experiment1b/plots/raneff_RT.pdf", height = 18, width = 12)
+
+
+
+### effect sizes:
+
+# instrumental vs silence
+CohensD_raw(data = subset(rt, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+CohensD_raw(data = subset(q, sound!= "lyrical"), measure = 'duration', group_var = 'sound',
+            baseline = 'silence', avg_var = 'subject')
+
+# lyrical vs instrumental
+CohensD_raw(data = subset(rt, sound!= "silence"), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
+CohensD_raw(data = subset(q, sound!= "silence"), measure = 'duration', group_var = 'sound',
+            baseline = 'instrumental', avg_var = 'subject')
 
 
 
